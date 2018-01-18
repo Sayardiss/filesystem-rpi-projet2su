@@ -1,9 +1,9 @@
+S:disk/by-label/boot
 S:disk/by-uuid/CDD4-B453
-S:disk/by-path/platform-3f202000.sdhost-part1
 S:disk/by-id/mmc-USD_0x4b6f6f4a-part1
 S:disk/by-partuuid/2ed5c94e-01
-S:disk/by-label/boot
-I:3723769
+S:disk/by-path/platform-3f202000.sdhost-part1
+I:3926258
 E:ID_NAME=USD
 E:ID_PART_TABLE_TYPE=dos
 E:ID_PART_TABLE_UUID=2ed5c94e

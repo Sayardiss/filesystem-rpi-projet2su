@@ -935,3 +935,538 @@ Jan 18 15:47:57 pi-projet2SU-barth systemd[1]: Started An object/document-orient
 Jan 18 15:47:57 pi-projet2SU-barth mongod[8902]: all output going to: /var/log/mongodb/mongodb.log
 Jan 18 15:47:58 pi-projet2SU-barth systemd[1]: Reloading.
 Jan 18 15:47:58 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 29min 28.582511s random time.
+Jan 18 17:11:22 pi-projet2SU-barth systemd[1]: Started Session c2 of user pi.
+Jan 18 17:20:07 pi-projet2SU-barth systemd[1]: Stopped target Graphical Interface.
+Jan 18 17:20:07 pi-projet2SU-barth systemd[1]: Unmounting RPC Pipe File System...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started File System Check Daemon to report status.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Create Static Device Nodes in /dev...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Mounting Configuration File System...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Apply Kernel Variables...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Mounted Configuration File System.
+Jan 18 17:20:11 pi-projet2SU-barth fake-hwclock[119]: Thu 18 Jan 17:20:09 UTC 2018
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Time has been changed
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Restore / save the current clock.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Apply Kernel Variables.
+Jan 18 17:20:11 pi-projet2SU-barth systemd-fsck[115]: e2fsck 1.43.4 (31-Jan-2017)
+Jan 18 17:20:11 pi-projet2SU-barth systemd-fsck[115]: rootfs: clean, 78470/948480 files, 553645/3916032 blocks
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started File System Check on Root Device.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Create Static Device Nodes in /dev.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting udev Kernel Device Manager...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Remount Root and Kernel File Systems...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Remount Root and Kernel File Systems.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Load/Save Random Seed...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Flush Journal to Persistent Storage...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting udev Coldplug all Devices...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Load/Save Random Seed.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Flush Journal to Persistent Storage.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started udev Kernel Device Manager.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Set the console keyboard layout.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Local File Systems (Pre).
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started udev Coldplug all Devices.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Show Plymouth Boot Screen...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Received SIGRTMIN+20 from PID 193 (plymouthd).
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Show Plymouth Boot Screen.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Paths.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Encrypted Volumes.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Found device /dev/serial1.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Found device /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting File System Check on /dev/disk/by-partuuid/2ed5c94e-01...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Sound Card.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 17:20:11 pi-projet2SU-barth systemd-fsck[232]: fsck.fat 4.1 (2017-01-24)
+Jan 18 17:20:11 pi-projet2SU-barth systemd-fsck[232]: /dev/mmcblk0p1: 149 files, 42660/83705 clusters
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started File System Check on /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Mounting /boot...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Mounted /boot.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Local File Systems.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Raise network interfaces...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Preprocess NFS configuration...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Create Volatile Files and Directories...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Set console font and keymap...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Preprocess NFS configuration.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target NFS client services.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Remote File Systems (Pre).
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Remote File Systems.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Set console font and keymap.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Create Volatile Files and Directories.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Network Time Synchronization...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Raise network interfaces.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Network Time Synchronization.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target System Time Synchronized.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target System Initialization.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Listening on PC/SC Smart Card Daemon Activation Socket.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Listening on triggerhappy.socket.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: apt-daily.timer: Adding 5h 40min 3.381349s random time.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Daily apt download activities.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 55min 51.262677s random time.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Timers.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Sockets.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Basic System.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started D-Bus System Message Bus.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting triggerhappy global hotkey daemon...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Regular background program processing daemon.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting System Logging Service...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started An object/document-oriented database.
+Jan 18 17:20:11 pi-projet2SU-barth thd[331]: Found socket passed from systemd
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Save/Restore Sound Card State...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Configure Bluetooth Modems connected by UART...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting dhcpcd on all interfaces...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Login Service...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started triggerhappy global hotkey daemon.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Save/Restore Sound Card State.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Login Service.
+Jan 18 17:20:11 pi-projet2SU-barth dhcpcd[340]: dev: loaded udev
+Jan 18 17:20:11 pi-projet2SU-barth raspi-config[334]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Jan 18 17:20:11 pi-projet2SU-barth dphys-swapfile[330]: Starting dphys-swapfile swapfile setup ...
+Jan 18 17:20:11 pi-projet2SU-barth raspi-config[334]:  No. Switching to ondemand scaling governor.
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: Found user 'avahi' (UID 108) and group 'avahi' (GID 112).
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: Successfully dropped root privileges.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: avahi-daemon 0.6.32 starting up.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: Successfully called chroot().
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: Successfully dropped remaining capabilities.
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: No service file found in /etc/avahi/services.
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: Network interface enumeration completed.
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: Server startup complete. Host name is pi-projet2SU-barth.local. Local service cookie is 2939373287.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started System Logging Service.
+Jan 18 17:20:11 pi-projet2SU-barth dphys-swapfile[330]: want /var/swap=100MByte, checking existing: keeping it
+Jan 18 17:20:11 pi-projet2SU-barth dphys-swapfile[330]: done.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started LSB: Autogenerate and use a swap file.
+Jan 18 17:20:11 pi-projet2SU-barth dhcpcd[340]: wlan0: starting wpa_supplicant
+Jan 18 17:20:11 pi-projet2SU-barth dhcpcd-run-hooks[407]: wlan0: starting wpa_supplicant
+Jan 18 17:20:12 pi-projet2SU-barth mongod[336]: all output going to: /var/log/mongodb/mongodb.log
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: eth0: waiting for carrier
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: wlan0: waiting for carrier
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: wlan0: carrier acquired
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: DUID 00:01:00:01:21:b0:d9:d3:b8:27:eb:d4:b1:34
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: wlan0: IAID eb:d4:b1:34
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: wlan0: adding address fe80::77b:c82b:9c81:3cf6
+Jan 18 17:20:12 pi-projet2SU-barth systemd[1]: mongodb.service: Main process exited, code=exited, status=100/n/a
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: wlan0: carrier lost
+Jan 18 17:20:12 pi-projet2SU-barth systemd[1]: mongodb.service: Unit entered failed state.
+Jan 18 17:20:12 pi-projet2SU-barth systemd[1]: mongodb.service: Failed with result 'exit-code'.
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: wlan0: deleting address fe80::77b:c82b:9c81:3cf6
+Jan 18 17:20:13 pi-projet2SU-barth dhcpcd[340]: eth0: carrier acquired
+Jan 18 17:20:13 pi-projet2SU-barth dhcpcd[340]: eth0: IAID eb:81:e4:61
+Jan 18 17:20:13 pi-projet2SU-barth dhcpcd[340]: eth0: adding address fe80::1624:4ef7:9839:676
+Jan 18 17:20:14 pi-projet2SU-barth dhcpcd[340]: eth0: rebinding lease of 172.30.4.79
+Jan 18 17:20:14 pi-projet2SU-barth dhcpcd[340]: eth0: soliciting an IPv6 router
+Jan 18 17:20:15 pi-projet2SU-barth avahi-daemon[341]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::1624:4ef7:9839:676.
+Jan 18 17:20:15 pi-projet2SU-barth avahi-daemon[341]: New relevant interface eth0.IPv6 for mDNS.
+Jan 18 17:20:15 pi-projet2SU-barth avahi-daemon[341]: Registering new address record for fe80::1624:4ef7:9839:676 on eth0.*.
+Jan 18 17:20:15 pi-projet2SU-barth btuart[339]: bcm43xx_init
+Jan 18 17:20:15 pi-projet2SU-barth btuart[339]: Flash firmware /lib/firmware/BCM43430A1.hcd
+Jan 18 17:20:15 pi-projet2SU-barth btuart[339]: Set BDADDR UART: b8:27:eb:2b:4e:cb
+Jan 18 17:20:15 pi-projet2SU-barth btuart[339]: Set Controller UART speed to 921600 bit/s
+Jan 18 17:20:15 pi-projet2SU-barth btuart[339]: Device setup complete
+Jan 18 17:20:15 pi-projet2SU-barth systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 17:20:15 pi-projet2SU-barth systemd[1]: Started Configure Bluetooth Modems connected by UART.
+Jan 18 17:20:15 pi-projet2SU-barth systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 17:20:15 pi-projet2SU-barth systemd[1]: Starting Bluetooth service...
+Jan 18 17:20:16 pi-projet2SU-barth bluetoothd[447]: Bluetooth daemon 5.43
+Jan 18 17:20:16 pi-projet2SU-barth systemd[1]: Started Bluetooth service.
+Jan 18 17:20:16 pi-projet2SU-barth systemd[1]: Reached target Bluetooth.
+Jan 18 17:20:16 pi-projet2SU-barth bluetoothd[447]: Starting SDP server
+Jan 18 17:20:16 pi-projet2SU-barth bluetoothd[447]: Bluetooth management interface 1.14 initialized
+Jan 18 17:20:16 pi-projet2SU-barth bluetoothd[447]: Failed to obtain handles for "Service Changed" characteristic
+Jan 18 17:20:16 pi-projet2SU-barth dbus[328]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jan 18 17:20:16 pi-projet2SU-barth bluetoothd[447]: Sap driver initialization failed.
+Jan 18 17:20:16 pi-projet2SU-barth bluetoothd[447]: sap-server: Operation not permitted (1)
+Jan 18 17:20:16 pi-projet2SU-barth systemd[1]: Starting Hostname Service...
+Jan 18 17:20:16 pi-projet2SU-barth dbus[328]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan 18 17:20:16 pi-projet2SU-barth systemd[1]: Started Hostname Service.
+Jan 18 17:20:18 pi-projet2SU-barth dhcpcd[340]: eth0: probing address 172.30.4.79/16
+Jan 18 17:20:24 pi-projet2SU-barth dhcpcd[340]: eth0: leased 172.30.4.79 for 28800 seconds
+Jan 18 17:20:24 pi-projet2SU-barth dhcpcd[340]: eth0: adding route to 172.30.0.0/16
+Jan 18 17:20:24 pi-projet2SU-barth dhcpcd[340]: eth0: adding default route via 172.30.3.254
+Jan 18 17:20:24 pi-projet2SU-barth avahi-daemon[341]: Joining mDNS multicast group on interface eth0.IPv4 with address 172.30.4.79.
+Jan 18 17:20:24 pi-projet2SU-barth avahi-daemon[341]: New relevant interface eth0.IPv4 for mDNS.
+Jan 18 17:20:24 pi-projet2SU-barth avahi-daemon[341]: Registering new address record for 172.30.4.79 on eth0.IPv4.
+Jan 18 17:20:24 pi-projet2SU-barth dhcpcd[340]: Too few arguments.
+Jan 18 17:20:24 pi-projet2SU-barth dhcpcd[340]: forked to background, child pid 507
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started dhcpcd on all interfaces.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Reached target Network.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting OpenBSD Secure Shell server...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting Permit User Sessions...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting OpenVPN service...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting /etc/rc.local Compatibility...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started OpenVPN service.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started /etc/rc.local Compatibility.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started Permit User Sessions.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting Terminate Plymouth Boot Screen...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting Hold until boot process finishes up...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Received SIGRTMIN+21 from PID 193 (plymouthd).
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started Hold until boot process finishes up.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started Terminate Plymouth Boot Screen.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started Getty on tty1.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Reached target Login Prompts.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started OpenBSD Secure Shell server.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Reached target Multi-User System.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Reached target Graphical Interface.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Startup finished in 1.669s (kernel) + 16.763s (userspace) = 18.432s.
+Jan 18 17:20:27 pi-projet2SU-barth dhcpcd[507]: eth0: no IPv6 Routers available
+Jan 18 17:20:38 pi-projet2SU-barth systemd[1]: Created slice User Slice of pi.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[1]: Starting User Manager for UID 1000...
+Jan 18 17:20:38 pi-projet2SU-barth systemd[1]: Started Session c1 of user pi.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Reached target Paths.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Listening on GnuPG cryptographic agent (access for web browsers).
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Reached target Sockets.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Reached target Timers.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Reached target Basic System.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Reached target Default.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Startup finished in 91ms.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[1]: Started User Manager for UID 1000.
+Jan 18 17:20:48 pi-projet2SU-barth systemd[532]: Time has been changed
+Jan 18 17:20:48 pi-projet2SU-barth systemd[1]: Time has been changed
+Jan 18 17:20:48 pi-projet2SU-barth systemd[1]: apt-daily.timer: Adding 3h 37min 50.955191s random time.
+Jan 18 17:20:48 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 24min 14.210242s random time.
+Jan 18 17:29:38 pi-projet2SU-barth systemd[1]: Stopped target Bluetooth.
+Jan 18 17:29:38 pi-projet2SU-barth bluetoothd[447]: Terminating
+Jan 18 17:29:38 pi-projet2SU-barth systemd[1]: Stopping Bluetooth service...
+Jan 18 17:29:38 pi-projet2SU-barth systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jan 18 17:29:38 pi-projet2SU-barth systemd[1]: Stopped target Timers.
+Jan 18 17:29:38 pi-projet2SU-barth systemd[1]: Stopping Session c1 of user pi.
+Jan 18 17:29:38 pi-projet2SU-barth systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Jan 18 17:29:39 pi-projet2SU-barth systemd[1]: Stopped target Sound Card.
+Jan 18 17:29:39 pi-projet2SU-barth systemd[1]: Stopped Daily apt upgrade and clean activities.
+Jan 18 17:29:39 pi-projet2SU-barth systemd[1]: Stopped Daily apt download activities.
+Jan 18 17:29:42 pi-projet2SU-barth fake-hwclock[118]: Thu 18 Jan 17:29:40 UTC 2018
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Apply Kernel Variables.
+Jan 18 17:29:42 pi-projet2SU-barth systemd-fsck[121]: e2fsck 1.43.4 (31-Jan-2017)
+Jan 18 17:29:42 pi-projet2SU-barth systemd-fsck[121]: rootfs: clean, 78470/948480 files, 553674/3916032 blocks
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started File System Check on Root Device.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Remount Root and Kernel File Systems...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Create Static Device Nodes in /dev.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting udev Kernel Device Manager...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Remount Root and Kernel File Systems.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Load/Save Random Seed...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting udev Coldplug all Devices...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Flush Journal to Persistent Storage...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Load/Save Random Seed.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Flush Journal to Persistent Storage.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started udev Kernel Device Manager.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Set the console keyboard layout.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Local File Systems (Pre).
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started udev Coldplug all Devices.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Show Plymouth Boot Screen...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Received SIGRTMIN+20 from PID 208 (plymouthd).
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Show Plymouth Boot Screen.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Paths.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Encrypted Volumes.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Found device /dev/serial1.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Found device /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting File System Check on /dev/disk/by-partuuid/2ed5c94e-01...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Sound Card.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 17:29:42 pi-projet2SU-barth systemd-fsck[245]: fsck.fat 4.1 (2017-01-24)
+Jan 18 17:29:42 pi-projet2SU-barth systemd-fsck[245]: /dev/mmcblk0p1: 149 files, 42660/83705 clusters
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started File System Check on /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Mounting /boot...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Mounted /boot.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Local File Systems.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Create Volatile Files and Directories...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Set console font and keymap...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Raise network interfaces...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Preprocess NFS configuration...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Set console font and keymap.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Preprocess NFS configuration.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target NFS client services.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Remote File Systems (Pre).
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Remote File Systems.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Create Volatile Files and Directories.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Network Time Synchronization...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Raise network interfaces.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Network Time Synchronization.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target System Time Synchronized.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target System Initialization.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Listening on triggerhappy.socket.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Listening on PC/SC Smart Card Daemon Activation Socket.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: apt-daily.timer: Adding 5h 44min 21.141261s random time.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Daily apt download activities.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 37min 39.863779s random time.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Timers.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Sockets.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Basic System.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started D-Bus System Message Bus.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Configure Bluetooth Modems connected by UART...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting OpenVPN connection to vpn...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Regular background program processing daemon.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Save/Restore Sound Card State...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting System Logging Service...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting triggerhappy global hotkey daemon...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Login Service...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started An object/document-oriented database.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting dhcpcd on all interfaces...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Save/Restore Sound Card State.
+Jan 18 17:29:42 pi-projet2SU-barth thd[358]: Found socket passed from systemd
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started triggerhappy global hotkey daemon.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Login Service.
+Jan 18 17:29:42 pi-projet2SU-barth dphys-swapfile[355]: Starting dphys-swapfile swapfile setup ...
+Jan 18 17:29:42 pi-projet2SU-barth raspi-config[346]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Jan 18 17:29:42 pi-projet2SU-barth raspi-config[346]:  No. Switching to ondemand scaling governor.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Jan 18 17:29:42 pi-projet2SU-barth dhcpcd[371]: dev: loaded udev
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: Found user 'avahi' (UID 108) and group 'avahi' (GID 112).
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: Successfully dropped root privileges.
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: avahi-daemon 0.6.32 starting up.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: Successfully called chroot().
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: Successfully dropped remaining capabilities.
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: No service file found in /etc/avahi/services.
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: Network interface enumeration completed.
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: Server startup complete. Host name is pi-projet2SU-barth.local. Local service cookie is 3103966720.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started System Logging Service.
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[350]: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/vpn.conf:15: block-outside-dns (2.4.0)
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[350]: OpenVPN 2.4.0 arm-unknown-linux-gnueabihf [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jul 18 2017
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[350]: library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.08
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: openvpn@vpn.service: PID file /run/openvpn/vpn.pid not readable (yet?) after start: No such file or directory
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started OpenVPN connection to vpn.
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: Outgoing Control Channel Authentication: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: Incoming Control Channel Authentication: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: TCP/UDP: Preserving recently used remote address: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: Socket Buffers: R=[163840->163840] S=[163840->163840]
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: UDP link local: (not bound)
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: UDP link remote: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: write UDP: Network is unreachable (code=101)
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: Network unreachable, restarting
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: SIGUSR1[soft,network-unreachable] received, process restarting
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: Restart pause, 5 second(s)
+Jan 18 17:29:42 pi-projet2SU-barth dphys-swapfile[355]: want /var/swap=100MByte, checking existing: keeping it
+Jan 18 17:29:42 pi-projet2SU-barth dphys-swapfile[355]: done.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started LSB: Autogenerate and use a swap file.
+Jan 18 17:29:42 pi-projet2SU-barth dhcpcd[371]: wlan0: starting wpa_supplicant
+Jan 18 17:29:42 pi-projet2SU-barth dhcpcd-run-hooks[425]: wlan0: starting wpa_supplicant
+Jan 18 17:29:43 pi-projet2SU-barth mongod[370]: all output going to: /var/log/mongodb/mongodb.log
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: eth0: waiting for carrier
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: wlan0: waiting for carrier
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: wlan0: carrier acquired
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: DUID 00:01:00:01:21:b0:d9:d3:b8:27:eb:d4:b1:34
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: wlan0: IAID eb:d4:b1:34
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: wlan0: adding address fe80::77b:c82b:9c81:3cf6
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: wlan0: carrier lost
+Jan 18 17:29:43 pi-projet2SU-barth systemd[1]: mongodb.service: Main process exited, code=exited, status=100/n/a
+Jan 18 17:29:43 pi-projet2SU-barth systemd[1]: mongodb.service: Unit entered failed state.
+Jan 18 17:29:43 pi-projet2SU-barth systemd[1]: mongodb.service: Failed with result 'exit-code'.
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: wlan0: deleting address fe80::77b:c82b:9c81:3cf6
+Jan 18 17:29:44 pi-projet2SU-barth dhcpcd[371]: eth0: carrier acquired
+Jan 18 17:29:44 pi-projet2SU-barth dhcpcd[371]: eth0: IAID eb:81:e4:61
+Jan 18 17:29:44 pi-projet2SU-barth dhcpcd[371]: eth0: adding address fe80::1624:4ef7:9839:676
+Jan 18 17:29:44 pi-projet2SU-barth dhcpcd[371]: eth0: soliciting an IPv6 router
+Jan 18 17:29:44 pi-projet2SU-barth dhcpcd[371]: eth0: rebinding lease of 172.30.4.79
+Jan 18 17:29:46 pi-projet2SU-barth avahi-daemon[363]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::1624:4ef7:9839:676.
+Jan 18 17:29:46 pi-projet2SU-barth avahi-daemon[363]: New relevant interface eth0.IPv6 for mDNS.
+Jan 18 17:29:46 pi-projet2SU-barth avahi-daemon[363]: Registering new address record for fe80::1624:4ef7:9839:676 on eth0.*.
+Jan 18 17:29:47 pi-projet2SU-barth btuart[347]: bcm43xx_init
+Jan 18 17:29:47 pi-projet2SU-barth btuart[347]: Flash firmware /lib/firmware/BCM43430A1.hcd
+Jan 18 17:29:47 pi-projet2SU-barth btuart[347]: Set BDADDR UART: b8:27:eb:2b:4e:cb
+Jan 18 17:29:47 pi-projet2SU-barth btuart[347]: Set Controller UART speed to 921600 bit/s
+Jan 18 17:29:47 pi-projet2SU-barth btuart[347]: Device setup complete
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Started Configure Bluetooth Modems connected by UART.
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Starting Bluetooth service...
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 17:29:47 pi-projet2SU-barth bluetoothd[463]: Bluetooth daemon 5.43
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Started Bluetooth service.
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Reached target Bluetooth.
+Jan 18 17:29:47 pi-projet2SU-barth bluetoothd[463]: Starting SDP server
+Jan 18 17:29:47 pi-projet2SU-barth dbus[344]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jan 18 17:29:47 pi-projet2SU-barth bluetoothd[463]: Bluetooth management interface 1.14 initialized
+Jan 18 17:29:47 pi-projet2SU-barth bluetoothd[463]: Failed to obtain handles for "Service Changed" characteristic
+Jan 18 17:29:47 pi-projet2SU-barth bluetoothd[463]: Sap driver initialization failed.
+Jan 18 17:29:47 pi-projet2SU-barth bluetoothd[463]: sap-server: Operation not permitted (1)
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Starting Hostname Service...
+Jan 18 17:29:47 pi-projet2SU-barth dbus[344]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Started Hostname Service.
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: TCP/UDP: Preserving recently used remote address: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: Socket Buffers: R=[163840->163840] S=[163840->163840]
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: UDP link local: (not bound)
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: UDP link remote: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: write UDP: Network is unreachable (code=101)
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: Network unreachable, restarting
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: SIGUSR1[soft,network-unreachable] received, process restarting
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: Restart pause, 5 second(s)
+Jan 18 17:29:48 pi-projet2SU-barth dhcpcd[371]: eth0: probing address 172.30.4.79/16
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: TCP/UDP: Preserving recently used remote address: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: Socket Buffers: R=[163840->163840] S=[163840->163840]
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: UDP link local: (not bound)
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: UDP link remote: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: write UDP: Network is unreachable (code=101)
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: Network unreachable, restarting
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: SIGUSR1[soft,network-unreachable] received, process restarting
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: Restart pause, 5 second(s)
+Jan 18 17:29:53 pi-projet2SU-barth dhcpcd[371]: eth0: leased 172.30.4.79 for 28800 seconds
+Jan 18 17:29:53 pi-projet2SU-barth avahi-daemon[363]: Joining mDNS multicast group on interface eth0.IPv4 with address 172.30.4.79.
+Jan 18 17:29:53 pi-projet2SU-barth dhcpcd[371]: eth0: adding route to 172.30.0.0/16
+Jan 18 17:29:53 pi-projet2SU-barth avahi-daemon[363]: New relevant interface eth0.IPv4 for mDNS.
+Jan 18 17:29:53 pi-projet2SU-barth dhcpcd[371]: eth0: adding default route via 172.30.3.254
+Jan 18 17:29:53 pi-projet2SU-barth avahi-daemon[363]: Registering new address record for 172.30.4.79 on eth0.IPv4.
+Jan 18 17:29:53 pi-projet2SU-barth dhcpcd[371]: forked to background, child pid 522
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started dhcpcd on all interfaces.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Reached target Network.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting /etc/rc.local Compatibility...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting OpenBSD Secure Shell server...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting OpenVPN service...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting Permit User Sessions...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started /etc/rc.local Compatibility.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started OpenVPN service.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started Permit User Sessions.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting Terminate Plymouth Boot Screen...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting Hold until boot process finishes up...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Received SIGRTMIN+21 from PID 208 (plymouthd).
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started Terminate Plymouth Boot Screen.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started Hold until boot process finishes up.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started Getty on tty1.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Reached target Login Prompts.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started OpenBSD Secure Shell server.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Reached target Multi-User System.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Reached target Graphical Interface.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Startup finished in 1.781s (kernel) + 15.066s (userspace) = 16.847s.
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: TCP/UDP: Preserving recently used remote address: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: Socket Buffers: R=[163840->163840] S=[163840->163840]
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: UDP link local: (not bound)
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: UDP link remote: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: TLS: Initial packet from [AF_INET]185.169.235.5:17219, sid=62cb32e9 0cea5114
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: VERIFY OK: depth=1, CN=ChangeMe
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: Validating certificate key usage
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: ++ Certificate has key usage  00a0, expects 00a0
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: VERIFY KU OK
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: Validating certificate extended key usage
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: VERIFY EKU OK
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: VERIFY OK: depth=0, CN=server
+Jan 18 17:29:58 pi-projet2SU-barth dhcpcd[522]: eth0: no IPv6 Routers available
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: [server] Peer Connection Initiated with [AF_INET]185.169.235.5:17219
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 bypass-dhcp,dhcp-option DNS 8.8.8.8,dhcp-option DNS 8.8.4.4,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.0.2 255.255.255.0'
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: OPTIONS IMPORT: route options modified
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: OPTIONS IMPORT: route-related options modified
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: Data Channel Encrypt: Cipher 'AES-256-CBC' initialized with 256 bit key
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: Data Channel Decrypt: Cipher 'AES-256-CBC' initialized with 256 bit key
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: ROUTE_GATEWAY 172.30.3.254/255.255.0.0 IFACE=eth0 HWADDR=b8:27:eb:81:e4:61
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: TUN/TAP device tun0 opened
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: TUN/TAP TX queue length set to 100
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: /sbin/ip link set dev tun0 up mtu 1500
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: /sbin/ip addr add dev tun0 10.8.0.2/24 broadcast 10.8.0.255
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: /sbin/ip route add 185.169.235.5/32 via 172.30.3.254
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: /sbin/ip route add 0.0.0.0/1 via 10.8.0.1
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: /sbin/ip route add 128.0.0.0/1 via 10.8.0.1
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: Initialization Sequence Completed
+Jan 18 17:30:19 pi-projet2SU-barth systemd[1]: Time has been changed
+Jan 18 17:30:19 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 9min 53.229697s random time.
+Jan 18 17:30:19 pi-projet2SU-barth systemd[1]: apt-daily.timer: Adding 7h 5min 30.038210s random time.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[1]: Created slice User Slice of pi.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[1]: Starting User Manager for UID 1000...
+Jan 18 17:30:38 pi-projet2SU-barth systemd[1]: Started Session c1 of user pi.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Reached target Timers.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Reached target Paths.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Listening on GnuPG cryptographic agent (access for web browsers).
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Reached target Sockets.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Reached target Basic System.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Reached target Default.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Startup finished in 64ms.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[1]: Started User Manager for UID 1000.
+Jan 18 17:33:12 pi-projet2SU-barth systemd[1]: Stopping Raise network interfaces...
+Jan 18 17:33:12 pi-projet2SU-barth systemd[1]: Stopped Raise network interfaces.
+Jan 18 17:33:12 pi-projet2SU-barth systemd[1]: Starting Raise network interfaces...
+Jan 18 17:33:12 pi-projet2SU-barth systemd[1]: Started Raise network interfaces.
+Jan 18 17:33:49 pi-projet2SU-barth systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 695 (find)
+Jan 18 17:33:49 pi-projet2SU-barth systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Jan 18 17:33:49 pi-projet2SU-barth systemd[1]: Mounted Arbitrary Executable File Formats File System.

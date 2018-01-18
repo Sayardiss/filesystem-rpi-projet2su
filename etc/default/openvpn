@@ -12,7 +12,7 @@
 # a restart of the openvpn service (if you removed entries
 # you may have to stop those manually)
 #
-#AUTOSTART="all"
+AUTOSTART="all"
 #AUTOSTART="none"
 #AUTOSTART="home office"
 #

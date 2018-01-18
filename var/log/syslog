@@ -1920,3 +1920,1026 @@ Jan 18 15:47:57 pi-projet2SU-barth mongod[8902]: all output going to: /var/log/m
 Jan 18 15:47:58 pi-projet2SU-barth systemd[1]: Reloading.
 Jan 18 15:47:58 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 29min 28.582511s random time.
 Jan 18 16:17:01 pi-projet2SU-barth CRON[9138]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 18 17:11:22 pi-projet2SU-barth systemd[1]: Started Session c2 of user pi.
+Jan 18 17:17:01 pi-projet2SU-barth CRON[9426]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 18 17:20:07 pi-projet2SU-barth systemd[1]: Stopped target Graphical Interface.
+Jan 18 17:20:07 pi-projet2SU-barth systemd[1]: Unmounting RPC Pipe File System...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started File System Check Daemon to report status.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Create Static Device Nodes in /dev...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Mounting Configuration File System...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Apply Kernel Variables...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Mounted Configuration File System.
+Jan 18 17:20:11 pi-projet2SU-barth fake-hwclock[119]: Thu 18 Jan 17:20:09 UTC 2018
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Time has been changed
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Restore / save the current clock.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Apply Kernel Variables.
+Jan 18 17:20:11 pi-projet2SU-barth systemd-fsck[115]: e2fsck 1.43.4 (31-Jan-2017)
+Jan 18 17:20:11 pi-projet2SU-barth systemd-fsck[115]: rootfs: clean, 78470/948480 files, 553645/3916032 blocks
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started File System Check on Root Device.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Create Static Device Nodes in /dev.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting udev Kernel Device Manager...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Remount Root and Kernel File Systems...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Remount Root and Kernel File Systems.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Load/Save Random Seed...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Flush Journal to Persistent Storage...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting udev Coldplug all Devices...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Load/Save Random Seed.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Flush Journal to Persistent Storage.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started udev Kernel Device Manager.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Set the console keyboard layout.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Local File Systems (Pre).
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started udev Coldplug all Devices.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Show Plymouth Boot Screen...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Received SIGRTMIN+20 from PID 193 (plymouthd).
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Show Plymouth Boot Screen.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Paths.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Encrypted Volumes.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Found device /dev/serial1.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Found device /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting File System Check on /dev/disk/by-partuuid/2ed5c94e-01...
+Jan 18 17:20:11 pi-projet2SU-barth mtp-probe: checking bus 1, device 3: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1"
+Jan 18 17:20:11 pi-projet2SU-barth mtp-probe: bus: 1, device: 3 was not an MTP device
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Sound Card.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 17:20:11 pi-projet2SU-barth systemd-fsck[232]: fsck.fat 4.1 (2017-01-24)
+Jan 18 17:20:11 pi-projet2SU-barth systemd-fsck[232]: /dev/mmcblk0p1: 149 files, 42660/83705 clusters
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started File System Check on /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Mounting /boot...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Mounted /boot.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Local File Systems.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Raise network interfaces...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Preprocess NFS configuration...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Create Volatile Files and Directories...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Set console font and keymap...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Preprocess NFS configuration.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target NFS client services.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Remote File Systems (Pre).
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Remote File Systems.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Set console font and keymap.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Create Volatile Files and Directories.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Network Time Synchronization...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Raise network interfaces.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Network Time Synchronization.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target System Time Synchronized.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target System Initialization.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Listening on PC/SC Smart Card Daemon Activation Socket.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Listening on triggerhappy.socket.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: apt-daily.timer: Adding 5h 40min 3.381349s random time.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Daily apt download activities.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 55min 51.262677s random time.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Timers.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Sockets.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Reached target Basic System.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started D-Bus System Message Bus.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting triggerhappy global hotkey daemon...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Regular background program processing daemon.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting System Logging Service...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started An object/document-oriented database.
+Jan 18 17:20:11 pi-projet2SU-barth thd[331]: Found socket passed from systemd
+Jan 18 17:20:11 pi-projet2SU-barth cron[332]: (CRON) INFO (pidfile fd = 3)
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Save/Restore Sound Card State...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Configure Bluetooth Modems connected by UART...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting dhcpcd on all interfaces...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Starting Login Service...
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started triggerhappy global hotkey daemon.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Save/Restore Sound Card State.
+Jan 18 17:20:11 pi-projet2SU-barth cron[332]: (CRON) INFO (Running @reboot jobs)
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Login Service.
+Jan 18 17:20:11 pi-projet2SU-barth dhcpcd[340]: dev: loaded udev
+Jan 18 17:20:11 pi-projet2SU-barth raspi-config[334]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Jan 18 17:20:11 pi-projet2SU-barth dphys-swapfile[330]: Starting dphys-swapfile swapfile setup ...
+Jan 18 17:20:11 pi-projet2SU-barth raspi-config[334]:  No. Switching to ondemand scaling governor.
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: Found user 'avahi' (UID 108) and group 'avahi' (GID 112).
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: Successfully dropped root privileges.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: avahi-daemon 0.6.32 starting up.
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: Successfully called chroot().
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: Successfully dropped remaining capabilities.
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: No service file found in /etc/avahi/services.
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: Network interface enumeration completed.
+Jan 18 17:20:11 pi-projet2SU-barth avahi-daemon[341]: Server startup complete. Host name is pi-projet2SU-barth.local. Local service cookie is 2939373287.
+Jan 18 17:20:11 pi-projet2SU-barth liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="335" x-info="http://www.rsyslog.com"] start
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] Linux version 4.9.59-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ) #1047 SMP Sun Oct 29 12:19:23 GMT 2017
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] CPU: div instructions available: patching division code
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] OF: fdt:Machine model: Raspberry Pi 3 Model B Rev 1.2
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] cma: Reserved 8 MiB at 0x3ac00000
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] Memory policy: Data cache writealloc
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] On node 0 totalpages: 242688
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c6f380, node_mem_map ba3a1000
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:31
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] percpu: Embedded 14 pages/cpu @ba35b000 s25600 r8192 d23552 u57344
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] pcpu-alloc: s25600 r8192 d23552 u57344 alloc=14*4096
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 240555
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] Kernel command line: 8250.nr_uarts=0 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=416 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  dwc_otg.lpm_enable=0 console=ttyS0,115200 console=tty1 root=PARTUUID=2ed5c94e-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] Memory: 940364K/970752K available (7168K kernel code, 486K rwdata, 2012K rodata, 1024K init, 770K bss, 22196K reserved, 8192K cma-reserved)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] Virtual kernel memory layout:
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000]     vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000]     lowmem  : 0x80000000 - 0xbb400000   ( 948 MB)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000]       .text : 0x80008000 - 0x80800000   (8160 kB)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000]       .init : 0x80b00000 - 0x80c00000   (1024 kB)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000]       .data : 0x80c00000 - 0x80c79834   ( 487 kB)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000]        .bss : 0x80c7b000 - 0x80d3b964   ( 771 kB)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] Hierarchical RCU implementation.
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 32.
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] NR_IRQS:16 nr_irqs:16 16
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] arm_arch_timer: Architected cp15 timer(s) running at 19.20MHz (phys).
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000007] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000023] Switching to timer-based delay loop, resolution 52ns
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.000305] Console: colour dummy device 80x30
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.001197] console [tty1] enabled
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.001240] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.001308] pid_max: default: 32768 minimum: 301
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.001640] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.001682] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.002716] Disabling memory control group subsystem
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.002821] CPU: Testing write buffer coherency: ok
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.002884] ftrace: allocating 22392 entries in 66 pages
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.049986] CPU0: update cpu_capacity 1024
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.050036] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.050097] Setting up static identity map for 0x100000 - 0x100034
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.051985] CPU1: update cpu_capacity 1024
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.051992] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.052681] CPU2: update cpu_capacity 1024
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.052688] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.053359] CPU3: update cpu_capacity 1024
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.053365] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.053453] Brought up 4 CPUs
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.053627] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.053656] CPU: All CPU(s) started in HYP mode.
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.053683] CPU: Virtualization extensions available.
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.054506] devtmpfs: initialized
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.065729] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.066043] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.066105] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.066663] pinctrl core: initialized pinctrl subsystem
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.067596] NET: Registered protocol family 16
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.069850] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.078708] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.078757] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.078921] Serial: AMBA PL011 UART driver
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.080850] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.081402] uart-pl011 3f201000.serial: could not find pctldev for node /soc/gpio@7e200000/uart0_pins, deferring probe
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.150825] bcm2835-dma 3f007000.dma: DMA legacy API manager at bb80f000, dmachans=0x1
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.152691] SCSI subsystem initialized
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.152866] usbcore: registered new interface driver usbfs
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.152968] usbcore: registered new interface driver hub
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.153084] usbcore: registered new device driver usb
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.159799] raspberrypi-firmware soc:firmware: Attached to firmware from 2017-10-24 17:09
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.161202] clocksource: Switched to clocksource arch_sys_counter
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.208290] VFS: Disk quotas dquot_6.6.0
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.208400] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.208631] FS-Cache: Loaded
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.208904] CacheFiles: Loaded
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.221080] NET: Registered protocol family 2
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.222004] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.222142] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.222353] TCP: Hash tables configured (established 8192 bind 8192)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.222467] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.222534] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.222767] NET: Registered protocol family 1
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.223197] RPC: Registered named UNIX socket transport module.
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.223229] RPC: Registered udp transport module.
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.223257] RPC: Registered tcp transport module.
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.223285] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.224241] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.226575] workingset: timestamp_bits=14 max_order=18 bucket_order=4
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.242640] FS-Cache: Netfs 'nfs' registered for caching
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.243643] NFS: Registering the id_resolver key type
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.243693] Key type id_resolver registered
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.243721] Key type id_legacy registered
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.246154] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.246300] io scheduler noop registered
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.246330] io scheduler deadline registered (default)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.246626] io scheduler cfq registered
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.252309] BCM2708FB: allocated DMA memory fad10000
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.252361] BCM2708FB: allocated DMA channel 0 @ bb80f000
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.261069] Console: switching to colour frame buffer device 82x26
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.269523] bcm2835-rng 3f104000.rng: hwrng registered
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.271931] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.277065] vc-sm: Videocore shared memory driver
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.294444] brd: module loaded
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.305672] loop: module loaded
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.308054] Loading iSCSI transport class v2.0-870.
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.310884] usbcore: registered new interface driver smsc95xx
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.313230] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.543588] Core Release: 2.80a
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.545831] Setting default values for core params
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.548124] Finished setting default values for core params
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.750855] Using Buffer DMA mode
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.753140] Periodic Transfer Interrupt Enhancement - disabled
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.755421] Multiprocessor Interrupt Enhancement - disabled
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.757723] OTG VER PARAM: 0, OTG VER FLAG: 0
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.760043] Dedicated Tx FIFOs mode
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.762700] WARN::dwc_otg_hcd_init:1032: FIQ DMA bounce buffers: virt = 0xbad04000 dma = 0xfad04000 len=9024
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.767598] FIQ FSM acceleration enabled for :
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.767598] Non-periodic Split Transactions
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.767598] Periodic Split Transactions
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.767598] High-Speed Isochronous Endpoints
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.767598] Interrupt/Control Split Transaction hack enabled
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.779237] dwc_otg: Microframe scheduler enabled
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.779286] WARN::hcd_init_fiq:459: FIQ on core 1 at 0x8058f5b0
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.781596] WARN::hcd_init_fiq:460: FIQ ASM at 0x8058f920 length 36
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.783921] WARN::hcd_init_fiq:486: MPHI regs_base at 0xbb87a000
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.786277] dwc_otg 3f980000.usb: DWC OTG Controller
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.788594] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.790953] dwc_otg 3f980000.usb: irq 62, io mem 0x00000000
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.793291] Init: Port Power? op_state=1
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.795549] Init: Power Port (0)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.797931] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.800241] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.802564] usb usb1: Product: DWC OTG Controller
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.804812] usb usb1: Manufacturer: Linux 4.9.59-v7+ dwc_otg_hcd
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.807082] usb usb1: SerialNumber: 3f980000.usb
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.810142] hub 1-0:1.0: USB hub found
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.812416] hub 1-0:1.0: 1 port detected
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.815162] dwc_otg: FIQ enabled
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.815167] dwc_otg: NAK holdoff enabled
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.815171] dwc_otg: FIQ split-transaction FSM enabled
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.815185] Module dwc_common_port init
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.815432] usbcore: registered new interface driver usb-storage
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.817803] mousedev: PS/2 mouse device common for all mice
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.820927] bcm2835-wdt 3f100000.watchdog: Broadcom BCM2835 watchdog timer
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.823475] bcm2835-cpufreq: min=600000 max=1200000
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.826129] sdhci: Secure Digital Host Controller Interface driver
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.828441] sdhci: Copyright(c) Pierre Ossman
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.830978] sdhost-bcm2835 3f202000.sdhost: could not get clk, deferring probe
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.835572] mmc-bcm2835 3f300000.mmc: could not get clk, deferring probe
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.838107] sdhci-pltfm: SDHCI platform and OF driver helper
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.843151] ledtrig-cpu: registered to indicate activity on CPUs
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.845805] hidraw: raw HID events driver (C) Jiri Kosina
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.848475] usbcore: registered new interface driver usbhid
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.850935] usbhid: USB HID core driver
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.854211] vchiq: vchiq_init_state: slot_zero = 0xbad80000, is_master = 0
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.858046] [vc_sm_connected_init]: start
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.866775] [vc_sm_connected_init]: end - returning 0
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.869593] Initializing XFRM netlink socket
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.872066] NET: Registered protocol family 17
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.874589] Key type dns_resolver registered
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.877391] Registering SWP/SWPB emulation handler
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.880576] registered taskstats version 1
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.889259] uart-pl011 3f201000.serial: cts_event_workaround enabled
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.891868] 3f201000.serial: ttyAMA0 at MMIO 0x3f201000 (irq = 87, base_baud = 0) is a PL011 rev2
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.898447] sdhost: log_buf @ bad07000 (fad07000)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.981231] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.985955] mmc-bcm2835 3f300000.mmc: mmc_debug:0 mmc_debug2:0
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    0.988445] mmc-bcm2835 3f300000.mmc: DMA channel allocated
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.031295] Indeed it is in host mode hprt0 = 00021501
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.100996] mmc0: host does not support reading read-only switch, assuming write-enable
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.107740] mmc0: new high speed SDHC card at address 59b4
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.110837] mmcblk0: mmc0:59b4 USD   15.0 GiB
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.114675]  mmcblk0: p1 p2
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.121349] of_cfs_init
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.123071] random: fast init done
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.125979] of_cfs_init: OK
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.139184] mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.143090] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.146896] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.151849] mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.154830] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.159085] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.184581] devtmpfs: mounted
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.188502] Freeing unused kernel memory: 1024K
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.231238] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.233545] Indeed it is in host mode hprt0 = 00001101
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.309844] mmc1: new high speed SDIO card at address 0001
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.461542] usb 1-1: New USB device found, idVendor=0424, idProduct=9514
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.463816] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.466787] hub 1-1:1.0: USB hub found
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.468970] hub 1-1:1.0: 5 ports detected
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.791250] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.844624] NET: Registered protocol family 10
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.858070] ip_tables: (C) 2000-2006 Netfilter Core Team
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.931575] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.931584] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    1.934366] smsc95xx v1.0.5
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    2.025429] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:81:e4:61
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    3.107928] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    3.497201] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    3.833856] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    3.844037] usbcore: registered new interface driver brcmfmac
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    4.050940] brcmfmac: Firmware version = wl0: Aug  7 2017 00:46:29 version 7.45.41.46 (r666254 CY) FWID 01-f8a78378
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    4.051739] brcmfmac: brcmf_c_preinit_dcmds: CLM version = API: 12.2 Data: 7.11.15 Compiler: 1.24.2 ClmImport: 1.24.1 Creation: 2014-05-26 10:53:55 Inc Data: 9.10.41 Inc Compiler: 1.29.4 Inc ClmImport: 1.36.3 Creation: 2017-08-07 00:37:47 
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    5.070409] uart-pl011 3f201000.serial: no DMA platform data
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started System Logging Service.
+Jan 18 17:20:11 pi-projet2SU-barth dphys-swapfile[330]: want /var/swap=100MByte, checking existing: keeping it
+Jan 18 17:20:11 pi-projet2SU-barth dphys-swapfile[330]: done.
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    5.368737] Adding 102396k swap on /var/swap.  Priority:-1 extents:1 across:102396k SSFS
+Jan 18 17:20:11 pi-projet2SU-barth systemd[1]: Started LSB: Autogenerate and use a swap file.
+Jan 18 17:20:11 pi-projet2SU-barth dhcpcd[340]: wlan0: starting wpa_supplicant
+Jan 18 17:20:11 pi-projet2SU-barth dhcpcd-run-hooks[407]: wlan0: starting wpa_supplicant
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    5.725745] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Jan 18 17:20:11 pi-projet2SU-barth kernel: [    5.725796] brcmfmac: power management disabled
+Jan 18 17:20:12 pi-projet2SU-barth mongod[336]: all output going to: /var/log/mongodb/mongodb.log
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: eth0: waiting for carrier
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: wlan0: waiting for carrier
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: wlan0: carrier acquired
+Jan 18 17:20:12 pi-projet2SU-barth kernel: [    6.193476] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+Jan 18 17:20:12 pi-projet2SU-barth kernel: [    6.193827] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: DUID 00:01:00:01:21:b0:d9:d3:b8:27:eb:d4:b1:34
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: wlan0: IAID eb:d4:b1:34
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: wlan0: adding address fe80::77b:c82b:9c81:3cf6
+Jan 18 17:20:12 pi-projet2SU-barth systemd[1]: mongodb.service: Main process exited, code=exited, status=100/n/a
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: wlan0: carrier lost
+Jan 18 17:20:12 pi-projet2SU-barth systemd[1]: mongodb.service: Unit entered failed state.
+Jan 18 17:20:12 pi-projet2SU-barth systemd[1]: mongodb.service: Failed with result 'exit-code'.
+Jan 18 17:20:12 pi-projet2SU-barth dhcpcd[340]: wlan0: deleting address fe80::77b:c82b:9c81:3cf6
+Jan 18 17:20:13 pi-projet2SU-barth dhcpcd[340]: eth0: carrier acquired
+Jan 18 17:20:13 pi-projet2SU-barth kernel: [    7.716460] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jan 18 17:20:13 pi-projet2SU-barth kernel: [    7.717271] smsc95xx 1-1.1:1.0 eth0: link up, 100Mbps, full-duplex, lpa 0xC1E1
+Jan 18 17:20:13 pi-projet2SU-barth dhcpcd[340]: eth0: IAID eb:81:e4:61
+Jan 18 17:20:13 pi-projet2SU-barth dhcpcd[340]: eth0: adding address fe80::1624:4ef7:9839:676
+Jan 18 17:20:14 pi-projet2SU-barth dhcpcd[340]: eth0: rebinding lease of 172.30.4.79
+Jan 18 17:20:14 pi-projet2SU-barth dhcpcd[340]: eth0: soliciting an IPv6 router
+Jan 18 17:20:15 pi-projet2SU-barth avahi-daemon[341]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::1624:4ef7:9839:676.
+Jan 18 17:20:15 pi-projet2SU-barth avahi-daemon[341]: New relevant interface eth0.IPv6 for mDNS.
+Jan 18 17:20:15 pi-projet2SU-barth avahi-daemon[341]: Registering new address record for fe80::1624:4ef7:9839:676 on eth0.*.
+Jan 18 17:20:15 pi-projet2SU-barth kernel: [    9.771600] Bluetooth: Core ver 2.22
+Jan 18 17:20:15 pi-projet2SU-barth kernel: [    9.771757] NET: Registered protocol family 31
+Jan 18 17:20:15 pi-projet2SU-barth kernel: [    9.771765] Bluetooth: HCI device and connection manager initialized
+Jan 18 17:20:15 pi-projet2SU-barth kernel: [    9.773257] Bluetooth: HCI socket layer initialized
+Jan 18 17:20:15 pi-projet2SU-barth kernel: [    9.773282] Bluetooth: L2CAP socket layer initialized
+Jan 18 17:20:15 pi-projet2SU-barth kernel: [    9.773336] Bluetooth: SCO socket layer initialized
+Jan 18 17:20:15 pi-projet2SU-barth kernel: [    9.780416] Bluetooth: HCI UART driver ver 2.3
+Jan 18 17:20:15 pi-projet2SU-barth kernel: [    9.780428] Bluetooth: HCI UART protocol H4 registered
+Jan 18 17:20:15 pi-projet2SU-barth kernel: [    9.780433] Bluetooth: HCI UART protocol Three-wire (H5) registered
+Jan 18 17:20:15 pi-projet2SU-barth kernel: [    9.780587] Bluetooth: HCI UART protocol Broadcom registered
+Jan 18 17:20:15 pi-projet2SU-barth btuart[339]: bcm43xx_init
+Jan 18 17:20:15 pi-projet2SU-barth btuart[339]: Flash firmware /lib/firmware/BCM43430A1.hcd
+Jan 18 17:20:15 pi-projet2SU-barth btuart[339]: Set BDADDR UART: b8:27:eb:2b:4e:cb
+Jan 18 17:20:15 pi-projet2SU-barth btuart[339]: Set Controller UART speed to 921600 bit/s
+Jan 18 17:20:15 pi-projet2SU-barth btuart[339]: Device setup complete
+Jan 18 17:20:15 pi-projet2SU-barth systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 17:20:15 pi-projet2SU-barth systemd[1]: Started Configure Bluetooth Modems connected by UART.
+Jan 18 17:20:15 pi-projet2SU-barth systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 17:20:15 pi-projet2SU-barth systemd[1]: Starting Bluetooth service...
+Jan 18 17:20:16 pi-projet2SU-barth bluetoothd[447]: Bluetooth daemon 5.43
+Jan 18 17:20:16 pi-projet2SU-barth systemd[1]: Started Bluetooth service.
+Jan 18 17:20:16 pi-projet2SU-barth systemd[1]: Reached target Bluetooth.
+Jan 18 17:20:16 pi-projet2SU-barth bluetoothd[447]: Starting SDP server
+Jan 18 17:20:16 pi-projet2SU-barth kernel: [    9.969876] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Jan 18 17:20:16 pi-projet2SU-barth kernel: [    9.969887] Bluetooth: BNEP filters: protocol multicast
+Jan 18 17:20:16 pi-projet2SU-barth kernel: [    9.969907] Bluetooth: BNEP socket layer initialized
+Jan 18 17:20:16 pi-projet2SU-barth bluetoothd[447]: Bluetooth management interface 1.14 initialized
+Jan 18 17:20:16 pi-projet2SU-barth bluetoothd[447]: Failed to obtain handles for "Service Changed" characteristic
+Jan 18 17:20:16 pi-projet2SU-barth dbus[328]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jan 18 17:20:16 pi-projet2SU-barth bluetoothd[447]: Sap driver initialization failed.
+Jan 18 17:20:16 pi-projet2SU-barth bluetoothd[447]: sap-server: Operation not permitted (1)
+Jan 18 17:20:16 pi-projet2SU-barth systemd[1]: Starting Hostname Service...
+Jan 18 17:20:16 pi-projet2SU-barth dbus[328]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan 18 17:20:16 pi-projet2SU-barth systemd[1]: Started Hostname Service.
+Jan 18 17:20:18 pi-projet2SU-barth dhcpcd[340]: eth0: probing address 172.30.4.79/16
+Jan 18 17:20:24 pi-projet2SU-barth dhcpcd[340]: eth0: leased 172.30.4.79 for 28800 seconds
+Jan 18 17:20:24 pi-projet2SU-barth dhcpcd[340]: eth0: adding route to 172.30.0.0/16
+Jan 18 17:20:24 pi-projet2SU-barth dhcpcd[340]: eth0: adding default route via 172.30.3.254
+Jan 18 17:20:24 pi-projet2SU-barth avahi-daemon[341]: Joining mDNS multicast group on interface eth0.IPv4 with address 172.30.4.79.
+Jan 18 17:20:24 pi-projet2SU-barth avahi-daemon[341]: New relevant interface eth0.IPv4 for mDNS.
+Jan 18 17:20:24 pi-projet2SU-barth avahi-daemon[341]: Registering new address record for 172.30.4.79 on eth0.IPv4.
+Jan 18 17:20:24 pi-projet2SU-barth dhcpcd[340]: Too few arguments.
+Jan 18 17:20:24 pi-projet2SU-barth dhcpcd[340]: forked to background, child pid 507
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started dhcpcd on all interfaces.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Reached target Network.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting OpenBSD Secure Shell server...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting Permit User Sessions...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting OpenVPN service...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting /etc/rc.local Compatibility...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started OpenVPN service.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started /etc/rc.local Compatibility.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started Permit User Sessions.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting Terminate Plymouth Boot Screen...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting Hold until boot process finishes up...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Received SIGRTMIN+21 from PID 193 (plymouthd).
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started Hold until boot process finishes up.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started Terminate Plymouth Boot Screen.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started Getty on tty1.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Reached target Login Prompts.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started OpenBSD Secure Shell server.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Reached target Multi-User System.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Reached target Graphical Interface.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jan 18 17:20:24 pi-projet2SU-barth systemd[1]: Startup finished in 1.669s (kernel) + 16.763s (userspace) = 18.432s.
+Jan 18 17:20:27 pi-projet2SU-barth dhcpcd[507]: eth0: no IPv6 Routers available
+Jan 18 17:20:38 pi-projet2SU-barth systemd[1]: Created slice User Slice of pi.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[1]: Starting User Manager for UID 1000...
+Jan 18 17:20:38 pi-projet2SU-barth systemd[1]: Started Session c1 of user pi.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Reached target Paths.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Listening on GnuPG cryptographic agent (access for web browsers).
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Reached target Sockets.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Reached target Timers.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Reached target Basic System.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Reached target Default.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[532]: Startup finished in 91ms.
+Jan 18 17:20:38 pi-projet2SU-barth systemd[1]: Started User Manager for UID 1000.
+Jan 18 17:20:48 pi-projet2SU-barth systemd[532]: Time has been changed
+Jan 18 17:20:48 pi-projet2SU-barth systemd[1]: Time has been changed
+Jan 18 17:20:48 pi-projet2SU-barth systemd-timesyncd[287]: Synchronized to time server 178.33.126.120:123 (2.debian.pool.ntp.org).
+Jan 18 17:20:48 pi-projet2SU-barth systemd[1]: apt-daily.timer: Adding 3h 37min 50.955191s random time.
+Jan 18 17:20:48 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 24min 14.210242s random time.
+Jan 18 17:20:55 pi-projet2SU-barth kernel: [   41.073581] tun: Universal TUN/TAP device driver, 1.6
+Jan 18 17:20:55 pi-projet2SU-barth kernel: [   41.073595] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Jan 18 17:21:35 pi-projet2SU-barth kernel: [   81.587111] random: crng init done
+Jan 18 17:29:38 pi-projet2SU-barth systemd[1]: Stopped target Bluetooth.
+Jan 18 17:29:38 pi-projet2SU-barth bluetoothd[447]: Terminating
+Jan 18 17:29:38 pi-projet2SU-barth systemd[1]: Stopping Bluetooth service...
+Jan 18 17:29:38 pi-projet2SU-barth systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jan 18 17:29:38 pi-projet2SU-barth systemd[1]: Stopped target Timers.
+Jan 18 17:29:38 pi-projet2SU-barth systemd[1]: Stopping Session c1 of user pi.
+Jan 18 17:29:38 pi-projet2SU-barth systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Jan 18 17:29:39 pi-projet2SU-barth systemd[1]: Stopped target Sound Card.
+Jan 18 17:29:39 pi-projet2SU-barth systemd[1]: Stopped Daily apt upgrade and clean activities.
+Jan 18 17:29:39 pi-projet2SU-barth systemd[1]: Stopped Daily apt download activities.
+Jan 18 17:29:42 pi-projet2SU-barth fake-hwclock[118]: Thu 18 Jan 17:29:40 UTC 2018
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Apply Kernel Variables.
+Jan 18 17:29:42 pi-projet2SU-barth systemd-fsck[121]: e2fsck 1.43.4 (31-Jan-2017)
+Jan 18 17:29:42 pi-projet2SU-barth systemd-fsck[121]: rootfs: clean, 78470/948480 files, 553674/3916032 blocks
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started File System Check on Root Device.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Remount Root and Kernel File Systems...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Create Static Device Nodes in /dev.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting udev Kernel Device Manager...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Remount Root and Kernel File Systems.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Load/Save Random Seed...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting udev Coldplug all Devices...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Flush Journal to Persistent Storage...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Load/Save Random Seed.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Flush Journal to Persistent Storage.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started udev Kernel Device Manager.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Set the console keyboard layout.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Local File Systems (Pre).
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started udev Coldplug all Devices.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Show Plymouth Boot Screen...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Received SIGRTMIN+20 from PID 208 (plymouthd).
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Show Plymouth Boot Screen.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Paths.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Encrypted Volumes.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Found device /dev/serial1.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Found device /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting File System Check on /dev/disk/by-partuuid/2ed5c94e-01...
+Jan 18 17:29:42 pi-projet2SU-barth mtp-probe: checking bus 1, device 3: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1"
+Jan 18 17:29:42 pi-projet2SU-barth mtp-probe: bus: 1, device: 3 was not an MTP device
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Sound Card.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 17:29:42 pi-projet2SU-barth systemd-fsck[245]: fsck.fat 4.1 (2017-01-24)
+Jan 18 17:29:42 pi-projet2SU-barth systemd-fsck[245]: /dev/mmcblk0p1: 149 files, 42660/83705 clusters
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started File System Check on /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Mounting /boot...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Mounted /boot.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Local File Systems.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Create Volatile Files and Directories...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Set console font and keymap...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Raise network interfaces...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Preprocess NFS configuration...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Set console font and keymap.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Preprocess NFS configuration.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target NFS client services.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Remote File Systems (Pre).
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Remote File Systems.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Create Volatile Files and Directories.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Network Time Synchronization...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Raise network interfaces.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Network Time Synchronization.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target System Time Synchronized.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target System Initialization.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Listening on triggerhappy.socket.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Listening on PC/SC Smart Card Daemon Activation Socket.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: apt-daily.timer: Adding 5h 44min 21.141261s random time.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Daily apt download activities.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 37min 39.863779s random time.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Timers.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Sockets.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Reached target Basic System.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started D-Bus System Message Bus.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Configure Bluetooth Modems connected by UART...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting OpenVPN connection to vpn...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Regular background program processing daemon.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Save/Restore Sound Card State...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Jan 18 17:29:42 pi-projet2SU-barth cron[353]: (CRON) INFO (pidfile fd = 3)
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting System Logging Service...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting triggerhappy global hotkey daemon...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting Login Service...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started An object/document-oriented database.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Starting dhcpcd on all interfaces...
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Save/Restore Sound Card State.
+Jan 18 17:29:42 pi-projet2SU-barth cron[353]: (CRON) INFO (Running @reboot jobs)
+Jan 18 17:29:42 pi-projet2SU-barth thd[358]: Found socket passed from systemd
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started triggerhappy global hotkey daemon.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Login Service.
+Jan 18 17:29:42 pi-projet2SU-barth dphys-swapfile[355]: Starting dphys-swapfile swapfile setup ...
+Jan 18 17:29:42 pi-projet2SU-barth raspi-config[346]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Jan 18 17:29:42 pi-projet2SU-barth raspi-config[346]:  No. Switching to ondemand scaling governor.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Jan 18 17:29:42 pi-projet2SU-barth dhcpcd[371]: dev: loaded udev
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: Found user 'avahi' (UID 108) and group 'avahi' (GID 112).
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: Successfully dropped root privileges.
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: avahi-daemon 0.6.32 starting up.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: Successfully called chroot().
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: Successfully dropped remaining capabilities.
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: No service file found in /etc/avahi/services.
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: Network interface enumeration completed.
+Jan 18 17:29:42 pi-projet2SU-barth avahi-daemon[363]: Server startup complete. Host name is pi-projet2SU-barth.local. Local service cookie is 3103966720.
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] Linux version 4.9.59-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ) #1047 SMP Sun Oct 29 12:19:23 GMT 2017
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] CPU: div instructions available: patching division code
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] OF: fdt:Machine model: Raspberry Pi 3 Model B Rev 1.2
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] cma: Reserved 8 MiB at 0x3ac00000
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] Memory policy: Data cache writealloc
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] On node 0 totalpages: 242688
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c6f380, node_mem_map ba3a1000
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000]   Normal zone: 0 pages reserved
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:31
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] percpu: Embedded 14 pages/cpu @ba35b000 s25600 r8192 d23552 u57344
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] pcpu-alloc: s25600 r8192 d23552 u57344 alloc=14*4096
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 240555
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] Kernel command line: 8250.nr_uarts=0 bcm2708_fb.fbwidth=656 bcm2708_fb.fbheight=416 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  dwc_otg.lpm_enable=0 console=ttyS0,115200 console=tty1 root=PARTUUID=2ed5c94e-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] Memory: 940364K/970752K available (7168K kernel code, 486K rwdata, 2012K rodata, 1024K init, 770K bss, 22196K reserved, 8192K cma-reserved)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] Virtual kernel memory layout:
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000]     vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000]     lowmem  : 0x80000000 - 0xbb400000   ( 948 MB)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000]       .text : 0x80008000 - 0x80800000   (8160 kB)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000]       .init : 0x80b00000 - 0x80c00000   (1024 kB)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000]       .data : 0x80c00000 - 0x80c79834   ( 487 kB)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000]        .bss : 0x80c7b000 - 0x80d3b964   ( 771 kB)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] Hierarchical RCU implementation.
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] 	Build-time adjustment of leaf fanout to 32.
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] NR_IRQS:16 nr_irqs:16 16
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] arm_arch_timer: Architected cp15 timer(s) running at 19.20MHz (phys).
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000006] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000023] Switching to timer-based delay loop, resolution 52ns
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.000303] Console: colour dummy device 80x30
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.001195] console [tty1] enabled
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.001238] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.001307] pid_max: default: 32768 minimum: 301
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.001638] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.001680] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.002709] Disabling memory control group subsystem
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.002811] CPU: Testing write buffer coherency: ok
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.002874] ftrace: allocating 22392 entries in 66 pages
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.049978] CPU0: update cpu_capacity 1024
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.050029] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.050088] Setting up static identity map for 0x100000 - 0x100034
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.051980] CPU1: update cpu_capacity 1024
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.051987] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.052673] CPU2: update cpu_capacity 1024
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.052680] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.053351] CPU3: update cpu_capacity 1024
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.053358] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.053446] Brought up 4 CPUs
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.053619] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.053648] CPU: All CPU(s) started in HYP mode.
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.053674] CPU: Virtualization extensions available.
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.054492] devtmpfs: initialized
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.065728] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.066043] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.066106] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.066664] pinctrl core: initialized pinctrl subsystem
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.067594] NET: Registered protocol family 16
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.069848] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.078738] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.078787] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.078952] Serial: AMBA PL011 UART driver
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.080884] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.081436] uart-pl011 3f201000.serial: could not find pctldev for node /soc/gpio@7e200000/uart0_pins, deferring probe
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.150810] bcm2835-dma 3f007000.dma: DMA legacy API manager at bb80f000, dmachans=0x1
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.152676] SCSI subsystem initialized
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.152852] usbcore: registered new interface driver usbfs
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.152955] usbcore: registered new interface driver hub
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.153069] usbcore: registered new device driver usb
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.159779] raspberrypi-firmware soc:firmware: Attached to firmware from 2017-10-24 17:09
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.161185] clocksource: Switched to clocksource arch_sys_counter
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.208296] VFS: Disk quotas dquot_6.6.0
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.208405] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.208634] FS-Cache: Loaded
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.208905] CacheFiles: Loaded
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.221054] NET: Registered protocol family 2
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.221976] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.222113] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.222324] TCP: Hash tables configured (established 8192 bind 8192)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.222436] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.222503] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.222735] NET: Registered protocol family 1
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.223165] RPC: Registered named UNIX socket transport module.
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.223197] RPC: Registered udp transport module.
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.223225] RPC: Registered tcp transport module.
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.223253] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.224212] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.226547] workingset: timestamp_bits=14 max_order=18 bucket_order=4
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.242607] FS-Cache: Netfs 'nfs' registered for caching
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.243613] NFS: Registering the id_resolver key type
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.243663] Key type id_resolver registered
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.243691] Key type id_legacy registered
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.246088] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.246234] io scheduler noop registered
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.246264] io scheduler deadline registered (default)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.246561] io scheduler cfq registered
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.252240] BCM2708FB: allocated DMA memory fad10000
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.252293] BCM2708FB: allocated DMA channel 0 @ bb80f000
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.260994] Console: switching to colour frame buffer device 82x26
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.269452] bcm2835-rng 3f104000.rng: hwrng registered
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.271858] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.276984] vc-sm: Videocore shared memory driver
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.294381] brd: module loaded
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.305619] loop: module loaded
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.307993] Loading iSCSI transport class v2.0-870.
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.310814] usbcore: registered new interface driver smsc95xx
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.313170] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.543522] Core Release: 2.80a
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.545762] Setting default values for core params
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.548051] Finished setting default values for core params
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.750777] Using Buffer DMA mode
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.753057] Periodic Transfer Interrupt Enhancement - disabled
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.755334] Multiprocessor Interrupt Enhancement - disabled
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.757633] OTG VER PARAM: 0, OTG VER FLAG: 0
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.759948] Dedicated Tx FIFOs mode
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.762600] WARN::dwc_otg_hcd_init:1032: FIQ DMA bounce buffers: virt = 0xbad04000 dma = 0xfad04000 len=9024
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.767495] FIQ FSM acceleration enabled for :
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.767495] Non-periodic Split Transactions
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.767495] Periodic Split Transactions
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.767495] High-Speed Isochronous Endpoints
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.767495] Interrupt/Control Split Transaction hack enabled
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.779125] dwc_otg: Microframe scheduler enabled
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.779174] WARN::hcd_init_fiq:459: FIQ on core 1 at 0x8058f5b0
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.781483] WARN::hcd_init_fiq:460: FIQ ASM at 0x8058f920 length 36
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.783810] WARN::hcd_init_fiq:486: MPHI regs_base at 0xbb87a000
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.786167] dwc_otg 3f980000.usb: DWC OTG Controller
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.788484] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.790846] dwc_otg 3f980000.usb: irq 62, io mem 0x00000000
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.793185] Init: Port Power? op_state=1
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.795443] Init: Power Port (0)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.797830] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.800142] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.802469] usb usb1: Product: DWC OTG Controller
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.804724] usb usb1: Manufacturer: Linux 4.9.59-v7+ dwc_otg_hcd
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.807000] usb usb1: SerialNumber: 3f980000.usb
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.810066] hub 1-0:1.0: USB hub found
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.812296] hub 1-0:1.0: 1 port detected
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.815037] dwc_otg: FIQ enabled
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.815041] dwc_otg: NAK holdoff enabled
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.815046] dwc_otg: FIQ split-transaction FSM enabled
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.815059] Module dwc_common_port init
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.815296] usbcore: registered new interface driver usb-storage
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.817660] mousedev: PS/2 mouse device common for all mice
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.820786] bcm2835-wdt 3f100000.watchdog: Broadcom BCM2835 watchdog timer
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.823341] bcm2835-cpufreq: min=600000 max=1200000
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.825988] sdhci: Secure Digital Host Controller Interface driver
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.828301] sdhci: Copyright(c) Pierre Ossman
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.830825] sdhost-bcm2835 3f202000.sdhost: could not get clk, deferring probe
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.835414] mmc-bcm2835 3f300000.mmc: could not get clk, deferring probe
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.837958] sdhci-pltfm: SDHCI platform and OF driver helper
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.843007] ledtrig-cpu: registered to indicate activity on CPUs
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.845654] hidraw: raw HID events driver (C) Jiri Kosina
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.848320] usbcore: registered new interface driver usbhid
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.850779] usbhid: USB HID core driver
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.854047] vchiq: vchiq_init_state: slot_zero = 0xbad80000, is_master = 0
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.857907] [vc_sm_connected_init]: start
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.866528] [vc_sm_connected_init]: end - returning 0
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.869339] Initializing XFRM netlink socket
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.871813] NET: Registered protocol family 17
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.874349] Key type dns_resolver registered
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.877144] Registering SWP/SWPB emulation handler
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.880339] registered taskstats version 1
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.889027] uart-pl011 3f201000.serial: cts_event_workaround enabled
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.891638] 3f201000.serial: ttyAMA0 at MMIO 0x3f201000 (irq = 87, base_baud = 0) is a PL011 rev2
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.898227] sdhost: log_buf @ bad07000 (fad07000)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.971214] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.975939] mmc-bcm2835 3f300000.mmc: mmc_debug:0 mmc_debug2:0
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    0.978431] mmc-bcm2835 3f300000.mmc: DMA channel allocated
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.031372] Indeed it is in host mode hprt0 = 00021501
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.093888] of_cfs_init
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.096287] of_cfs_init: OK
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.098965] Waiting for root device PARTUUID=2ed5c94e-02...
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.103535] mmc0: host does not support reading read-only switch, assuming write-enable
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.110086] mmc0: new high speed SDHC card at address 59b4
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.113116] mmcblk0: mmc0:59b4 USD   15.0 GiB
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.116896]  mmcblk0: p1 p2
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.120407] random: fast init done
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.126429] mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.130324] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.134171] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.139169] mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.231218] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.233448] Indeed it is in host mode hprt0 = 00001101
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.248553] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.252756] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.278192] devtmpfs: mounted
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.296634] mmc1: new high speed SDIO card at address 0001
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.297244] Freeing unused kernel memory: 1024K
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.461508] usb 1-1: New USB device found, idVendor=0424, idProduct=9514
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.463954] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.467158] hub 1-1:1.0: USB hub found
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.469537] hub 1-1:1.0: 5 ports detected
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.791235] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.921513] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.923906] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.929243] smsc95xx v1.0.5
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.957517] NET: Registered protocol family 10
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    1.971309] ip_tables: (C) 2000-2006 Netfilter Core Team
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    2.025086] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:81:e4:61
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    3.241826] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    3.701702] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    4.031341] brcmfmac: F1 signature read @0x18000000=0x1541a9a6
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    4.038161] usbcore: registered new interface driver brcmfmac
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    4.229471] brcmfmac: Firmware version = wl0: Aug  7 2017 00:46:29 version 7.45.41.46 (r666254 CY) FWID 01-f8a78378
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    4.230249] brcmfmac: brcmf_c_preinit_dcmds: CLM version = API: 12.2 Data: 7.11.15 Compiler: 1.24.2 ClmImport: 1.24.1 Creation: 2014-05-26 10:53:55 Inc Data: 9.10.41 Inc Compiler: 1.29.4 Inc ClmImport: 1.36.3 Creation: 2017-08-07 00:37:47 
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    5.234332] uart-pl011 3f201000.serial: no DMA platform data
+Jan 18 17:29:42 pi-projet2SU-barth liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="357" x-info="http://www.rsyslog.com"] start
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started System Logging Service.
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[350]: Unrecognized option or missing or extra parameter(s) in /etc/openvpn/vpn.conf:15: block-outside-dns (2.4.0)
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[350]: OpenVPN 2.4.0 arm-unknown-linux-gnueabihf [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jul 18 2017
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[350]: library versions: OpenSSL 1.0.2l  25 May 2017, LZO 2.08
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: openvpn@vpn.service: PID file /run/openvpn/vpn.pid not readable (yet?) after start: No such file or directory
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started OpenVPN connection to vpn.
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: Outgoing Control Channel Authentication: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: Incoming Control Channel Authentication: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: TCP/UDP: Preserving recently used remote address: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: Socket Buffers: R=[163840->163840] S=[163840->163840]
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: UDP link local: (not bound)
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: UDP link remote: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: write UDP: Network is unreachable (code=101)
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: Network unreachable, restarting
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: SIGUSR1[soft,network-unreachable] received, process restarting
+Jan 18 17:29:42 pi-projet2SU-barth ovpn-vpn[404]: Restart pause, 5 second(s)
+Jan 18 17:29:42 pi-projet2SU-barth dphys-swapfile[355]: want /var/swap=100MByte, checking existing: keeping it
+Jan 18 17:29:42 pi-projet2SU-barth kernel: [    5.656244] Adding 102396k swap on /var/swap.  Priority:-1 extents:1 across:102396k SSFS
+Jan 18 17:29:42 pi-projet2SU-barth dphys-swapfile[355]: done.
+Jan 18 17:29:42 pi-projet2SU-barth systemd[1]: Started LSB: Autogenerate and use a swap file.
+Jan 18 17:29:42 pi-projet2SU-barth dhcpcd[371]: wlan0: starting wpa_supplicant
+Jan 18 17:29:42 pi-projet2SU-barth dhcpcd-run-hooks[425]: wlan0: starting wpa_supplicant
+Jan 18 17:29:43 pi-projet2SU-barth kernel: [    6.134042] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Jan 18 17:29:43 pi-projet2SU-barth kernel: [    6.134193] brcmfmac: power management disabled
+Jan 18 17:29:43 pi-projet2SU-barth mongod[370]: all output going to: /var/log/mongodb/mongodb.log
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: eth0: waiting for carrier
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: wlan0: waiting for carrier
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: wlan0: carrier acquired
+Jan 18 17:29:43 pi-projet2SU-barth kernel: [    6.513418] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: DUID 00:01:00:01:21:b0:d9:d3:b8:27:eb:d4:b1:34
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: wlan0: IAID eb:d4:b1:34
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: wlan0: adding address fe80::77b:c82b:9c81:3cf6
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: wlan0: carrier lost
+Jan 18 17:29:43 pi-projet2SU-barth systemd[1]: mongodb.service: Main process exited, code=exited, status=100/n/a
+Jan 18 17:29:43 pi-projet2SU-barth systemd[1]: mongodb.service: Unit entered failed state.
+Jan 18 17:29:43 pi-projet2SU-barth systemd[1]: mongodb.service: Failed with result 'exit-code'.
+Jan 18 17:29:43 pi-projet2SU-barth dhcpcd[371]: wlan0: deleting address fe80::77b:c82b:9c81:3cf6
+Jan 18 17:29:44 pi-projet2SU-barth dhcpcd[371]: eth0: carrier acquired
+Jan 18 17:29:44 pi-projet2SU-barth dhcpcd[371]: eth0: IAID eb:81:e4:61
+Jan 18 17:29:44 pi-projet2SU-barth dhcpcd[371]: eth0: adding address fe80::1624:4ef7:9839:676
+Jan 18 17:29:44 pi-projet2SU-barth dhcpcd[371]: eth0: soliciting an IPv6 router
+Jan 18 17:29:44 pi-projet2SU-barth dhcpcd[371]: eth0: rebinding lease of 172.30.4.79
+Jan 18 17:29:45 pi-projet2SU-barth kernel: [    8.125382] smsc95xx 1-1.1:1.0 eth0: link up, 100Mbps, full-duplex, lpa 0xC1E1
+Jan 18 17:29:46 pi-projet2SU-barth avahi-daemon[363]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::1624:4ef7:9839:676.
+Jan 18 17:29:46 pi-projet2SU-barth avahi-daemon[363]: New relevant interface eth0.IPv6 for mDNS.
+Jan 18 17:29:46 pi-projet2SU-barth avahi-daemon[363]: Registering new address record for fe80::1624:4ef7:9839:676 on eth0.*.
+Jan 18 17:29:47 pi-projet2SU-barth kernel: [   10.011316] Bluetooth: Core ver 2.22
+Jan 18 17:29:47 pi-projet2SU-barth kernel: [   10.011404] NET: Registered protocol family 31
+Jan 18 17:29:47 pi-projet2SU-barth kernel: [   10.011410] Bluetooth: HCI device and connection manager initialized
+Jan 18 17:29:47 pi-projet2SU-barth kernel: [   10.011430] Bluetooth: HCI socket layer initialized
+Jan 18 17:29:47 pi-projet2SU-barth kernel: [   10.011445] Bluetooth: L2CAP socket layer initialized
+Jan 18 17:29:47 pi-projet2SU-barth kernel: [   10.011475] Bluetooth: SCO socket layer initialized
+Jan 18 17:29:47 pi-projet2SU-barth kernel: [   10.020085] Bluetooth: HCI UART driver ver 2.3
+Jan 18 17:29:47 pi-projet2SU-barth kernel: [   10.020096] Bluetooth: HCI UART protocol H4 registered
+Jan 18 17:29:47 pi-projet2SU-barth kernel: [   10.020102] Bluetooth: HCI UART protocol Three-wire (H5) registered
+Jan 18 17:29:47 pi-projet2SU-barth kernel: [   10.020256] Bluetooth: HCI UART protocol Broadcom registered
+Jan 18 17:29:47 pi-projet2SU-barth btuart[347]: bcm43xx_init
+Jan 18 17:29:47 pi-projet2SU-barth btuart[347]: Flash firmware /lib/firmware/BCM43430A1.hcd
+Jan 18 17:29:47 pi-projet2SU-barth btuart[347]: Set BDADDR UART: b8:27:eb:2b:4e:cb
+Jan 18 17:29:47 pi-projet2SU-barth btuart[347]: Set Controller UART speed to 921600 bit/s
+Jan 18 17:29:47 pi-projet2SU-barth btuart[347]: Device setup complete
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Started Configure Bluetooth Modems connected by UART.
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Starting Bluetooth service...
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 17:29:47 pi-projet2SU-barth bluetoothd[463]: Bluetooth daemon 5.43
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Started Bluetooth service.
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Reached target Bluetooth.
+Jan 18 17:29:47 pi-projet2SU-barth bluetoothd[463]: Starting SDP server
+Jan 18 17:29:47 pi-projet2SU-barth kernel: [   10.191989] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Jan 18 17:29:47 pi-projet2SU-barth kernel: [   10.192000] Bluetooth: BNEP filters: protocol multicast
+Jan 18 17:29:47 pi-projet2SU-barth kernel: [   10.192018] Bluetooth: BNEP socket layer initialized
+Jan 18 17:29:47 pi-projet2SU-barth dbus[344]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jan 18 17:29:47 pi-projet2SU-barth bluetoothd[463]: Bluetooth management interface 1.14 initialized
+Jan 18 17:29:47 pi-projet2SU-barth bluetoothd[463]: Failed to obtain handles for "Service Changed" characteristic
+Jan 18 17:29:47 pi-projet2SU-barth bluetoothd[463]: Sap driver initialization failed.
+Jan 18 17:29:47 pi-projet2SU-barth bluetoothd[463]: sap-server: Operation not permitted (1)
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Starting Hostname Service...
+Jan 18 17:29:47 pi-projet2SU-barth dbus[344]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan 18 17:29:47 pi-projet2SU-barth systemd[1]: Started Hostname Service.
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: TCP/UDP: Preserving recently used remote address: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: Socket Buffers: R=[163840->163840] S=[163840->163840]
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: UDP link local: (not bound)
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: UDP link remote: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: write UDP: Network is unreachable (code=101)
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: Network unreachable, restarting
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: SIGUSR1[soft,network-unreachable] received, process restarting
+Jan 18 17:29:47 pi-projet2SU-barth ovpn-vpn[404]: Restart pause, 5 second(s)
+Jan 18 17:29:48 pi-projet2SU-barth dhcpcd[371]: eth0: probing address 172.30.4.79/16
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: TCP/UDP: Preserving recently used remote address: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: Socket Buffers: R=[163840->163840] S=[163840->163840]
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: UDP link local: (not bound)
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: UDP link remote: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: write UDP: Network is unreachable (code=101)
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: Network unreachable, restarting
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: SIGUSR1[soft,network-unreachable] received, process restarting
+Jan 18 17:29:52 pi-projet2SU-barth ovpn-vpn[404]: Restart pause, 5 second(s)
+Jan 18 17:29:53 pi-projet2SU-barth dhcpcd[371]: eth0: leased 172.30.4.79 for 28800 seconds
+Jan 18 17:29:53 pi-projet2SU-barth avahi-daemon[363]: Joining mDNS multicast group on interface eth0.IPv4 with address 172.30.4.79.
+Jan 18 17:29:53 pi-projet2SU-barth dhcpcd[371]: eth0: adding route to 172.30.0.0/16
+Jan 18 17:29:53 pi-projet2SU-barth avahi-daemon[363]: New relevant interface eth0.IPv4 for mDNS.
+Jan 18 17:29:53 pi-projet2SU-barth dhcpcd[371]: eth0: adding default route via 172.30.3.254
+Jan 18 17:29:53 pi-projet2SU-barth avahi-daemon[363]: Registering new address record for 172.30.4.79 on eth0.IPv4.
+Jan 18 17:29:53 pi-projet2SU-barth dhcpcd[371]: forked to background, child pid 522
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started dhcpcd on all interfaces.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Reached target Network.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting /etc/rc.local Compatibility...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting OpenBSD Secure Shell server...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting OpenVPN service...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting Permit User Sessions...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started /etc/rc.local Compatibility.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started OpenVPN service.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started Permit User Sessions.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting Terminate Plymouth Boot Screen...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting Hold until boot process finishes up...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Received SIGRTMIN+21 from PID 208 (plymouthd).
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started Terminate Plymouth Boot Screen.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started Hold until boot process finishes up.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started Getty on tty1.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Reached target Login Prompts.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started OpenBSD Secure Shell server.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Reached target Multi-User System.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Reached target Graphical Interface.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jan 18 17:29:53 pi-projet2SU-barth systemd[1]: Startup finished in 1.781s (kernel) + 15.066s (userspace) = 16.847s.
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: TCP/UDP: Preserving recently used remote address: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: Socket Buffers: R=[163840->163840] S=[163840->163840]
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: UDP link local: (not bound)
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: UDP link remote: [AF_INET]185.169.235.5:17219
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: TLS: Initial packet from [AF_INET]185.169.235.5:17219, sid=62cb32e9 0cea5114
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: VERIFY OK: depth=1, CN=ChangeMe
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: Validating certificate key usage
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: ++ Certificate has key usage  00a0, expects 00a0
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: VERIFY KU OK
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: Validating certificate extended key usage
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: VERIFY EKU OK
+Jan 18 17:29:57 pi-projet2SU-barth ovpn-vpn[404]: VERIFY OK: depth=0, CN=server
+Jan 18 17:29:58 pi-projet2SU-barth dhcpcd[522]: eth0: no IPv6 Routers available
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: [server] Peer Connection Initiated with [AF_INET]185.169.235.5:17219
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:58 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: Key [AF_INET]185.169.235.5:17219 [0] not initialized (yet), dropping packet.
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 bypass-dhcp,dhcp-option DNS 8.8.8.8,dhcp-option DNS 8.8.4.4,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig 10.8.0.2 255.255.255.0'
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: OPTIONS IMPORT: timers and/or timeouts modified
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: OPTIONS IMPORT: --ifconfig/up options modified
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: OPTIONS IMPORT: route options modified
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: OPTIONS IMPORT: route-related options modified
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: Data Channel Encrypt: Cipher 'AES-256-CBC' initialized with 256 bit key
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: Data Channel Decrypt: Cipher 'AES-256-CBC' initialized with 256 bit key
+Jan 18 17:29:59 pi-projet2SU-barth kernel: [   21.993227] tun: Universal TUN/TAP device driver, 1.6
+Jan 18 17:29:59 pi-projet2SU-barth kernel: [   21.993238] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: ROUTE_GATEWAY 172.30.3.254/255.255.0.0 IFACE=eth0 HWADDR=b8:27:eb:81:e4:61
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: TUN/TAP device tun0 opened
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: TUN/TAP TX queue length set to 100
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: /sbin/ip link set dev tun0 up mtu 1500
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: /sbin/ip addr add dev tun0 10.8.0.2/24 broadcast 10.8.0.255
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: /sbin/ip route add 185.169.235.5/32 via 172.30.3.254
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: /sbin/ip route add 0.0.0.0/1 via 10.8.0.1
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: /sbin/ip route add 128.0.0.0/1 via 10.8.0.1
+Jan 18 17:29:59 pi-projet2SU-barth ovpn-vpn[404]: Initialization Sequence Completed
+Jan 18 17:30:19 pi-projet2SU-barth systemd[1]: Time has been changed
+Jan 18 17:30:19 pi-projet2SU-barth systemd-timesyncd[300]: Synchronized to time server 5.196.160.139:123 (2.debian.pool.ntp.org).
+Jan 18 17:30:19 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 9min 53.229697s random time.
+Jan 18 17:30:19 pi-projet2SU-barth systemd[1]: apt-daily.timer: Adding 7h 5min 30.038210s random time.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[1]: Created slice User Slice of pi.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[1]: Starting User Manager for UID 1000...
+Jan 18 17:30:38 pi-projet2SU-barth systemd[1]: Started Session c1 of user pi.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Reached target Timers.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Reached target Paths.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Listening on GnuPG cryptographic agent (access for web browsers).
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Reached target Sockets.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Reached target Basic System.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Reached target Default.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[567]: Startup finished in 64ms.
+Jan 18 17:30:38 pi-projet2SU-barth systemd[1]: Started User Manager for UID 1000.
+Jan 18 17:31:05 pi-projet2SU-barth kernel: [   81.338954] random: crng init done
+Jan 18 17:33:12 pi-projet2SU-barth systemd[1]: Stopping Raise network interfaces...
+Jan 18 17:33:12 pi-projet2SU-barth systemd[1]: Stopped Raise network interfaces.
+Jan 18 17:33:12 pi-projet2SU-barth systemd[1]: Starting Raise network interfaces...
+Jan 18 17:33:12 pi-projet2SU-barth systemd[1]: Started Raise network interfaces.
+Jan 18 17:33:49 pi-projet2SU-barth systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 695 (find)
+Jan 18 17:33:49 pi-projet2SU-barth systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Jan 18 17:33:49 pi-projet2SU-barth systemd[1]: Mounted Arbitrary Executable File Formats File System.

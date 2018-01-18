@@ -1,9 +1,9 @@
+S:disk/by-label/rootfs
 S:disk/by-partuuid/2ed5c94e-02
+S:disk/by-uuid/72bfc10d-73ec-4d9e-a54a-1cc507ee7ed2
 S:disk/by-id/mmc-USD_0x4b6f6f4a-part2
 S:disk/by-path/platform-3f202000.sdhost-part2
-S:disk/by-uuid/72bfc10d-73ec-4d9e-a54a-1cc507ee7ed2
-S:disk/by-label/rootfs
-I:3571896
+I:3832249
 E:ID_NAME=USD
 E:ID_PART_TABLE_TYPE=dos
 E:ID_PART_TABLE_UUID=2ed5c94e

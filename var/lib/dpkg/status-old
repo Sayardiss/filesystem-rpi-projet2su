@@ -2046,27 +2046,6 @@ Description: Miscellaneous utilities specific to Debian
  add-shell installkernel ischroot remove-shell run-parts savelog
  tempfile which
 
-Package: libmongoclient-dev
-Status: install ok installed
-Priority: optional
-Section: libdevel
-Installed-Size: 4518
-Maintainer: Debian MongoDB Maintainers <pkg-mongodb-maintainers@lists.alioth.debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: mongo-cxx-driver-legacy
-Version: 1.1.2-5
-Replaces: mongodb-dev (<< 2:1.1.2-1~)
-Depends: libmongoclient0 (= 1.1.2-5)
-Breaks: mongodb-dev (<< 2:1.1.2-1~)
-Description: MongoDB C++ Driver (development)
- This package provides C++ development file to interact with MongoDB.
- This is the legacy C++ driver and currently supports MongoDB 2.4, 2.6,
- 3.0 and 3.2.
- .
- This package contains the development support files.
-Homepage: https://mongodb.github.io/mongo-cxx-driver/
-
 Package: mime-support
 Status: install ok installed
 Priority: standard
@@ -2689,26 +2668,6 @@ Description: generic modular initramfs generator (core tools)
  create a bootable initramfs for a Linux kernel.  The initramfs should
  be loaded along with the kernel and is then responsible for mounting
  the root filesystem and starting the main init system.
-
-Package: libboost-thread1.62.0
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 180
-Maintainer: Debian Boost Team <pkg-boost-devel@lists.alioth.debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: boost1.62
-Version: 1.62.0+dfsg-4
-Depends: libboost-system1.62.0, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libstdc++6 (>= 5.2)
-Description: portable C++ multi-threading
- This package forms part of the Boost C++ Libraries collection.
- .
- Toolkit for writing C++ programs that execute as multiple,
- asynchronous, independent, threads-of-execution. Each thread has its
- own machine state including program instruction counter and
- registers.
-Homepage: http://www.boost.org/libs/thread/
 
 Package: apt-utils
 Status: install ok installed
@@ -3333,20 +3292,6 @@ Description: library that simplifies the interaction with PKCS#11
  attributes are usually vendor specific, and 99% of application need to
  access existing objects in order to perform signature and decryption.
 Homepage: https://github.com/OpenSC/pkcs11-helper
-
-Package: mongodb-dev
-Status: install ok installed
-Priority: extra
-Section: oldlibs
-Installed-Size: 52
-Maintainer: Debian MongoDB Maintainers <pkg-mongodb-maintainers@lists.alioth.debian.org>
-Architecture: all
-Source: mongo-cxx-driver-legacy (1.1.2-5)
-Version: 2:1.1.2-5
-Depends: libmongoclient-dev
-Description: MongoDB C++ Driver (transitional package)
- This is a transitional dummy package and can be safely removed.
-Homepage: https://mongodb.github.io/mongo-cxx-driver/
 
 Package: groff-base
 Status: install ok installed
@@ -6485,7 +6430,7 @@ Homepage: http://www.openvpn.net/
 
 Package: libc-bin
 Essential: yes
-Status: install ok installed
+Status: install ok triggers-pending
 Priority: required
 Section: libs
 Installed-Size: 3026
@@ -6512,6 +6457,7 @@ Description: GNU C Library: Binaries
   * ldd, ldconfig: print/configure shared library dependencies
   * locale, localedef: show/generate locale definitions
   * tzselect, zdump, zic: select/dump/compile time zones
+Triggers-Pending: ldconfig
 Homepage: http://www.gnu.org/software/libc/libc.html
 
 Package: libsemanage1
@@ -7054,25 +7000,6 @@ Description: GNU C Library: localization files
  This package contains the translation files for the GNU C library and
  utility programs.
 Homepage: http://www.gnu.org/software/libc/libc.html
-
-Package: libmongoclient0
-Status: install ok installed
-Priority: optional
-Section: devel
-Installed-Size: 1367
-Maintainer: Debian MongoDB Maintainers <pkg-mongodb-maintainers@lists.alioth.debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: mongo-cxx-driver-legacy
-Version: 1.1.2-5
-Depends: libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libsasl2-2, libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2)
-Description: MongoDB C++ Driver (runtime)
- This package provides C++ development file to interact with MongoDB.
- This is the legacy C++ driver and currently supports MongoDB 2.4, 2.6,
- 3.0 and 3.2.
- .
- This package includes the shared library.
-Homepage: https://mongodb.github.io/mongo-cxx-driver/
 
 Package: libtext-wrapi18n-perl
 Status: install ok installed

@@ -727,3 +727,41 @@
 2018-01-18 16:11:26 status config-files mongodb:armhf 1:2.4.14-4
 2018-01-18 16:11:26 status not-installed mongodb:armhf <none>
 2018-01-18 16:11:26 startup packages configure
+2018-01-18 16:56:52 startup packages remove
+2018-01-18 16:56:52 status installed mongodb-dev:all 2:1.1.2-5
+2018-01-18 16:56:53 remove mongodb-dev:all 2:1.1.2-5 <none>
+2018-01-18 16:56:53 status half-configured mongodb-dev:all 2:1.1.2-5
+2018-01-18 16:56:53 status half-installed mongodb-dev:all 2:1.1.2-5
+2018-01-18 16:56:53 status config-files mongodb-dev:all 2:1.1.2-5
+2018-01-18 16:56:53 status config-files mongodb-dev:all 2:1.1.2-5
+2018-01-18 16:56:53 status config-files mongodb-dev:all 2:1.1.2-5
+2018-01-18 16:56:53 status not-installed mongodb-dev:all <none>
+2018-01-18 16:56:53 status installed libmongoclient-dev:armhf 1.1.2-5
+2018-01-18 16:56:53 remove libmongoclient-dev:armhf 1.1.2-5 <none>
+2018-01-18 16:56:53 status half-configured libmongoclient-dev:armhf 1.1.2-5
+2018-01-18 16:56:53 status half-installed libmongoclient-dev:armhf 1.1.2-5
+2018-01-18 16:56:53 status config-files libmongoclient-dev:armhf 1.1.2-5
+2018-01-18 16:56:53 status config-files libmongoclient-dev:armhf 1.1.2-5
+2018-01-18 16:56:53 status config-files libmongoclient-dev:armhf 1.1.2-5
+2018-01-18 16:56:53 status not-installed libmongoclient-dev:armhf <none>
+2018-01-18 16:56:53 status installed libmongoclient0:armhf 1.1.2-5
+2018-01-18 16:56:53 remove libmongoclient0:armhf 1.1.2-5 <none>
+2018-01-18 16:56:53 status triggers-pending libc-bin:armhf 2.24-11+deb9u1
+2018-01-18 16:56:53 status half-configured libmongoclient0:armhf 1.1.2-5
+2018-01-18 16:56:53 status half-installed libmongoclient0:armhf 1.1.2-5
+2018-01-18 16:56:54 status config-files libmongoclient0:armhf 1.1.2-5
+2018-01-18 16:56:54 status config-files libmongoclient0:armhf 1.1.2-5
+2018-01-18 16:56:54 status config-files libmongoclient0:armhf 1.1.2-5
+2018-01-18 16:56:54 status not-installed libmongoclient0:armhf <none>
+2018-01-18 16:56:54 status installed libboost-thread1.62.0:armhf 1.62.0+dfsg-4
+2018-01-18 16:56:54 remove libboost-thread1.62.0:armhf 1.62.0+dfsg-4 <none>
+2018-01-18 16:56:54 status half-configured libboost-thread1.62.0:armhf 1.62.0+dfsg-4
+2018-01-18 16:56:54 status half-installed libboost-thread1.62.0:armhf 1.62.0+dfsg-4
+2018-01-18 16:56:54 status config-files libboost-thread1.62.0:armhf 1.62.0+dfsg-4
+2018-01-18 16:56:54 status config-files libboost-thread1.62.0:armhf 1.62.0+dfsg-4
+2018-01-18 16:56:54 status config-files libboost-thread1.62.0:armhf 1.62.0+dfsg-4
+2018-01-18 16:56:54 status not-installed libboost-thread1.62.0:armhf <none>
+2018-01-18 16:56:54 startup packages configure
+2018-01-18 16:56:54 trigproc libc-bin:armhf 2.24-11+deb9u1 <none>
+2018-01-18 16:56:54 status half-configured libc-bin:armhf 2.24-11+deb9u1
+2018-01-18 16:56:54 status installed libc-bin:armhf 2.24-11+deb9u1

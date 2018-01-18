@@ -1,5 +1,5 @@
 S:snd/by-path/platform-soc:audio
-I:3824791
+I:4108684
 E:ID_PATH=platform-soc:audio
 E:ID_PATH_TAG=platform-soc_audio
 G:uaccess

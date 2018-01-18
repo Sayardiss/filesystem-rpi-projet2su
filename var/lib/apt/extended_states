@@ -730,27 +730,7 @@ Package: libboost-system1.58.0
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libmongoclient-dev
-Architecture: armhf
-Auto-Installed: 1
-
-Package: mongodb-server
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libmongoclient0
-Architecture: armhf
-Auto-Installed: 1
-
-Package: mongodb-dev
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libpcap0.8
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libboost-thread1.62.0
 Architecture: armhf
 Auto-Installed: 1
 

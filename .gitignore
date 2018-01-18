@@ -4,3 +4,7 @@
 /lost+found/
 /var/swap
 /var/lib/mongodb/journal/
+/var/lib/apt/lists/
+/run/
+/var/log/
+/usr/share/doc/

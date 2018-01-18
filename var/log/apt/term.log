@@ -272,3 +272,12 @@ arg: remove
 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 35836 files and directories currently installed.)
 Purging configuration files for mongodb (1:2.4.14-4) ...
 Log ended: 2018-01-18  16:11:26
+
+Log started: 2018-01-18  16:56:52
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 35836 files and directories currently installed.)
+Removing mongodb-dev (2:1.1.2-5) ...
+Removing libmongoclient-dev:armhf (1.1.2-5) ...
+Removing libmongoclient0:armhf (1.1.2-5) ...
+Removing libboost-thread1.62.0:armhf (1.62.0+dfsg-4) ...
+Processing triggers for libc-bin (2.24-11+deb9u1) ...
+Log ended: 2018-01-18  16:56:54
