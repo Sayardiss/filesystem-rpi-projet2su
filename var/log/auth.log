@@ -1,0 +1,89 @@
+Nov 29 02:37:06 raspberrypi systemd-logind[359]: New seat seat0.
+Jan 18 14:40:18 raspberrypi login[572]: pam_unix(login:session): session opened for user pi by LOGIN(uid=0)
+Jan 18 14:40:18 raspberrypi systemd-logind[359]: New session c1 of user pi.
+Jan 18 14:40:18 raspberrypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jan 18 14:40:35 raspberrypi sudo:       pi : TTY=tty1 ; PWD=/home/pi ; USER=root ; COMMAND=/sbin/halt
+Jan 18 14:40:35 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jan 18 14:40:39 raspberrypi systemd-logind[351]: New seat seat0.
+Jan 18 14:41:47 raspberrypi systemd-logind[360]: New seat seat0.
+Jan 18 14:41:47 raspberrypi sshd[442]: Server listening on 0.0.0.0 port 22.
+Jan 18 14:41:47 raspberrypi sshd[442]: Server listening on :: port 22.
+Jan 18 14:47:11 raspberrypi sshd[558]: Connection closed by 172.30.3.41 port 53866 [preauth]
+Jan 18 14:47:20 raspberrypi sshd[562]: Accepted password for pi from 172.30.3.41 port 53876 ssh2
+Jan 18 14:47:20 raspberrypi sshd[562]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jan 18 14:47:20 raspberrypi systemd-logind[360]: New session c1 of user pi.
+Jan 18 14:47:20 raspberrypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jan 18 14:47:22 raspberrypi sshd[578]: Received disconnect from 172.30.3.41 port 53876:11: disconnected by user
+Jan 18 14:47:22 raspberrypi sshd[578]: Disconnected from 172.30.3.41 port 53876
+Jan 18 14:47:22 raspberrypi sshd[562]: pam_unix(sshd:session): session closed for user pi
+Jan 18 14:47:22 raspberrypi systemd-logind[360]: Removed session c1.
+Jan 18 14:47:22 raspberrypi systemd: pam_unix(systemd-user:session): session closed for user pi
+Jan 18 14:47:27 raspberrypi sshd[609]: Connection closed by 172.30.3.41 port 53886 [preauth]
+Jan 18 14:47:27 raspberrypi sshd[612]: Connection closed by 172.30.3.41 port 53888 [preauth]
+Jan 18 14:47:31 raspberrypi sshd[616]: Accepted password for pi from 172.30.3.41 port 53892 ssh2
+Jan 18 14:47:31 raspberrypi sshd[616]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jan 18 14:47:31 raspberrypi systemd-logind[360]: New session c2 of user pi.
+Jan 18 14:47:31 raspberrypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jan 18 14:47:31 raspberrypi sshd[632]: Received disconnect from 172.30.3.41 port 53892:11: disconnected by user
+Jan 18 14:47:31 raspberrypi sshd[632]: Disconnected from 172.30.3.41 port 53892
+Jan 18 14:47:31 raspberrypi sshd[616]: pam_unix(sshd:session): session closed for user pi
+Jan 18 14:47:31 raspberrypi systemd-logind[360]: Removed session c2.
+Jan 18 14:47:31 raspberrypi systemd: pam_unix(systemd-user:session): session closed for user pi
+Jan 18 14:47:33 raspberrypi sshd[648]: Accepted publickey for pi from 172.30.3.41 port 53898 ssh2: RSA SHA256:fD1AZ3OfAQdWGivzP4zwos57nSzwjed72vRKkBN/ZWo
+Jan 18 14:47:33 raspberrypi sshd[648]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jan 18 14:47:33 raspberrypi systemd-logind[360]: New session c3 of user pi.
+Jan 18 14:47:33 raspberrypi systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jan 18 14:47:43 raspberrypi sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/su
+Jan 18 14:47:43 raspberrypi sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jan 18 14:47:43 raspberrypi su[685]: Successful su for root by root
+Jan 18 14:47:43 raspberrypi su[685]: + /dev/pts/0 root:root
+Jan 18 14:47:43 raspberrypi su[685]: pam_unix(su:session): session opened for user root by pi(uid=0)
+Jan 18 14:47:43 raspberrypi su[685]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jan 18 14:47:53 raspberrypi passwd[691]: pam_unix(passwd:chauthtok): password changed for pi
+Jan 18 14:47:58 raspberrypi passwd[694]: pam_unix(passwd:chauthtok): password changed for root
+Jan 18 14:49:08 raspberrypi sshd[648]: pam_unix(sshd:session): session closed for user pi
+Jan 18 14:49:08 raspberrypi sudo: pam_unix(sudo:session): session closed for user root
+Jan 18 14:49:12 pi-projet2SU-barth systemd-logind[343]: New seat seat0.
+Jan 18 14:49:21 pi-projet2SU-barth sshd[511]: Server listening on 0.0.0.0 port 22.
+Jan 18 14:49:21 pi-projet2SU-barth sshd[511]: Server listening on :: port 22.
+Jan 18 14:50:36 pi-projet2SU-barth sshd[532]: Accepted publickey for pi from 172.30.3.41 port 54092 ssh2: RSA SHA256:fD1AZ3OfAQdWGivzP4zwos57nSzwjed72vRKkBN/ZWo
+Jan 18 14:50:36 pi-projet2SU-barth sshd[532]: pam_unix(sshd:session): session opened for user pi by (uid=0)
+Jan 18 14:50:36 pi-projet2SU-barth systemd-logind[343]: New session c1 of user pi.
+Jan 18 14:50:36 pi-projet2SU-barth systemd: pam_unix(systemd-user:session): session opened for user pi by (uid=0)
+Jan 18 14:51:00 pi-projet2SU-barth sudo:       pi : unable to resolve host pi-projet2SU-barth
+Jan 18 14:51:00 pi-projet2SU-barth sudo:       pi : problem with defaults entries ; TTY=pts/0 ; PWD=/home/pi ; USER=root ;
+Jan 18 14:51:00 pi-projet2SU-barth sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install python
+Jan 18 14:51:00 pi-projet2SU-barth sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jan 18 14:51:03 pi-projet2SU-barth sudo: pam_unix(sudo:session): session closed for user root
+Jan 18 14:51:05 pi-projet2SU-barth sudo:       pi : unable to resolve host pi-projet2SU-barth
+Jan 18 14:51:05 pi-projet2SU-barth sudo:       pi : problem with defaults entries ; TTY=pts/0 ; PWD=/home/pi ; USER=root ;
+Jan 18 14:51:05 pi-projet2SU-barth sudo:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/su
+Jan 18 14:51:05 pi-projet2SU-barth sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jan 18 14:51:05 pi-projet2SU-barth su[575]: Successful su for root by root
+Jan 18 14:51:05 pi-projet2SU-barth su[575]: + /dev/pts/0 root:root
+Jan 18 14:51:05 pi-projet2SU-barth su[575]: pam_unix(su:session): session opened for user root by pi(uid=0)
+Jan 18 14:51:05 pi-projet2SU-barth su[575]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jan 18 14:51:29 pi-projet2SU-barth sudo:     root : unable to resolve host pi-projet2SU-barth
+Jan 18 14:51:29 pi-projet2SU-barth sudo:     root : problem with defaults entries ; TTY=pts/0 ; PWD=/home/pi ; USER=root ;
+Jan 18 14:51:29 pi-projet2SU-barth sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+Jan 18 14:51:29 pi-projet2SU-barth sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jan 18 14:51:36 pi-projet2SU-barth sudo: pam_unix(sudo:session): session closed for user root
+Jan 18 14:51:38 pi-projet2SU-barth sudo:     root : unable to resolve host pi-projet2SU-barth
+Jan 18 14:51:38 pi-projet2SU-barth sudo:     root : problem with defaults entries ; TTY=pts/0 ; PWD=/home/pi ; USER=root ;
+Jan 18 14:51:38 pi-projet2SU-barth sudo:     root : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/chmod a+rx /usr/local/bin/youtube-dl
+Jan 18 14:51:38 pi-projet2SU-barth sudo: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Jan 18 14:51:38 pi-projet2SU-barth sudo: pam_unix(sudo:session): session closed for user root
+Jan 18 15:13:14 pi-projet2SU-barth sshd[511]: Received signal 15; terminating.
+Jan 18 15:13:14 pi-projet2SU-barth sshd[8333]: Server listening on 0.0.0.0 port 22.
+Jan 18 15:13:14 pi-projet2SU-barth sshd[8333]: Server listening on :: port 22.
+Jan 18 15:17:01 pi-projet2SU-barth CRON[8364]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 18 15:17:01 pi-projet2SU-barth CRON[8364]: pam_unix(cron:session): session closed for user root
+Jan 18 15:47:54 pi-projet2SU-barth useradd[8814]: new user: name=mongodb, UID=109, GID=65534, home=/var/lib/mongodb, shell=/bin/false
+Jan 18 15:47:54 pi-projet2SU-barth usermod[8820]: change user 'mongodb' password
+Jan 18 15:47:55 pi-projet2SU-barth chage[8826]: changed password expiry for mongodb
+Jan 18 15:47:55 pi-projet2SU-barth groupadd[8831]: group added to /etc/group: name=mongodb, GID=113
+Jan 18 15:47:55 pi-projet2SU-barth groupadd[8831]: group added to /etc/gshadow: name=mongodb
+Jan 18 15:47:55 pi-projet2SU-barth groupadd[8831]: new group: name=mongodb, GID=113
+Jan 18 15:47:55 pi-projet2SU-barth gpasswd[8837]: user mongodb added by root to group mongodb
+Jan 18 16:17:01 pi-projet2SU-barth CRON[9134]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 18 16:17:01 pi-projet2SU-barth CRON[9134]: pam_unix(cron:session): session closed for user root

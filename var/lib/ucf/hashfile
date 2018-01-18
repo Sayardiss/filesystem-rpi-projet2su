@@ -1,0 +1,5 @@
+95b44915e267400669b2724e0cce5967  /etc/samba/smb.conf
+6e4c2dde6c6970f124de9493e2c286fa  /etc/idmapd.conf
+ddcb1fbb90a14ff9850f22eed0127a10  /etc/default/nfs-common
+bbad7ed242a834e831c7066901cee49e  /etc/ssh/sshd_config
+19e16b9a2eceaf97b52be3b4ea887c0d  /etc/apt/listchanges.conf

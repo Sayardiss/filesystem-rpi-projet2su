@@ -1,0 +1,937 @@
+Nov 29 02:37:06 raspberrypi fake-hwclock[112]: Wed 29 Nov 02:37:04 UTC 2017
+Nov 29 02:37:06 raspberrypi systemd-fsck[127]: e2fsck 1.43.4 (31-Jan-2017)
+Nov 29 02:37:06 raspberrypi systemd-fsck[127]: Superblock last write time is in the future.
+Nov 29 02:37:06 raspberrypi systemd-fsck[127]: #011(by less than a day, probably due to the hardware clock being incorrectly set)
+Nov 29 02:37:06 raspberrypi systemd-fsck[127]: rootfs: clean, 39394/110656 files, 256435/441856 blocks
+Nov 29 02:37:06 raspberrypi systemd[1]: Time has been changed
+Nov 29 02:37:06 raspberrypi systemd[1]: Started File System Check Daemon to report status.
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Apply Kernel Variables...
+Nov 29 02:37:06 raspberrypi systemd[1]: Mounting Configuration File System...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Create Static Device Nodes in /dev...
+Nov 29 02:37:06 raspberrypi systemd[1]: Mounted Configuration File System.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started File System Check on Root Device.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Apply Kernel Variables.
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Remount Root and Kernel File Systems...
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Create Static Device Nodes in /dev.
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting udev Kernel Device Manager...
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Remount Root and Kernel File Systems.
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting udev Coldplug all Devices...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Load/Save Random Seed...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Flush Journal to Persistent Storage...
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Load/Save Random Seed.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Flush Journal to Persistent Storage.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Set the console keyboard layout.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started udev Kernel Device Manager.
+Nov 29 02:37:06 raspberrypi systemd[1]: Reached target Local File Systems (Pre).
+Nov 29 02:37:06 raspberrypi systemd[1]: Started udev Coldplug all Devices.
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Show Plymouth Boot Screen...
+Nov 29 02:37:06 raspberrypi systemd[1]: Found device /dev/serial1.
+Nov 29 02:37:06 raspberrypi systemd[1]: Received SIGRTMIN+20 from PID 204 (plymouthd).
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Show Plymouth Boot Screen.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Nov 29 02:37:06 raspberrypi systemd[1]: Reached target Encrypted Volumes.
+Nov 29 02:37:06 raspberrypi systemd[1]: Reached target Paths.
+Nov 29 02:37:06 raspberrypi systemd[1]: Found device /dev/disk/by-partuuid/2ed5c94e-01.
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting File System Check on /dev/disk/by-partuuid/2ed5c94e-01...
+Nov 29 02:37:06 raspberrypi systemd[1]: Reached target Sound Card.
+Nov 29 02:37:06 raspberrypi systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Load/Save RF Kill Switch Status...
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Load/Save RF Kill Switch Status.
+Nov 29 02:37:06 raspberrypi systemd-udevd[184]: Process '/usr/sbin/alsactl -E HOME=/run/alsa restore 0' failed with exit code 99.
+Nov 29 02:37:06 raspberrypi systemd-fsck[247]: fsck.fat 4.1 (2017-01-24)
+Nov 29 02:37:06 raspberrypi systemd-fsck[247]: /dev/mmcblk0p1: 144 files, 42654/83705 clusters
+Nov 29 02:37:06 raspberrypi systemd[1]: Started File System Check on /dev/disk/by-partuuid/2ed5c94e-01.
+Nov 29 02:37:06 raspberrypi systemd[1]: Mounting /boot...
+Nov 29 02:37:06 raspberrypi systemd[1]: Mounted /boot.
+Nov 29 02:37:06 raspberrypi systemd[1]: Reached target Local File Systems.
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Set console font and keymap...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Raise network interfaces...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Commit a transient machine-id on disk...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Create Volatile Files and Directories...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Preprocess NFS configuration...
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Set console font and keymap.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Preprocess NFS configuration.
+Nov 29 02:37:06 raspberrypi systemd[1]: Reached target NFS client services.
+Nov 29 02:37:06 raspberrypi systemd[1]: Reached target Remote File Systems (Pre).
+Nov 29 02:37:06 raspberrypi systemd[1]: Reached target Remote File Systems.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Create Volatile Files and Directories.
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Network Time Synchronization...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Commit a transient machine-id on disk.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Network Time Synchronization.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Raise network interfaces.
+Nov 29 02:37:06 raspberrypi systemd[1]: Reached target System Initialization.
+Nov 29 02:37:06 raspberrypi systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Daily Cleanup of Temporary Directories.
+Nov 29 02:37:06 raspberrypi systemd[1]: Listening on triggerhappy.socket.
+Nov 29 02:37:06 raspberrypi systemd[1]: Listening on D-Bus System Message Bus Socket.
+Nov 29 02:37:06 raspberrypi systemd[1]: Reached target Sockets.
+Nov 29 02:37:06 raspberrypi systemd[1]: Reached target Basic System.
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Regular background program processing daemon.
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting triggerhappy global hotkey daemon...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Save/Restore Sound Card State...
+Nov 29 02:37:06 raspberrypi alsactl[345]: /usr/sbin/alsactl: load_state:1683: Cannot open /var/lib/alsa/asound.state for reading: No such file or directory
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting System Logging Service...
+Nov 29 02:37:06 raspberrypi alsactl[345]: Found hardware: "bcm2835" "Broadcom Mixer" "" "" ""
+Nov 29 02:37:06 raspberrypi alsactl[345]: Hardware is initialized using a generic method
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting dhcpcd on all interfaces...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Configure Bluetooth Modems connected by UART...
+Nov 29 02:37:06 raspberrypi thd[344]: Found socket passed from systemd
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting LSB: Resize the root filesystem to fill partition...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Regenerate SSH host keys...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Login Service...
+Nov 29 02:37:06 raspberrypi systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Nov 29 02:37:06 raspberrypi systemd[1]: Started D-Bus System Message Bus.
+Nov 29 02:37:06 raspberrypi dd[352]: 1+0 records in
+Nov 29 02:37:06 raspberrypi dd[352]: 1+0 records out
+Nov 29 02:37:06 raspberrypi dd[352]: 4096 bytes (4.1 kB, 4.0 KiB) copied, 0.0481087 s, 85.1 kB/s
+Nov 29 02:37:06 raspberrypi dhcpcd[347]: dev: loaded udev
+Nov 29 02:37:06 raspberrypi avahi-daemon[360]: Found user 'avahi' (UID 108) and group 'avahi' (GID 112).
+Nov 29 02:37:06 raspberrypi avahi-daemon[360]: Successfully dropped root privileges.
+Nov 29 02:37:06 raspberrypi avahi-daemon[360]: avahi-daemon 0.6.32 starting up.
+Nov 29 02:37:06 raspberrypi avahi-daemon[360]: Successfully called chroot().
+Nov 29 02:37:06 raspberrypi avahi-daemon[360]: Successfully dropped remaining capabilities.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Nov 29 02:37:06 raspberrypi systemd[1]: Reached target System Time Synchronized.
+Nov 29 02:37:06 raspberrypi avahi-daemon[360]: No service file found in /etc/avahi/services.
+Nov 29 02:37:06 raspberrypi systemd[1]: apt-daily.timer: Adding 8h 10min 57.673712s random time.
+Nov 29 02:37:06 raspberrypi avahi-daemon[360]: Network interface enumeration completed.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Daily apt download activities.
+Nov 29 02:37:06 raspberrypi avahi-daemon[360]: Server startup complete. Host name is raspberrypi.local. Local service cookie is 2181646608.
+Nov 29 02:37:06 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 33min 28.154940s random time.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Daily apt upgrade and clean activities.
+Nov 29 02:37:06 raspberrypi systemd[1]: Reached target Timers.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started triggerhappy global hotkey daemon.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started System Logging Service.
+Nov 29 02:37:06 raspberrypi dhcpcd[347]: wlan0: starting wpa_supplicant
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Save/Restore Sound Card State.
+Nov 29 02:37:06 raspberrypi dhcpcd-run-hooks[401]: wlan0: starting wpa_supplicant
+Nov 29 02:37:06 raspberrypi dphys-swapfile[357]: Starting dphys-swapfile swapfile setup ...
+Nov 29 02:37:06 raspberrypi raspi-config[340]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Nov 29 02:37:06 raspberrypi systemd[1]: Started Login Service.
+Nov 29 02:37:06 raspberrypi raspi-config[340]:  No. Switching to ondemand scaling governor.
+Nov 29 02:37:06 raspberrypi systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Nov 29 02:37:06 raspberrypi resize2fs_once[351]: Starting resize2fs_once:resize2fs 1.43.4 (31-Jan-2017)
+Nov 29 02:37:07 raspberrypi dhcpcd[347]: eth0: waiting for carrier
+Nov 29 02:37:07 raspberrypi dhcpcd[347]: wlan0: waiting for carrier
+Nov 29 02:37:07 raspberrypi dhcpcd[347]: wlan0: carrier acquired
+Nov 29 02:37:07 raspberrypi dhcpcd[347]: DUID 00:01:00:01:21:b0:d9:d3:b8:27:eb:d4:b1:34
+Nov 29 02:37:07 raspberrypi dhcpcd[347]: wlan0: IAID eb:d4:b1:34
+Nov 29 02:37:07 raspberrypi dhcpcd[347]: wlan0: adding address fe80::77b:c82b:9c81:3cf6
+Nov 29 02:37:07 raspberrypi dhcpcd[347]: wlan0: carrier lost
+Nov 29 02:37:07 raspberrypi dhcpcd[347]: wlan0: deleting address fe80::77b:c82b:9c81:3cf6
+Nov 29 02:37:07 raspberrypi dphys-swapfile[357]: want /var/swap=100MByte, generating swapfile ... of 100MBytes
+Nov 29 02:37:07 raspberrypi dphys-swapfile[357]: done.
+Nov 29 02:37:07 raspberrypi systemd[1]: Started LSB: Autogenerate and use a swap file.
+Nov 29 02:37:08 raspberrypi dhcpcd[347]: eth0: carrier acquired
+Nov 29 02:37:08 raspberrypi dhcpcd[347]: eth0: IAID eb:81:e4:61
+Nov 29 02:37:08 raspberrypi dhcpcd[347]: eth0: adding address fe80::1624:4ef7:9839:676
+Nov 29 02:37:09 raspberrypi dhcpcd[347]: eth0: soliciting an IPv6 router
+Nov 29 02:37:09 raspberrypi dhcpcd[347]: eth0: soliciting a DHCP lease
+Nov 29 02:37:09 raspberrypi resize2fs_once[351]: Filesystem at /dev/mmcblk0p2 is mounted on /; on-line resizing required
+Nov 29 02:37:09 raspberrypi resize2fs_once[351]: old_desc_blocks = 1, new_desc_blocks = 1
+Nov 29 02:37:09 raspberrypi resize2fs_once[351]: The filesystem on /dev/mmcblk0p2 is now 3916032 (4k) blocks long.
+Nov 29 02:37:10 raspberrypi systemd[1]: Reloading.
+Nov 29 02:37:10 raspberrypi dhcpcd[347]: eth0: offered 172.30.4.79 from 172.30.15.254 `san2su'
+Nov 29 02:37:10 raspberrypi dhcpcd[347]: eth0: probing address 172.30.4.79/16
+Nov 29 02:37:10 raspberrypi avahi-daemon[360]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::1624:4ef7:9839:676.
+Nov 29 02:37:10 raspberrypi avahi-daemon[360]: New relevant interface eth0.IPv6 for mDNS.
+Nov 29 02:37:10 raspberrypi avahi-daemon[360]: Registering new address record for fe80::1624:4ef7:9839:676 on eth0.*.
+Nov 29 02:37:10 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 15min 41.382100s random time.
+Nov 29 02:37:10 raspberrypi resize2fs_once[351]: .
+Nov 29 02:37:10 raspberrypi systemd[1]: Started LSB: Resize the root filesystem to fill partition.
+Nov 29 02:37:10 raspberrypi btuart[349]: bcm43xx_init
+Nov 29 02:37:10 raspberrypi btuart[349]: Flash firmware /lib/firmware/BCM43430A1.hcd
+Nov 29 02:37:10 raspberrypi btuart[349]: Set BDADDR UART: b8:27:eb:2b:4e:cb
+Nov 29 02:37:10 raspberrypi btuart[349]: Set Controller UART speed to 921600 bit/s
+Nov 29 02:37:10 raspberrypi btuart[349]: Device setup complete
+Nov 29 02:37:10 raspberrypi systemd[1]: Starting Load/Save RF Kill Switch Status...
+Nov 29 02:37:11 raspberrypi systemd[1]: Started Load/Save RF Kill Switch Status.
+Nov 29 02:37:11 raspberrypi systemd[1]: Started Configure Bluetooth Modems connected by UART.
+Nov 29 02:37:11 raspberrypi systemd[1]: Starting Bluetooth service...
+Nov 29 02:37:11 raspberrypi bluetoothd[486]: Bluetooth daemon 5.43
+Nov 29 02:37:11 raspberrypi systemd[1]: Started Bluetooth service.
+Nov 29 02:37:11 raspberrypi systemd[1]: Reached target Bluetooth.
+Nov 29 02:37:11 raspberrypi bluetoothd[486]: Starting SDP server
+Nov 29 02:37:11 raspberrypi dbus[362]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Nov 29 02:37:11 raspberrypi bluetoothd[486]: Bluetooth management interface 1.14 initialized
+Nov 29 02:37:11 raspberrypi bluetoothd[486]: Failed to obtain handles for "Service Changed" characteristic
+Nov 29 02:37:11 raspberrypi bluetoothd[486]: Sap driver initialization failed.
+Nov 29 02:37:11 raspberrypi bluetoothd[486]: sap-server: Operation not permitted (1)
+Nov 29 02:37:11 raspberrypi systemd[1]: Starting Hostname Service...
+Nov 29 02:37:11 raspberrypi dbus[362]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Nov 29 02:37:11 raspberrypi systemd[1]: Started Hostname Service.
+Nov 29 02:37:15 raspberrypi ssh-keygen[408]: ssh-keygen: generating new host keys: RSA DSA ECDSA ED25519
+Nov 29 02:37:15 raspberrypi systemctl[498]: Removed /etc/systemd/system/multi-user.target.wants/regenerate_ssh_host_keys.service.
+Nov 29 02:37:15 raspberrypi systemd[1]: Reloading.
+Nov 29 02:37:15 raspberrypi dhcpcd[347]: eth0: leased 172.30.4.79 for 28800 seconds
+Nov 29 02:37:15 raspberrypi dhcpcd[347]: eth0: adding route to 172.30.0.0/16
+Nov 29 02:37:15 raspberrypi dhcpcd[347]: eth0: adding default route via 172.30.3.254
+Nov 29 02:37:15 raspberrypi avahi-daemon[360]: Joining mDNS multicast group on interface eth0.IPv4 with address 172.30.4.79.
+Nov 29 02:37:15 raspberrypi avahi-daemon[360]: New relevant interface eth0.IPv4 for mDNS.
+Nov 29 02:37:15 raspberrypi avahi-daemon[360]: Registering new address record for 172.30.4.79 on eth0.IPv4.
+Nov 29 02:37:15 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 13min 34.825027s random time.
+Nov 29 02:37:15 raspberrypi systemd[1]: Started Regenerate SSH host keys.
+Nov 29 02:37:15 raspberrypi dhcpcd[347]: Too few arguments.
+Nov 29 02:37:15 raspberrypi dhcpcd[347]: Too few arguments.
+Nov 29 02:37:15 raspberrypi dhcpcd[347]: forked to background, child pid 561
+Nov 29 02:37:15 raspberrypi systemd[1]: Started dhcpcd on all interfaces.
+Nov 29 02:37:15 raspberrypi systemd[1]: Reached target Network.
+Nov 29 02:37:15 raspberrypi systemd[1]: Starting /etc/rc.local Compatibility...
+Nov 29 02:37:15 raspberrypi systemd[1]: Starting Permit User Sessions...
+Nov 29 02:37:15 raspberrypi systemd[1]: Started /etc/rc.local Compatibility.
+Nov 29 02:37:15 raspberrypi systemd[1]: Started Permit User Sessions.
+Nov 29 02:37:15 raspberrypi systemd[1]: Starting Hold until boot process finishes up...
+Nov 29 02:37:15 raspberrypi systemd[1]: Starting Terminate Plymouth Boot Screen...
+Nov 29 02:37:15 raspberrypi systemd[1]: Received SIGRTMIN+21 from PID 204 (plymouthd).
+Nov 29 02:37:15 raspberrypi systemd[1]: Started Hold until boot process finishes up.
+Nov 29 02:37:15 raspberrypi systemd[1]: Started Terminate Plymouth Boot Screen.
+Nov 29 02:37:15 raspberrypi systemd[1]: Started Getty on tty1.
+Nov 29 02:37:15 raspberrypi systemd[1]: Reached target Login Prompts.
+Nov 29 02:37:15 raspberrypi systemd[1]: Reached target Multi-User System.
+Nov 29 02:37:15 raspberrypi systemd[1]: Reached target Graphical Interface.
+Nov 29 02:37:15 raspberrypi systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Nov 29 02:37:15 raspberrypi systemd[1]: Started Update UTMP about System Runlevel Changes.
+Nov 29 02:37:15 raspberrypi systemd[1]: Startup finished in 1.821s (kernel) + 12.876s (userspace) = 14.697s.
+Nov 29 02:37:22 raspberrypi dhcpcd[561]: eth0: no IPv6 Routers available
+Jan 18 14:40:00 raspberrypi systemd[1]: Time has been changed
+Jan 18 14:40:00 raspberrypi systemd[1]: apt-daily.timer: Adding 3h 24min 12.925222s random time.
+Jan 18 14:40:00 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 52min 31.091537s random time.
+Jan 18 14:40:08 raspberrypi systemd-udevd[585]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Jan 18 14:40:08 raspberrypi systemd-udevd[591]: Process '/usr/sbin/th-cmd --socket /var/run/thd.socket --passfd --udev' failed with exit code 1.
+Jan 18 14:40:18 raspberrypi systemd[1]: Created slice User Slice of pi.
+Jan 18 14:40:18 raspberrypi systemd[1]: Starting User Manager for UID 1000...
+Jan 18 14:40:18 raspberrypi systemd[1]: Started Session c1 of user pi.
+Jan 18 14:40:18 raspberrypi systemd[600]: Reached target Timers.
+Jan 18 14:40:18 raspberrypi systemd[600]: Reached target Paths.
+Jan 18 14:40:18 raspberrypi systemd[600]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 18 14:40:18 raspberrypi systemd[600]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 18 14:40:18 raspberrypi systemd[600]: Listening on GnuPG cryptographic agent (access for web browsers).
+Jan 18 14:40:18 raspberrypi systemd[600]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 18 14:40:18 raspberrypi systemd[600]: Reached target Sockets.
+Jan 18 14:40:18 raspberrypi systemd[600]: Reached target Basic System.
+Jan 18 14:40:18 raspberrypi systemd[600]: Reached target Default.
+Jan 18 14:40:18 raspberrypi systemd[600]: Startup finished in 52ms.
+Jan 18 14:40:18 raspberrypi systemd[1]: Started User Manager for UID 1000.
+Jan 18 14:40:36 raspberrypi systemd[1]: Stopped target Sound Card.
+Jan 18 14:40:36 raspberrypi systemd[1]: Stopping Session c1 of user pi.
+Jan 18 14:40:36 raspberrypi systemd[1]: Stopping Save/Restore Sound Card State...
+Jan 18 14:40:36 raspberrypi systemd[1]: Stopped target Bluetooth.
+Jan 18 14:40:39 raspberrypi systemd-fsck[107]: e2fsck 1.43.4 (31-Jan-2017)
+Jan 18 14:40:39 raspberrypi fake-hwclock[114]: Thu 18 Jan 14:40:37 UTC 2018
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Create Static Device Nodes in /dev.
+Jan 18 14:40:39 raspberrypi systemd-fsck[107]: rootfs: clean, 39438/948480 files, 335116/3916032 blocks
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting udev Kernel Device Manager...
+Jan 18 14:40:39 raspberrypi systemd[1]: Started File System Check on Root Device.
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Remount Root and Kernel File Systems...
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Remount Root and Kernel File Systems.
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Load/Save Random Seed...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting udev Coldplug all Devices...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Flush Journal to Persistent Storage...
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Load/Save Random Seed.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started udev Kernel Device Manager.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Set the console keyboard layout.
+Jan 18 14:40:39 raspberrypi systemd[1]: Reached target Local File Systems (Pre).
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Flush Journal to Persistent Storage.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started udev Coldplug all Devices.
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Show Plymouth Boot Screen...
+Jan 18 14:40:39 raspberrypi systemd[1]: Received SIGRTMIN+20 from PID 205 (plymouthd).
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Show Plymouth Boot Screen.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Jan 18 14:40:39 raspberrypi systemd[1]: Reached target Encrypted Volumes.
+Jan 18 14:40:39 raspberrypi systemd[1]: Reached target Paths.
+Jan 18 14:40:39 raspberrypi systemd[1]: Found device /dev/serial1.
+Jan 18 14:40:39 raspberrypi systemd[1]: Found device /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting File System Check on /dev/disk/by-partuuid/2ed5c94e-01...
+Jan 18 14:40:39 raspberrypi systemd[1]: Reached target Sound Card.
+Jan 18 14:40:39 raspberrypi systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 14:40:39 raspberrypi systemd-fsck[245]: fsck.fat 4.1 (2017-01-24)
+Jan 18 14:40:39 raspberrypi systemd-fsck[245]: /dev/mmcblk0p1: 144 files, 42654/83705 clusters
+Jan 18 14:40:39 raspberrypi systemd[1]: Started File System Check on /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 14:40:39 raspberrypi systemd[1]: Mounting /boot...
+Jan 18 14:40:39 raspberrypi systemd[1]: Mounted /boot.
+Jan 18 14:40:39 raspberrypi systemd[1]: Reached target Local File Systems.
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Create Volatile Files and Directories...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Set console font and keymap...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Preprocess NFS configuration...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Raise network interfaces...
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Preprocess NFS configuration.
+Jan 18 14:40:39 raspberrypi systemd[1]: Reached target NFS client services.
+Jan 18 14:40:39 raspberrypi systemd[1]: Reached target Remote File Systems (Pre).
+Jan 18 14:40:39 raspberrypi systemd[1]: Reached target Remote File Systems.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Set console font and keymap.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Create Volatile Files and Directories.
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Network Time Synchronization...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Network Time Synchronization.
+Jan 18 14:40:39 raspberrypi systemd[1]: Reached target System Initialization.
+Jan 18 14:40:39 raspberrypi systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Jan 18 14:40:39 raspberrypi systemd[1]: Listening on triggerhappy.socket.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jan 18 14:40:39 raspberrypi systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jan 18 14:40:39 raspberrypi systemd[1]: Reached target Sockets.
+Jan 18 14:40:39 raspberrypi systemd[1]: Reached target Basic System.
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting System Logging Service...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting triggerhappy global hotkey daemon...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Save/Restore Sound Card State...
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Regular background program processing daemon.
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Configure Bluetooth Modems connected by UART...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting dhcpcd on all interfaces...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Login Service...
+Jan 18 14:40:39 raspberrypi systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Jan 18 14:40:39 raspberrypi systemd[1]: Started D-Bus System Message Bus.
+Jan 18 14:40:39 raspberrypi thd[335]: Found socket passed from systemd
+Jan 18 14:40:39 raspberrypi dhcpcd[350]: dev: loaded udev
+Jan 18 14:40:39 raspberrypi avahi-daemon[352]: Found user 'avahi' (UID 108) and group 'avahi' (GID 112).
+Jan 18 14:40:39 raspberrypi avahi-daemon[352]: Successfully dropped root privileges.
+Jan 18 14:40:39 raspberrypi avahi-daemon[352]: avahi-daemon 0.6.32 starting up.
+Jan 18 14:40:39 raspberrypi avahi-daemon[352]: Successfully called chroot().
+Jan 18 14:40:39 raspberrypi avahi-daemon[352]: Successfully dropped remaining capabilities.
+Jan 18 14:40:39 raspberrypi avahi-daemon[352]: No service file found in /etc/avahi/services.
+Jan 18 14:40:39 raspberrypi avahi-daemon[352]: Network interface enumeration completed.
+Jan 18 14:40:39 raspberrypi avahi-daemon[352]: Server startup complete. Host name is raspberrypi.local. Local service cookie is 1489254162.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Jan 18 14:40:39 raspberrypi systemd[1]: Reached target System Time Synchronized.
+Jan 18 14:40:39 raspberrypi systemd[1]: apt-daily.timer: Adding 55min 31.028580s random time.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Daily apt download activities.
+Jan 18 14:40:39 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 47min 59.838335s random time.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 18 14:40:39 raspberrypi systemd[1]: Reached target Timers.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started triggerhappy global hotkey daemon.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started System Logging Service.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Raise network interfaces.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Save/Restore Sound Card State.
+Jan 18 14:40:39 raspberrypi dhcpcd[350]: wlan0: starting wpa_supplicant
+Jan 18 14:40:39 raspberrypi dhcpcd-run-hooks[394]: wlan0: starting wpa_supplicant
+Jan 18 14:40:39 raspberrypi systemd[1]: Started Login Service.
+Jan 18 14:40:39 raspberrypi dphys-swapfile[337]: Starting dphys-swapfile swapfile setup ...
+Jan 18 14:40:39 raspberrypi raspi-config[339]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Jan 18 14:40:39 raspberrypi raspi-config[339]:  No. Switching to ondemand scaling governor.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Jan 18 14:40:39 raspberrypi dphys-swapfile[337]: want /var/swap=100MByte, checking existing: keeping it
+Jan 18 14:40:39 raspberrypi dphys-swapfile[337]: done.
+Jan 18 14:40:39 raspberrypi systemd[1]: Started LSB: Autogenerate and use a swap file.
+Jan 18 14:40:40 raspberrypi dhcpcd[350]: eth0: waiting for carrier
+Jan 18 14:40:40 raspberrypi dhcpcd[350]: wlan0: waiting for carrier
+Jan 18 14:40:40 raspberrypi dhcpcd[350]: wlan0: carrier acquired
+Jan 18 14:40:40 raspberrypi dhcpcd[350]: DUID 00:01:00:01:21:b0:d9:d3:b8:27:eb:d4:b1:34
+Jan 18 14:40:40 raspberrypi dhcpcd[350]: wlan0: IAID eb:d4:b1:34
+Jan 18 14:40:40 raspberrypi dhcpcd[350]: wlan0: adding address fe80::77b:c82b:9c81:3cf6
+Jan 18 14:40:40 raspberrypi dhcpcd[350]: wlan0: carrier lost
+Jan 18 14:40:40 raspberrypi dhcpcd[350]: wlan0: deleting address fe80::77b:c82b:9c81:3cf6
+Jan 18 14:40:41 raspberrypi dhcpcd[350]: eth0: carrier acquired
+Jan 18 14:40:41 raspberrypi dhcpcd[350]: eth0: IAID eb:81:e4:61
+Jan 18 14:40:41 raspberrypi dhcpcd[350]: eth0: adding address fe80::1624:4ef7:9839:676
+Jan 18 14:40:41 raspberrypi dhcpcd[350]: eth0: soliciting an IPv6 router
+Jan 18 14:40:42 raspberrypi dhcpcd[350]: eth0: soliciting a DHCP lease
+Jan 18 14:40:43 raspberrypi avahi-daemon[352]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::1624:4ef7:9839:676.
+Jan 18 14:40:43 raspberrypi avahi-daemon[352]: New relevant interface eth0.IPv6 for mDNS.
+Jan 18 14:40:43 raspberrypi avahi-daemon[352]: Registering new address record for fe80::1624:4ef7:9839:676 on eth0.*.
+Jan 18 14:40:43 raspberrypi dhcpcd[350]: eth0: offered 172.30.4.79 from 172.30.15.254 `san2su'
+Jan 18 14:40:43 raspberrypi dhcpcd[350]: eth0: probing address 172.30.4.79/16
+Jan 18 14:40:43 raspberrypi btuart[345]: bcm43xx_init
+Jan 18 14:40:43 raspberrypi btuart[345]: Flash firmware /lib/firmware/BCM43430A1.hcd
+Jan 18 14:40:43 raspberrypi btuart[345]: Set BDADDR UART: b8:27:eb:2b:4e:cb
+Jan 18 14:40:43 raspberrypi btuart[345]: Set Controller UART speed to 921600 bit/s
+Jan 18 14:40:43 raspberrypi btuart[345]: Device setup complete
+Jan 18 14:40:43 raspberrypi systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 14:40:43 raspberrypi systemd[1]: Started Configure Bluetooth Modems connected by UART.
+Jan 18 14:40:43 raspberrypi systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 14:40:43 raspberrypi systemd[1]: Starting Bluetooth service...
+Jan 18 14:40:43 raspberrypi bluetoothd[451]: Bluetooth daemon 5.43
+Jan 18 14:40:43 raspberrypi systemd[1]: Started Bluetooth service.
+Jan 18 14:40:43 raspberrypi systemd[1]: Reached target Bluetooth.
+Jan 18 14:40:43 raspberrypi bluetoothd[451]: Starting SDP server
+Jan 18 14:40:43 raspberrypi bluetoothd[451]: Bluetooth management interface 1.14 initialized
+Jan 18 14:40:43 raspberrypi dbus[353]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jan 18 14:40:43 raspberrypi bluetoothd[451]: Failed to obtain handles for "Service Changed" characteristic
+Jan 18 14:40:43 raspberrypi bluetoothd[451]: Sap driver initialization failed.
+Jan 18 14:40:43 raspberrypi bluetoothd[451]: sap-server: Operation not permitted (1)
+Jan 18 14:40:43 raspberrypi systemd[1]: Starting Hostname Service...
+Jan 18 14:40:44 raspberrypi dbus[353]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan 18 14:40:44 raspberrypi systemd[1]: Started Hostname Service.
+Jan 18 14:40:47 raspberrypi dhcpcd[350]: eth0: leased 172.30.4.79 for 28800 seconds
+Jan 18 14:40:47 raspberrypi dhcpcd[350]: eth0: adding route to 172.30.0.0/16
+Jan 18 14:40:47 raspberrypi dhcpcd[350]: eth0: adding default route via 172.30.3.254
+Jan 18 14:40:47 raspberrypi avahi-daemon[352]: Joining mDNS multicast group on interface eth0.IPv4 with address 172.30.4.79.
+Jan 18 14:40:47 raspberrypi avahi-daemon[352]: New relevant interface eth0.IPv4 for mDNS.
+Jan 18 14:40:47 raspberrypi avahi-daemon[352]: Registering new address record for 172.30.4.79 on eth0.IPv4.
+Jan 18 14:40:48 raspberrypi dhcpcd[350]: forked to background, child pid 508
+Jan 18 14:40:48 raspberrypi systemd[1]: Started dhcpcd on all interfaces.
+Jan 18 14:40:48 raspberrypi systemd[1]: Reached target Network.
+Jan 18 14:40:48 raspberrypi systemd[1]: Reached target Network is Online.
+Jan 18 14:40:48 raspberrypi systemd[1]: Starting Daily apt download activities...
+Jan 18 14:40:48 raspberrypi systemd[1]: Starting /etc/rc.local Compatibility...
+Jan 18 14:40:48 raspberrypi systemd[1]: Starting Permit User Sessions...
+Jan 18 14:40:48 raspberrypi systemd[1]: Started /etc/rc.local Compatibility.
+Jan 18 14:40:48 raspberrypi systemd[1]: Started Permit User Sessions.
+Jan 18 14:40:48 raspberrypi systemd[1]: Starting Hold until boot process finishes up...
+Jan 18 14:40:48 raspberrypi systemd[1]: Starting Terminate Plymouth Boot Screen...
+Jan 18 14:40:48 raspberrypi systemd[1]: Received SIGRTMIN+21 from PID 205 (plymouthd).
+Jan 18 14:40:48 raspberrypi systemd[1]: Started Hold until boot process finishes up.
+Jan 18 14:40:48 raspberrypi systemd[1]: Started Terminate Plymouth Boot Screen.
+Jan 18 14:40:48 raspberrypi systemd[1]: Started Getty on tty1.
+Jan 18 14:40:48 raspberrypi systemd[1]: Reached target Login Prompts.
+Jan 18 14:40:48 raspberrypi systemd[1]: Reached target Multi-User System.
+Jan 18 14:40:48 raspberrypi systemd[1]: Reached target Graphical Interface.
+Jan 18 14:40:48 raspberrypi systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jan 18 14:40:48 raspberrypi systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jan 18 14:40:55 raspberrypi dhcpcd[508]: eth0: no IPv6 Routers available
+Jan 18 14:40:55 raspberrypi systemd[1]: Started Daily apt download activities.
+Jan 18 14:40:55 raspberrypi systemd[1]: apt-daily.timer: Adding 4h 41min 53.322824s random time.
+Jan 18 14:40:55 raspberrypi systemd[1]: apt-daily.timer: Adding 5h 16min 39.521253s random time.
+Jan 18 14:40:55 raspberrypi systemd[1]: Starting Daily apt upgrade and clean activities...
+Jan 18 14:40:57 raspberrypi systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 18 14:40:57 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 55min 20.437347s random time.
+Jan 18 14:40:57 raspberrypi systemd[1]: Startup finished in 1.611s (kernel) + 21.153s (userspace) = 22.764s.
+Jan 18 14:40:57 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 43min 49.854325s random time.
+Jan 18 14:41:46 raspberrypi systemd[1]: Time has been changed
+Jan 18 14:41:46 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 28min 10.764577s random time.
+Jan 18 14:41:46 raspberrypi systemd[1]: apt-daily.timer: Adding 1h 40min 23.007518s random time.
+Jan 18 14:41:46 raspberrypi fake-hwclock[111]: Thu 18 Jan 14:40:37 UTC 2018
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Restore / save the current clock.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Create list of required static device nodes for the current kernel.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Load Kernel Modules.
+Jan 18 14:41:46 raspberrypi systemd[1]: Time has been changed
+Jan 18 14:41:46 raspberrypi systemd[1]: Started File System Check Daemon to report status.
+Jan 18 14:41:46 raspberrypi systemd[1]: Mounting Configuration File System...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Apply Kernel Variables...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Create Static Device Nodes in /dev...
+Jan 18 14:41:46 raspberrypi systemd[1]: Mounted Configuration File System.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Apply Kernel Variables.
+Jan 18 14:41:46 raspberrypi systemd-fsck[109]: e2fsck 1.43.4 (31-Jan-2017)
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Create Static Device Nodes in /dev.
+Jan 18 14:41:46 raspberrypi systemd-fsck[109]: Superblock last mount time is in the future.
+Jan 18 14:41:46 raspberrypi systemd-fsck[109]: #011(by less than a day, probably due to the hardware clock being incorrectly set)
+Jan 18 14:41:46 raspberrypi systemd-fsck[109]: Superblock last write time is in the future.
+Jan 18 14:41:46 raspberrypi systemd-fsck[109]: #011(by less than a day, probably due to the hardware clock being incorrectly set)
+Jan 18 14:41:46 raspberrypi systemd-fsck[109]: rootfs: clean, 39446/948480 files, 348080/3916032 blocks
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting udev Kernel Device Manager...
+Jan 18 14:41:46 raspberrypi systemd[1]: Started File System Check on Root Device.
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Remount Root and Kernel File Systems...
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Remount Root and Kernel File Systems.
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Flush Journal to Persistent Storage...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Load/Save Random Seed...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting udev Coldplug all Devices...
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Load/Save Random Seed.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started udev Kernel Device Manager.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Flush Journal to Persistent Storage.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Set the console keyboard layout.
+Jan 18 14:41:46 raspberrypi systemd[1]: Reached target Local File Systems (Pre).
+Jan 18 14:41:46 raspberrypi systemd[1]: Started udev Coldplug all Devices.
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Show Plymouth Boot Screen...
+Jan 18 14:41:46 raspberrypi systemd[1]: Found device /dev/serial1.
+Jan 18 14:41:46 raspberrypi systemd[1]: Received SIGRTMIN+20 from PID 203 (plymouthd).
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Show Plymouth Boot Screen.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Jan 18 14:41:46 raspberrypi systemd[1]: Reached target Paths.
+Jan 18 14:41:46 raspberrypi systemd[1]: Reached target Encrypted Volumes.
+Jan 18 14:41:46 raspberrypi systemd[1]: Found device /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting File System Check on /dev/disk/by-partuuid/2ed5c94e-01...
+Jan 18 14:41:46 raspberrypi systemd[1]: Reached target Sound Card.
+Jan 18 14:41:46 raspberrypi systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 14:41:46 raspberrypi systemd-fsck[245]: fsck.fat 4.1 (2017-01-24)
+Jan 18 14:41:46 raspberrypi systemd-fsck[245]: 0x41: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+Jan 18 14:41:46 raspberrypi systemd-fsck[245]:  Automatically removing dirty bit.
+Jan 18 14:41:46 raspberrypi systemd-fsck[245]: Performing changes.
+Jan 18 14:41:46 raspberrypi systemd-fsck[245]: /dev/mmcblk0p1: 150 files, 42660/83705 clusters
+Jan 18 14:41:46 raspberrypi systemd[1]: Started File System Check on /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 14:41:46 raspberrypi systemd[1]: Mounting /boot...
+Jan 18 14:41:46 raspberrypi systemd[1]: Mounted /boot.
+Jan 18 14:41:46 raspberrypi systemd[1]: Reached target Local File Systems.
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Set console font and keymap...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Preprocess NFS configuration...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Create Volatile Files and Directories...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Raise network interfaces...
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Set console font and keymap.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Preprocess NFS configuration.
+Jan 18 14:41:46 raspberrypi systemd[1]: Reached target NFS client services.
+Jan 18 14:41:46 raspberrypi systemd[1]: Reached target Remote File Systems (Pre).
+Jan 18 14:41:46 raspberrypi systemd[1]: Reached target Remote File Systems.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Create Volatile Files and Directories.
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Network Time Synchronization...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Raise network interfaces.
+Jan 18 14:41:46 raspberrypi systemd[1]: Time has been changed
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Network Time Synchronization.
+Jan 18 14:41:46 raspberrypi systemd[1]: Reached target System Time Synchronized.
+Jan 18 14:41:46 raspberrypi systemd[1]: Reached target System Initialization.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jan 18 14:41:46 raspberrypi systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Jan 18 14:41:46 raspberrypi systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jan 18 14:41:46 raspberrypi systemd[1]: Listening on triggerhappy.socket.
+Jan 18 14:41:46 raspberrypi systemd[1]: Reached target Sockets.
+Jan 18 14:41:46 raspberrypi systemd[1]: Reached target Basic System.
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Save/Restore Sound Card State...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting System Logging Service...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Turn on SSH if /boot/ssh is present...
+Jan 18 14:41:46 raspberrypi systemd[1]: Started D-Bus System Message Bus.
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Jan 18 14:41:46 raspberrypi systemd[1]: apt-daily.timer: Adding 6h 57min 56.330643s random time.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Daily apt download activities.
+Jan 18 14:41:46 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 20min 15.904223s random time.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 18 14:41:46 raspberrypi systemd[1]: Reached target Timers.
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Configure Bluetooth Modems connected by UART...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting triggerhappy global hotkey daemon...
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Regular background program processing daemon.
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting Login Service...
+Jan 18 14:41:46 raspberrypi thd[353]: Found socket passed from systemd
+Jan 18 14:41:46 raspberrypi systemd[1]: Starting dhcpcd on all interfaces...
+Jan 18 14:41:46 raspberrypi systemd[1]: Started System Logging Service.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started triggerhappy global hotkey daemon.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Save/Restore Sound Card State.
+Jan 18 14:41:46 raspberrypi avahi-daemon[349]: Found user 'avahi' (UID 108) and group 'avahi' (GID 112).
+Jan 18 14:41:46 raspberrypi avahi-daemon[349]: Successfully dropped root privileges.
+Jan 18 14:41:46 raspberrypi avahi-daemon[349]: avahi-daemon 0.6.32 starting up.
+Jan 18 14:41:46 raspberrypi avahi-daemon[349]: Successfully called chroot().
+Jan 18 14:41:46 raspberrypi avahi-daemon[349]: Successfully dropped remaining capabilities.
+Jan 18 14:41:46 raspberrypi avahi-daemon[349]: No service file found in /etc/avahi/services.
+Jan 18 14:41:46 raspberrypi avahi-daemon[349]: Network interface enumeration completed.
+Jan 18 14:41:46 raspberrypi avahi-daemon[349]: Server startup complete. Host name is raspberrypi.local. Local service cookie is 2186032305.
+Jan 18 14:41:46 raspberrypi dhcpcd[362]: dev: loaded udev
+Jan 18 14:41:46 raspberrypi systemd[1]: Reloading.
+Jan 18 14:41:46 raspberrypi raspi-config[348]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Jan 18 14:41:46 raspberrypi raspi-config[348]:  No. Switching to ondemand scaling governor.
+Jan 18 14:41:46 raspberrypi dphys-swapfile[354]: Starting dphys-swapfile swapfile setup ...
+Jan 18 14:41:46 raspberrypi dphys-swapfile[354]: want /var/swap=100MByte, checking existing: keeping it
+Jan 18 14:41:46 raspberrypi dhcpcd[362]: wlan0: starting wpa_supplicant
+Jan 18 14:41:46 raspberrypi dhcpcd-run-hooks[427]: wlan0: starting wpa_supplicant
+Jan 18 14:41:46 raspberrypi dphys-swapfile[354]: done.
+Jan 18 14:41:46 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 38min 1.337525s random time.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Jan 18 14:41:46 raspberrypi systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Jan 18 14:41:47 raspberrypi systemd[1]: Started LSB: Autogenerate and use a swap file.
+Jan 18 14:41:47 raspberrypi systemd[1]: Started Login Service.
+Jan 18 14:41:47 raspberrypi systemd[1]: Starting OpenBSD Secure Shell server...
+Jan 18 14:41:47 raspberrypi dhcpcd[362]: eth0: waiting for carrier
+Jan 18 14:41:47 raspberrypi dhcpcd[362]: wlan0: waiting for carrier
+Jan 18 14:41:47 raspberrypi dhcpcd[362]: wlan0: carrier acquired
+Jan 18 14:41:47 raspberrypi dhcpcd[362]: DUID 00:01:00:01:21:b0:d9:d3:b8:27:eb:d4:b1:34
+Jan 18 14:41:47 raspberrypi dhcpcd[362]: wlan0: IAID eb:d4:b1:34
+Jan 18 14:41:47 raspberrypi dhcpcd[362]: wlan0: adding address fe80::77b:c82b:9c81:3cf6
+Jan 18 14:41:47 raspberrypi dhcpcd[362]: wlan0: carrier lost
+Jan 18 14:41:47 raspberrypi systemd[1]: Started OpenBSD Secure Shell server.
+Jan 18 14:41:47 raspberrypi dhcpcd[362]: wlan0: deleting address fe80::77b:c82b:9c81:3cf6
+Jan 18 14:41:47 raspberrypi systemd[1]: Started Turn on SSH if /boot/ssh is present.
+Jan 18 14:41:48 raspberrypi dhcpcd[362]: eth0: carrier acquired
+Jan 18 14:41:48 raspberrypi dhcpcd[362]: eth0: IAID eb:81:e4:61
+Jan 18 14:41:48 raspberrypi dhcpcd[362]: eth0: adding address fe80::1624:4ef7:9839:676
+Jan 18 14:41:48 raspberrypi dhcpcd[362]: eth0: rebinding lease of 172.30.4.79
+Jan 18 14:41:49 raspberrypi dhcpcd[362]: eth0: soliciting an IPv6 router
+Jan 18 14:41:49 raspberrypi avahi-daemon[349]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::1624:4ef7:9839:676.
+Jan 18 14:41:49 raspberrypi avahi-daemon[349]: New relevant interface eth0.IPv6 for mDNS.
+Jan 18 14:41:49 raspberrypi avahi-daemon[349]: Registering new address record for fe80::1624:4ef7:9839:676 on eth0.*.
+Jan 18 14:41:51 raspberrypi btuart[351]: bcm43xx_init
+Jan 18 14:41:51 raspberrypi btuart[351]: Flash firmware /lib/firmware/BCM43430A1.hcd
+Jan 18 14:41:51 raspberrypi btuart[351]: Set BDADDR UART: b8:27:eb:2b:4e:cb
+Jan 18 14:41:51 raspberrypi btuart[351]: Set Controller UART speed to 921600 bit/s
+Jan 18 14:41:51 raspberrypi btuart[351]: Device setup complete
+Jan 18 14:41:51 raspberrypi systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 14:41:51 raspberrypi systemd[1]: Started Configure Bluetooth Modems connected by UART.
+Jan 18 14:41:51 raspberrypi systemd[1]: Starting Bluetooth service...
+Jan 18 14:41:51 raspberrypi systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 14:41:51 raspberrypi bluetoothd[476]: Bluetooth daemon 5.43
+Jan 18 14:41:51 raspberrypi systemd[1]: Started Bluetooth service.
+Jan 18 14:41:51 raspberrypi systemd[1]: Reached target Bluetooth.
+Jan 18 14:41:51 raspberrypi bluetoothd[476]: Starting SDP server
+Jan 18 14:41:51 raspberrypi bluetoothd[476]: Bluetooth management interface 1.14 initialized
+Jan 18 14:41:51 raspberrypi dbus[341]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jan 18 14:41:51 raspberrypi bluetoothd[476]: Failed to obtain handles for "Service Changed" characteristic
+Jan 18 14:41:51 raspberrypi bluetoothd[476]: Sap driver initialization failed.
+Jan 18 14:41:51 raspberrypi bluetoothd[476]: sap-server: Operation not permitted (1)
+Jan 18 14:41:51 raspberrypi systemd[1]: Starting Hostname Service...
+Jan 18 14:41:51 raspberrypi dbus[341]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan 18 14:41:51 raspberrypi systemd[1]: Started Hostname Service.
+Jan 18 14:41:53 raspberrypi dhcpcd[362]: eth0: probing address 172.30.4.79/16
+Jan 18 14:41:58 raspberrypi dhcpcd[362]: eth0: leased 172.30.4.79 for 28800 seconds
+Jan 18 14:41:58 raspberrypi avahi-daemon[349]: Joining mDNS multicast group on interface eth0.IPv4 with address 172.30.4.79.
+Jan 18 14:41:58 raspberrypi dhcpcd[362]: eth0: adding route to 172.30.0.0/16
+Jan 18 14:41:58 raspberrypi avahi-daemon[349]: New relevant interface eth0.IPv4 for mDNS.
+Jan 18 14:41:58 raspberrypi dhcpcd[362]: eth0: adding default route via 172.30.3.254
+Jan 18 14:41:58 raspberrypi avahi-daemon[349]: Registering new address record for 172.30.4.79 on eth0.IPv4.
+Jan 18 14:41:58 raspberrypi dhcpcd[362]: forked to background, child pid 534
+Jan 18 14:41:58 raspberrypi systemd[1]: Started dhcpcd on all interfaces.
+Jan 18 14:41:58 raspberrypi systemd[1]: Reached target Network.
+Jan 18 14:41:58 raspberrypi systemd[1]: Starting /etc/rc.local Compatibility...
+Jan 18 14:41:58 raspberrypi systemd[1]: Starting Permit User Sessions...
+Jan 18 14:41:58 raspberrypi systemd[1]: Started /etc/rc.local Compatibility.
+Jan 18 14:41:58 raspberrypi systemd[1]: Started Permit User Sessions.
+Jan 18 14:41:58 raspberrypi systemd[1]: Starting Terminate Plymouth Boot Screen...
+Jan 18 14:41:58 raspberrypi systemd[1]: Starting Hold until boot process finishes up...
+Jan 18 14:41:58 raspberrypi systemd[1]: Received SIGRTMIN+21 from PID 203 (plymouthd).
+Jan 18 14:41:58 raspberrypi systemd[1]: Started Terminate Plymouth Boot Screen.
+Jan 18 14:41:58 raspberrypi systemd[1]: Started Hold until boot process finishes up.
+Jan 18 14:41:58 raspberrypi systemd[1]: Started Getty on tty1.
+Jan 18 14:41:58 raspberrypi systemd[1]: Reached target Login Prompts.
+Jan 18 14:41:58 raspberrypi systemd[1]: Reached target Multi-User System.
+Jan 18 14:41:58 raspberrypi systemd[1]: Reached target Graphical Interface.
+Jan 18 14:41:58 raspberrypi systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jan 18 14:41:58 raspberrypi systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jan 18 14:41:58 raspberrypi systemd[1]: Startup finished in 2.028s (kernel) + 15.459s (userspace) = 17.487s.
+Jan 18 14:42:01 raspberrypi dhcpcd[534]: eth0: no IPv6 Routers available
+Jan 18 14:45:21 raspberrypi systemd[1]: Time has been changed
+Jan 18 14:45:21 raspberrypi systemd[1]: apt-daily.timer: Adding 6h 43min 44.166929s random time.
+Jan 18 14:45:21 raspberrypi systemd[1]: apt-daily-upgrade.timer: Adding 5min 14.179279s random time.
+Jan 18 14:47:20 raspberrypi systemd[1]: Created slice User Slice of pi.
+Jan 18 14:47:20 raspberrypi systemd[1]: Starting User Manager for UID 1000...
+Jan 18 14:47:20 raspberrypi systemd[1]: Started Session c1 of user pi.
+Jan 18 14:47:20 raspberrypi systemd[568]: Reached target Paths.
+Jan 18 14:47:20 raspberrypi systemd[568]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 18 14:47:20 raspberrypi systemd[568]: Listening on GnuPG cryptographic agent (access for web browsers).
+Jan 18 14:47:20 raspberrypi systemd[568]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 18 14:47:20 raspberrypi systemd[568]: Reached target Timers.
+Jan 18 14:47:20 raspberrypi systemd[568]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 18 14:47:20 raspberrypi systemd[568]: Reached target Sockets.
+Jan 18 14:47:20 raspberrypi systemd[568]: Reached target Basic System.
+Jan 18 14:47:20 raspberrypi systemd[568]: Reached target Default.
+Jan 18 14:47:20 raspberrypi systemd[568]: Startup finished in 53ms.
+Jan 18 14:47:20 raspberrypi systemd[1]: Started User Manager for UID 1000.
+Jan 18 14:47:22 raspberrypi systemd[1]: Stopping User Manager for UID 1000...
+Jan 18 14:47:22 raspberrypi systemd[568]: Stopped target Default.
+Jan 18 14:47:22 raspberrypi systemd[568]: Stopped target Basic System.
+Jan 18 14:47:22 raspberrypi systemd[568]: Stopped target Timers.
+Jan 18 14:47:22 raspberrypi systemd[568]: Stopped target Paths.
+Jan 18 14:47:22 raspberrypi systemd[568]: Stopped target Sockets.
+Jan 18 14:47:22 raspberrypi systemd[568]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jan 18 14:47:22 raspberrypi systemd[568]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 18 14:47:22 raspberrypi systemd[568]: Closed GnuPG cryptographic agent and passphrase cache.
+Jan 18 14:47:22 raspberrypi systemd[568]: Closed GnuPG cryptographic agent (access for web browsers).
+Jan 18 14:47:22 raspberrypi systemd[568]: Reached target Shutdown.
+Jan 18 14:47:22 raspberrypi systemd[568]: Starting Exit the Session...
+Jan 18 14:47:22 raspberrypi systemd[568]: Received SIGRTMIN+24 from PID 602 (kill).
+Jan 18 14:47:22 raspberrypi systemd[1]: Stopped User Manager for UID 1000.
+Jan 18 14:47:22 raspberrypi systemd[1]: Removed slice User Slice of pi.
+Jan 18 14:47:31 raspberrypi systemd[1]: Created slice User Slice of pi.
+Jan 18 14:47:31 raspberrypi systemd[1]: Starting User Manager for UID 1000...
+Jan 18 14:47:31 raspberrypi systemd[1]: Started Session c2 of user pi.
+Jan 18 14:47:31 raspberrypi systemd[622]: Reached target Paths.
+Jan 18 14:47:31 raspberrypi systemd[622]: Listening on GnuPG cryptographic agent (access for web browsers).
+Jan 18 14:47:31 raspberrypi systemd[622]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 18 14:47:31 raspberrypi systemd[622]: Reached target Timers.
+Jan 18 14:47:31 raspberrypi systemd[622]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 18 14:47:31 raspberrypi systemd[622]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 18 14:47:31 raspberrypi systemd[622]: Reached target Sockets.
+Jan 18 14:47:31 raspberrypi systemd[622]: Reached target Basic System.
+Jan 18 14:47:31 raspberrypi systemd[622]: Reached target Default.
+Jan 18 14:47:31 raspberrypi systemd[622]: Startup finished in 38ms.
+Jan 18 14:47:31 raspberrypi systemd[1]: Started User Manager for UID 1000.
+Jan 18 14:47:31 raspberrypi systemd[1]: Stopping User Manager for UID 1000...
+Jan 18 14:47:31 raspberrypi systemd[622]: Stopped target Default.
+Jan 18 14:47:31 raspberrypi systemd[622]: Stopped target Basic System.
+Jan 18 14:47:31 raspberrypi systemd[622]: Stopped target Timers.
+Jan 18 14:47:31 raspberrypi systemd[622]: Stopped target Paths.
+Jan 18 14:47:31 raspberrypi systemd[622]: Stopped target Sockets.
+Jan 18 14:47:31 raspberrypi systemd[622]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 18 14:47:31 raspberrypi systemd[622]: Closed GnuPG cryptographic agent (access for web browsers).
+Jan 18 14:47:31 raspberrypi systemd[622]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jan 18 14:47:31 raspberrypi systemd[622]: Closed GnuPG cryptographic agent and passphrase cache.
+Jan 18 14:47:31 raspberrypi systemd[622]: Reached target Shutdown.
+Jan 18 14:47:31 raspberrypi systemd[622]: Starting Exit the Session...
+Jan 18 14:47:31 raspberrypi systemd[622]: Received SIGRTMIN+24 from PID 641 (kill).
+Jan 18 14:47:31 raspberrypi systemd[1]: Stopped User Manager for UID 1000.
+Jan 18 14:47:31 raspberrypi systemd[1]: Removed slice User Slice of pi.
+Jan 18 14:47:33 raspberrypi systemd[1]: Created slice User Slice of pi.
+Jan 18 14:47:33 raspberrypi systemd[1]: Starting User Manager for UID 1000...
+Jan 18 14:47:33 raspberrypi systemd[1]: Started Session c3 of user pi.
+Jan 18 14:47:33 raspberrypi systemd[652]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 18 14:47:33 raspberrypi systemd[652]: Listening on GnuPG cryptographic agent (access for web browsers).
+Jan 18 14:47:33 raspberrypi systemd[652]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 18 14:47:33 raspberrypi systemd[652]: Reached target Timers.
+Jan 18 14:47:33 raspberrypi systemd[652]: Reached target Paths.
+Jan 18 14:47:33 raspberrypi systemd[652]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 18 14:47:33 raspberrypi systemd[652]: Reached target Sockets.
+Jan 18 14:47:33 raspberrypi systemd[652]: Reached target Basic System.
+Jan 18 14:47:33 raspberrypi systemd[652]: Reached target Default.
+Jan 18 14:47:33 raspberrypi systemd[652]: Startup finished in 38ms.
+Jan 18 14:47:33 raspberrypi systemd[1]: Started User Manager for UID 1000.
+Jan 18 14:49:08 raspberrypi systemd[1]: Stopping Save/Restore Sound Card State...
+Jan 18 14:49:08 raspberrypi systemd[1]: Stopped target Timers.
+Jan 18 14:49:08 raspberrypi systemd[1]: Stopped target Bluetooth.
+Jan 18 14:49:08 raspberrypi systemd[1]: Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jan 18 14:49:08 raspberrypi systemd[1]: Stopping Session c3 of user pi.
+Jan 18 14:49:08 raspberrypi systemd[1]: Stopped target Sound Card.
+Jan 18 14:49:08 raspberrypi bluetoothd[476]: Terminating
+Jan 18 14:49:12 pi-projet2SU-barth fake-hwclock[111]: Thu 18 Jan 14:49:10 UTC 2018
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Apply Kernel Variables.
+Jan 18 14:49:12 pi-projet2SU-barth systemd-fsck[132]: e2fsck 1.43.4 (31-Jan-2017)
+Jan 18 14:49:12 pi-projet2SU-barth systemd-fsck[132]: rootfs: clean, 39447/948480 files, 348112/3916032 blocks
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started File System Check on Root Device.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Remount Root and Kernel File Systems...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Create Static Device Nodes in /dev.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting udev Kernel Device Manager...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Remount Root and Kernel File Systems.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Flush Journal to Persistent Storage...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting udev Coldplug all Devices...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Load/Save Random Seed...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Load/Save Random Seed.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Flush Journal to Persistent Storage.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started udev Kernel Device Manager.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Set the console keyboard layout.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Reached target Local File Systems (Pre).
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started udev Coldplug all Devices.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Show Plymouth Boot Screen...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Received SIGRTMIN+20 from PID 204 (plymouthd).
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Show Plymouth Boot Screen.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Found device /dev/serial1.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Reached target Paths.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Reached target Encrypted Volumes.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Found device /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting File System Check on /dev/disk/by-partuuid/2ed5c94e-01...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Reached target Sound Card.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 14:49:12 pi-projet2SU-barth systemd-fsck[243]: fsck.fat 4.1 (2017-01-24)
+Jan 18 14:49:12 pi-projet2SU-barth systemd-fsck[243]: /dev/mmcblk0p1: 149 files, 42660/83705 clusters
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started File System Check on /dev/disk/by-partuuid/2ed5c94e-01.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Mounting /boot...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Mounted /boot.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Reached target Local File Systems.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Create Volatile Files and Directories...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Raise network interfaces...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Set console font and keymap...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Preprocess NFS configuration...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Preprocess NFS configuration.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Reached target NFS client services.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Reached target Remote File Systems (Pre).
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Reached target Remote File Systems.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Set console font and keymap.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Create Volatile Files and Directories.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Network Time Synchronization...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Raise network interfaces.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Network Time Synchronization.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Reached target System Initialization.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Listening on triggerhappy.socket.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Reached target Sockets.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Reached target Basic System.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started D-Bus System Message Bus.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting LSB: Autogenerate and use a swap file...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Regular background program processing daemon.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Login Service...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting triggerhappy global hotkey daemon...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting LSB: Switch to ondemand cpu governor (unless shift key is pressed)...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Save/Restore Sound Card State...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting Configure Bluetooth Modems connected by UART...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting dhcpcd on all interfaces...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Starting System Logging Service...
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Reached target System Time Synchronized.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: apt-daily.timer: Adding 1h 4min 30.305498s random time.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Daily apt download activities.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 44min 58.824602s random time.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Reached target Timers.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Save/Restore Sound Card State.
+Jan 18 14:49:12 pi-projet2SU-barth thd[344]: Found socket passed from systemd
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started triggerhappy global hotkey daemon.
+Jan 18 14:49:12 pi-projet2SU-barth avahi-daemon[347]: Found user 'avahi' (UID 108) and group 'avahi' (GID 112).
+Jan 18 14:49:12 pi-projet2SU-barth avahi-daemon[347]: Successfully dropped root privileges.
+Jan 18 14:49:12 pi-projet2SU-barth avahi-daemon[347]: avahi-daemon 0.6.32 starting up.
+Jan 18 14:49:12 pi-projet2SU-barth dhcpcd[351]: dev: loaded udev
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started Login Service.
+Jan 18 14:49:12 pi-projet2SU-barth avahi-daemon[347]: Successfully called chroot().
+Jan 18 14:49:12 pi-projet2SU-barth avahi-daemon[347]: Successfully dropped remaining capabilities.
+Jan 18 14:49:12 pi-projet2SU-barth avahi-daemon[347]: No service file found in /etc/avahi/services.
+Jan 18 14:49:12 pi-projet2SU-barth dphys-swapfile[340]: Starting dphys-swapfile swapfile setup ...
+Jan 18 14:49:12 pi-projet2SU-barth avahi-daemon[347]: Network interface enumeration completed.
+Jan 18 14:49:12 pi-projet2SU-barth avahi-daemon[347]: Server startup complete. Host name is pi-projet2SU-barth.local. Local service cookie is 3635580306.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started System Logging Service.
+Jan 18 14:49:12 pi-projet2SU-barth raspi-config[346]: Checking if shift key is held down:Error opening '/dev/input/event*': No such file or directory
+Jan 18 14:49:12 pi-projet2SU-barth raspi-config[346]:  No. Switching to ondemand scaling governor.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started LSB: Switch to ondemand cpu governor (unless shift key is pressed).
+Jan 18 14:49:12 pi-projet2SU-barth dphys-swapfile[340]: want /var/swap=100MByte, checking existing: keeping it
+Jan 18 14:49:12 pi-projet2SU-barth dhcpcd[351]: wlan0: starting wpa_supplicant
+Jan 18 14:49:12 pi-projet2SU-barth dhcpcd-run-hooks[414]: wlan0: starting wpa_supplicant
+Jan 18 14:49:12 pi-projet2SU-barth dphys-swapfile[340]: done.
+Jan 18 14:49:12 pi-projet2SU-barth systemd[1]: Started LSB: Autogenerate and use a swap file.
+Jan 18 14:49:13 pi-projet2SU-barth dhcpcd[351]: eth0: waiting for carrier
+Jan 18 14:49:13 pi-projet2SU-barth dhcpcd[351]: wlan0: waiting for carrier
+Jan 18 14:49:13 pi-projet2SU-barth dhcpcd[351]: wlan0: carrier acquired
+Jan 18 14:49:13 pi-projet2SU-barth dhcpcd[351]: DUID 00:01:00:01:21:b0:d9:d3:b8:27:eb:d4:b1:34
+Jan 18 14:49:13 pi-projet2SU-barth dhcpcd[351]: wlan0: IAID eb:d4:b1:34
+Jan 18 14:49:13 pi-projet2SU-barth dhcpcd[351]: wlan0: adding address fe80::77b:c82b:9c81:3cf6
+Jan 18 14:49:13 pi-projet2SU-barth dhcpcd[351]: wlan0: carrier lost
+Jan 18 14:49:13 pi-projet2SU-barth dhcpcd[351]: wlan0: deleting address fe80::77b:c82b:9c81:3cf6
+Jan 18 14:49:14 pi-projet2SU-barth dhcpcd[351]: eth0: carrier acquired
+Jan 18 14:49:14 pi-projet2SU-barth dhcpcd[351]: eth0: IAID eb:81:e4:61
+Jan 18 14:49:14 pi-projet2SU-barth dhcpcd[351]: eth0: adding address fe80::1624:4ef7:9839:676
+Jan 18 14:49:14 pi-projet2SU-barth dhcpcd[351]: eth0: soliciting an IPv6 router
+Jan 18 14:49:15 pi-projet2SU-barth dhcpcd[351]: eth0: rebinding lease of 172.30.4.79
+Jan 18 14:49:15 pi-projet2SU-barth dhcpcd[351]: eth0: probing address 172.30.4.79/16
+Jan 18 14:49:15 pi-projet2SU-barth avahi-daemon[347]: Joining mDNS multicast group on interface eth0.IPv6 with address fe80::1624:4ef7:9839:676.
+Jan 18 14:49:15 pi-projet2SU-barth avahi-daemon[347]: New relevant interface eth0.IPv6 for mDNS.
+Jan 18 14:49:15 pi-projet2SU-barth avahi-daemon[347]: Registering new address record for fe80::1624:4ef7:9839:676 on eth0.*.
+Jan 18 14:49:16 pi-projet2SU-barth btuart[350]: bcm43xx_init
+Jan 18 14:49:16 pi-projet2SU-barth btuart[350]: Flash firmware /lib/firmware/BCM43430A1.hcd
+Jan 18 14:49:16 pi-projet2SU-barth btuart[350]: Set BDADDR UART: b8:27:eb:2b:4e:cb
+Jan 18 14:49:16 pi-projet2SU-barth btuart[350]: Set Controller UART speed to 921600 bit/s
+Jan 18 14:49:16 pi-projet2SU-barth btuart[350]: Device setup complete
+Jan 18 14:49:16 pi-projet2SU-barth systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jan 18 14:49:16 pi-projet2SU-barth systemd[1]: Started Configure Bluetooth Modems connected by UART.
+Jan 18 14:49:17 pi-projet2SU-barth systemd[1]: Starting Bluetooth service...
+Jan 18 14:49:17 pi-projet2SU-barth systemd[1]: Started Load/Save RF Kill Switch Status.
+Jan 18 14:49:17 pi-projet2SU-barth bluetoothd[450]: Bluetooth daemon 5.43
+Jan 18 14:49:17 pi-projet2SU-barth systemd[1]: Started Bluetooth service.
+Jan 18 14:49:17 pi-projet2SU-barth systemd[1]: Reached target Bluetooth.
+Jan 18 14:49:17 pi-projet2SU-barth bluetoothd[450]: Starting SDP server
+Jan 18 14:49:17 pi-projet2SU-barth dbus[338]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jan 18 14:49:17 pi-projet2SU-barth bluetoothd[450]: Bluetooth management interface 1.14 initialized
+Jan 18 14:49:17 pi-projet2SU-barth bluetoothd[450]: Failed to obtain handles for "Service Changed" characteristic
+Jan 18 14:49:17 pi-projet2SU-barth bluetoothd[450]: Sap driver initialization failed.
+Jan 18 14:49:17 pi-projet2SU-barth bluetoothd[450]: sap-server: Operation not permitted (1)
+Jan 18 14:49:17 pi-projet2SU-barth systemd[1]: Starting Hostname Service...
+Jan 18 14:49:17 pi-projet2SU-barth dbus[338]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan 18 14:49:17 pi-projet2SU-barth systemd[1]: Started Hostname Service.
+Jan 18 14:49:20 pi-projet2SU-barth dhcpcd[351]: eth0: leased 172.30.4.79 for 28800 seconds
+Jan 18 14:49:20 pi-projet2SU-barth avahi-daemon[347]: Joining mDNS multicast group on interface eth0.IPv4 with address 172.30.4.79.
+Jan 18 14:49:20 pi-projet2SU-barth dhcpcd[351]: eth0: adding route to 172.30.0.0/16
+Jan 18 14:49:20 pi-projet2SU-barth dhcpcd[351]: eth0: adding default route via 172.30.3.254
+Jan 18 14:49:20 pi-projet2SU-barth avahi-daemon[347]: New relevant interface eth0.IPv4 for mDNS.
+Jan 18 14:49:20 pi-projet2SU-barth avahi-daemon[347]: Registering new address record for 172.30.4.79 on eth0.IPv4.
+Jan 18 14:49:21 pi-projet2SU-barth dhcpcd[351]: forked to background, child pid 508
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Started dhcpcd on all interfaces.
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Reached target Network.
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Starting /etc/rc.local Compatibility...
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Starting Permit User Sessions...
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Starting OpenBSD Secure Shell server...
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Started /etc/rc.local Compatibility.
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Started Permit User Sessions.
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Starting Hold until boot process finishes up...
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Starting Terminate Plymouth Boot Screen...
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Received SIGRTMIN+21 from PID 204 (plymouthd).
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Started Hold until boot process finishes up.
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Started Terminate Plymouth Boot Screen.
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Started Getty on tty1.
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Reached target Login Prompts.
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Started OpenBSD Secure Shell server.
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Reached target Multi-User System.
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Reached target Graphical Interface.
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jan 18 14:49:21 pi-projet2SU-barth systemd[1]: Startup finished in 1.668s (kernel) + 12.327s (userspace) = 13.996s.
+Jan 18 14:49:27 pi-projet2SU-barth dhcpcd[508]: eth0: no IPv6 Routers available
+Jan 18 14:49:50 pi-projet2SU-barth systemd[1]: Time has been changed
+Jan 18 14:49:50 pi-projet2SU-barth systemd[1]: apt-daily.timer: Adding 1h 43min 39.394687s random time.
+Jan 18 14:49:50 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 30min 48.798310s random time.
+Jan 18 14:50:36 pi-projet2SU-barth systemd[1]: Created slice User Slice of pi.
+Jan 18 14:50:36 pi-projet2SU-barth systemd[1]: Starting User Manager for UID 1000...
+Jan 18 14:50:36 pi-projet2SU-barth systemd[1]: Started Session c1 of user pi.
+Jan 18 14:50:36 pi-projet2SU-barth systemd[536]: Reached target Timers.
+Jan 18 14:50:36 pi-projet2SU-barth systemd[536]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 18 14:50:36 pi-projet2SU-barth systemd[536]: Listening on GnuPG cryptographic agent (access for web browsers).
+Jan 18 14:50:36 pi-projet2SU-barth systemd[536]: Reached target Paths.
+Jan 18 14:50:36 pi-projet2SU-barth systemd[536]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 18 14:50:36 pi-projet2SU-barth systemd[536]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 18 14:50:36 pi-projet2SU-barth systemd[536]: Reached target Sockets.
+Jan 18 14:50:36 pi-projet2SU-barth systemd[536]: Reached target Basic System.
+Jan 18 14:50:36 pi-projet2SU-barth systemd[536]: Reached target Default.
+Jan 18 14:50:36 pi-projet2SU-barth systemd[536]: Startup finished in 51ms.
+Jan 18 14:50:36 pi-projet2SU-barth systemd[1]: Started User Manager for UID 1000.
+Jan 18 14:56:02 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 14:56:02 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 43min 12.668335s random time.
+Jan 18 14:56:12 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 14:56:12 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 21min 2.933909s random time.
+Jan 18 14:56:13 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 14:56:13 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 40min 54.703291s random time.
+Jan 18 14:56:13 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 14:56:13 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 18min 32.219644s random time.
+Jan 18 14:56:13 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 14:56:13 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 4min 8.022806s random time.
+Jan 18 14:56:14 pi-projet2SU-barth systemd[1]: Listening on PC/SC Smart Card Daemon Activation Socket.
+Jan 18 14:56:14 pi-projet2SU-barth systemd[1]: Started PC/SC Smart Card Daemon.
+Jan 18 14:56:16 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 14:56:16 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 24min 4.347446s random time.
+Jan 18 14:56:18 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 14:56:18 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 40min 1.875487s random time.
+Jan 18 14:56:18 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 14:56:19 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 36min 18.991440s random time.
+Jan 18 14:56:20 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 14:56:20 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 15min 48.900346s random time.
+Jan 18 15:04:24 pi-projet2SU-barth systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 18 15:04:25 pi-projet2SU-barth systemd[1]: Started Cleanup of Temporary Directories.
+Jan 18 15:06:00 pi-projet2SU-barth systemd[1]: Stopping Raise network interfaces...
+Jan 18 15:06:01 pi-projet2SU-barth systemd[1]: Stopped Raise network interfaces.
+Jan 18 15:06:01 pi-projet2SU-barth systemd[1]: Starting Raise network interfaces...
+Jan 18 15:06:01 pi-projet2SU-barth systemd[1]: Started Raise network interfaces.
+Jan 18 15:12:00 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:01 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 16min 29.978491s random time.
+Jan 18 15:12:25 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:25 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 1min 1.094123s random time.
+Jan 18 15:12:31 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:31 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 15min 1.791344s random time.
+Jan 18 15:12:31 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:31 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 35min 9.076782s random time.
+Jan 18 15:12:31 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:32 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 25min 22.023323s random time.
+Jan 18 15:12:32 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:32 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 53min 20.388059s random time.
+Jan 18 15:12:32 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:33 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 35min 5.983415s random time.
+Jan 18 15:12:33 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:33 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 42min 16.914702s random time.
+Jan 18 15:12:33 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:34 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 47min 37.041194s random time.
+Jan 18 15:12:35 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:36 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 10min 17.868932s random time.
+Jan 18 15:12:50 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:50 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 23min 25.838703s random time.
+Jan 18 15:12:50 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:51 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 23min 28.842810s random time.
+Jan 18 15:12:52 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:53 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 38min 55.162309s random time.
+Jan 18 15:12:54 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:12:55 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 1min 45.478427s random time.
+Jan 18 15:13:09 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:13:09 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 36min 8.413457s random time.
+Jan 18 15:13:09 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:13:09 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 59min 14.124899s random time.
+Jan 18 15:13:09 pi-projet2SU-barth dbus[338]: [system] Reloaded configuration
+Jan 18 15:13:13 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:13:14 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 16min 55.269157s random time.
+Jan 18 15:13:14 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:13:14 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 4min 50.429949s random time.
+Jan 18 15:13:14 pi-projet2SU-barth systemd[1]: Stopping OpenBSD Secure Shell server...
+Jan 18 15:13:14 pi-projet2SU-barth systemd[1]: Stopped OpenBSD Secure Shell server.
+Jan 18 15:13:14 pi-projet2SU-barth systemd[1]: Starting OpenBSD Secure Shell server...
+Jan 18 15:13:14 pi-projet2SU-barth systemd[1]: Started OpenBSD Secure Shell server.
+Jan 18 15:47:50 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:47:50 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 18min 16.134653s random time.
+Jan 18 15:47:56 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:47:56 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 44min 52.130737s random time.
+Jan 18 15:47:56 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:47:57 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 14min 22.713408s random time.
+Jan 18 15:47:57 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:47:57 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 35min 12.643022s random time.
+Jan 18 15:47:57 pi-projet2SU-barth systemd[1]: Started An object/document-oriented database.
+Jan 18 15:47:57 pi-projet2SU-barth mongod[8902]: all output going to: /var/log/mongodb/mongodb.log
+Jan 18 15:47:58 pi-projet2SU-barth systemd[1]: Reloading.
+Jan 18 15:47:58 pi-projet2SU-barth systemd[1]: apt-daily-upgrade.timer: Adding 29min 28.582511s random time.

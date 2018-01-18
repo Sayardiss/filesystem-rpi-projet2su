@@ -1,0 +1,6 @@
+ed8eab32f680f572fe6b1638d1dc4bf0  usr/include/libmnl/libmnl.h
+fc054ad647fe9faf8450a91f67f34489  usr/lib/arm-linux-gnueabihf/libmnl.a
+8087edf2ecce919233d590ad67134110  usr/lib/arm-linux-gnueabihf/pkgconfig/libmnl.pc
+ed64b7db73a58d2f3d158117edfe70c8  usr/share/doc/libmnl-dev/README
+a104e58a9c9592ffad87b4c23860955c  usr/share/doc/libmnl-dev/changelog.Debian.gz
+36ec5dee147e6115ff77ea643f6181d7  usr/share/doc/libmnl-dev/copyright

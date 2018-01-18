@@ -1,0 +1,255 @@
+#!/usr/bin/python3
+# vim:set fileencoding=utf-8 et ts=4 sts=4 sw=4:
+#
+#   apt-listchanges - Show changelog entries between the installed versions
+#                     of a set of packages and the versions contained in
+#                     corresponding .deb files
+#
+#   Copyright (C) 2000-2006  Matt Zimmerman  <mdz@debian.org>
+#   Copyright (C) 2006       Pierre Habouzit <madcoder@debian.org>
+#   Copyright (C) 2016       Robert Luberda  <robert@debian.org>
+#
+#   This program is free software; you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation; either version 2 of the License, or
+#   (at your option) any later version.
+#
+#   This program is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#
+#   You should have received a copy of the GNU General Public
+#   License along with this program; if not, write to the Free
+#   Software Foundation, Inc., 59 Temple Place, Suite 330, Boston,
+#   MA 02111-1307 USA
+#
+
+import sys, os, os.path
+import apt_pkg
+import signal
+import subprocess
+import traceback
+
+sys.path += [os.path.dirname(sys.argv[0]) + '/apt-listchanges', '/usr/share/apt-listchanges']
+import ALCLog
+from ALChacks import _
+import apt_listchanges, DebianFiles, ALCApt, ALCConfig, ALCSeenDb
+
+def main(config):
+    config.read('/etc/apt/listchanges.conf')
+    debs = config.getopt(sys.argv)
+
+    if config.dump_seen:
+        ALCSeenDb.make_seen_db(config, True).dump()
+        sys.exit(0);
+
+    apt_pkg.init_system()
+
+    if config.apt_mode:
+        debs = ALCApt.AptPipeline(config).read()
+        if not debs:
+            sys.exit(0)
+
+    # Force quiet (loggable) mode if not running interactively
+    if not sys.stdout.isatty() and not config.quiet:
+        config.quiet = 1
+
+    try:
+        frontend = apt_listchanges.make_frontend(config, len(debs))
+    except apt_listchanges.EUnknownFrontend:
+        ALCLog.error(_("Unknown frontend: %s") % config.frontend)
+        sys.exit(1)
+
+    if frontend == None:
+        sys.exit(0)
+
+    if frontend.needs_tty_stdin() and not sys.stdin.isatty():
+         try:
+             # Give any forked processes (eg. lynx) a normal stdin;
+             # See Debian Bug #343423.  (Note: with $APT_HOOK_INFO_FD
+             # support introduced in version 3.2, stdin should point to
+             # a terminal already, so there should be no need to reopen it).
+             tty = open('/dev/tty', 'rb+', buffering=0)
+             os.close(0)
+             os.dup2(tty.fileno(), 0)
+             tty.close()
+         except Exception as ex:
+             ALCLog.warning(_("Cannot reopen /dev/tty for stdin: %s") % str(ex))
+
+    if not config.show_all:
+        status = DebianFiles.ControlParser()
+        status.readfile('/var/lib/dpkg/status')
+        status.makeindex('Package')
+
+    seen_db = ALCSeenDb.make_seen_db(config)
+
+    all_news = {}
+    all_changelogs = {}
+    all_binnmus = {}
+    notes = []
+
+    # Mapping of source->binary packages
+    source_packages = {}
+
+    # Flag for each source package, only set if changelogs were actually found
+    found = {}
+
+
+    # Main loop
+    for deb in debs:
+        pkg = DebianFiles.Package(deb)
+        binpackage = pkg.binary
+        srcpackage = pkg.source
+        srcversion = pkg.Version # XXX take the real version or we'll lose binNMUs
+
+        frontend.update_progress()
+        # Show changes later than fromversion
+        fromversion = None
+
+        if not config.show_all:
+            if srcpackage in seen_db:
+                fromversion = seen_db[srcpackage]
+            elif config.since:
+                fromversion = config.since
+            else:
+                statusentry = status.find('Package', binpackage)
+                if statusentry and statusentry.installed():
+                    fromversion = statusentry.version()
+                else:
+                    # Package not installed or seen
+                    notes.append(_("%s: will be newly installed") % binpackage)
+                    continue
+
+        source_packages.setdefault(srcpackage, []).append(binpackage)
+
+        # For packages with non uniform binary versions wrt the source
+        # version, the version reported for the binary package is the source
+        # one, which lacks binNMU.
+        #
+        # This is why even if we've seen a package we may miss bits of
+        # changelog in some odd cases
+        if srcpackage in found and \
+                apt_pkg.version_compare(srcversion, found[srcpackage]) <= 0:
+            continue
+
+        if not config.show_all and apt_pkg.version_compare(fromversion, srcversion) >= 0:
+            notes.append(_("%(pkg)s: Version %(version)s has already been seen")
+                           % {'pkg': binpackage, 'version': srcversion})
+            continue
+
+        (news, changelog, binnmu) = pkg.extract_changes(config.which, fromversion, config.reverse)
+
+        if news or changelog or binnmu:
+            found[srcpackage] = srcversion
+            seen_db[srcpackage] = srcversion
+            if news:
+                all_news[srcpackage] = news
+            if changelog:
+                all_changelogs[srcpackage] = changelog
+            if binnmu:
+                all_binnmus[srcpackage] = binnmu
+
+    frontend.progress_done()
+    seen_db.close_db()
+
+    # Merge binnmu entries with regular changelog entries.
+    # Assumption: the binnmu version is greater than the last non-binnmu version.
+    for srcpackage in all_binnmus:
+        if srcpackage in all_changelogs:
+            all_changelogs[srcpackage].merge_binnmu(all_binnmus[srcpackage], config.reverse)
+        else:
+            all_changelogs[srcpackage] = all_binnmus[srcpackage]
+
+    all_news = list(all_news.values())
+    all_changelogs = list(all_changelogs.values())
+
+    for batch in (all_news, all_changelogs):
+        batch.sort(key=lambda x: (x.urgency, x.package))
+
+    if config.headers:
+        changes = ''
+        news = ''
+        for rec in all_news:
+            if not rec.changes:
+                continue
+
+            package = rec.package
+            header = _('News for %s') % package
+            if len([x for x in source_packages[package] if x != package]) > 0:
+                # Differing source and binary packages
+                header += ' (' + ' '.join(source_packages[package]) + ')'
+            news += '--- ' + header + ' ---\n' + rec.changes
+
+        for rec in all_changelogs:
+            if not rec.changes:
+                continue
+
+            package = rec.package
+            header = _('Changes for %s') % package
+            if len([x for x in source_packages[package] if x != package]) > 0:
+                # Differing source and binary packages
+                header += ' (' + ' '.join(source_packages[package]) + ')'
+            changes += '--- ' + header + ' ---\n' + rec.changes
+    else:
+        news    = ''.join([x.changes for x in all_news       if x.changes])
+        changes = ''.join([x.changes for x in all_changelogs if x.changes])
+
+    if config.verbose and len(notes) > 0:
+        changes += _("Informational notes") + ":\n\n" + '\n'.join(notes)
+
+    if news:
+        frontend.set_title( _('apt-listchanges: News') )
+        frontend.display_output(news)
+
+    if changes:
+        frontend.set_title( _('apt-listchanges: Changelogs') )
+        frontend.display_output(changes)
+
+    if news or changes:
+        apt_listchanges.confirm_or_exit(config, frontend)
+
+        hostname = subprocess.getoutput('hostname')
+
+        if apt_listchanges.can_send_emails(config):
+            if changes:
+                subject = _("apt-listchanges: changelogs for %s") % hostname
+                apt_listchanges.mail_changes(config, changes, subject)
+
+            if news:
+                subject = _("apt-listchanges: news for %s") % hostname
+                apt_listchanges.mail_changes(config, news, subject)
+
+        # Write out seen db
+        seen_db.apply_changes()
+
+    elif not config.apt_mode and not source_packages.keys():
+        ALCLog.error(_("Didn't find any valid .deb archives"))
+        sys.exit(1)
+
+
+def _setup_signals():
+    def signal_handler(signum, frame):
+        ALCLog.error(_('Received signal %d, exiting') % signum)
+        sys.exit(apt_listchanges.BREAK_APT_EXIT_CODE)
+
+    for s in [ signal.SIGHUP, signal.SIGQUIT, signal.SIGTERM ]:
+        signal.signal(s, signal_handler)
+
+if __name__ == '__main__':
+    _setup_signals()
+    config = ALCConfig.ALCConfig()
+    try:
+        main(config)
+    except KeyboardInterrupt:
+        sys.exit(apt_listchanges.BREAK_APT_EXIT_CODE)
+    except ALCApt.AptPipelineError as ex:
+        ALCLog.error(str(ex))
+        sys.exit(apt_listchanges.BREAK_APT_EXIT_CODE)
+    except ALCSeenDb.DbError as ex:
+        ALCLog.error(str(ex))
+        sys.exit(1)
+    except Exception:
+        traceback.print_exc()
+        apt_listchanges.confirm_or_exit(config, apt_listchanges.ttyconfirm(config))
+        sys.exit(1)

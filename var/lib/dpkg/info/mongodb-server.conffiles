@@ -1,0 +1,4 @@
+/etc/init.d/mongodb
+/etc/init/mongodb.conf
+/etc/logrotate.d/mongodb-server
+/etc/mongodb.conf

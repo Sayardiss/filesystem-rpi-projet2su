@@ -1,0 +1,10 @@
+Nov 29 02:37:06 raspberrypi mtp-probe: checking bus 1, device 3: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1"
+Nov 29 02:37:06 raspberrypi mtp-probe: bus: 1, device: 3 was not an MTP device
+Jan 18 14:40:08 raspberrypi mtp-probe: checking bus 1, device 4: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.4"
+Jan 18 14:40:08 raspberrypi mtp-probe: bus: 1, device: 4 was not an MTP device
+Jan 18 14:40:39 raspberrypi mtp-probe: checking bus 1, device 3: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1"
+Jan 18 14:40:39 raspberrypi mtp-probe: bus: 1, device: 3 was not an MTP device
+Jan 18 14:41:46 raspberrypi mtp-probe: checking bus 1, device 3: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1"
+Jan 18 14:41:46 raspberrypi mtp-probe: bus: 1, device: 3 was not an MTP device
+Jan 18 14:49:12 pi-projet2SU-barth mtp-probe: checking bus 1, device 3: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1"
+Jan 18 14:49:12 pi-projet2SU-barth mtp-probe: bus: 1, device: 3 was not an MTP device

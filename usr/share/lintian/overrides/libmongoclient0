@@ -1,0 +1,5 @@
+# It was not possible to identify the spelling error anywhere in
+# the code, so it is probably a false positive.
+libmongoclient0 binary: spelling-error-in-binary *libmongoclient.so* ment meant
+
+

@@ -1,0 +1,5 @@
+b79f35e5eb970a5ecec39ee02b220fbe  usr/share/GeoIP/GeoIP.dat
+3e36c80e07468e6410d191bf65111185  usr/share/GeoIP/GeoIPv6.dat
+1d10f00a42958d123f49b06a0baa5ea8  usr/share/doc/geoip-database/changelog.Debian.gz
+d6a01dc4f7b88f7cc1ba6864f2b25a1a  usr/share/doc/geoip-database/copyright
+82a2de91a1a2f7d960e3473f72a3956f  usr/share/lintian/overrides/geoip-database

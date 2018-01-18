@@ -1,0 +1,9 @@
+1a60121dfd184bc242c236d341a27cc6  lib/systemd/system/mongodb.service
+0f4e0843ea27f8db6c12160152c65580  usr/bin/mongod
+408337fcbfcbd2df531b91152a6e652f  usr/bin/mongos
+d52f2bfb79c907a135ab9138a23a02c2  usr/share/doc/mongodb-server/README.Debian
+9323231ebba4fe7e72389921646345ea  usr/share/doc/mongodb-server/changelog.Debian.gz
+f26dbcb3ded722706b3b20a1330962d5  usr/share/doc/mongodb-server/copyright
+e389d444ee9e7f3099390bdba552aae1  usr/share/lintian/overrides/mongodb-server
+66b8a6563e9263af68c52484fca75989  usr/share/man/man1/mongod.1.gz
+63d477f5d4c727aaa463f00039d5dec6  usr/share/man/man1/mongos.1.gz

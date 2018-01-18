@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/blends-tasks
+/usr/share/doc/blends-tasks/changelog.gz
+/usr/share/doc/blends-tasks/copyright
+/usr/share/tasksel
+/usr/share/tasksel/descs
+/usr/share/tasksel/descs/debian-blends-tasks.desc

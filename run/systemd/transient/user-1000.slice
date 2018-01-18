@@ -1,0 +1,9 @@
+# This is a transient unit file, created programmatically via the systemd API. Do not edit.
+[Unit]
+Description=User Slice of pi
+[Unit]
+After=systemd-logind.service
+[Unit]
+After=systemd-user-sessions.service
+[Slice]
+TasksMax=10813

@@ -1,0 +1,9 @@
+7dfda8f6fe7d7b326409215eb7a4178d  lib/systemd/system/apply_noobs_os_config.service
+dab2b90c72008b237542ad1f5d7cfb7b  lib/systemd/system/regenerate_ssh_host_keys.service
+f9da5c9d595334ef806a4138332d57fe  lib/systemd/system/rpi-display-backlight.service
+419ba60a1771020889e5e81099dd36e1  lib/systemd/system/sshswitch.service
+8b990575624026bdace42b4770bb7008  lib/udev/rules.d/15-i2c-modprobe.rules
+1b617fcf4f9de51bd06223504d3029f1  usr/lib/raspberrypi-sys-mods/i2cprobe
+4d75f85d8f3cce52b012c29430952254  usr/share/doc/raspberrypi-sys-mods/NEWS.Debian.gz
+a7dcf386a2430799d481dee61bccaa99  usr/share/doc/raspberrypi-sys-mods/changelog.gz
+b5c3c8bb856fffaa0b83eaf6c7fffd08  usr/share/doc/raspberrypi-sys-mods/copyright

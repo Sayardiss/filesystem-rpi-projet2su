@@ -1,0 +1,10 @@
+b6b12007123d14fe81f66284dce35c08  usr/lib/arm-linux-gnueabihf/libopensc.so.4.0.0
+aa590525af8052a478333260ca301b5e  usr/lib/arm-linux-gnueabihf/libsmm-local.so.4.0.0
+d416f9c128e13da2def5e448a1d70abb  usr/lib/arm-linux-gnueabihf/onepin-opensc-pkcs11.so
+c0da6e1075ad4c955ee8c511cec164a0  usr/lib/arm-linux-gnueabihf/opensc-pkcs11.so
+85a5c07f2cb01c501b461bb12bc4352f  usr/lib/arm-linux-gnueabihf/pkcs11-spy.so
+61ebad40bd6c866612c5e746fdc98757  usr/share/doc/opensc-pkcs11/NEWS.gz
+1d3714fc19591baeee8a1941d68cdd3c  usr/share/doc/opensc-pkcs11/README
+d0dfea856fba600b152f2966172dfe28  usr/share/doc/opensc-pkcs11/changelog.Debian.gz
+365f535bf9b0f3000b5cf96f85f00ea2  usr/share/doc/opensc-pkcs11/copyright
+5fe43836d2a4bb6187a4ba7fbc5e5799  usr/share/p11-kit/modules/opensc-pkcs11.module

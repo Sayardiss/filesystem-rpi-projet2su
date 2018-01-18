@@ -1,0 +1,8 @@
+I:3806255
+E:ID_PATH=platform-soc:audio
+E:ID_PATH_TAG=platform-soc_audio
+E:ID_FOR_SEAT=sound-platform-soc_audio
+E:SOUND_INITIALIZED=1
+E:SYSTEMD_WANTS=sound.target
+G:seat
+G:systemd

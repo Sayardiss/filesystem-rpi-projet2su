@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libmtp.so.9.3.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmtp9
+/usr/share/doc/libmtp9/AUTHORS
+/usr/share/doc/libmtp9/README.gz
+/usr/share/doc/libmtp9/TODO.gz
+/usr/share/doc/libmtp9/changelog.Debian.gz
+/usr/share/doc/libmtp9/changelog.gz
+/usr/share/doc/libmtp9/copyright
+/usr/lib/arm-linux-gnueabihf/libmtp.so.9

@@ -1,1 +1,2 @@
-# filesystem-rpi-projet2su
+# projet-2su
+Repo for the Raspberry filesystem

@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/include
+/usr/include/libmnl
+/usr/include/libmnl/libmnl.h
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libmnl.a
+/usr/lib/arm-linux-gnueabihf/pkgconfig
+/usr/lib/arm-linux-gnueabihf/pkgconfig/libmnl.pc
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmnl-dev
+/usr/share/doc/libmnl-dev/README
+/usr/share/doc/libmnl-dev/changelog.Debian.gz
+/usr/share/doc/libmnl-dev/copyright
+/usr/lib/arm-linux-gnueabihf/libmnl.so

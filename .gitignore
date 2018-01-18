@@ -1,0 +1,6 @@
+/sys/
+/proc/
+/mnt/
+/lost+found/
+/var/swap
+/var/lib/mongodb/journal/

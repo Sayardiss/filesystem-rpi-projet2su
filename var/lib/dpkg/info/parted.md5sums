@@ -1,0 +1,8 @@
+fa3a093a627641f5ba82310a0b3126f5  sbin/parted
+7e7f712afa2147069e8f994b25afb1f3  sbin/partprobe
+872b9955c7ce4fc3684c51c739b340c4  usr/share/doc/parted/changelog.Debian.gz
+aa810ccbc5a14977c76c90297b62b539  usr/share/doc/parted/changelog.gz
+ae9fb49acaefac7f807aa2e0463f2733  usr/share/doc/parted/copyright
+a9d09acefadc87cda5a335557c42bed4  usr/share/lintian/overrides/parted
+ce48ea27d10984a4cdb1248cf83430df  usr/share/man/man8/parted.8.gz
+17be60c8fa24340a6b66427220854cc1  usr/share/man/man8/partprobe.8.gz

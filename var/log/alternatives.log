@@ -1,0 +1,2 @@
+update-alternatives 2018-01-18 15:13:00: run with --quiet --remove rlogin /usr/bin/ssh
+update-alternatives 2018-01-18 15:13:00: run with --quiet --remove rcp /usr/bin/ssh

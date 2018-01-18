@@ -1,0 +1,10 @@
+8ab5ceb5d57b2a8e6db80d56b6d96dea  usr/share/doc/samba-common/NEWS.Debian.gz
+0123bd1cb58c2d0dfe406a771872dc88  usr/share/doc/samba-common/README.gz
+de70e072a689459a62281b64b3a27d28  usr/share/doc/samba-common/Roadmap
+9698ae275138fc127520daae29d2ed54  usr/share/doc/samba-common/WHATSNEW.txt.gz
+05e88aad3bcf3b09d177816f5fb82454  usr/share/doc/samba-common/changelog.Debian.gz
+bedf99aa0e71d2c782cac8958701a721  usr/share/doc/samba-common/copyright
+322437a9494ff2fb39654f28ab4813d6  usr/share/doc/samba-common/examples/smb.conf.default.gz
+0904acf51aed18eb09a0f3b7b41ae277  usr/share/lintian/overrides/samba-common
+e0677a7a3415f9b7717821b0db416520  usr/share/samba/panic-action
+95b44915e267400669b2724e0cce5967  usr/share/samba/smb.conf

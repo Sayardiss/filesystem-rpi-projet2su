@@ -1,0 +1,49 @@
+ccid for Debian
+---------------
+
+Note for a USB smart card reader
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You should install the udev package
+
+The libccid driver uses the /proc/bus/usb/ filesystem to communicate
+with the USB reader.
+
+I strongly recommend to install the ``udev'' Debian package.
+
+
+Note for a GemPC Twin connected to a serial port
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You have to edit /etc/reader.conf.d/libccidtwin to chose the serial port
+your reader is connected to.
+
+The configuration file /etc/reader.conf is automatically (re)generated
+if your start update-reader.conf(8)
+
+See update-reader.conf(8) for more information.
+
+When the package is removed:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you configured /etc/reader.conf.d/libccidtwin and remove the package
+you will get an error message from pcscd (in /var/log/messages by
+default). Something like:
+
+  Sep 23 22:29:11 foobar pcscd: dyn_unix.c:32 DYN_LoadLibrary: dlerror()
+  reports /usr/lib/pcsc/drivers/serial/libccidtwin.so.0: cannot open
+  shared object file: No such file or directory
+
+This is because the library is removed by the configuration file
+/etc/reader.conf.d/libccidtwin is still present and /etc/reader.conf
+still uses the configuration and try to start the driver for the Twin
+reader.
+
+If you really want to get rid of this warning you can purge the package
+(dpkg --purge libccid) but you will lose your configuration file
+/etc/reader.conf.d/libccidtwin and you will have to reconfigure it if
+you re-install the libccid package.
+
+$Id: README.Debian,v 1.4 2006-03-03 21:00:22 rousseau Exp $
+
+ -- Ludovic Rousseau <rousseau@debian.org>, Sun, 24 Aug 2003 19:03:06 +0200

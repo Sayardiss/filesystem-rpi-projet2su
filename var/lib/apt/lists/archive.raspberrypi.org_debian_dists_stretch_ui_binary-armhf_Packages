@@ -1,0 +1,2398 @@
+Package: alacarte
+Version: 3.11.91-2+rpi5
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 309
+Depends: python:any (>= 2.6.6-7~), gnome-menus (>= 3.5.3), python-gi (>= 3.0), gir1.2-gtk-3.0, gir1.2-gmenu-3.0 (>= 3.5.3), gir1.2-glib-2.0, gir1.2-gdkpixbuf-2.0
+Priority: optional
+Section: utils
+Filename: pool/ui/a/alacarte/alacarte_3.11.91-2+rpi5_all.deb
+Size: 90138
+SHA256: 5cd2a3badffe95d30feff935b9ed6c619522a984806d5550923bb860cbab3e3d
+SHA1: 2520e0bb4877873088a49a9783cc72bdad3f6449
+MD5sum: 014b51f5b000cf3d8a910f550d42118d
+Description: easy GNOME menu editing tool
+ Alacarte is an easy-to-use menu editor for GNOME that can add
+ and edit new entries and menus. It works with the freedesktop.org
+ menu specification and should work with any desktop environment
+ that uses the spec.
+
+Package: cantab-screensaver
+Version: 0.2
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 198466
+Depends: libc6 (>= 2.4), xscreensaver, libraspberrypi0
+Homepage: https://www.raspberrypi.org/
+Priority: optional
+Section: utils
+Filename: pool/ui/c/cantab-screensaver/cantab-screensaver_0.2_armhf.deb
+Size: 203190494
+SHA256: 29de59f046d0663d7002506869d8b3212ef70487cdea2bd8ef6359d4ca4f7a12
+SHA1: f6972f20d70930d658be6e3615eb695c4a29efa7
+MD5sum: 41df80d29ac54ae269918352c819a920
+Description: Cambridge video screensaver
+ Video screensaver of Cambridge colleges for use with xscreensaver
+
+Package: cantab-theme
+Version: 0.1
+Architecture: all
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 3
+Depends: cantab-screensaver, cantab-wallpaper
+Homepage: http://raspberrypi.org
+Priority: optional
+Section: misc
+Filename: pool/ui/c/cantab-theme/cantab-theme_0.1_all.deb
+Size: 2192
+SHA256: 11b9b7034e8129f70d99fc9a6e16202beb3945267c2ba4dede292f98449d660b
+SHA1: 589f478ca9f9ea385dea9329875e812b61e36f48
+MD5sum: 840926f0ff4ad16c96715b6338d06b3c
+Description: Meta package for Cambridge screensaver and wallpaper
+ Meta package integrating Cambridge-themed video screensaver and desktop
+ wallpaper for use with PIXEL desktop.
+
+Package: cantab-wallpaper
+Version: 0.3
+Architecture: all
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 28950
+Homepage: http://raspberrypi.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/c/cantab-wallpaper/cantab-wallpaper_0.3_all.deb
+Size: 29062994
+SHA256: 6749ce98f779e730788b47dc0f98e0000b3f3b371108a6fd70d445ddac9b97f9
+SHA1: 8f4b6904f31556bc909ba1dc8d77406678ac7c97
+MD5sum: 03a43e3ad287cd5c65e4b004671b4561
+Description: Cambridge-themed wallpaper
+ Custom wallpaper of Cambridge images for PIXEL desktop environment.
+
+Package: fontconfig-infinality
+Version: 20130104-0ubuntu0ppa1+rpi1
+Architecture: all
+Maintainer: Bob Chez <no1wantdthisname@gmail.com>
+Installed-Size: 530
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Filename: pool/ui/f/fontconfig-infinality/fontconfig-infinality_20130104-0ubuntu0ppa1+rpi1_all.deb
+Size: 32712
+SHA256: 16320438a502e5a46e0225bb551bd3ff551d4e444c1a941110ca3bb79831f6f6
+SHA1: 68421f3886a8f01bea22a5bbead89a86d16ae314
+MD5sum: 299355a5322dd34c683c40c75c6b68c2
+Description: Packages up http://www.infinality.net/fedora/linux/zips/fontconfig-infinality-1-20130104_1.tar.bz2
+
+Package: fonts-piboto
+Version: 1.0
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 1659
+Pre-Depends: dpkg (>= 1.15.6~)
+Multi-Arch: foreign
+Homepage: https://android.googlesource.com/platform/frameworks/base/
+Priority: optional
+Section: fonts
+Filename: pool/ui/f/fonts-piboto/fonts-piboto_1.0_all.deb
+Size: 501698
+SHA256: 951b79a9b43bcd1fc387130e10fc23f8164029918655c4d6124a30a102d7d1ea
+SHA1: 3e73c84fb31cccbb3c253468dabd833dea23311a
+MD5sum: 0c4c774b2efa0cb6d17db5cf5e23f5e9
+Description: sans-serif font family released with Android Ice Cream Sandwich
+ This package contains fonts released with Android Ice Cream Sandwich OS.
+ Google describes the font as "modern yet approachable and emotional". This
+ family includes regular and oblique styles of Thin, Light, Regular, Medium,
+ Bold, Black, and Condensed widths.
+
+Package: gir1.2-gtk-3.0
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 995
+Depends: libgtk-3-common, gir1.2-atk-1.0, gir1.2-freedesktop, gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0, gir1.2-pango-1.0, libgirepository-1.0-1 (>= 1.41.4-1), libgtk-3-0 (>= 3.22.6)
+Breaks: python-gi (<< 3.18), python3-gi (<< 3.18)
+Multi-Arch: same
+Homepage: http://www.gtk.org/
+Priority: optional
+Section: introspection
+Filename: pool/ui/g/gtk+3.0/gir1.2-gtk-3.0_3.22.11-1+rpi3_armhf.deb
+Size: 245256
+SHA256: 2bae0ebac75caf97df303fc6e903425228eab22218435048cad833c3e06a58ae
+SHA1: 9a6e201cafaa37f85f0eedea540718218c663ffd
+MD5sum: c93b2c39d861b2902b8319eae6338d7c
+Description: GTK+ graphical user interface library -- gir bindings
+ GTK+ is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK+ is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings.
+
+Package: gnome-panel-control
+Source: openbox
+Version: 3.6.1-4+rpi4
+Architecture: armhf
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Installed-Size: 59
+Depends: libc6 (>= 2.4), libx11-6
+Breaks: openbox (<< 3.4.11.2)
+Replaces: openbox (<< 3.4.11.2)
+Homepage: http://www.openbox.org
+Priority: optional
+Section: x11
+Filename: pool/ui/o/openbox/gnome-panel-control_3.6.1-4+rpi4_armhf.deb
+Size: 44848
+SHA256: ae99e8e7c314cb701e7488aa25b2be83d0bcd2eff4bc0d328d518380ecc58824
+SHA1: 9cbcb95be6947728a70ff5dac9c332f459daa468
+MD5sum: 5f001298659522be2db23d5179158f6e
+Description: command line utility to invoke GNOME panel run dialog/menu
+ gnome-panel-control can be used to invoke the GNOME panel run or main
+ menu from the command line. This is originally a helper utility of openbox
+ since gnome-panel is no longer managing its own key bindings.
+
+Package: gnome-panel-control-dbgsym
+Source: openbox
+Version: 3.6.1-4+rpi4
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Installed-Size: 23
+Depends: gnome-panel-control (= 3.6.1-4+rpi4)
+Homepage: http://www.openbox.org
+Priority: extra
+Section: debug
+Filename: pool/ui/o/openbox/gnome-panel-control-dbgsym_3.6.1-4+rpi4_armhf.deb
+Size: 9760
+SHA256: 7395c9e445fb70d3b1380f186c634e15b2a6691326a1d3ae2972647bb24dd850
+SHA1: a69a361f0c4e79d7be3d7ffae65158a49d506986
+MD5sum: 34432ffd787c30c11a6cd414f7a2405d
+Description: Debug symbols for gnome-panel-control
+Build-Ids: 254733e199f67c4f0201d435310176309852695e
+
+Package: gtk-3-examples
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 3976
+Depends: libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.15.1), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.25.2), libglib2.0-0 (>= 2.49.4), libgtk-3-0 (= 3.22.11-1+rpi3), libharfbuzz0b (>= 0.9.9), libpango-1.0-0 (>= 1.37.3), libpangocairo-1.0-0 (>= 1.37.3), libpangoft2-1.0-0 (>= 1.37.3), libx11-6, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxinerama1, libxrandr2, dconf-gsettings-backend | gsettings-backend
+Breaks: libgtk-3-common (<< 3.5.4)
+Replaces: libgtk-3-common (<< 3.5.4)
+Homepage: http://www.gtk.org/
+Priority: extra
+Section: x11
+Filename: pool/ui/g/gtk+3.0/gtk-3-examples_3.22.11-1+rpi3_armhf.deb
+Size: 959584
+SHA256: 251f7294f1d5d1b8a8475894618862b22c667c8f9676d56de81393ac27542f5d
+SHA1: b69784f25836ec2eb6b9f1972d18379eabf860f5
+MD5sum: 707b7cb6399643aff5c4d5d3ccd77beb
+Description: example files for GTK+ 3
+ GTK+ is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK+ is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the example files and a demonstration program
+ for GTK+3.
+
+Package: gtk-3-examples-dbgsym
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 683
+Depends: gtk-3-examples (= 3.22.11-1+rpi3)
+Homepage: http://www.gtk.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/g/gtk+3.0/gtk-3-examples-dbgsym_3.22.11-1+rpi3_armhf.deb
+Size: 573372
+SHA256: d7c2a7e3c61cde6949f25b6bedd18fa0218077024cc7622c0e20b138deec420c
+SHA1: c417ad466c67436275a758b364d97b85f4a323bd
+MD5sum: 0c358f28673ab0a83a13c9b6ed6ba59e
+Description: Debug symbols for gtk-3-examples
+Build-Ids: 049e7b3d60c4b03a0cb53f97061da0de53a02b82 23f7fd435275719a6c55956a9896300e21d1ac54 51eb26930e8014e485793184006f72b4c7bafc74 53cac8b5ffef40e600bfca43d750e1d8d1e6a0e7 63a3ba549ba5e713e8af1831c34717ed774ca7f0
+
+Package: gtk-update-icon-cache
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 135
+Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.49.4)
+Breaks: libgtk-3-bin (<< 3.20.6-1), libgtk2.0-bin (<< 2.24.30-2)
+Replaces: libgtk-3-bin (<< 3.20.6-1), libgtk2.0-bin (<< 2.24.30-2)
+Multi-Arch: foreign
+Homepage: http://www.gtk.org/
+Priority: optional
+Section: misc
+Filename: pool/ui/g/gtk+3.0/gtk-update-icon-cache_3.22.11-1+rpi3_armhf.deb
+Size: 75914
+SHA256: 0646c7cb24601d44e978ee3a2a5389ba7645d402c034d001691d3afc13888062
+SHA1: e596adcc3fe3e1829b7bb6a2bf00e0b21d096df1
+MD5sum: 8d70a6fbb18a27dfbfc7c77a93c1c442
+Description: icon theme caching utility
+ gtk-update-icon-cache creates mmap()able cache files for icon themes.
+ .
+ GTK+ can use the cache files created by gtk-update-icon-cache to avoid a lot
+ of system call and disk seek overhead when the application starts. Since the
+ format of the cache files allows them to be mmap()ed shared between multiple
+ applications, the overall memory consumption is reduced as well.
+
+Package: gtk-update-icon-cache-dbgsym
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 48
+Depends: gtk-update-icon-cache (= 3.22.11-1+rpi3)
+Homepage: http://www.gtk.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/g/gtk+3.0/gtk-update-icon-cache-dbgsym_3.22.11-1+rpi3_armhf.deb
+Size: 32542
+SHA256: b540528bddd1ac076af27a8f5ad915c9c44267533bb78685d6ed1d01fd25b027
+SHA1: c3101d7ca2f5431bdf425cdca91bbc0a70c3d551
+MD5sum: b9a78e388aabf5577a5d516cf0eef4c9
+Description: Debug symbols for gtk-update-icon-cache
+Build-Ids: 095033a14e731dd9e64c6bc9f52e1c97230e37b9
+
+Package: gtk2-engines-clearlookspix
+Version: 1:2.20.4
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 154
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.19.7-2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
+Breaks: gnome-themes-extras (<< 2)
+Multi-Arch: same
+Priority: optional
+Section: gnome
+Filename: pool/ui/g/gtk2-engines-clearlookspix/gtk2-engines-clearlookspix_2.20.4_armhf.deb
+Size: 66826
+SHA256: 2ea96c1e6ee276e88fe43ba9f26d72be183654bc8bcd54bf46815a9e939ce5f7
+SHA1: bb0f0226f93b1fc2130763f444ddf6313d8ff8df
+MD5sum: ce95c021b941c10a0b68c20a9951eab2
+Description: clearlookspix theme for GTK+ 2.x
+ GTK+ is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK+ is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the clearlookspix theme engine.
+
+Package: libfm-data
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: all
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1462
+Breaks: libfm0, libfm1
+Replaces: libfm0, libfm1
+Multi-Arch: foreign
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: misc
+Filename: pool/ui/libf/libfm/libfm-data_1.2.5-1+rpi3_all.deb
+Size: 234456
+SHA256: 4fb374dcd8b52a0150a99d5e98269150bbdb61bb6c49976b588871bf7382e9d5
+SHA1: 80dbfdd842d2cfcc312ebbc1a99de0fdf285dd84
+MD5sum: c79699b29510446628a2c74d99a8fd38
+Description: file management support (common data)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the common data of the core library.
+
+Package: libfm-dbg
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 504
+Depends: libfm4 (= 1.2.5-1+rpi3), libfm-extra4 (= 1.2.5-1+rpi3)
+Breaks: libfm1-dbg
+Replaces: libfm1-dbg
+Multi-Arch: same
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: extra
+Section: debug
+Filename: pool/ui/libf/libfm/libfm-dbg_1.2.5-1+rpi3_armhf.deb
+Size: 429260
+SHA256: 65f60d247f1d82c3a4832576f057b6671a8ac047d7f2cd37949ee3e9c351b2f5
+SHA1: 119f5372701951678a6091661ad5a301d051f0c3
+MD5sum: 1a9aea27846af2e2a2af761a8f1c8372
+Description: file management support (libfm debug)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the debugging symbols for GUI independent library.
+Build-Ids: 81d2f1585764ab6f8fbc0f7459e9e8b10a3fa396
+
+Package: libfm-dev
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 293
+Depends: libfm4 (= 1.2.5-1+rpi3), libfm-extra-dev (= 1.2.5-1+rpi3)
+Suggests: libfm-doc
+Multi-Arch: same
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: libdevel
+Filename: pool/ui/libf/libfm/libfm-dev_1.2.5-1+rpi3_armhf.deb
+Size: 56746
+SHA256: 744ae4a208317e5e46f46dbc1dcf5ebc4c77afc7cd4a0d672bb10be2282b5cab
+SHA1: 4e03f3fd47456f1fea3eeae8df68f83bb4bc0938
+MD5sum: 2bbf6517b73b96b5d35b4695bfc813eb
+Description: file management support (core development files)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development files for GUI-independent build.
+
+Package: libfm-doc
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: all
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 2169
+Recommends: libglib2.0-doc, libgtk-3-doc
+Breaks: libfm-dev (<< 1.1.1)
+Replaces: libfm-dev (<< 1.1.1)
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: doc
+Filename: pool/ui/libf/libfm/libfm-doc_1.2.5-1+rpi3_all.deb
+Size: 152930
+SHA256: e78bc3a62b70f6e4a9dd875a61e1a7135b5dfb2f0d7ccd776c85929ade7847ac
+SHA1: cc0a73dea27860420b0252264fa85a6672e793c7
+MD5sum: 0eeba5656bea6f95cc90d76ead790b51
+Description: file management support (development documentation)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development HTML documentation.
+
+Package: libfm-extra-dev
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 49
+Depends: libfm-extra4 (= 1.2.5-1+rpi3), libglib2.0-dev
+Breaks: libfm-dev (<= 1.2.4-1)
+Replaces: libfm-dev (<= 1.2.4-1)
+Multi-Arch: same
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: libdevel
+Filename: pool/ui/libf/libfm/libfm-extra-dev_1.2.5-1+rpi3_armhf.deb
+Size: 23114
+SHA256: 1a83a15edb3c107807fd68118f843199b7b32cb15917605178a5ae298b1bd112
+SHA1: b2472c9394a2e146fe5d0f3bcb3d1b99fc630fe4
+MD5sum: fe137033c26263b2ef01c8484f4bf8b8
+Description: file management support (libfm-extra development files)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development files for libfm-extra library.
+
+Package: libfm-extra4
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 62
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3)
+Multi-Arch: same
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: libs
+Filename: pool/ui/libf/libfm/libfm-extra4_1.2.5-1+rpi3_armhf.deb
+Size: 29176
+SHA256: 4113a78d45a6b9ddfbb526b52e69d4e03d55e24f10ee0d6a3e51d4b124257a93
+SHA1: 6c353c6fd161207330c6abb7b5bafef3f74ceb7f
+MD5sum: 23a7fefadfba33a026c5c95ad6022550
+Description: file management support (extra library)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains standalone library which extends libfm.
+
+Package: libfm-gtk-data
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: all
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 159
+Breaks: libfm-gtk-bin (<< 1.0), libfm-gtk0
+Replaces: libfm-gtk0
+Multi-Arch: foreign
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: misc
+Filename: pool/ui/libf/libfm/libfm-gtk-data_1.2.5-1+rpi3_all.deb
+Size: 33888
+SHA256: 8cf104157c11a7e8b3152b8a5efd03199117c0a4bf9eae48fe9e14b4691da3c7
+SHA1: a49d7ddc6f9bdd0cab88b554749c5e939b4b253c
+MD5sum: 0ed8fd96e4dbc244b9b31d1db0b6fe51
+Description: file management support (GTK+ library common data)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the common data of the GTK+ library.
+
+Package: libfm-gtk-dbg
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 753
+Depends: libfm-gtk4 (= 1.2.5-1+rpi3)
+Breaks: libfm-dbg (<< 1.0.2)
+Multi-Arch: same
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: extra
+Section: debug
+Filename: pool/ui/libf/libfm/libfm-gtk-dbg_1.2.5-1+rpi3_armhf.deb
+Size: 655024
+SHA256: 33b7b1f3b3afe54b1e78fa5998d867d85b05706c1200ccbac88a9b923531bf31
+SHA1: 38eb493b819410a191efacafaea9185d9414c908
+MD5sum: 0e57567c11bee300829e59d5e2209f20
+Description: file management support (libfm-gtk debug)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the debugging symbols for GTK+ library.
+Build-Ids: e7e046b03e48e937e1b4d8a842f2fff3a281ffec
+
+Package: libfm-gtk-dev
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 36
+Depends: libfm-dev (= 1.2.5-1+rpi3), libfm-gtk4 (= 1.2.5-1+rpi3), libgtk2.0-dev
+Breaks: libfm-dev (<< 1.0.2)
+Multi-Arch: same
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: libdevel
+Filename: pool/ui/libf/libfm/libfm-gtk-dev_1.2.5-1+rpi3_armhf.deb
+Size: 21434
+SHA256: f8c0a5f960381d892d709525db94e268c53866a3828e61db96c0baa945248dc3
+SHA1: 32a51dfa4e33eeae6370839a765af6a8896df62a
+MD5sum: a55037f825dc8f23c108108d54ac8ff7
+Description: file management support (GTK+ GUI development files)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the development files for builds using GTK+ library.
+
+Package: libfm-gtk4
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 381
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfm4 (= 1.2.5-1+rpi3), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libmenu-cache3 (>= 0.4.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libfm-gtk-data (>= 1.2.0~)
+Suggests: libfm-tools, nautilus-actions
+Multi-Arch: same
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: libs
+Filename: pool/ui/libf/libfm/libfm-gtk4_1.2.5-1+rpi3_armhf.deb
+Size: 134076
+SHA256: 18ea760379e52352fef6c75941ec42827badea139fc5207a4eea8f2624d9849c
+SHA1: 01a824346d9e1509fefaa30822f04b1a61cd378f
+MD5sum: e5814f9df914adeaab3ce978e9e16c5f
+Description: file management support (GTK+ 2.0 GUI library)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains the GTK+ version 2.0 GUI.
+
+Package: libfm-modules
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 139
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfm-extra4 (>= 1.2.0), libfm-gtk4 (>= 0.1.12), libfm4 (>= 1.0.2), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.18.0), libmenu-cache3 (>= 0.5.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
+Multi-Arch: same
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: libs
+Filename: pool/ui/libf/libfm/libfm-modules_1.2.5-1+rpi3_armhf.deb
+Size: 45866
+SHA256: bc7051e89690ea573efeedc374e0f78ba68f17d2273d538cb938450b06e923cb
+SHA1: 10d1cdd8c400c29645bd1ccb7739feae0f8d46a4
+MD5sum: 6ff9bfd71b4a28df03f0ad3f29fef0c8
+Description: file management support (loadable modules for library)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains loadable modules used by libfm* libraries.
+
+Package: libfm-modules-dbg
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 219
+Depends: libfm-modules (= 1.2.5-1+rpi3)
+Multi-Arch: same
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: extra
+Section: debug
+Filename: pool/ui/libf/libfm/libfm-modules-dbg_1.2.5-1+rpi3_armhf.deb
+Size: 159258
+SHA256: c0b7b5a5865738d0664a3a61fec3ac6a0dbd8ce28dfe96b9caee5deee0b69cc3
+SHA1: a43af69fb73426a7df5cdba110fbafec04e1ed73
+MD5sum: 8eb217aea415874424e482b8217fe7a4
+Description: file management support (libfm-modules debug)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ This package contains the debugging symbols for libfm modules.
+Build-Ids: 0001a725f2ff26c2cce6b36aded2f85b819de1fe 2f8c5eb1c770ffb024e7fafdb03df480bf1ba389 37af5136b18f95648991ef35e842677ff92f2082 61d0b776453e6b9e84fd629083f270332d4f1abc 861076d87e40a328d71c0379f8587d5280b443c2 a0580580a894aa6ca889db5a4dbe1f245ad4ef1b
+
+Package: libfm-tools
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 73
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 0.1.99), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.28.0), libgtk2.0-0 (>= 2.12.0), libmenu-cache3 (>= 0.3.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libfm-modules
+Conflicts: libfm-gtk-bin, lxshortcut
+Replaces: libfm-gtk-bin, lxshortcut
+Provides: libfm-gtk-bin, lxshortcut
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: misc
+Filename: pool/ui/libf/libfm/libfm-tools_1.2.5-1+rpi3_armhf.deb
+Size: 32592
+SHA256: 0088d505c454a1aa7e253f386d4646e4186ab9f773eb99b1d733f28fce7167e3
+SHA1: 0e3cc1cd2febd347791294c9c513a21d0cf6346d
+MD5sum: 116d8fc3a18ae48e1dc8c6eac8383e9a
+Description: file management support (utilities)
+ LibFM provides file management functions built on top of Glib/GIO
+ giving a convenient higher-level API.
+ .
+ This package contains applications libfm-pref-apps and lxshortcut.
+
+Package: libfm-tools-dbgsym
+Source: libfm
+Version: 1.2.5-1+rpi3
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 54
+Depends: libfm-tools (= 1.2.5-1+rpi3)
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: extra
+Section: debug
+Filename: pool/ui/libf/libfm/libfm-tools-dbgsym_1.2.5-1+rpi3_armhf.deb
+Size: 33502
+SHA256: 54649c34cc8f277a6ec8441e36e9281f288fd113f737e0f06286326fa2cf12b3
+SHA1: eb5e59ca171e9d2d1928cf1f2e3f5cfe9fae1352
+MD5sum: 3c52240c60148a0e9a30f36024a3770e
+Description: Debug symbols for libfm-tools
+Build-Ids: e42dbf242cb717df44de6df39507a85659f114f9 fd14ddba44c8661a21f9c1dc2cc5ab2df4588c0a
+
+Package: libfm4
+Source: libfm
+Version: 1.2.5-1+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 274
+Depends: libc6 (>= 2.7), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libexif12 (>= 0.6.21-1~), libglib2.0-0 (>= 2.37.3), libmenu-cache3 (>= 0.5.0), libfm-data (>= 1.2.0~), lxmenu-data
+Recommends: libfm-modules
+Multi-Arch: same
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: libs
+Filename: pool/ui/libf/libfm/libfm4_1.2.5-1+rpi3_armhf.deb
+Size: 100654
+SHA256: a93d1340e1d7ff0469cc866231de46a7ff6b52e56ddc1afaf36337efea32d40d
+SHA1: 87f00cce7ce55327f5bc56e385777ba82539abff
+MD5sum: d0b5856d75b424a6a5ad0547bed16832
+Description: file management support (core library)
+ LibFM provides file management functions built on top of Glib/GIO,
+ giving a convenient higher-level API.
+ .
+ Some features:
+  * Desktop-independent, following FreeDesktop standards;
+  * Fast, light on memory usage, and responsive - well suited to
+    less powerful hardware such as netbooks and thin clients;
+  * Uses GIO/GVFS (like Nautilus) for Trash support and access to
+    remote file systems (FTP, SFTP, WebDAV, Windows shares, etc.);
+  * Clipboard operations are compatible with GTK+/GNOME and Qt/KDE;
+  * Supports both Drag-and-Drop, and the X Direct Save protocol;
+  * Reusable design with the core functions separated out to
+    simplify porting to other GUIs.
+ .
+ This package contains the core library.
+
+Package: libgail-3-0
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 130
+Depends: libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.15.1), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.49.4), libgtk-3-0 (= 3.22.11-1+rpi3), libpango-1.0-0 (>= 1.37.3), libpangocairo-1.0-0 (>= 1.37.3), libpangoft2-1.0-0 (>= 1.37.3), libx11-6, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxfixes3, libxi6, at-spi2-core
+Multi-Arch: same
+Homepage: http://www.gtk.org/
+Priority: optional
+Section: libs
+Filename: pool/ui/g/gtk+3.0/libgail-3-0_3.22.11-1+rpi3_armhf.deb
+Size: 71312
+SHA256: 091668bcbb65acda2fcd1035039a5800de3b3100fe93af7a7a942b2c47a5223e
+SHA1: c7689f0e5600b91b42ab71c1ea7cc20d490c53a6
+MD5sum: 9f30b2298030eb89d687fd50fb5fbb6f
+Description: GNOME Accessibility Implementation Library -- shared libraries
+ Gail implements ATK interfaces for GTK+ widgets which are dynamically
+ loadable at runtime by a GTK+ application. Once loaded, those parts of
+ an application that use standard GTK+ widgets will have a basic level
+ of accessibility, without the need to modify the application at all.
+ .
+ This package contains the shared library.
+
+Package: libgail-3-0-dbgsym
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 46
+Depends: libgail-3-0 (= 3.22.11-1+rpi3)
+Multi-Arch: same
+Homepage: http://www.gtk.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/g/gtk+3.0/libgail-3-0-dbgsym_3.22.11-1+rpi3_armhf.deb
+Size: 30712
+SHA256: d794768364a33f82c79dd8484af157213c97ed51b58e69ef2057862e5c83bd96
+SHA1: 30f013be47d05e3cff40f6f85f4d4e207cb95237
+MD5sum: 1831cfa0639af04bf2deb3796ef7e562
+Description: Debug symbols for libgail-3-0
+Build-Ids: aff8212f6ce1952a3dddd8e67b38527f81c207fe
+
+Package: libgail-3-dev
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 115
+Depends: libgail-3-0 (= 3.22.11-1+rpi3), libgtk-3-dev (= 3.22.11-1+rpi3), pkg-config, libatk1.0-dev
+Suggests: libgail-3-doc
+Multi-Arch: same
+Homepage: http://www.gtk.org/
+Priority: optional
+Section: libdevel
+Filename: pool/ui/g/gtk+3.0/libgail-3-dev_3.22.11-1+rpi3_armhf.deb
+Size: 64800
+SHA256: 194c174daecdc0679f3e81a7aa5b97b221a93af18b88fe5c4dcbddc6bb975b51
+SHA1: 92bde21a8b15dc6ae18deb695058882e1731e4eb
+MD5sum: 35d5d3dece12e6581a7ce70efdf93246
+Description: GNOME Accessibility Implementation Library -- development files
+ Gail implements ATK interfaces for GTK+ widgets which are dynamically
+ loadable at runtime by a GTK+ application. Once loaded, those parts of
+ an application that use standard GTK+ widgets will have a basic level
+ of accessibility, without the need to modify the application at all.
+ .
+ This package contains the development files for Gail.
+
+Package: libgail-3-doc
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 176
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: http://www.gtk.org/
+Priority: optional
+Section: doc
+Filename: pool/ui/g/gtk+3.0/libgail-3-doc_3.22.11-1+rpi3_all.deb
+Size: 72660
+SHA256: 948ba4921a4e06c64b1f0e5f958b5e835d16cefc9fbbe9fc78a795ba98f71440
+SHA1: c0cf079ec9f8b1e6afb0f938840bc389d7addfbb
+MD5sum: 0fd7c32a867c0eff4aaae22e8ac3141a
+Description: documentation files of the Gail library
+ Gail implements ATK interfaces for GTK+ widgets which are dynamically
+ loadable at runtime by a GTK+ application. Once loaded, those parts of
+ an application that use standard GTK+ widgets will have a basic level
+ of accessibility, without the need to modify the application at all.
+ .
+ This package contains the documentation files for Gail.
+
+Package: libgtk-3-0
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 7672
+Depends: libgtk-3-common (>= 3.22.11-1+rpi3), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.15.1), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libcolord2 (>= 0.1.29), libcups2 (>= 1.6.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.30.1), libglib2.0-0 (>= 2.49.5), libjson-glib-1.0-0 (>= 0.12.0), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.37.3), libpangoft2-1.0-0 (>= 1.37.3), librest-0.7-0 (>= 0.7), libsoup2.4-1 (>= 2.4.0), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1, libxml2 (>= 2.6.27), libxrandr2 (>= 2:1.5.0), hicolor-icon-theme, adwaita-icon-theme, shared-mime-info
+Recommends: libgtk-3-bin
+Suggests: librsvg2-common, gvfs
+Breaks: gnome-themes-standard (<< 3.6), gtk3-engines-oxygen (<< 1.4.1-3)
+Provides: gtk3-binver-3.0.0
+Multi-Arch: same
+Homepage: http://www.gtk.org/
+Priority: optional
+Section: libs
+Filename: pool/ui/g/gtk+3.0/libgtk-3-0_3.22.11-1+rpi3_armhf.deb
+Size: 2076798
+SHA256: 99bf19523b307427ff5102b0af7432a96096066fbf8e79ba520e9f3f42769f5b
+SHA1: dcd37e04189d9ab87059f30052be5692417e117b
+MD5sum: 76a7b4a3b6440fdb785c54be0c295df5
+Description: GTK+ graphical user interface library
+ GTK+ is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK+ is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the shared libraries.
+
+Package: libgtk-3-0-dbgsym
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 11135
+Depends: libgtk-3-0 (= 3.22.11-1+rpi3)
+Multi-Arch: same
+Homepage: http://www.gtk.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/g/gtk+3.0/libgtk-3-0-dbgsym_3.22.11-1+rpi3_armhf.deb
+Size: 9745128
+SHA256: 4dc88cdf1d02eab1bae357c0d3c7cd5359f5ba0e867f4205229a499d3c6a178b
+SHA1: d4813056e049f4e0735a016d8d6eb2799de82689
+MD5sum: 9371b72cf172b2a11158beed7e17577b
+Description: Debug symbols for libgtk-3-0
+Build-Ids: 04c36b011edd1f166c6eebfec6598372d612d7ce 15b6fcc2c9f17f776caab31e2d33b02ba3cba8d1 17332ff74b9742cfeadd4180b0d1d26ebd393042 23b11157126c63c578f145ad4873ef0669033a47 38e089a7f86cb03132b55db1bdaa0b69ee3420a7 398ca0fe7959153310a05fc4e9275429bf46969d 5103c70ed33f997dca61b30089ea0ba75de10150 536d0e604184345a4f6629a1e057be37e9574305 572d3c490195d352ee66775c6b19ba498e1c3690 5db90c5ab354babc1899297ed13acffc3a0bb4e1 74f016ded06e0f37344501f7440089fd333fe0cf 87a98858b3c39f723662cd9d3eb32f852cc66509 8a5d4639ce86907d2ff7d173d67b19ea7cb4f3e5 9183dd62a1113602bff4c5c70390452fa2261e56 948d4617b82aca2348833af3c4de2f26a3b81051 b64d91122cb1fe6663ff0c7357300b25acd02267 c1ea3356debe79d623760b8b157cc320891d1296 cd36e97a45eb300f3c40bbd49d256e97fac3de97 d86a47cfe515f112906dd6a9369ceb26288c007a db8ef0727ef31f17db13372af80baa9ffde0ae04
+
+Package: libgtk-3-bin
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 264
+Depends: libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.15.1), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libepoxy0 (>= 1.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.49.4), libgtk-3-0 (>= 3.22.11-1+rpi3), libpango-1.0-0 (>= 1.37.3), libpangocairo-1.0-0 (>= 1.37.3), libpangoft2-1.0-0 (>= 1.37.3), libx11-6, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxinerama1, libxrandr2, libgtk-3-common (>= 3.22.11-1+rpi3), gtk-update-icon-cache
+Multi-Arch: foreign
+Homepage: http://www.gtk.org/
+Priority: optional
+Section: misc
+Filename: pool/ui/g/gtk+3.0/libgtk-3-bin_3.22.11-1+rpi3_armhf.deb
+Size: 106252
+SHA256: 475947887de5065ee691a8b43e8aea595c4db8053de000c37958b0106b5251f5
+SHA1: 40063f11538957708986fddd2f87480ba6511c7b
+MD5sum: 35c5e5113a5ee143896b00d7908ea59d
+Description: programs for the GTK+ graphical user interface library
+ GTK+ is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK+ is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the utilities which are used by the libraries
+ and other packages.
+
+Package: libgtk-3-bin-dbgsym
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 139
+Depends: libgtk-3-bin (= 3.22.11-1+rpi3)
+Homepage: http://www.gtk.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/g/gtk+3.0/libgtk-3-bin-dbgsym_3.22.11-1+rpi3_armhf.deb
+Size: 99254
+SHA256: 82140fc8b76c6d11b535204577f7eb2005e1fcb544dda96e1f449a929112a253
+SHA1: 80566eda521300c97cdfa616989b9f539515332a
+MD5sum: 7196219ab49c15fd2a4e3a1efd6692d7
+Description: Debug symbols for libgtk-3-bin
+Build-Ids: 23decaebf7974168dcdb25181070961db0fc8c82 68a8e7d8be8f05e0fbcc73243a534b7009f41ef4 8e6b4998c4d9409a0812c609886a8925a3c93821 c2384c28159f1424821d1c88298949f8de1f3dde
+
+Package: libgtk-3-common
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 24184
+Depends: dconf-gsettings-backend | gsettings-backend
+Recommends: libgtk-3-0
+Breaks: libgtk-3-0 (<< 3.5.4)
+Replaces: libgtk-3-0 (<< 3.5.4)
+Multi-Arch: foreign
+Homepage: http://www.gtk.org/
+Priority: optional
+Section: misc
+Filename: pool/ui/g/gtk+3.0/libgtk-3-common_3.22.11-1+rpi3_all.deb
+Size: 3415354
+SHA256: dd53d9c8b67822a067295dfe20a9675c429f9248099f6a2e6bda10439c243607
+SHA1: a5f6faae15a22f886928cd40464e301e2812d583
+MD5sum: 332a2dec87b5f14f1f295c38bb9a3220
+Description: common files for the GTK+ graphical user interface library
+ GTK+ is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK+ is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the common files which the libraries need.
+
+Package: libgtk-3-dev
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 10845
+Depends: libgtk-3-0 (= 3.22.11-1+rpi3), gir1.2-gtk-3.0 (= 3.22.11-1+rpi3), libgtk-3-common, dconf-gsettings-backend | gsettings-backend, libglib2.0-dev (>= 2.49.4), libgdk-pixbuf2.0-dev (>= 2.30.0), libpango1.0-dev (>= 1.37.3), libatk1.0-dev (>= 2.15.1), libatk-bridge2.0-dev, libcairo2-dev (>= 1.14.0), libepoxy-dev (>= 1.0), libfontconfig1-dev, libx11-dev, libxext-dev, libxinerama-dev, libxi-dev, libxrandr-dev, libxcursor-dev, libxfixes-dev, libxcomposite-dev, libxdamage-dev, pkg-config, libxkbcommon-dev
+Suggests: libgtk-3-doc
+Multi-Arch: same
+Homepage: http://www.gtk.org/
+Priority: optional
+Section: libdevel
+Filename: pool/ui/g/gtk+3.0/libgtk-3-dev_3.22.11-1+rpi3_armhf.deb
+Size: 944078
+SHA256: 4c66a984b128624c93d2e0bac3a534e2074234ad412f2183255aad3bae40ea35
+SHA1: df1a34a30f254ea9adb7c7b3030bafc8c1a4b28a
+MD5sum: 2db528163428fa0e91bb36d7337a545b
+Description: development files for the GTK+ library
+ GTK+ is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK+ is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the header and development files which are
+ needed for building GTK+ applications.
+
+Package: libgtk-3-doc
+Source: gtk+3.0
+Version: 3.22.11-1+rpi3
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 24930
+Recommends: libglib2.0-doc, libatk1.0-doc, libpango1.0-doc
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: http://www.gtk.org/
+Priority: optional
+Section: doc
+Filename: pool/ui/g/gtk+3.0/libgtk-3-doc_3.22.11-1+rpi3_all.deb
+Size: 3364802
+SHA256: e2e007ce7bc2bc7b0c2d900acd788d92b52d73f73d387faf42c13e8ae7ef1145
+SHA1: 12497f8aebc5859e2a9a012c8fbe129ff956c0e5
+MD5sum: 6436b23d30a16b0568f20e05ce9c6336
+Description: documentation for the GTK+ graphical user interface library
+ GTK+ is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK+ is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the HTML documentation for the GTK+ library
+ in /usr/share/doc/libgtk-3-doc/ .
+
+Package: libobrender32v5
+Source: openbox
+Version: 3.6.1-4+rpi4
+Architecture: armhf
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Installed-Size: 143
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libice6 (>= 1:1.0.0), libimlib2 (>= 1.4.5), libobt2v5 (>= 3.6.0), libpango-1.0-0 (>= 1.18.0), libpangoft2-1.0-0 (>= 1.14.0), libpangoxft-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.14.4), libsm6, libx11-6, libxft2 (>> 2.1.1), libxml2 (>= 2.6.27)
+Conflicts: libobrender15, libobrender16, libobrender32
+Replaces: libobrender15, libobrender16, libobrender32
+Homepage: http://www.openbox.org
+Priority: optional
+Section: libs
+Filename: pool/ui/o/openbox/libobrender32v5_3.6.1-4+rpi4_armhf.deb
+Size: 69114
+SHA256: eb6c62bd68bf15be133b718681b3904613f9b64b56618471d947c9e0ad0d1a50
+SHA1: 8fd8cf6c17356f662887928d636664aabc1bb476
+MD5sum: 58afdcaaeb164471dfff33e757f3347c
+Description: rendering library for openbox themes
+ Openbox works with your applications, and makes your desktop easier to manage.
+ This is because the approach to its development was the opposite of what seems
+ to be the general case for window managers. Openbox was written first to
+ comply with standards and to work properly. Only when that was in place did
+ the team turn to the visual interface.
+ .
+ Openbox is fully functional as a stand-alone working environment, or can be
+ used as a drop-in replacement for the default window manager in the GNOME or
+ KDE desktop environments.
+ .
+ Openbox 3 is a completely new breed of window manager. It is not based upon
+ any existing code base, although the visual appearance has been based upon
+ that of Blackbox. Openbox 2 was based on the Blackbox 0.65.0 codebase.
+ .
+ This package contains the libobrender library files used by openbox
+ for theme rendering.
+
+Package: libobrender32v5-dbgsym
+Source: openbox
+Version: 3.6.1-4+rpi4
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Installed-Size: 104
+Depends: libobrender32v5 (= 3.6.1-4+rpi4)
+Homepage: http://www.openbox.org
+Priority: extra
+Section: debug
+Filename: pool/ui/o/openbox/libobrender32v5-dbgsym_3.6.1-4+rpi4_armhf.deb
+Size: 85362
+SHA256: 6853355a1376f194af06611fa64b0822a0a904ceb57067e806b642d9b8a0a1cc
+SHA1: 5de97b05c30f2d2fe3f79e952b333e6632d0f296
+MD5sum: a1fcd19866614b8e0e5a3a99cc4c3f8c
+Description: Debug symbols for libobrender32v5
+Build-Ids: 61bc108af0aaebd939bbbe9a5e2ee725c3c05fc8
+
+Package: libobt2v5
+Source: openbox
+Version: 3.6.1-4+rpi4
+Architecture: armhf
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Installed-Size: 116
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.35.9), libice6 (>= 1:1.0.0), libsm6, libx11-6, libxext6, libxinerama1, libxml2 (>= 2.7.4), libxrandr2, libxrender1
+Conflicts: libobparser15, libobparser16, libobt2
+Replaces: libobparser15, libobparser16, libobt2
+Homepage: http://www.openbox.org
+Priority: optional
+Section: libs
+Filename: pool/ui/o/openbox/libobt2v5_3.6.1-4+rpi4_armhf.deb
+Size: 62160
+SHA256: 2153a8fe58bead8dc9004a9548cbe21e5e76c7d690f7e687b8527f41b577c188
+SHA1: 8cefad612a10d8dbc18f06a9e592656585381ab9
+MD5sum: f9807a5fa65c4dd622f71b966dec18df
+Description: parsing library for openbox
+ Openbox works with your applications, and makes your desktop easier to manage.
+ This is because the approach to its development was the opposite of what seems
+ to be the general case for window managers. Openbox was written first to
+ comply with standards and to work properly. Only when that was in place did
+ the team turn to the visual interface.
+ .
+ Openbox is fully functional as a stand-alone working environment, or can be
+ used as a drop-in replacement for the default window manager in the GNOME or
+ KDE desktop environments.
+ .
+ Openbox 3 is a completely new breed of window manager. It is not based upon
+ any existing code base, although the visual appearance has been based upon
+ that of Blackbox. Openbox 2 was based on the Blackbox 0.65.0 codebase.
+ .
+ This package contains the libobt library files used by openbox
+ to load and parse configuration and theme files of openbox.
+
+Package: libobt2v5-dbgsym
+Source: openbox
+Version: 3.6.1-4+rpi4
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Installed-Size: 104
+Depends: libobt2v5 (= 3.6.1-4+rpi4)
+Homepage: http://www.openbox.org
+Priority: extra
+Section: debug
+Filename: pool/ui/o/openbox/libobt2v5-dbgsym_3.6.1-4+rpi4_armhf.deb
+Size: 83018
+SHA256: 9a6f1a61c3fefa366054f49a0b0c3805527435e65f8ec6347369ab20b694421b
+SHA1: b8fab734694d581463bc34303252fb31a48ec317
+MD5sum: 40d7b39ba9336cd3d5d3bc28fce9b912
+Description: Debug symbols for libobt2v5
+Build-Ids: ec8f8d2c1b6b68ce1db995e912426f8dab4a07c6
+
+Package: libplymouth-dev
+Source: plymouth
+Version: 0.9.2-4+rpi1
+Architecture: armhf
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Installed-Size: 503
+Depends: libplymouth4 (= 0.9.2-4+rpi1)
+Breaks: plymouth-dev (<< 0.9.2-1~)
+Replaces: plymouth-dev (<< 0.9.2-1~)
+Multi-Arch: same
+Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+Priority: optional
+Section: libdevel
+Filename: pool/ui/p/plymouth/libplymouth-dev_0.9.2-4+rpi1_armhf.deb
+Size: 99798
+SHA256: 43cbc9b0f3d524c34229aa85fd2d0d5cf50607e6c78dd72385af1bf15fc5c4ef
+SHA1: b0385b05d380f125de2f44f311715396af6ee0a7
+MD5sum: ecbf5b37a00d343f002f1fe17555e6a8
+Description: graphical boot animation and logger - development files
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the development files to build Plymouth plugins.
+
+Package: libplymouth4
+Source: plymouth
+Version: 0.9.2-4+rpi1
+Architecture: armhf
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Installed-Size: 254
+Depends: libc6 (>= 2.11), libpng16-16 (>= 1.6.2-1), libudev1 (>= 183)
+Breaks: plymouth (<< 0.9.2-1~)
+Replaces: plymouth (<< 0.9.2-1~)
+Multi-Arch: same
+Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+Priority: optional
+Section: libs
+Filename: pool/ui/p/plymouth/libplymouth4_0.9.2-4+rpi1_armhf.deb
+Size: 79632
+SHA256: 9d458f5cbabdd212d2c89cb8f75efe7550b1794468ae0098f72b62ec4d5e29d3
+SHA1: e0ed1a29020f9a3040386b56e9532475ac1ce914
+MD5sum: b51fe15d56ba072012c0aca6657d4c2b
+Description: graphical boot animation and logger - shared libraries
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the shared libraries.
+
+Package: libplymouth4-dbgsym
+Source: plymouth
+Version: 0.9.2-4+rpi1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Installed-Size: 281
+Depends: libplymouth4 (= 0.9.2-4+rpi1)
+Breaks: plymouth-dbg (<< 0.9.2-4~)
+Replaces: plymouth-dbg (<< 0.9.2-4~)
+Multi-Arch: same
+Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+Priority: extra
+Section: debug
+Filename: pool/ui/p/plymouth/libplymouth4-dbgsym_0.9.2-4+rpi1_armhf.deb
+Size: 210940
+SHA256: 34485908341f7c25aeb8d82a0344ba0ac9e48fe98393478566930da180680bde
+SHA1: 726a3e8d58e32cf403d322de4228ce5719f021e6
+MD5sum: 1581fcf130522b247d937df5e619fa10
+Description: Debug symbols for libplymouth4
+Build-Ids: 08762a0733da129ba6ff95d6fd28560896980f05 299434f04c4ea1b9525957042485bef438fc597f affe9212731a333c66ee10e3a2937542e49edb4a c4abb6d6e3781455af46f0ac7b0a8866de3fbabd
+
+Package: light-locker
+Version: 1.7.0-3+rpi1
+Architecture: armhf
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 642
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.78), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsystemd0, libx11-6, libxext6, libxss1, dconf-gsettings-backend | gsettings-backend, lightdm
+Homepage: https://github.com/the-cavalry/light-locker/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/light-locker/light-locker_1.7.0-3+rpi1_armhf.deb
+Size: 245218
+SHA256: 01023d546754118ecaee65e555430e3e4a7428c105cc2ff50ad2c01c00cefb79
+SHA1: 439f1c68566252e9eb1d7225abacf60125ee5b32
+MD5sum: 86c7650d9331f606252211fd32882e96
+Description: simple screen locker for lightDM display manager
+ light-locker is a simple screen locker that aims to have simple, sane, secure
+ defaults and be well integrated with the desktop while not carrying any
+ desktop-specific dependencies.
+ .
+ It relies on lightdm for locking and unlocking your session via
+ ConsoleKit/UPower or logind/systemd.
+
+Package: light-locker-dbgsym
+Source: light-locker
+Version: 1.7.0-3+rpi1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 181
+Depends: light-locker (= 1.7.0-3+rpi1)
+Homepage: https://github.com/the-cavalry/light-locker/
+Priority: extra
+Section: debug
+Filename: pool/ui/l/light-locker/light-locker-dbgsym_1.7.0-3+rpi1_armhf.deb
+Size: 142096
+SHA256: 595112269f58f58e8a215dbe29a575903cf4fad52a076d84cb21040864378be6
+SHA1: 7b31d3734bd7c9691a7b7637b10e04441eb1ae1f
+MD5sum: 03782c9f2b79ff907bc1be1c80578206
+Description: Debug symbols for light-locker
+Build-Ids: ecc4a7e89eb3e9ea33b94312efd032f96358e8c0 f38bb356fcc93063e1ab897b18bf82a031199f47
+
+Package: lxde
+Source: lxde-metapackages
+Version: 9+rpi1
+Architecture: all
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 10
+Depends: galculator | gnome-calculator, gpicview, leafpad, lxappearance, lxappearance-obconf, lxde-core, lxde-icon-theme, lxhotkey-gtk, lxinput, lxrandr, lxsession-edit, lxterminal, xarchiver
+Suggests: gimp, libreoffice, lxlauncher, lxtask, pidgin, pk-update-icon, xfce4-power-manager
+Homepage: http://www.lxde.org/
+Priority: optional
+Section: metapackages
+Filename: pool/ui/l/lxde-metapackages/lxde_9+rpi1_all.deb
+Size: 4116
+SHA256: d6d26524b4d536cfde1f907f7ab05eace15efd4e1d8a3df7385e579e0c59eaee
+SHA1: cb91bb9c7c510edbf92bb3f6cf5041656d07cd8e
+MD5sum: 6e79aeb08e4f86644a34f00c2cd6ab8d
+Description: Metapackage for LXDE
+ The Lightweight X11 Desktop Environment (LXDE) is a project aimed
+ to provide a desktop environment which is lightweight and fast.
+ .
+ This package is a metapackage depends on the core components and
+ recommended components of the LXDE. It includes lxde-core, lxappearance,
+ lxinput, lxsession-edit, gpicview, lxterminal, lxrandr, galculator,
+ leafpad and xarchiver.
+ .
+ If you just want to pick and choose the LXDE components then feel free
+ to remove this package.
+
+Package: lxde-core
+Source: lxde-metapackages
+Version: 9+rpi1
+Architecture: all
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 11
+Depends: lxpanel, pcmanfm, lxde-session
+Recommends: gksu, lxterminal | x-terminal-emulator, notification-daemon, xscreensaver
+Suggests: firefox-esr | firefox | www-browser, lxde, lxlauncher
+Homepage: http://www.lxde.org/
+Priority: optional
+Section: metapackages
+Filename: pool/ui/l/lxde-metapackages/lxde-core_9+rpi1_all.deb
+Size: 4158
+SHA256: 9ebec69917097a6bc62751ebda0b234dd7c59fea5960431fe069abc6342ffc31
+SHA1: 722a7a62eb935f0be17ace8a1d665ff941c428f7
+MD5sum: 9c727efada549017e67df63617126ec8
+Description: Metapackage for the LXDE core
+ The Lightweight X11 Desktop Environment (LXDE) is a project aimed
+ to provide a desktop environment which is lightweight and fast.
+ .
+ This package is a metapackage which depends on minimal LXDE components set
+ required to get a working desktop - pcmanfm, lxpanel, and lxde-session.
+ This package also recommends few the most useful applications such as
+ terminal emulator, notification-daemon, and xscreensaver.
+ .
+ If you just want to pick and choose the core components then feel free
+ to remove this package.
+
+Package: lxinput
+Version: 0.3.5-1+rpi2
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 396
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.18.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libx11-6, xinput
+Suggests: lxsession
+Homepage: http://www.lxde.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/lxinput/lxinput_0.3.5-1+rpi2_armhf.deb
+Size: 58620
+SHA256: 36d27171a123f67e9b65b2c89f5e453afbbd77979acc6a467d7421dbc7e77015
+SHA1: e6087c7ba9d6c1b2671959db37fbab3d82e79eb7
+MD5sum: dc052466956052cde5cb7a42e93f495c
+Description: LXDE keyboard and mouse configuration
+ LXInput is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It configures keyboard and mouse settings:
+ .
+  * Delay and Interval for character repeat
+  * Enable/Disable beeps of keyboard input error
+  * Swap left and right mouse buttons
+  * Mouse acceleration and sensitivity
+
+Package: lxinput-dbg
+Source: lxinput
+Version: 0.3.5-1+rpi2
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 46
+Depends: lxinput (= 0.3.5-1+rpi2)
+Homepage: http://www.lxde.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/l/lxinput/lxinput-dbg_0.3.5-1+rpi2_armhf.deb
+Size: 27214
+SHA256: 7072de31e5534499609d0fb229d3c335b79e47d4999e43b7d94908d4ec0d78a7
+SHA1: 97ca6c4172e83b02cd28e7a9329d1460f23c8c56
+MD5sum: 286526ab767569a26be153ce89f3ae16
+Description: LXDE keyboard and mouse configuration (debug)
+ LXInput is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the debugging symbols.
+Build-Ids: 8e41896555f400553cfe561df2b6287e09a137e1
+
+Package: lxkeymap
+Version: 0.8.0~bzr25-1+rpi3
+Architecture: all
+Maintainer: Julien Lavergne <gilir@ubuntu.com>
+Installed-Size: 337
+Depends: python (>= 2.7), python (<< 2.8), python-gtk2, python-xklavier, python-dbus
+Homepage: https://launchpad.net/lxkeymap
+Priority: extra
+Section: python
+Filename: pool/ui/l/lxkeymap/lxkeymap_0.8.0~bzr25-1+rpi3_all.deb
+Size: 120818
+SHA256: 00245b91c2bed958d714fd8efad24c7ee12c6f379b16c6b3b0ec093fb6e3594b
+SHA1: e4589bf80cd4df0d1ec9dc5b4661166901e6b534
+MD5sum: 8a2c19e5e0d28490ccbdf4e7f75bc752
+Description: Application that allows to easily switch between keyboard layouts
+ LXKeymap is an application that allows you to easily switch between
+ keyboard layouts. It contains an easy mode showing the keyboard layouts.
+
+Package: lxpanel
+Version: 0.9.3-1+rpi5
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 616
+Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk2.0-0 (>= 2.24.0), libiw30 (>= 30~pre1), libkeybinder0 (>= 0.3.0), libmenu-cache3 (>= 0.5.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libwnck22 (>= 2.30.7), libx11-6, libxml2 (>= 2.7.4), lxmenu-data, lxpanel-data (= 0.9.3-1+rpi5), libfm-modules
+Recommends: xkb-data, x-terminal-emulator
+Suggests: menu, firefox-esr | firefox | www-browser
+Homepage: http://www.lxde.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/lxpanel/lxpanel_0.9.3-1+rpi5_armhf.deb
+Size: 187356
+SHA256: 339b39a59882d657adeb3832a56d05bfd4ee645222d3ef58de746bfc6e2a336c
+SHA1: 66740a4a06b8fc204f113e64a89df7c36c20f074
+MD5sum: 603b553e67d040486d644198cf1f2301
+Description: LXDE panel
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It is derived from fbpanel and includes the following features:
+ .
+  * User-friendly application menu automatically generated from .desktop
+    files on the system
+  * Launcher bar (small icons clicked to launch apps)
+  * Task bar supporting ICCCM/EWMH `urgency' hint (Pidgin IM windows
+    can flash on new incoming messages)
+  * Run dialog (type a command to run, without opening a terminal)
+  * Net status icon plug-in (optional).
+  * Volume control plug-in (optional).
+  * Notification area (system tray).
+  * Digital clock.
+  * Keyboard LEDs plug-in (display caps/num locks).
+  * lxpanelctl: control lxpanel from other programs.
+    For example, "lxpanelctl run" will show the Run dialog in lxpanel,
+    and "lxpanelctl menu" will show the application menu. This is
+    useful in combination with window manager key bindings.
+
+Package: lxpanel-data
+Source: lxpanel
+Version: 0.9.3-1+rpi5
+Architecture: all
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 2722
+Breaks: lxpanel (<< 0.7.0)
+Replaces: lxpanel (<< 0.7.0)
+Homepage: http://www.lxde.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/lxpanel/lxpanel-data_0.9.3-1+rpi5_all.deb
+Size: 1050230
+SHA256: a83c29fbb182e8b3766c992a12ad87b853ebbae693c046482936cf420204c6c3
+SHA1: a09eb0e56421e8d5e30eb14f26816c731f8d631f
+MD5sum: ca5c2ad55253e0bb1d935d351fe673ba
+Description: LXDE panel (data files)
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the data required for panel.
+
+Package: lxpanel-dbg
+Source: lxpanel
+Version: 0.9.3-1+rpi5
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1231
+Depends: lxpanel (= 0.9.3-1+rpi5)
+Homepage: http://www.lxde.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/l/lxpanel/lxpanel-dbg_0.9.3-1+rpi5_armhf.deb
+Size: 1039278
+SHA256: 1f426f5f6b3a60148b0282d34502eef7729b2155be2d5557a202b07bc7be9161
+SHA1: c67a6c385056da65b18685eb4e9f84bac38ea2f9
+MD5sum: d4e7e91a794f51ca2a0a8806511523c9
+Description: LXDE panel (debug)
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the debugging symbols.
+Build-Ids: 14fe4422c80b5d520d88c2db4bbad7303a178424 20e1a2f941eb34f3a243aec68c21b1457dd1a606 4184ad86783791c5fd7f170ffa6a9a557890845e 49dc1a51c1ebe669d02ea125e271ba0a1504ccc0 6e22f0ad95c0b4faaec9355fc9e9818133d2d1c9 b9196827532ceead874abaef8b14ba542fd4065f bc3e00e472ce67a843516ec8c854501eef29413f be6cd78abaafdc05f6f942585dce511f573b615d c27518163a76a77eb11a44be5b8bb46f756ee62b d60f9178d72b5bda7bee96d744c131b29ca4792a d88efbe640993cbc28f06797e57bb4da8491e8d4 d99e7462065df2ca7ab207082b32819b02426568 e57adbe909f57d71e7d8f1f96b7c9edeba4f51b3 e758909dce8f0991614b3224dcf9ff5a907d2bb6 ff3860b2ee0817a5fd0072a20d7a46ddbab11132
+
+Package: lxpanel-dev
+Source: lxpanel
+Version: 0.9.3-1+rpi5
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 77
+Depends: lxpanel (= 0.9.3-1+rpi5), libgtk2.0-dev, libfm-gtk-dev (>= 1.2.0)
+Breaks: lxpanel (<< 0.8.2)
+Replaces: lxpanel (<< 0.8.2)
+Homepage: http://www.lxde.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/lxpanel/lxpanel-dev_0.9.3-1+rpi5_armhf.deb
+Size: 29364
+SHA256: 66f3d2a84547aefec432101c12137ce004a7c07270e496c7b1e1d9bbad1d5f91
+SHA1: f3654e0e24ad6fdbc04493ad7a362391215aae87
+MD5sum: 6dd004de10b666b2568c1de1d57aa6be
+Description: LXDE panel (plugins development files)
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains header files required for plugins development and
+ depends on other relevant packages for such task.
+
+Package: lxplug-bluetooth
+Version: 0.4
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 63
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 0.1.12), libfm4 (>= 0.1.12), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.30.0), libgtk2.0-0 (>= 2.18.0), libmenu-cache3 (>= 0.3.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libwnck22 (>= 2.30.7), lxmenu-data, lxpanel, lxpanel-data, libfm-modules
+Recommends: bluealsa, pi-bluetooth
+Homepage: http://raspberrypi.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/lxplug-bluetooth/lxplug-bluetooth_0.4_armhf.deb
+Size: 15934
+SHA256: 8141428cb0bce7e2a1462bc52894493db37f7033cbf83157b0b8e5c804e93b3d
+SHA1: 22fa238846107a43a27f16c4198dc8214b951071
+MD5sum: 20fcd7cdd858735b41f77be0907e752c
+Description: Bluetooth plugin for lxpanel
+ Plugin for lxpanel to control pairing and connection of Bluetooth devices.
+
+Package: lxplug-bluetooth-dbgsym
+Source: lxplug-bluetooth
+Version: 0.4
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 68
+Depends: lxplug-bluetooth (= 0.4)
+Homepage: http://raspberrypi.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/l/lxplug-bluetooth/lxplug-bluetooth-dbgsym_0.4_armhf.deb
+Size: 49542
+SHA256: d769ee326a2e2a9204f7c6fe59cc660bdc91ab06113d060d120dc43b2a9eaab7
+SHA1: 1e862c49a7727500b1692c107f38bb3b971b40fc
+MD5sum: ce6d361d78cca89092dcae4f360a2bd1
+Description: Debug symbols for lxplug-bluetooth
+Build-Ids: 9a6d0424604a17bbcdd435d32e6416f7653e77a9
+
+Package: lxplug-ejecter
+Version: 0.3
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 40
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 0.1.12), libfm4 (>= 0.1.12), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.22.0), libgtk2.0-0 (>= 2.18.0), libmenu-cache3 (>= 0.3.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libwnck22 (>= 2.30.7), lxmenu-data, lxpanel, lxpanel-data, libfm-modules
+Homepage: http://raspberrypi.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/lxplug-ejecter/lxplug-ejecter_0.3_armhf.deb
+Size: 9076
+SHA256: 728a5d07ee0054fc0d57b533adce700ffabb25942ba09749268daf2f725e039f
+SHA1: fa979163b5d246466e6af541f8497bb75d2887aa
+MD5sum: 466c652b00207c2410ef54901b41d4fb
+Description: Ejecter plugin for lxpanel
+ Plugin for lxpanel to safely eject USB devices before removal.
+
+Package: lxplug-ejecter-dbgsym
+Source: lxplug-ejecter
+Version: 0.3
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 48
+Depends: lxplug-ejecter (= 0.3)
+Homepage: http://raspberrypi.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/l/lxplug-ejecter/lxplug-ejecter-dbgsym_0.3_armhf.deb
+Size: 31790
+SHA256: 2be2bb0ca2162916b22adf6b131f62a5b14ef50dfa1eaf1ee0e1b169c7dd49d2
+SHA1: cf07f0f6b9062c6235baf0afcbb74fc7aade53a7
+MD5sum: 0e4365e71a1e97c8dafc77fcb02e8b69
+Description: Debug symbols for lxplug-ejecter
+Build-Ids: 02a08a079f665e01b9dcaa914827ff5874d122bd
+
+Package: lxplug-network
+Version: 0.5
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 88
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.8), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 0.1.12), libfm4 (>= 0.1.12), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.18.0), libmenu-cache3 (>= 0.3.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libwnck22 (>= 2.30.7), lxmenu-data, lxpanel, lxpanel-data, libfm-modules
+Homepage: http://raspberrypi.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/lxplug-network/lxplug-network_0.5_armhf.deb
+Size: 28446
+SHA256: 0fe66d8772c4a58b6321601e6a876954991ef946e7edd650461b7dc037bd0bca
+SHA1: b33155fab6aed7feb0385fba17f9c1f53313e44c
+MD5sum: 690b44866015ea40eae4b0b34ee89a6a
+Description: Network plugin for lxpanel
+ Plugin for lxpanel ported from dhcpcd-ui to control connection to
+ wireless and wired networks.
+
+Package: lxplug-network-dbgsym
+Source: lxplug-network
+Version: 0.5
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 138
+Depends: lxplug-network (= 0.5)
+Homepage: http://raspberrypi.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/l/lxplug-network/lxplug-network-dbgsym_0.5_armhf.deb
+Size: 112794
+SHA256: 2332206708298b2eb80636e3ec7058525617cac6a653cccca78eaab040fbb361
+SHA1: 80e1eb930f4fe2ea68455b221384a70e5c5e4d2e
+MD5sum: b7ad42fefaa260ee394505a04ca3c7da
+Description: Debug symbols for lxplug-network
+Build-Ids: 69c49050e59ba73f36cb245892ae1627ab0ab12c
+
+Package: lxplug-ptbatt
+Version: 0.2
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 46
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 0.1.12), libfm4 (>= 0.1.12), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.18.0), libmenu-cache3 (>= 0.3.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libwnck22 (>= 2.30.7), lxmenu-data, lxpanel, lxpanel-data, libfm-modules, wiringpi
+Homepage: http://raspberrypi.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/lxplug-ptbatt/lxplug-ptbatt_0.2_armhf.deb
+Size: 12228
+SHA256: b9502582653890974d299734537881ce32cb892452efcb7fb3cbe2e6823e5440
+SHA1: 0bdecde3dd53c8149654be8f7e243fc7eb8b3d00
+MD5sum: 577fdd7ea8ade0e4659ff7f35f7a7bb5
+Description: Battery monitor plugin for lxpanel
+ Battery indicator plugin for lxpanel, for PiTop.
+
+Package: lxplug-ptbatt-dbgsym
+Source: lxplug-ptbatt
+Version: 0.2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 43
+Depends: lxplug-ptbatt (= 0.2)
+Homepage: http://raspberrypi.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/l/lxplug-ptbatt/lxplug-ptbatt-dbgsym_0.2_armhf.deb
+Size: 28972
+SHA256: 5b17784ea5b2adf92be5cbab43079301dd16f13d567d134ee4f3c65dfeb2443f
+SHA1: daa8ed730f3b609529aa5b923cbbf814f0fe4193
+MD5sum: ab86021533432c0a1614463ffa4282da
+Description: Debug symbols for lxplug-ptbatt
+Build-Ids: d25dd43bd4b7eb93d8a509b503448c49b51e70c0
+
+Package: lxplug-volume
+Version: 0.7
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 56
+Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 0.1.12), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.18.0), libmenu-cache3 (>= 0.3.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libwnck22 (>= 2.30.7), libxml2 (>= 2.6.27), lxmenu-data, lxpanel, lxpanel-data, libfm-modules
+Recommends: bluealsa, pi-bluetooth
+Homepage: http://raspberrypi.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/lxplug-volume/lxplug-volume_0.7_armhf.deb
+Size: 15508
+SHA256: acfef517592179eff0643c1f372d2c4cfefef475821114f266531bf377cb7eb0
+SHA1: 66ca0809870713bafba1e911d0b3089da9ae47be
+MD5sum: de69af2dd90341f85a010074f55b012c
+Description: Volume plugin for lxpanel
+ Plugin for lxpanel to control volume for ALSA and Bluetooth devices for Raspberry Pi.
+
+Package: lxplug-volume-dbgsym
+Source: lxplug-volume
+Version: 0.7
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 68
+Depends: lxplug-volume (= 0.7)
+Homepage: http://raspberrypi.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/l/lxplug-volume/lxplug-volume-dbgsym_0.7_armhf.deb
+Size: 49932
+SHA256: 8aea3473a31e87c768825cb40f79f2ae13b36fd44c26c8784ee2ad45648addaa
+SHA1: 8b883e21ddf8a2c43a892a2cdbbec7eb92a07172
+MD5sum: d074c1343f4069f3a34bc585263cabbc
+Description: Debug symbols for lxplug-volume
+Build-Ids: c83ab8b6d598b376a2bf3fda9cbd49d4c5d0ce53
+
+Package: lxterminal
+Version: 0.3.0-2+rpi1
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 609
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.28.0), libgtk2.0-0 (>= 2.18.0), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libvte9 (>= 1:0.28.0), libx11-6, libxext6
+Provides: x-terminal-emulator
+Homepage: http://www.lxde.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/lxterminal/lxterminal_0.3.0-2+rpi1_armhf.deb
+Size: 98560
+SHA256: 99cc1d3365878ef9a3b19ec3856966bbc8620a531c8cc5198b7b1d6e9a5ec41f
+SHA1: a142f44c1ca22d61373191ff7d378a81ddeea311
+MD5sum: 7bda4c6775b50429f4f11a5e3b6f25da
+Description: LXDE terminal emulator
+ LXTerminal is a VTE-based terminal emulator for the Lightweight X11 Desktop
+ Environment (LXDE).
+ .
+ It supports multiple tabs and has only minimal dependencies thus being
+ completely desktop-independent. In order to reduce memory usage and increase
+ the performance, all instances of the terminal are sharing a single process.
+
+Package: lxterminal-dbg
+Source: lxterminal
+Version: 0.3.0-2+rpi1
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 109
+Depends: lxterminal (= 0.3.0-2+rpi1)
+Homepage: http://www.lxde.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/l/lxterminal/lxterminal-dbg_0.3.0-2+rpi1_armhf.deb
+Size: 83560
+SHA256: 2a38b481165eb623b094fd8613b89bf7deaba7549bb250359a4e8762dc767855
+SHA1: 54b1edd77302507dd9de3184e20487c9ce73d9ac
+MD5sum: 0b07a989d057a722196829e3195ab50f
+Description: LXDE terminal emulator (debug)
+ LXTerminal is a VTE-based terminal emulator for the Lightweight X11 Desktop
+ Environment (LXDE).
+ .
+ This package contains the debugging symbols.
+Build-Ids: d0b63724f5c26f3ad6d3e663680297d88e3905b6
+
+Package: openbox
+Version: 3.6.1-4+rpi4
+Architecture: armhf
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Installed-Size: 1148
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.35.9), libice6 (>= 1:1.0.0), libobrender32v5 (>= 3.6.0), libobt2v5 (>= 3.6.0), libsm6, libstartup-notification0 (>= 0.7), libx11-6, libxau6, libxcursor1 (>> 1.1.2), libxext6, libxi6 (>= 2:1.2.99.4), libxinerama1, libxrandr2
+Recommends: obconf, python-xdg | obsession, scrot
+Suggests: menu, fonts-dejavu, python, libxml2-dev, tint2, openbox-menu, openbox-gnome-session (= 3.6.1-4+rpi4), openbox-kde-session (= 3.6.1-4+rpi4)
+Breaks: menu (<< 2.1.12)
+Provides: x-session-manager, x-window-manager
+Homepage: http://www.openbox.org
+Priority: optional
+Section: x11
+Filename: pool/ui/o/openbox/openbox_3.6.1-4+rpi4_armhf.deb
+Size: 280214
+SHA256: ebecdb9c0a57dafb7c48d7f713c2c6f72d0a3a22ecfbeb6b08657ec889dc51e7
+SHA1: b1720c50a60754997cfd5ba31d54bfa280331a97
+MD5sum: 4fc45e5b39246b43fb33363a92b544da
+Description: standards-compliant, fast, light-weight and extensible window manager
+ Openbox works with your applications, and makes your desktop easier to manage.
+ This is because the approach to its development was the opposite of what seems
+ to be the general case for window managers. Openbox was written first to
+ comply with standards and to work properly. Only when that was in place did
+ the team turn to the visual interface.
+ .
+ Openbox is fully functional as a stand-alone working environment, or can be
+ used as a drop-in replacement for the default window manager in the GNOME or
+ KDE desktop environments.
+ .
+ Openbox 3 is a completely new breed of window manager. It is not based upon
+ any existing code base, although the visual appearance has been based upon
+ that of Blackbox. Openbox 2 was based on the Blackbox 0.65.0 codebase.
+ .
+ Some of the things to look for in Openbox are:
+ .
+  * ICCCM and EWMH compliance!
+  * Very fast
+  * Chainable key bindings
+  * Customizable mouse actions
+  * Window resistance
+  * Multi-head Xinerama support!
+  * Pipe menus
+
+Package: openbox-dbgsym
+Source: openbox
+Version: 3.6.1-4+rpi4
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Installed-Size: 768
+Depends: openbox (= 3.6.1-4+rpi4)
+Homepage: http://www.openbox.org
+Priority: extra
+Section: debug
+Filename: pool/ui/o/openbox/openbox-dbgsym_3.6.1-4+rpi4_armhf.deb
+Size: 668362
+SHA256: 55d9c69c20a7774876dfa6e26231ca0f4244ee276b12dbe0a86e998967d81218
+SHA1: ea8fc76eddb7bcef3587bb4c825e986988fc1f9b
+MD5sum: 04dfe57dbac73744d0fda95cc332edb7
+Description: Debug symbols for openbox
+Build-Ids: 758e6bb049989b64d737fb398211135f612da3b9 c31626694dfd1a14937c9dbc6e332da967b4a45d cc0d8c8748905ca8b95dc65a905b21f104e6ad62
+
+Package: openbox-dev
+Source: openbox
+Version: 3.6.1-4+rpi4
+Architecture: armhf
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Installed-Size: 318
+Depends: libobrender32v5 (= 3.6.1-4+rpi4), libobt2v5 (= 3.6.1-4+rpi4), libxml2-dev, libglib2.0-dev, libpango1.0-dev, libimlib2-dev, librsvg2-dev, libxcursor-dev
+Homepage: http://www.openbox.org
+Priority: optional
+Section: libdevel
+Filename: pool/ui/o/openbox/openbox-dev_3.6.1-4+rpi4_armhf.deb
+Size: 104174
+SHA256: f6f36e7eb91bc07e8c728fe3d20be28d70cbb3e07e1e5aa9221e4227f013a674
+SHA1: b0339fc96d5cce993c94fe015a12457765bd43a8
+MD5sum: cfd598e667a30e06d47ec9cf85609ce0
+Description: development files for the openbox window manager
+ Openbox works with your applications, and makes your desktop easier to manage.
+ This is because the approach to its development was the opposite of what seems
+ to be the general case for window managers. Openbox was written first to
+ comply with standards and to work properly. Only when that was in place did
+ the team turn to the visual interface.
+ .
+ Openbox is fully functional as a stand-alone working environment, or can be
+ used as a drop-in replacement for the default window manager in the GNOME or
+ KDE desktop environments.
+ .
+ Openbox 3 is a completely new breed of window manager. It is not based upon
+ any existing code base, although the visual appearance has been based upon
+ that of Blackbox. Openbox 2 was based on the Blackbox 0.65.0 codebase.
+ .
+ This package contains the development headers for building openbox stuff.
+
+Package: openbox-gnome-session
+Source: openbox
+Version: 3.6.1-4+rpi4
+Architecture: all
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Installed-Size: 65
+Depends: openbox (>= 3.6.1-4+rpi4), gnome-session-bin, gconf2, x11-utils
+Enhances: gnome-session
+Breaks: openbox (<< 3.5.2-5)
+Replaces: openbox (<< 3.5.2-5)
+Homepage: http://www.openbox.org
+Priority: optional
+Section: x11
+Filename: pool/ui/o/openbox/openbox-gnome-session_3.6.1-4+rpi4_all.deb
+Size: 41812
+SHA256: 84a03db59553c3788c68adf5cce5ad89ad3547c2eaafb4e47eb2393858b07af4
+SHA1: fd8e7cd475fde2584dc27cad9932b90ef64a2d5a
+MD5sum: 8bfcdeacd34b74ccdce0be481aa59fb8
+Description: command line utility to run Openbox as GNOME session
+ openbox-gnome-session can provide GNOME session with openbox as
+ a default window manager. It can replace the original window manager
+ in GNOME Shell and GNOME Fallback sessions.
+
+Package: openbox-kde-session
+Source: openbox
+Version: 3.6.1-4+rpi4
+Architecture: all
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Installed-Size: 57
+Depends: openbox (>= 3.6.1-4+rpi4), x11-utils, plasma-workspace
+Enhances: kde-workspace
+Breaks: openbox (<< 3.5.2-5)
+Replaces: openbox (<< 3.5.2-5)
+Homepage: http://www.openbox.org
+Priority: optional
+Section: x11
+Filename: pool/ui/o/openbox/openbox-kde-session_3.6.1-4+rpi4_all.deb
+Size: 40864
+SHA256: 0c2f0515424ad0068257cbaec9b8efaf6acb5d4ee51e02df53c2815d60f91209
+SHA1: 82a26a4062b8950e7d25d6b0ac4f6286e97c7404
+MD5sum: af309090235b0de5edb52a61672aa356
+Description: command line utility to run Openbox as KDE SC session
+ openbox-kde-session can provide KDE SC session with openbox as
+ a default window manager. Can replace the original window manager
+ called KWin.
+
+Package: pcmanfm
+Version: 1.2.5-3+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 1482
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libx11-6, shared-mime-info
+Recommends: gvfs-backends, gvfs-fuse, polkit-1-auth-agent | policykit-1-gnome, lxde-icon-theme | gnome-icon-theme | oxygen-icon-theme | tango-icon-theme, rpd-icons
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: utils
+Filename: pool/ui/p/pcmanfm/pcmanfm_1.2.5-3+rpi3_armhf.deb
+Size: 273586
+SHA256: 028e01818f599538dc0be24a6e7e8aba99182c17852fe2cbeccb8038d704d66c
+SHA1: 7173877fc9a1eca2aee6493485548cf47534e650
+MD5sum: 70f16a2f6978c2deddcaacd79cad0b3c
+Description: extremely fast and lightweight file manager
+ PCMan File Manager is a GTK+ based file manager, featuring:
+ .
+  * Extremely fast and lightweight
+  * Can be started in one second on normal machine
+  * Tabbed browsing (similar to Firefox)
+  * Drag & Drop support
+  * Files can be dragged among tabs
+  * Load large directories in reasonable time
+  * File association support (Default application)
+  * Basic thumbnail support
+  * Bookmarks support
+  * Handles non-UTF-8 encoded filenames correctly
+  * Provide icon view and detailed list view
+  * Standard compliant (Follows FreeDesktop.org)
+  * Clean and user-friendly interface (GTK+ 2)
+  * Support GVFS for auto-mount handling on removable devices
+
+Package: pcmanfm-dbg
+Source: pcmanfm
+Version: 1.2.5-3+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
+Installed-Size: 370
+Pre-Depends: dpkg (>= 1.17.13)
+Depends: pcmanfm (= 1.2.5-3+rpi3)
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: extra
+Section: debug
+Filename: pool/ui/p/pcmanfm/pcmanfm-dbg_1.2.5-3+rpi3_armhf.deb
+Size: 312166
+SHA256: 440dc0bd3510aae7c9caff7e6aac40a19846c42b478b0932ba880de161cf1109
+SHA1: 42271969c60ed8d9e0236c6d48768327f50f2285
+MD5sum: d46f1661150903dd91fa1952d140182b
+Description: extremely fast and lightweight file manager (debug)
+ PCMan File Manager is a GTK+ based file manager. It is a primary file
+ manager for the LXDE but can be used in any other desktop environment.
+ .
+ This package contains the debugging symbols.
+Build-Ids: 97ebd02de294c805e161f7a54c59e482f904cb6e
+
+Package: pi-greeter
+Version: 0.6
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 179
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.30.0), libgtk2.0-0 (>= 2.24.0), liblightdm-gobject-1-0 (>= 1.8.7), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libx11-6
+Recommends: desktop-base, gnome-themes-standard, gnome-icon-theme-symbolic, policykit-1
+Homepage: http://raspberrypi.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/p/pi-greeter/pi-greeter_0.6_armhf.deb
+Size: 41478
+SHA256: ba6471e064392123357a42a947424a0b78c9a3160a42726e9c25c9e64e459690
+SHA1: e28c7d37955dc4f918e363f1eb0afa588d3baff9
+MD5sum: 7482959441e816dcfc16bf4b21777f2d
+Description: GTK greeter for Raspberry Pi
+ A simple GTK-based greeter for the Raspbian LXDE desktop.
+
+Package: pi-package
+Version: 0.3
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 448
+Depends: pi-package-session (>= 0.3), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.16.0), libnotify4 (>= 0.7.0), libpackagekit-glib2-18 (>= 0.9.4), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsqlite3-0 (>= 3.5.9), libx11-6
+Provides: update-notifier
+Priority: optional
+Section: gnome
+Filename: pool/ui/p/pi-package/pi-package_0.3_armhf.deb
+Size: 129884
+SHA256: 990306f5cecf902aa14c94909ea7197d89cd3351da135ebc09ffd12fa85cfae6
+SHA1: daf6a607b1553bca9bff3afb8f4e1306e10866a7
+MD5sum: 66b286e2c08013b994e328eb3c18d648
+Description: Graphical distribution neutral package manager for GNOME
+ PackageKit allows performing simple software management tasks over a DBus
+ interface  e.g. refreshing the cache, updating, installing and removing
+ software packages or searching for multimedia codecs and file handlers.
+ .
+ This package contains a GTK+ based application for package installation
+ and removal, as well as an application to view system updates.
+
+Package: pi-package-data
+Source: pi-package
+Version: 0.3
+Architecture: all
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 7575
+Depends: libgtk-3-0 (>= 3.16.0)
+Priority: optional
+Section: gnome
+Filename: pool/ui/p/pi-package/pi-package-data_0.3_all.deb
+Size: 1048184
+SHA256: 7c32f1f5a16f95152135ccab29d2d9e38dc6e327fd211831e02f60a7f0aafda0
+SHA1: b345c27b45aec0e559f0eb3a08f5b6b630ea0cac
+MD5sum: 3cee2c9cdc11a66d9f88df4fb0d69ee4
+Description: Data files for GNOME-PackageKit
+ PackageKit allows performing simple software management tasks over a DBus
+ interface  e.g. refreshing the cache, updating, installing and removing
+ software packages or searching for multimedia codecs and file handlers.
+ .
+ This package contains architecture-independent files for all
+ GNOME-PackageKit modules.
+
+Package: pi-package-session
+Source: pi-package
+Version: 0.3
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 346
+Depends: pi-package-data (>= 0.3), packagekit (>= 0.8.6), dconf-gsettings-backend | gsettings-backend, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.12), libnotify4 (>= 0.7.0), libpackagekit-glib2-18 (>= 0.9.4), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsqlite3-0 (>= 3.5.9), libx11-6
+Suggests: pi-package
+Priority: optional
+Section: gnome
+Filename: pool/ui/p/pi-package/pi-package-session_0.3_armhf.deb
+Size: 73262
+SHA256: ddf4b0267cc681a3fbc5b1727f146078972e01937adbcbd689536ca33a4efdda
+SHA1: 519a2a1d6ef89358cdace8fddca4bc8ecfd72c6e
+MD5sum: a7bd05c2206fb5080d9f51f4adbe075f
+Description: Provides PackageKit session API for GNOME
+ PackageKit allows performing simple software management tasks over a DBus
+ interface  e.g. refreshing the cache, updating, installing and removing
+ software packages or searching for multimedia codecs and file handlers.
+ .
+ This package contains a GTK+ GUI for PackageKit transactions, a simple
+ repository editor and PackageKit configuration tool and a viewer for
+ package installation history.
+ It implements the PackageKit session API for GNOME, which allows applications
+ to easily install additional software (e.g. extensions), uninstall files and
+ perform simple software package status queries.
+
+Package: piclone
+Version: 0.7
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 65
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), parted, dosfstools, e2fsprogs, coreutils, mount, uuid
+Priority: optional
+Section: utils
+Filename: pool/ui/p/piclone/piclone_0.7_armhf.deb
+Size: 13842
+SHA256: 5e247cb440bbb7b5263f9bad2bacc6c58d5395cb734b09f5d71cfc4bf2af2dd2
+SHA1: 181da183775b8979721e8d9a15fc7a1f91537168
+MD5sum: 29d298aee344f795fc76632ede23094a
+Description: SD Card backup program for Raspberry Pi
+ This is a GTK application to copy the contents of SD cards and other USB
+ drives. It mirrors the partition layout of the source device onto the
+ target device, with the exception of the last partition, which is created
+ to be the largest which will fit onto the target device.
+ Files are then copied between all partitions - the result should be a
+ bootable card with an image of the source device.
+
+Package: piclone-dbgsym
+Source: piclone
+Version: 0.7
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 40
+Depends: piclone (= 0.7)
+Priority: extra
+Section: debug
+Filename: pool/ui/p/piclone/piclone-dbgsym_0.7_armhf.deb
+Size: 24960
+SHA256: 446e9f4d949d8d72ef90c94cb071a03c8a90160031753cd184adb7e407366d0c
+SHA1: e83948a2961ead8aecf217ac2fbb57ee3d12bfe8
+MD5sum: 33c99c8bcc0670c4433f8fd4f2d86164
+Description: Debug symbols for piclone
+Build-Ids: b3bebcad75a1ffc5d970fe2701d3b3d2c7016a71
+
+Package: pimixer
+Version: 0.20170803~152204
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 681
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.35.9), libgstreamer-plugins-base0.10-0 (>= 0.10.14), libgstreamer0.10-0 (>= 0.10.0), libgtk2.0-0 (>= 2.14.0), libxfce4util7 (>= 4.9.0), libxfconf-0-2 (>= 4.6.0), gstreamer0.10-alsa | gstreamer0.10-audiosink, gstreamer0.10-plugins-base
+Breaks: xfce4-mixer (= 4.8.0-3+rpi2)
+Replaces: xfce4-mixer (= 4.8.0-3+rpi2), xfce4-mixer-alsa, xfce4-mixer-oss
+Homepage: http://raspberrypi.org
+Priority: optional
+Section: utils
+Filename: pool/ui/p/pimixer/pimixer_0.20170803~152204_armhf.deb
+Size: 119800
+SHA256: 83be9e557e91786f290c6afd0205e5a6a6f0bbac2d99a5e72953041da8df7279
+SHA1: 3a807534da8d772f977463cead59fed439a43a62
+MD5sum: 5a5f1d07735ac85a98bfcb79483bff4d
+Description: Fork of Xfce mixer application for the Raspberry Pi
+ This is the frontend for mixer settings delivered together
+ with the Raspberry Pi desktop environment.
+ .
+ It uses GStreamer as a backend.
+
+Package: pimixer-dbgsym
+Source: pimixer
+Version: 0.20170803~152204
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 167
+Depends: pimixer (= 0.20170803~152204)
+Homepage: http://raspberrypi.org
+Priority: extra
+Section: debug
+Filename: pool/ui/p/pimixer/pimixer-dbgsym_0.20170803~152204_armhf.deb
+Size: 137900
+SHA256: 7ace2192cca7ad4256ca6aba4ee1ed300c43fd9580bb5a41dbbbe523b536b544
+SHA1: 25332f8ce9828d578c8a4056f77a008769fcb03f
+MD5sum: 8ce661c510b53e512d1128646cc39961
+Description: Debug symbols for pimixer
+Build-Ids: 400bbaec14a870f2eeda43abc7e02d12b91bc02c
+
+Package: pipanel
+Version: 20170707~125920
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 86
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.12.0), libxml2 (>= 2.7.4), openbox, lxsession
+Homepage: https://www.raspberrypi.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/p/pipanel/pipanel_20170707~125920_armhf.deb
+Size: 14348
+SHA256: a8cc11eab48e80250be1dd26bdd09761488bd1c6c23dcfced4d679b77c6ff723
+SHA1: 2c232db408a4b193bc24b13af8e763a6cb3a2e0d
+MD5sum: 5a7768a66809eddd539852383e4a8321
+Description: Settings panel for Raspberry Pi desktop appearance
+ pipanel is an application which allows the configuration of the LX Desktop
+ user interface from one convenient dialog.
+
+Package: pipanel-dbgsym
+Source: pipanel
+Version: 20170707~125920
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 49
+Depends: pipanel (= 20170707~125920)
+Homepage: https://www.raspberrypi.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/p/pipanel/pipanel-dbgsym_20170707~125920_armhf.deb
+Size: 32418
+SHA256: 1085b24d9c59d5671660bd5ea69ca822b2381354c312bad48097c86b7e447e0c
+SHA1: 409cb22de804623923311dd5febb15e82297c5c1
+MD5sum: ed3e850d02a9b27534923875c5671af6
+Description: Debug symbols for pipanel
+Build-Ids: e616c9c851f4721e4bbe5b9299c95bb89c9e8aae
+
+Package: pishutdown
+Version: 0.8
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 15
+Depends: libc6 (>= 2.7), libgdk-pixbuf2.0-0 (>= 2.22.0), libgtk2.0-0 (>= 2.8.0)
+Homepage: http://github.com/raspberrypi/pishutdown
+Priority: optional
+Section: utils
+Filename: pool/ui/p/pishutdown/pishutdown_0.8_armhf.deb
+Size: 6108
+SHA256: 80545b71f30b966439e464b80d35313efe7ccaecadce238c38929c13bfe87012
+SHA1: 51e5861cf1803774c9a36232a39c42fe4fc2cdf5
+MD5sum: 8ff1f562fc4e05eb18d51e750c25852c
+Description: Desktop shutdown helper for Raspberry Pi
+ Small application offering shutdown / reboot / logout options, run from the
+ shutdown option on the main menu.
+
+Package: pitop-util
+Version: 0.20171030
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 16
+Depends: libc6 (>= 2.7)
+Homepage: https://www.raspberrypi.org/
+Priority: optional
+Section: utils
+Filename: pool/ui/p/pitop-util/pitop-util_0.20171030_armhf.deb
+Size: 4098
+SHA256: 761be184773831efe6e40c82445d4ea7bf885a1a25da0f5d2b28e8d4b1367939
+SHA1: d031b420d6af29ebd597c5871a0199641ca42b00
+MD5sum: a945e32c1bcc632a4c2f86c06accdfc3
+Description: SPI control utility for Pi-top
+ Command-line utility to control brightness and power for Pi-top
+
+Package: pitop-util-dbgsym
+Source: pitop-util
+Version: 0.20171030
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 20
+Depends: pitop-util (= 0.20171030)
+Homepage: https://www.raspberrypi.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/p/pitop-util/pitop-util-dbgsym_0.20171030_armhf.deb
+Size: 6420
+SHA256: 76a531997f6c4f2561852f3e4dee8a112ccfde4559c54399d82d8f2e386b6b7b
+SHA1: 9db71f3008a6558e4f7c71a4b29d2bf2ccc7f558
+MD5sum: d44951b2ae6aaad633356fb0bf9bd5f4
+Description: Debug symbols for pitop-util
+Build-Ids: 61b157b9a8ee16393e7a109f2b54fba5379ec5a4
+
+Package: pix-icons
+Source: rpd-icons
+Version: 0.12
+Architecture: all
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 8
+Depends: rpd-icons
+Homepage: http://raspberrypi.org/
+Priority: extra
+Section: oldlibs
+Filename: pool/ui/r/rpd-icons/pix-icons_0.12_all.deb
+Size: 2070
+SHA256: 39836728eb4bf586229217aa43d67fd35e485e41195af329699e737d42309f8e
+SHA1: 45002e5134067866852f1cbf760dd7036cd68b09
+MD5sum: 7432bdfbd7a4c28e23bf19fa2bc52797
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: pix-plym-splash
+Source: rpd-plym-splash
+Version: 0.14
+Architecture: all
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 8
+Depends: rpd-plym-splash
+Homepage: http://raspberrypi.org/
+Priority: extra
+Section: oldlibs
+Filename: pool/ui/r/rpd-plym-splash/pix-plym-splash_0.14_all.deb
+Size: 2214
+SHA256: e306c42529348ec47c29f050d81c03e43be973a04b5288a4062afb964657479a
+SHA1: 30e7b7d1ec69bfc647cc44ffeeb74c08e99622ff
+MD5sum: b4b6adbbb6ffd2ac8982238ca77c9da9
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: plymouth
+Version: 0.9.2-4+rpi1
+Architecture: armhf
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Installed-Size: 396
+Depends: libc6 (>= 2.10), libdrm2 (>= 2.4.25), libplymouth4 (>= 0.9.2), initramfs-tools | dracut, init-system-helpers (>= 1.18), lsb-base (>= 3.0-6), systemd (>= 232-8~), udev (>= 232-8~)
+Suggests: desktop-base, plymouth-themes
+Conflicts: console-common
+Breaks: plymouth-drm (<< 0.9.0-6~), plymouth-themes (<< 0.9.0-8~)
+Replaces: plymouth-drm (<< 0.9.0-6~), plymouth-themes (<< 0.9.0-8~)
+Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+Priority: optional
+Section: misc
+Filename: pool/ui/p/plymouth/plymouth_0.9.2-4+rpi1_armhf.deb
+Size: 104148
+SHA256: ae175d3c02b065a77b564b96aa20cf001d3e616515eea79ef5e28e24b124b8fb
+SHA1: 9248d73da42df8e847c55192eb6d78c8d6018f3a
+MD5sum: c281e628c7956a10f7401b63e7ac7057
+Description: boot animation, logger and I/O multiplexer
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package provides the basic framework, enabling a text-mode animation.
+
+Package: plymouth-dbgsym
+Source: plymouth
+Version: 0.9.2-4+rpi1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Installed-Size: 328
+Depends: plymouth (= 0.9.2-4+rpi1)
+Breaks: plymouth-dbg (<< 0.9.2-4~)
+Replaces: plymouth-dbg (<< 0.9.2-4~)
+Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+Priority: extra
+Section: debug
+Filename: pool/ui/p/plymouth/plymouth-dbgsym_0.9.2-4+rpi1_armhf.deb
+Size: 237022
+SHA256: 662e8e22e87e61faaaa682b91218382ab5dba17d8970bf457f7232712caad852
+SHA1: fe690438dc8112a55d97b61735c9d5eb878d037c
+MD5sum: 35e3ad7370e5359dc5609281951cc56b
+Description: Debug symbols for plymouth
+Build-Ids: 0acab8074fd2b6e2b6dcffe72a0c4e4ef519e0b4 4795d83826049f5f6fa71486173da01ab81bf554 5552eebd6b7b67a1f7a3bce1f66ee2112c38079b 6cce6144c6983bf429a69ec327279ba464dc6531 98fecbd5a1bbd30567c2d92ae0b35e9589cc0ef1 bc30401085890a61d15e630ea8e297a719bb44eb ca2c6280bffdb5e6ccaab59c4a5e90ea83ecbb7d e0205e933481fd65fd2cf850d5149cde6e9ae121
+
+Package: plymouth-themes
+Source: plymouth
+Version: 0.9.2-4+rpi1
+Architecture: armhf
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Installed-Size: 923
+Depends: libc6 (>= 2.8), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.12.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libplymouth4 (>= 0.9.2), plymouth (= 0.9.2-4+rpi1), fontconfig-config, fonts-dejavu-core | ttf-dejavu-core
+Conflicts: plymouth-themes-all, plymouth-themes-fade-in, plymouth-themes-glow, plymouth-themes-script, plymouth-themes-solar, plymouth-themes-spinfinity, plymouth-themes-spinner
+Breaks: plymouth-drm (<< 0.9.0-6~)
+Replaces: plymouth-drm (<< 0.9.0-6~), plymouth-themes-all, plymouth-themes-fade-in, plymouth-themes-glow, plymouth-themes-script, plymouth-themes-solar, plymouth-themes-spinfinity, plymouth-themes-spinner
+Provides: plymouth-theme, plymouth-themes-all, plymouth-themes-fade-in, plymouth-themes-glow, plymouth-themes-script, plymouth-themes-solar, plymouth-themes-spinfinity, plymouth-themes-spinner
+Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+Priority: optional
+Section: misc
+Filename: pool/ui/p/plymouth/plymouth-themes_0.9.2-4+rpi1_armhf.deb
+Size: 734806
+SHA256: e73d6b4faace9a1e15b352f9199229705f8fb1904b5b4111ea983a5cf773475a
+SHA1: f009856d99084cde48d78e0b48fa5d00540a9ae2
+MD5sum: 017db76acca0af3ecbfff22aeff4353f
+Description: boot animation, logger and I/O multiplexer - themes
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package provides the following themes:
+ .
+  * fade-in: features a centered logo that fades in and out while stars twinkle
+    around the logo during system boot up.
+  * glow: features a pie chart as progress indicator.
+  * script: features a simple base theme.
+  * solar: features a blue flamed sun with animated solar flares.
+  * spinfinity: features a centered logo and animated spinner that spins in the
+    shape of an infinity sign.
+  * spinner: features a simple theme with a small spinner on a dark background.
+
+Package: plymouth-themes-dbgsym
+Source: plymouth
+Version: 0.9.2-4+rpi1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Installed-Size: 140
+Depends: plymouth-themes (= 0.9.2-4+rpi1)
+Breaks: plymouth-dbg (<< 0.9.2-4~)
+Replaces: plymouth-dbg (<< 0.9.2-4~)
+Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+Priority: extra
+Section: debug
+Filename: pool/ui/p/plymouth/plymouth-themes-dbgsym_0.9.2-4+rpi1_armhf.deb
+Size: 90026
+SHA256: 757472f88d4c4e6886eed7c63df7df7b6b7725b50a3718069c39e608ebf7d5f8
+SHA1: f037e817f1353094b4b3f308c7772ec2d83ae421
+MD5sum: 856b6eafa52362260bdbc9eea7154ec9
+Description: Debug symbols for plymouth-themes
+Build-Ids: 2de19503232cef759c8dd0129972226c36a60992 5877937e364a4e847a11b460f545538d7dcd138e 8e69d50e02232301aa75bb986cd61adce096345b d7f965f904c6ce32b9da8c92f797037e1a4b60a3 e3498d8d29d99947b29b364043d556cebafda73f
+
+Package: plymouth-x11
+Source: plymouth
+Version: 0.9.2-4+rpi1
+Architecture: armhf
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Installed-Size: 40
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.14.0), libplymouth4 (>= 0.9.2), plymouth (= 0.9.2-4+rpi1)
+Recommends: plymouth-themes
+Suggests: gdm
+Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+Priority: optional
+Section: misc
+Filename: pool/ui/p/plymouth/plymouth-x11_0.9.2-4+rpi1_armhf.deb
+Size: 16428
+SHA256: ab81658d59995f9607bc40aebb3e9dedc89bf546ee9e9c2c0e2b86b3323e6831
+SHA1: 8e7f157af94c978cfc810354025b70c7804fb420
+MD5sum: 4ddf929f215d712edb558178f34649df
+Description: boot animation, logger and I/O multiplexer - X11 renderer
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package contains the X11 renderer for a graphical boot splash.
+
+Package: plymouth-x11-dbgsym
+Source: plymouth
+Version: 0.9.2-4+rpi1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Laurent Bigonville <bigon@debian.org>
+Installed-Size: 35
+Depends: plymouth-x11 (= 0.9.2-4+rpi1)
+Breaks: plymouth-dbg (<< 0.9.2-4~)
+Replaces: plymouth-dbg (<< 0.9.2-4~)
+Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+Priority: extra
+Section: debug
+Filename: pool/ui/p/plymouth/plymouth-x11-dbgsym_0.9.2-4+rpi1_armhf.deb
+Size: 21146
+SHA256: 9a41efb0da989e6e080766fe0873a8853524aedd8015593d77b93c739cd9fcae
+SHA1: ba0fd04bb94ab7a604995b706b282a8901893cd0
+MD5sum: 5dfcb69a9fe30120e37a0ee8dc2a3dc5
+Description: Debug symbols for plymouth-x11
+Build-Ids: ddd7cabd300c88e4dec6419f45e003a7ca5616ab
+
+Package: point-rpi
+Version: 0.20160905
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 8
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.12.0), libx11-6
+Homepage: https://www.raspberrypi.org/
+Priority: optional
+Section: utils
+Filename: pool/ui/p/point-rpi/point-rpi_0.20160905_armhf.deb
+Size: 4322
+SHA256: 669e32dacd745964481e61094158f3e3baf798fdf49b866cc3bc6240ddecf92a
+SHA1: 3eb12dfd2e17cd66b7380fdf3b70f9a251fb6600
+MD5sum: 8dd41b33bfdcebb78512fb58de8a3fdb
+Description: Locate the mouse pointer over the menu button
+ This tool determines the current location of the menu button on the
+ taskbar, and positions the mouse pointer over it, to trigger the
+ hover behaviour (button highlight and tooltip).
+
+Package: pprompt
+Version: 0.12
+Architecture: all
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 5
+Depends: libpam-chksshpwd
+Homepage: http://raspberrypi.org/
+Priority: optional
+Section: admin
+Filename: pool/ui/p/pprompt/pprompt_0.12_all.deb
+Size: 3286
+SHA256: dac6ed9e01868fb7013cb8a0de2412a7cc1f3399f157d44753fb7c41ed853db3
+SHA1: 81178ef1bfd0b442f1d02a671acb08baa4e5b88f
+MD5sum: f0306e8077902b649ab2463afa6483ea
+Description: ssh password check
+ Runs at desktop launch; checks if ssh is enabled and
+ the default password for the pi user is unchanged - if so
+ displays a warning.
+
+Package: raspberrypi-ui-mods
+Version: 1.20171115
+Architecture: all
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 1254
+Depends: lxpanel, pcmanfm, openbox, xserver-xorg, x11-xserver-utils, policykit-1, lightdm, raspberrypi-sys-mods, zenity, libglib2.0-bin
+Recommends: xserver-xorg-video-fbturbo, libgksu2-0, fonts-piboto, pimixer, pipanel, lxinput, raspberrypi-artwork, pi-greeter, rpd-plym-splash, rpd-wallpaper, pishutdown, scrot, fontconfig-infinality, point-rpi, gtk2-engines-pixbuf, gtk2-engines-clearlookspix, gnome-icon-theme, rpd-icons, lxplug-volume, lxplug-network, lxplug-bluetooth, lxplug-ejecter, lxplug-ptbatt
+Priority: extra
+Section: x11
+Filename: pool/ui/r/raspberrypi-ui-mods/raspberrypi-ui-mods_1.20171115_all.deb
+Size: 312222
+SHA256: faaf9d5fa3be3ef8ed14308561cb70c14bc39585cb33e779362d249fd3112817
+SHA1: 3dfd69293dc7bba1cbd19be07d093f73839a7814
+MD5sum: 30a2a0df20cc12a828522640735905ed
+Description: Config to customise the LXDE UI for the Raspberry Pi
+ Customised theme and configuration for LXDE desktop on Raspberry Pi.
+
+Package: rc-gui
+Version: 1.13
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 276
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), raspi-config, lxkeymap
+Homepage: https://github.com/RPi-Distro/rc_gui
+Priority: optional
+Section: admin
+Filename: pool/ui/r/rc-gui/rc-gui_1.13_armhf.deb
+Size: 38850
+SHA256: 65163d387048bad9937258bc05f0c3335d62077d302d3a4d820d1e57ae02c54c
+SHA1: 9699e7b545c65d88744e4cc93902173cc0b04497
+MD5sum: 514e03078e4b10e60baa6eb01c3c58af
+Description: raspi-config GUI
+ Application which allows the configuration of Raspberry Pi system settings
+
+Package: rc-gui-dbgsym
+Source: rc-gui
+Version: 1.10
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 49
+Depends: rc-gui (= 1.10)
+Homepage: https://github.com/RPi-Distro/rc_gui
+Priority: extra
+Section: debug
+Filename: pool/ui/r/rc-gui/rc-gui-dbgsym_1.10_armhf.deb
+Size: 32716
+SHA256: b7e6b43d89a2a381a77ac0ee1b9a79ae25511d015c01bbe2c0113054c052d5b2
+SHA1: 18db08ba005f499e4cdc0644ee253fc4288afd1f
+MD5sum: 25596e1b1a73b50ffcd9e2c06ee212a7
+Description: Debug symbols for rc-gui
+Build-Ids: 6fd803601bf1a8b51c79f67b1c94d91d6fd2ade3
+
+Package: rpd-icons
+Version: 0.12
+Architecture: all
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 2687
+Depends: libgtk2.0-bin
+Breaks: pix-icons (<< 0.5-1~)
+Replaces: pix-icons (<< 0.5-1~)
+Homepage: http://raspberrypi.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/r/rpd-icons/rpd-icons_0.12_all.deb
+Size: 855452
+SHA256: 3f453d03d3bd3786d749007250a3752d2b915f6b48c1227c21aed4dd6ed44a80
+SHA1: b476bce85bfe7d2b812b8c0dc0335e50313b2bf3
+MD5sum: 773b13034217406735025a8cfa020754
+Description: Icons for Raspberry Pi Desktop
+ Custom icon set for the Raspberry Pi Desktop environment.
+
+Package: rpd-plym-splash
+Version: 0.14
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 51
+Depends: plymouth (>= 0.9.2), plymouth-themes (>= 0.9.2)
+Breaks: pix-plym-splash (<< 0.10-1~)
+Replaces: pix-plym-splash (<< 0.10-1~)
+Homepage: http://raspberrypi.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/r/rpd-plym-splash/rpd-plym-splash_0.14_armhf.deb
+Size: 32180
+SHA256: ef39cadd1c9d85d9cecb559471111d7fecab6f9a9d7078b4943c1829ffd2142d
+SHA1: 20cba940d6680465878d98f807d646d06aee5deb
+MD5sum: eedba951707f8a94358a535477d8fdbb
+Description: Raspberry Pi Desktop splashscreen
+ Plymouth theme with Raspberry Pi Desktop splashscreen
+
+Package: rpd-wallpaper
+Version: 0.4
+Architecture: all
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 27438
+Breaks: pixel-wallpaper (<< 0.3-1~)
+Replaces: pixel-wallpaper (<< 0.3-1~)
+Homepage: http://raspberrypi.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/r/rpd-wallpaper/rpd-wallpaper_0.4_all.deb
+Size: 27595322
+SHA256: e48df60e3192e4fee37143feb78999b099a42f18ac66603d88f2c532ae85b830
+SHA1: 889b03e412ed01a2744d15ebf5dea7cf81867343
+MD5sum: 1de177c64cb470d250f298ac7aa57a17
+Description: Wallpaper for Raspberry Pi Desktop
+ Custom wallpaper graphic files for Raspberry Pi Desktop environment.
+
+Package: rpi-chromium-mods
+Version: 20171113
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 20008
+Pre-Depends: dpkg (>= 1.15.7.2)
+Depends: debconf, libc6 (>= 2.15), libgcc1 (>= 1:3.5), libstdc++6 (>= 4.9), debconf (>= 0.5) | debconf-2.0, chromium-browser (>= 55)
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/ui/r/rpi-chromium-mods/rpi-chromium-mods_20171113_armhf.deb
+Size: 9199366
+SHA256: ab2fd67c272b7460be6bc8e2f9b4db9b175a069adab35fd8d7c68bdb1c479996
+SHA1: 2861597c54015817718554ad3b1a0a60b5eef928
+MD5sum: e7bd4c6d4dc2f29d7bef677c5cef6e4c
+Description: Raspberry Pi-specific mods to Chromium
+ Package contains Raspberry Pi-specific modifications to the
+ default Chromium browser install, including optimized settings
+ and command-line flags. Also sets chromium as the default browser.
+

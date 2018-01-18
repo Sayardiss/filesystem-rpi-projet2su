@@ -1,0 +1,6 @@
+# dh_installinit wrongly add snippets for upstart jobs that have no LSB
+# initscript counterpart
+rpcbind: init.d-script-not-marked-as-conffile etc/init.d/portmap-wait
+rpcbind: init.d-script-not-included-in-package etc/init.d/portmap-wait
+rpcbind: init.d-script-not-marked-as-conffile etc/init.d/rpcbind-boot
+rpcbind: init.d-script-not-included-in-package etc/init.d/rpcbind-boot

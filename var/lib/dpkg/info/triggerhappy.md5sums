@@ -1,0 +1,12 @@
+8e7f58d3516afaafc001939011947aaa  lib/systemd/system/triggerhappy.service
+25a326737911366ba2cd5fa657539525  lib/systemd/system/triggerhappy.socket
+b1305e8b88b00a54074ef41900cc8b10  lib/udev/rules.d/60-triggerhappy.rules
+7d2827d7798877176a9d73779c74d8e7  usr/sbin/th-cmd
+46894283f9afab35e79108c69ff1053f  usr/sbin/thd
+48b95bef523f64bbe5b7a2b17d7efc5b  usr/share/doc/triggerhappy/README
+6b56dfc12e9a051fc62a789f1656754d  usr/share/doc/triggerhappy/README.Debian
+d550d67f6dab5af13a20a692dd2958e4  usr/share/doc/triggerhappy/changelog.Debian.gz
+cdb20a064a1dd9f384ddf9bfb172c895  usr/share/doc/triggerhappy/copyright
+b6ebcfa0dccad50159ba2cea6643f2eb  usr/share/doc/triggerhappy/triggerhappy.conf.examples
+4ed4739ab8989ff93b6dd2d3ef8284e7  usr/share/man/man1/th-cmd.1.gz
+0be80d7a502f779746e0c7ac6514068e  usr/share/man/man1/thd.1.gz

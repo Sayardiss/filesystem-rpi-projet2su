@@ -1,0 +1,7 @@
+4a3cba5161d6aadd1d9da72c9aebae2a  lib/arm-linux-gnueabihf/security/pam_chksshpwd.so
+a8215173a307fce152aa7f888b37d6a8  usr/share/doc/libpam-chksshpwd/NEWS.Debian.gz
+add1a8cc68ff66107513f6e8708e63b8  usr/share/doc/libpam-chksshpwd/changelog.Debian.gz
+0372519249c57b4adfd338702d941309  usr/share/doc/libpam-chksshpwd/changelog.gz
+6c05e902bc75c9e6d2da3ac75da5d47b  usr/share/doc/libpam-chksshpwd/copyright
+f78f8ad2c593c6dfc655e0e43e158018  usr/share/man/man8/pam_chksshpwd.8.gz
+b36e91b6ea2207221dbf0ca1c82e4793  usr/share/pam-configs/chksshpwd
