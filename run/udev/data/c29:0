@@ -1,6 +1,0 @@
-I:3754876
-E:ID_PATH=platform-soc:fb
-E:ID_PATH_TAG=platform-soc_fb
-E:ID_FOR_SEAT=graphics-platform-soc_fb
-G:seat
-G:master-of-seat

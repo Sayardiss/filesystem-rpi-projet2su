@@ -670,3 +670,75 @@ Package: openresolv
 Architecture: armhf
 Auto-Installed: 1
 
+Package: libpkcs11-helper1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: easy-rsa
+Architecture: armhf
+Auto-Installed: 1
+
+Package: pcscd
+Architecture: armhf
+Auto-Installed: 1
+
+Package: opensc-pkcs11
+Architecture: armhf
+Auto-Installed: 1
+
+Package: opensc
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libccid
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liblzo2-2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: git-man
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liberror-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libsnappy1v5
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libboost-program-options1.58.0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libboost-filesystem1.58.0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libv8-3.14.5
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libboost-thread1.58.0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libboost-system1.58.0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpcap0.8
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mongodb-clients
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpcrecpp0v5
+Architecture: armhf
+Auto-Installed: 1
+
