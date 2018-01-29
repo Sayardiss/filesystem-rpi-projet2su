@@ -133,3 +133,115 @@ nano /etc/default/openvpn
 nano vpn.ovpn 
 ln vpn.ovpn /etc/openvpn/vpn.conf
 reboot
+find / -size +95M
+cd
+git status
+cd
+cd /
+nano .gitignore 
+git status
+rm /home/pi/vpn.ovpn
+ls /usr/local/sbin/
+rm -rf /usr/local/sbin/
+git status
+nano .gitignore 
+git status
+nano .gitignore 
+git status
+git status
+nano .gitignore 
+git add -A
+git commit -m "Ajout lancement auto d'openvpn"
+mongodb
+mongo
+git push
+ssh-keygen -t rsa -b 4096
+cat ~/.ssh/id_rsa.pub 
+git remote set-url origin git@github.com:Sayardiss/filesystem-rpi-projet2su.git
+git status
+git add -A
+git commit -m "Ajout clé ssh pour Git"
+git push
+apt upgrade
+ls
+cat filesystem-rpi-projet2su/
+rmdir filesystem-rpi-projet2su/
+ls filesystem-rpi-projet2su/
+rm -rf filesystem-rpi-projet2su/
+git status
+nano .gitignore 
+apt install selinux
+nano .gitignore 
+halt
+cd
+ls
+openvpn vpn.ovpn 
+reboot
+cd
+ls
+rm Bizzey\ -\ JA\!\ ft.\ Kraantje\ Pappie\,\ Chivv\ \&\ Yung\ Felix-N_LmMLO0aEU.webm
+ls
+mkdir mongodb
+cd mongodb
+openssl rand -base64 32 > mongodb-keyfile
+chmod 600 mongodb-keyfile 
+mongod --enableEncryption --encryptionKeyFile mongodb-keyfile 
+mongod --help
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDgK/rLZNBEPh7+Kck9TzWvlVP7Pg+d1DeV3fr3RUvRwmKVLmn49j3OSx7zf2sAslzQXCrbMyNSxzpIfcaNbqHVYEYZrC3iWdSWsiYg/qFAi9XGA2HkK9LUTX8gvnR1sWkGcrmoP3dSDEHk4KhPyejA5hsahXpkCNNvQsX5wwpyKwarYZyEfOuzHZuce0gvfxNrw1vznBeLF/AhR7GFCdmnJL4to1PmTLTTmP/Dga8/EB52lCB+NqCaFckFT69Ag2AT8MGHkMDHhim1DBEvSbTWMevpgZcTojY3yh0JRynQvFCrNP609ue3qrACb0+QnYOFOLXpGP0mLVCbRy5H+l8NpN7qQMdqVrdw7WHJOCkycDT3R850F8D3vRejrTEF9Fl3W28qKxlIt6XbhV+wPWndOJJTPY3CgQ9gEAlO+o1kSYt5SE5Zc61am12mrHinnpjQoMQ+UarOIZKQ4acZI/H0PbTINjcQJdQtE1u8zBA9JLoS/ulwsZXXpBfi/iidzKayzZp5nzjGMrk9x9oglIUXDg0h0vDhl46bvGxApiKNAybVpDTRHyIiiPigO31NdV5rsganPWVX5YR7/v4htuHQtup4vnHa6MuZv+wYpxgV+ytPCXJQyj8w/BzrYw2SF3WHbxTaSxMtfKYXDQnHg4XMmwykl5K/X/DqlmUC5hV7yw== root@krammer.quadhost.net" >> ~/.ssh/authorized_hosts
+exit
+cd
+mv .ssh/authorized_hosts .ssh/authorized_keys
+exit
+su pi
+deluser pi
+echo $?
+ps aux
+ps aux | grep 5..
+kill -9 567
+kill -9 570
+deluser pi
+kill -9 577
+deluser pi
+ls
+ip a
+cd /
+ls
+git status
+nano .gitignore 
+nano .gitignore 
+git status
+rm -rf root/mongodb/
+ls
+git status
+nano .gitignore 
+git rm -r --cached /var/log
+ls /var/log/
+git status
+git rm -r --cached /run/
+nano .gitignore 
+git status
+nano .gitignore 
+git rm -r --cached /var/cache/
+git status
+rm -rf /home/pi/
+git status
+git add *
+git commit -m "Deleted Pi user"
+git push
+ls
+apt install selinux-basics selinux-policy-default 
+selinux-activate 
+reboot
+ls
+ls
+ls
+check-selinux-installation 
+apt install auditd
+selinux-activate 
+apt install auditd
+apt remove --purge auditd
+make menuconfig
+check-selinux-installation 
+selinux-config-enforcing 
+nano /etc/pam.d/login 
+selinux-activate 

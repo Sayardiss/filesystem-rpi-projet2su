@@ -8,3 +8,6 @@
 /run/
 /var/log/
 /usr/share/doc/
+/root/.ssh/known_hosts
+/var/backups/
+/var/cache/

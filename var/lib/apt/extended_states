@@ -742,3 +742,11 @@ Package: libpcrecpp0v5
 Architecture: armhf
 Auto-Installed: 1
 
+Package: gawk
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libsigsegv2
+Architecture: armhf
+Auto-Installed: 1
+

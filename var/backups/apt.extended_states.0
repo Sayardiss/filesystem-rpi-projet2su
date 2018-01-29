@@ -670,3 +670,171 @@ Package: openresolv
 Architecture: armhf
 Auto-Installed: 1
 
+Package: libpkcs11-helper1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: easy-rsa
+Architecture: armhf
+Auto-Installed: 1
+
+Package: pcscd
+Architecture: armhf
+Auto-Installed: 1
+
+Package: opensc-pkcs11
+Architecture: armhf
+Auto-Installed: 1
+
+Package: opensc
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libccid
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liblzo2-2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: git-man
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liberror-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libsnappy1v5
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libboost-program-options1.58.0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libboost-filesystem1.58.0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libv8-3.14.5
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libboost-thread1.58.0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libboost-system1.58.0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpcap0.8
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mongodb-clients
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpcrecpp0v5
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liblapack3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-setools
+Architecture: armhf
+Auto-Installed: 1
+
+Package: m4
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-ipy
+Architecture: armhf
+Auto-Installed: 1
+
+Package: gawk
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-numpy
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libauparse0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: checkpolicy
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-semanage
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libblas-common
+Architecture: armhf
+Auto-Installed: 1
+
+Package: setools
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libgfortran3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-decorator
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-yaml
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-pkg-resources
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-sepolgen
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-sepolicy
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libblas3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libyaml-0-2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-networkx
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-scipy
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-audit
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-selinux
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libsigsegv2
+Architecture: armhf
+Auto-Installed: 1
+
