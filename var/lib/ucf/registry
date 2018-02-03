@@ -1,3 +1,2 @@
-samba-common 	 /etc/samba/smb.conf
 openssh-server 	 /etc/ssh/sshd_config
 apt-listchanges 	 /etc/apt/listchanges.conf

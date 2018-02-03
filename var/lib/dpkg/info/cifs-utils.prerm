@@ -1,9 +1,0 @@
-#!/bin/sh
-
-set -e
-
-if [ "$1" != "upgrade" ]; then
-    update-alternatives --remove idmap-plugin /usr/lib/arm-linux-gnueabihf/cifs-utils/idmapwb.so
-fi
-
-

@@ -46,23 +46,11 @@ Package: libkrb5-3
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libwbclient0
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libk5crypto3
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libtalloc2
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libkrb5support0
-Architecture: armhf
-Auto-Installed: 1
-
-Package: samba-common
 Architecture: armhf
 Auto-Installed: 1
 
@@ -75,10 +63,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: libmpc3
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libxdmcp6
 Architecture: armhf
 Auto-Installed: 1
 
@@ -326,10 +310,6 @@ Package: kbd
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libx11-6
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libisl15
 Architecture: armhf
 Auto-Installed: 1
@@ -362,10 +342,6 @@ Package: python3-minimal
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libxau6
-Architecture: armhf
-Auto-Installed: 1
-
 Package: librtmp1
 Architecture: armhf
 Auto-Installed: 1
@@ -395,10 +371,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: g++-6
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libxcb1
 Architecture: armhf
 Auto-Installed: 1
 
@@ -446,10 +418,6 @@ Package: tcpd
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libxmuu1
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libpam-systemd
 Architecture: armhf
 Auto-Installed: 1
@@ -475,10 +443,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: openssh-server
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libx11-data
 Architecture: armhf
 Auto-Installed: 1
 
@@ -543,10 +507,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: perl
-Architecture: armhf
-Auto-Installed: 1
-
-Package: xauth
 Architecture: armhf
 Auto-Installed: 1
 
@@ -646,10 +606,6 @@ Package: dpkg-dev
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libxext6
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libstdc++-6-dev
 Architecture: armhf
 Auto-Installed: 1
@@ -703,42 +659,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: liberror-perl
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libsnappy1v5
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libboost-program-options1.58.0
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libboost-filesystem1.58.0
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libv8-3.14.5
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libboost-thread1.58.0
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libboost-system1.58.0
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libpcap0.8
-Architecture: armhf
-Auto-Installed: 1
-
-Package: mongodb-clients
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libpcrecpp0v5
 Architecture: armhf
 Auto-Installed: 1
 
