@@ -192,6 +192,7 @@ exit
 cd
 mv .ssh/authorized_hosts .ssh/authorized_keys
 exit
+<<<<<<< HEAD
 su pi
 deluser pi
 echo $?
@@ -339,3 +340,5 @@ cat "${KEY_DIR}/id_rsa.pub"
 nano /etc/initramfs-tools/root/.ssh/authorized_keys
 mkinitramfs -o /boot/initramfs.gz
 halt
+=======
+>>>>>>> 519cc6d7ddfecdf5eb2614e536947cfc8b423595

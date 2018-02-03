@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0.487:-.mount
 0.515:run-rpc_pipefs.mount
 0.515:sys-kernel-debug.mount
@@ -46,3 +47,32 @@
 0.999:openvpn.service
 0.999:systemd-user-sessions.service
 1.000:rc-local.service
+=======
+0.009:plymouth-start.service
+0.047:systemd-fsck@dev-disk-by\x2dpartuuid-2ed5c94e\x2d01.service
+0.053:boot.mount
+0.060:console-setup.service
+0.062:systemd-tmpfiles-setup.service
+0.069:systemd-update-utmp.service
+0.088:networking.service
+0.096:systemd-timesyncd.service
+0.100:cron.service
+0.126:avahi-daemon.service
+0.126:dbus.service
+0.127:mongodb.service
+0.130:triggerhappy.service
+0.130:rsyslog.service
+0.130:openvpn@vpn.service
+0.131:alsa-restore.service
+0.136:systemd-logind.service
+0.139:raspi-config.service
+0.157:var-swap.swap
+0.158:dphys-swapfile.service
+0.454:hciuart.service
+0.467:bluetooth.service
+0.493:systemd-hostnamed.service
+0.994:dhcpcd.service
+0.998:systemd-user-sessions.service
+0.998:rc-local.service
+0.998:openvpn.service
+>>>>>>> 519cc6d7ddfecdf5eb2614e536947cfc8b423595

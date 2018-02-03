@@ -1,10 +1,15 @@
 logrotate state -- version 2
+<<<<<<< HEAD
 "/var/log/syslog" 2018-1-29-6:25:2
+=======
+"/var/log/syslog" 2018-1-28-6:25:2
+>>>>>>> 519cc6d7ddfecdf5eb2614e536947cfc8b423595
 "/var/log/dpkg.log" 2018-1-24-6:0:0
 "/var/log/auth.log" 2018-1-28-6:25:2
 "/var/log/apt/term.log" 2018-1-24-6:0:0
 "/var/log/apt/history.log" 2018-1-24-6:0:0
 "/var/log/alternatives.log" 2018-1-24-6:0:0
+<<<<<<< HEAD
 "/var/log/mail.log" 2018-1-24-6:0:0
 "/var/log/debug" 2018-1-28-6:25:2
 "/var/log/kern.log" 2018-1-28-6:25:2
@@ -15,6 +20,18 @@ logrotate state -- version 2
 "/var/log/btmp" 2018-1-24-6:0:0
 "/var/log/mail.err" 2018-1-24-6:0:0
 "/var/log/lpr.log" 2018-1-24-6:0:0
+=======
+"/var/log/debug" 2018-1-28-6:25:2
+"/var/log/mail.log" 2018-1-24-6:0:0
+"/var/log/kern.log" 2018-1-28-6:25:2
+"/var/log/aptitude" 2018-1-24-6:0:0
+"/var/log/wtmp" 2018-1-24-6:0:0
+"/var/log/daemon.log" 2018-1-28-6:25:2
+"/var/log/mail.warn" 2018-1-24-6:0:0
+"/var/log/btmp" 2018-1-24-6:0:0
+"/var/log/lpr.log" 2018-1-24-6:0:0
+"/var/log/mail.err" 2018-1-24-6:0:0
+>>>>>>> 519cc6d7ddfecdf5eb2614e536947cfc8b423595
 "/var/log/user.log" 2018-1-28-6:25:2
 "/var/log/mail.info" 2018-1-24-6:0:0
 "/var/log/cron.log" 2018-1-24-6:0:0

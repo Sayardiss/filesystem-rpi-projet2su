@@ -742,6 +742,7 @@ Package: libpcrecpp0v5
 Architecture: armhf
 Auto-Installed: 1
 
+<<<<<<< HEAD
 Package: gawk
 Architecture: armhf
 Auto-Installed: 1
@@ -774,3 +775,5 @@ Package: libreadline5
 Architecture: armhf
 Auto-Installed: 1
 
+=======
+>>>>>>> 519cc6d7ddfecdf5eb2614e536947cfc8b423595
