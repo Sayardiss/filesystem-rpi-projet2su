@@ -1,0 +1,66 @@
+#!/bin/sh
+set -e
+
+
+showpubkey() {
+    local keyfile="$1" pubkey
+
+    if ! which ssh-keygen >/dev/null 2>&1; then
+        cat
+    else
+        pubkey=$(mktemp)
+        grep -m1 -E '^(ssh-(dss|rsa)|ecdsa-sha2-nistp(256|384|521)) ' >"$pubkey"
+        ssh-keygen -v -lf "$pubkey" | sed -r "1s@$pubkey(\s+\([^)]+\))\$@$keyfile\1@"
+        rm -f "$pubkey"
+    fi
+}
+
+if [ "$1" = 'configure' ]; then
+    havehostkey=no
+    for keytype in dss rsa ecdsa; do
+        keyfile="/etc/dropbear-initramfs/dropbear_${keytype}_host_key"
+        if [ -e "$keyfile" ]; then
+            havehostkey=yes
+            break
+        fi
+    done
+    if [ "$havehostkey" = no ]; then
+        # generate host keys
+        for keytype in dss rsa ecdsa; do
+            keyfile="/etc/dropbear-initramfs/dropbear_${keytype}_host_key"
+            echo "Generating Dropbear $(echo "$keytype" | tr '[a-z]' '[A-Z]') host key.  Please wait." >&2
+            dropbearkey -t "$keytype" -f "$keyfile" | showpubkey "$keyfile"
+        done
+    fi
+
+    # XXX backward compatibility; remove once Stretch is the current stable
+    if grep -q ^DROPBEAR= /etc/initramfs-tools/initramfs.conf; then
+        echo "dropbear: WARNING: Setting DROPBEAR in /etc/initramfs-tools/initramfs.conf is deprecated and will be ignored in a future release" >&2
+        . "/etc/initramfs-tools/initramfs.conf"
+        if [ "$DROPBEAR" = n ]; then
+            echo "dropbear: WARNING: Uninstall dropbear-initramfs instead to disable the dropbear initramfs boot script" >&2
+        fi
+    else
+        DROPBEAR=
+    fi
+
+    if [ "$DROPBEAR" = y ] || [ "$DROPBEAR" != n -a -r /etc/crypttab ]; then
+        # XXX here we could read the configured network-config, and use it
+        # for default values for prompting the user for the
+        # initramfs-network- config (subsequently writing it to menu.lst:#
+        # kopt= or lilo.conf), instead of just printing the reminder below.
+        update-initramfs -u
+        cat <<-EOT
+			Dropbear has been added to the initramfs. Don't forget to check
+			your "ip=" kernel bootparameter to match your desired initramfs
+			ip configuration.
+
+		EOT
+    fi
+fi
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper symlink_to_dir /usr/share/doc/dropbear-initramfs dropbear-bin 2016.72-1 -- "$@"
+# End automatically added section
+
+exit 0

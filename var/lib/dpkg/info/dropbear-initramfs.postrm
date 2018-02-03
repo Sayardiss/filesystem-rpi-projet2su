@@ -1,0 +1,37 @@
+#! /bin/sh
+set -e
+
+if [ "$1" = purge ]; then
+    rm -f /etc/dropbear-initramfs/dropbear_dss_host_key
+    rm -f /etc/dropbear-initramfs/dropbear_rsa_host_key
+    rm -f /etc/dropbear-initramfs/dropbear_ecdsa_host_key
+    rm -f /etc/dropbear-initramfs/authorized_keys
+    rm -f /etc/dropbear-initramfs/id_dsa.pub
+    rm -f /etc/dropbear-initramfs/id_rsa.pub
+    rm -f /etc/dropbear-initramfs/id_ecdsa.pub
+
+# XXX backward compatibility; remove once Stretch is the current stable
+elif [ "$1" = 'abort-upgrade' -o "$1" = 'abort-install' ] && [ $# -ge 2 ] && \
+   dpkg --compare-versions "$2" le '2016.72-1'; then
+        for x in dss rsa ecdsa; do
+            if [   -f "/etc/dropbear-initramfs/dropbear_${x}_host_key" ] &&
+               [ ! -f "/etc/initramfs-tools/etc/dropbear/dropbear_${x}_host_key" ]; then
+                [ -d /etc/initramfs-tools/etc/dropbear ] || mkdir -p /etc/initramfs-tools/etc/dropbear
+                mv -n "/etc/dropbear-initramfs/dropbear_${x}_host_key" /etc/initramfs-tools/etc/dropbear
+            fi
+        done
+        for x in authorized_keys id_dsa.pub id_rsa.pub id_ecdsa.pub; do
+            if [   -f "/etc/dropbear-initramfs/$x" ] &&
+               [ ! -f "/etc/initramfs-tools/root/.ssh/$x" ]; then
+                [ -d /etc/initramfs-tools/etc/dropbear ] || mkdir -pm0700 /etc/initramfs-tools/root/.ssh
+                mv -n "/etc/dropbear-initramfs/$x" /etc/initramfs-tools/root/.ssh
+            fi
+        done
+        rmdir --ignore-fail-on-non-empty /etc/dropbear-initramfs
+fi
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper symlink_to_dir /usr/share/doc/dropbear-initramfs dropbear-bin 2016.72-1 -- "$@"
+# End automatically added section
+
+exit 0

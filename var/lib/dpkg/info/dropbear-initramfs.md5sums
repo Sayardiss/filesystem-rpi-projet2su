@@ -1,0 +1,10 @@
+355dd0e74dfc20f57ab8f08ff5559cdf  usr/share/doc/dropbear-initramfs/NEWS.Debian.gz
+376fd974b10078c5cf2847d08e7f4e8f  usr/share/doc/dropbear-initramfs/README.initramfs
+7485768f3459a80e7b031798665e5e80  usr/share/doc/dropbear-initramfs/changelog.Debian.gz
+01d93a0400d69f7ccf28e8c2c8172ef0  usr/share/doc/dropbear-initramfs/changelog.gz
+cd805e0c7acfa9ad401bd9e4d6815c7b  usr/share/doc/dropbear-initramfs/copyright
+946316ad548b65bcd563c5da8d6ea6b1  usr/share/initramfs-tools/conf-hooks.d/dropbear
+768aef1f9a4dad7be4e68cf481ddcd61  usr/share/initramfs-tools/hooks/dropbear
+0fdef1dafab498bbfcb4f32c93b3d7f3  usr/share/initramfs-tools/scripts/init-bottom/dropbear
+18c43eed12f4539414555fc6964d55c1  usr/share/initramfs-tools/scripts/init-premount/dropbear
+ed5dfda6a0d34f81f41424ffeaf41415  usr/share/initramfs-tools/scripts/local-bottom/ifdown

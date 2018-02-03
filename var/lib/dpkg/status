@@ -192,6 +192,26 @@ Description: Interactive high-level object-oriented language (version 3.5)
  includes an extensive class library with lots of goodies for
  network programming, system administration, sounds and graphics.
 
+Package: dmeventd
+Status: install ok installed
+Priority: optional
+Section: admin
+Installed-Size: 148
+Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Source: lvm2 (2.02.168-2)
+Version: 2:1.02.137-2
+Depends: libc6 (>= 2.15), libdevmapper-event1.02.1 (>= 2:1.02.110), libdevmapper1.02.1 (>= 2:1.02.113), liblvm2cmd2.02 (>= 2.02.168), init-system-helpers (>= 1.18~)
+Description: Linux Kernel Device Mapper event daemon
+ The Linux Kernel Device Mapper is the LVM (Linux Logical Volume Management)
+ Team's implementation of a minimalistic kernel-space driver that handles
+ volume management, while keeping knowledge of the underlying device layout
+ in user-space.  This makes it useful for not only LVM, but software raid,
+ and other drivers that create "virtual" block devices.
+ .
+ This package contains a daemon to monitor events of devmapper devices.
+Homepage: http://sources.redhat.com/lvm2/
+
 Package: libatomic1
 Status: install ok installed
 Priority: optional
@@ -2121,6 +2141,32 @@ Description: Save/restore system clock on machines without working RTC hardware
  On top of this, use of NTP is still recommended to deal with the fake
  clock "drifting" while the hardware is halted or rebooting.
 
+Package: dropbear-bin
+Status: install ok installed
+Priority: optional
+Section: net
+Installed-Size: 617
+Maintainer: Guilhem Moulin <guilhem@debian.org>
+Architecture: armhf
+Multi-Arch: foreign
+Source: dropbear
+Version: 2016.74-5
+Replaces: dropbear (<< 2015.68-1)
+Provides: ssh-server
+Depends: libc6 (>= 2.15), zlib1g (>= 1:1.1.4)
+Suggests: openssh-client, xauth
+Breaks: dropbear (<< 2015.68-1)
+Description: lightweight SSH2 server and client - command line tools
+ dropbear is a SSH 2 server and client designed to be small enough to
+ be used in small memory environments, while still being functional and
+ secure enough for general use.
+ .
+ It implements most required features of the SSH 2 protocol, and other
+ features such as X11 and authentication agent forwarding.
+ .
+ This package provides dropbear, dbclient, dropbearkey and dropbearconvert.
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
+
 Package: libgcrypt20
 Status: install ok installed
 Priority: standard
@@ -2496,6 +2542,33 @@ Description: Middleware to access a smart card using PC/SC (library)
  a client application and provide access to the desired reader.
 Homepage: http://pcsclite.alioth.debian.org/
 
+Package: busybox
+Status: install ok installed
+Priority: optional
+Section: utils
+Installed-Size: 742
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Architecture: armhf
+Version: 1:1.22.0-19
+Replaces: busybox-static
+Depends: libc6 (>= 2.16)
+Breaks: initramfs-tools (<< 0.99)
+Conflicts: busybox-static
+Description: Tiny utilities for small and embedded systems
+ BusyBox combines tiny versions of many common UNIX utilities into a single
+ small executable. It provides minimalist replacements for the most common
+ utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+ mount, tar, etc.). The utilities in BusyBox generally have fewer options than
+ their full-featured GNU cousins; however, the options that are included
+ provide the expected functionality and behave very much like their GNU
+ counterparts.
+ .
+ This package installs the BusyBox binary but does not install
+ symlinks for any of the supported utilities. Some of the utilities
+ can be used in the system by installing the busybox-syslogd,
+ busybox-udhcpc or busybox-udhcpd packages.
+Homepage: http://www.busybox.net
+
 Package: libsigsegv2
 Status: install ok installed
 Priority: optional
@@ -2825,6 +2898,30 @@ Description: compression library - runtime
  zlib is a library implementing the deflate compression method found
  in gzip and PKZIP.  This package includes the shared library.
 Homepage: http://zlib.net/
+
+Package: lvm2
+Status: install ok installed
+Priority: optional
+Section: admin
+Installed-Size: 2230
+Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: foreign
+Version: 2.02.168-2
+Depends: libblkid1 (>= 2.24.2), libc6 (>= 2.15), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.135), liblvm2app2.2 (>= 2.02.168), libreadline5 (>= 5.2), libudev1 (>= 183), init-system-helpers (>= 1.18~), lsb-base, dmsetup, dmeventd
+Suggests: thin-provisioning-tools
+Conffiles:
+ /etc/init.d/lvm2 70063dce3a90eca5ef673579e5fcc402
+ /etc/init.d/lvm2-lvmetad c67e25f2c711f99b9cdaca291a143986
+ /etc/init.d/lvm2-lvmpolld 6ee7740a641d91e302d3fbfe42a14942
+ /etc/lvm/lvm.conf 1df0d4f1f77d9d251d6e4d9dd6c35da9
+Description: Linux Logical Volume Manager
+ This is LVM2, the rewrite of The Linux Logical Volume Manager.  LVM
+ supports enterprise level volume management of disk and disk subsystems
+ by grouping arbitrary disks into volume groups. The total capacity of
+ volume groups can be allocated to logical volumes, which are accessed as
+ regular block devices.
+Homepage: http://sources.redhat.com/lvm2/
 
 Package: libcurl3-gnutls
 Status: install ok installed
@@ -3194,6 +3291,41 @@ Description: a pattern scanning and text processing language
  Mawk is smaller and much faster than gawk. It has some compile-time
  limits such as NF = 32767 and sprintf buffer = 1020.
 
+Package: cryptsetup
+Status: install ok installed
+Priority: optional
+Section: admin
+Installed-Size: 351
+Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@lists.alioth.debian.org>
+Architecture: armhf
+Version: 2:1.7.3-4
+Replaces: cryptsetup-luks, hashalot (<< 0.3-2)
+Provides: cryptsetup-luks
+Depends: libc6 (>= 2.15), debconf (>= 0.5) | debconf-2.0, dmsetup, cryptsetup-bin (>= 2:1.6.0)
+Recommends: kbd, console-setup, initramfs-tools (>= 0.129) | linux-initramfs-tool, busybox | busybox-static
+Suggests: dosfstools, liblocale-gettext-perl, keyutils
+Breaks: hashalot (<< 0.3-2)
+Conflicts: cryptsetup-luks
+Conffiles:
+ /etc/cryptsetup-initramfs/conf-hook 7c1314c3f6ebb652e75fd5787206c47f
+ /etc/default/cryptdisks 756141f7eacf1a272a2f6e51646b3aa4
+ /etc/init.d/cryptdisks 20b58baefc1aed5021a28e2fb9439edd
+ /etc/init.d/cryptdisks-early 9c58f4b1314fe50c79ec0caff22bf298
+ /etc/init/cryptdisks-udev.conf ed789690d1770e3f3a2682c11e359bb6
+ /etc/init/cryptdisks.conf e5527ceb5c020174a6464b81126bb5f7
+Description: disk encryption support - startup scripts
+ Cryptsetup provides an interface for configuring encryption on block
+ devices (such as /home or swap partitions), using the Linux kernel
+ device mapper target dm-crypt. It features integrated Linux Unified Key
+ Setup (LUKS) support.
+ .
+ Cryptsetup is backwards compatible with the on-disk format of cryptoloop,
+ but also supports more secure formats. This package includes support for
+ automatically configuring encrypted devices at boot time via the config
+ file /etc/crypttab. Additional features are cryptoroot support through
+ initramfs-tools and several supported ways to read a passphrase or key.
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+
 Package: libv4lconvert0
 Status: install ok installed
 Priority: optional
@@ -3285,6 +3417,33 @@ Description: UBSan -- undefined behaviour sanitizer (runtime)
  Various computations will be instrumented to detect undefined behavior
  at runtime. Available for C and C++.
 Homepage: http://gcc.gnu.org/
+
+Package: dropbear-run
+Status: install ok installed
+Priority: optional
+Section: net
+Installed-Size: 61
+Maintainer: Guilhem Moulin <guilhem@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: dropbear
+Version: 2016.74-5
+Replaces: dropbear (<< 2015.68-1)
+Depends: dropbear-bin (>= 2016.74-5), lsb-base (>= 3.0-6)
+Suggests: runit
+Breaks: dropbear (<< 2015.68-1)
+Conffiles:
+ /etc/dropbear/log/run 1cfe24efd15e41994615e0244e386e55
+ /etc/dropbear/run e1844aaafec37a1fb283b794ee2fa0c8
+ /etc/init.d/dropbear 41ce57bd5d9695ebc1a8954b16b78f92
+Description: lightweight SSH2 server and client - startup scripts
+ dropbear is a SSH 2 server and client designed to be small enough to
+ be used in small memory environments, while still being functional and
+ secure enough for general use.
+ .
+ It implements most required features of the SSH 2 protocol, and other
+ features such as X11 and authentication agent forwarding.
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
 
 Package: libpkcs11-helper1
 Status: install ok installed
@@ -5751,6 +5910,28 @@ Description: secure shell client and server (metapackage)
  may remove it if nothing depends on it.
 Homepage: http://www.openssh.com/
 
+Package: libdevmapper-event1.02.1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 67
+Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: lvm2 (2.02.168-2)
+Version: 2:1.02.137-2
+Depends: libc6 (>= 2.15), libdevmapper1.02.1 (>= 2:1.02.103)
+Description: Linux Kernel Device Mapper event support library
+ The Linux Kernel Device Mapper is the LVM (Linux Logical Volume Management)
+ Team's implementation of a minimalistic kernel-space driver that handles
+ volume management, while keeping knowledge of the underlying device layout
+ in user-space.  This makes it useful for not only LVM, but software raid,
+ and other drivers that create "virtual" block devices.
+ .
+ This package contains the userspace library to help with event monitoring
+ for devmapper devices, in conjunction with the dmevent daemon.
+Homepage: http://sources.redhat.com/lvm2/
+
 Package: perl
 Status: install ok installed
 Priority: standard
@@ -5861,6 +6042,21 @@ Description: boot animation, logger and I/O multiplexer
  .
  This package provides the basic framework, enabling a text-mode animation.
 Homepage: http://www.freedesktop.org/wiki/Software/Plymouth
+
+Package: liblvm2cmd2.02
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 1635
+Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: lvm2
+Version: 2.02.168-2
+Depends: libblkid1 (>= 2.24.2), libc6 (>= 2.15), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.135), libudev1 (>= 183), dmeventd
+Description: LVM2 command library
+ This package contains the lvm2cmd shared library.
+Homepage: http://sources.redhat.com/lvm2/
 
 Package: libpython-stdlib
 Status: install ok installed
@@ -6264,6 +6460,33 @@ Description: change and administer password and group data
  .
  Shadow passwords are supported.  See /usr/share/doc/passwd/README.Debian
 Homepage: https://github.com/shadow-maint/shadow
+
+Package: dropbear-initramfs
+Status: install ok installed
+Priority: optional
+Section: net
+Installed-Size: 71
+Maintainer: Guilhem Moulin <guilhem@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: dropbear
+Version: 2016.74-5
+Replaces: dropbear (<< 2015.68-1)
+Depends: dropbear-bin (>= 2016.74-5), initramfs-tools (>= 0.94), busybox | busybox-static, udev
+Recommends: cryptsetup
+Breaks: dropbear (<< 2015.68-1)
+Conffiles:
+ /etc/dropbear-initramfs/config ef75428100d08dd526ea61e5d8738856
+Description: lightweight SSH2 server and client - initramfs integration
+ dropbear is a SSH 2 server and client designed to be small enough to
+ be used in small memory environments, while still being functional and
+ secure enough for general use.
+ .
+ It implements most required features of the SSH 2 protocol, and other
+ features such as X11 and authentication agent forwarding.
+ .
+ This package provides initramfs integration.
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
 
 Package: init-system-helpers
 Essential: yes
@@ -7346,6 +7569,27 @@ Description: Media Transfer Protocol (MTP) library
  USB digital audio players and movie files on USB portable media players.
 Homepage: http://libmtp.sourceforge.net/
 
+Package: cryptsetup-bin
+Status: install ok installed
+Priority: optional
+Section: admin
+Installed-Size: 1003
+Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@lists.alioth.debian.org>
+Architecture: armhf
+Source: cryptsetup
+Version: 2:1.7.3-4
+Replaces: cryptsetup (<< 2:1.4.3-1~)
+Depends: libc6 (>= 2.15), libcryptsetup4 (>= 2:1.6), libpopt0 (>= 1.14), libuuid1 (>= 2.16)
+Breaks: cryptsetup (<< 2:1.4.3-1~)
+Description: disk encryption support - command line tools
+ Cryptsetup provides an interface for configuring encryption on block
+ devices (such as /home or swap partitions), using the Linux kernel
+ device mapper target dm-crypt. It features integrated Linux Unified Key
+ Setup (LUKS) support.
+ .
+ This package provides cryptsetup, cryptsetup-reencrypt and luksformat.
+Homepage: https://gitlab.com/cryptsetup/cryptsetup
+
 Package: openssl
 Status: install ok installed
 Priority: optional
@@ -8222,6 +8466,23 @@ Description: global hotkey daemon for Linux
  events or switch to a different set of hotkey bindings.
 Homepage: https://github.com/wertarbyte/triggerhappy
 
+Package: liblvm2app2.2
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 1273
+Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: lvm2
+Version: 2.02.168-2
+Depends: libblkid1 (>= 2.24.2), libc6 (>= 2.15), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.135), libudev1 (>= 183)
+Description: LVM2 application library
+ This package contains the lvm2app shared library. It allows easier access
+ to the basic LVM objects and provides functions to enumerate, create or
+ modify them.
+Homepage: http://sources.redhat.com/lvm2/
+
 Package: libboost-program-options1.58.0
 Status: install ok installed
 Priority: optional
@@ -9014,6 +9275,25 @@ Description: Linux Key Management Utilities (library)
  This package provides a wrapper library for the key management facility system
  calls.
 Homepage: http://people.redhat.com/~dhowells/keyutils/
+
+Package: libreadline5
+Status: install ok installed
+Priority: extra
+Section: libs
+Installed-Size: 253
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: readline5
+Version: 5.2+dfsg-3
+Depends: readline-common, libc6 (>= 2.15), libtinfo5
+Description: GNU readline and history libraries, run-time libraries
+ The GNU readline library aids in the consistency of user interface
+ across discrete programs that need to provide a command line
+ interface.
+ .
+ The GNU history library provides a consistent user interface for
+ recalling lines of previously typed input.
 
 Package: libnewt0.52
 Status: install ok installed

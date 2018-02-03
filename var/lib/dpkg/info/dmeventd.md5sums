@@ -1,0 +1,12 @@
+1dea2690108caa7905e38f8291655399  lib/arm-linux-gnueabihf/device-mapper/libdevmapper-event-lvm2mirror.so
+1b00ceff0880d83a45c929a0a0c6da70  lib/arm-linux-gnueabihf/device-mapper/libdevmapper-event-lvm2raid.so
+ba7ea20302b1bda5d07bddcaeb320b86  lib/arm-linux-gnueabihf/device-mapper/libdevmapper-event-lvm2snapshot.so
+f46e751e4f2f18da12897ea7a1aaa87d  lib/arm-linux-gnueabihf/device-mapper/libdevmapper-event-lvm2thin.so
+18106708814798c3ba957e0a0d652d08  lib/arm-linux-gnueabihf/libdevmapper-event-lvm2.so.2.02
+018f9f539ed250647b725fc32ab86d58  lib/systemd/system/dm-event.service
+51236e925b66f616904e73e9030b8d85  lib/systemd/system/dm-event.socket
+e4db49d6a689bc3430b288e2f79a50db  sbin/dmeventd
+221d417983515b7bf27cdedd2e99f0af  usr/share/doc/dmeventd/changelog.Debian.gz
+e094e7afdc51c450f8144e7791deeaa9  usr/share/doc/dmeventd/changelog.gz
+0c26eedb7cf48e3f56fc63ece2d40190  usr/share/doc/dmeventd/copyright
+ae115e61e0d84da3bc7328556ed9b746  usr/share/man/man8/dmeventd.8.gz

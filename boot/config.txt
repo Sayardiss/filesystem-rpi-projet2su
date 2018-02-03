@@ -54,3 +54,5 @@
 
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
+
+initramfs  initramfs.gz followkernel

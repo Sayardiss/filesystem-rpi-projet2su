@@ -750,3 +750,27 @@ Package: libsigsegv2
 Architecture: armhf
 Auto-Installed: 1
 
+Package: cryptsetup-bin
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liblvm2cmd2.02
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libdevmapper-event1.02.1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: dmeventd
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liblvm2app2.2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libreadline5
+Architecture: armhf
+Auto-Installed: 1
+

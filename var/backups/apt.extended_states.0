@@ -742,99 +742,35 @@ Package: libpcrecpp0v5
 Architecture: armhf
 Auto-Installed: 1
 
-Package: liblapack3
-Architecture: armhf
-Auto-Installed: 1
-
-Package: python3-setools
-Architecture: armhf
-Auto-Installed: 1
-
-Package: m4
-Architecture: armhf
-Auto-Installed: 1
-
-Package: python3-ipy
-Architecture: armhf
-Auto-Installed: 1
-
 Package: gawk
 Architecture: armhf
 Auto-Installed: 1
 
-Package: python3-numpy
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libauparse0
-Architecture: armhf
-Auto-Installed: 1
-
-Package: checkpolicy
-Architecture: armhf
-Auto-Installed: 1
-
-Package: python3-semanage
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libblas-common
-Architecture: armhf
-Auto-Installed: 1
-
-Package: setools
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libgfortran3
-Architecture: armhf
-Auto-Installed: 1
-
-Package: python3-decorator
-Architecture: armhf
-Auto-Installed: 1
-
-Package: python3-yaml
-Architecture: armhf
-Auto-Installed: 1
-
-Package: python3-pkg-resources
-Architecture: armhf
-Auto-Installed: 1
-
-Package: python3-sepolgen
-Architecture: armhf
-Auto-Installed: 1
-
-Package: python3-sepolicy
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libblas3
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libyaml-0-2
-Architecture: armhf
-Auto-Installed: 1
-
-Package: python3-networkx
-Architecture: armhf
-Auto-Installed: 1
-
-Package: python3-scipy
-Architecture: armhf
-Auto-Installed: 1
-
-Package: python3-audit
-Architecture: armhf
-Auto-Installed: 1
-
-Package: python3-selinux
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libsigsegv2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: cryptsetup-bin
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liblvm2cmd2.02
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libdevmapper-event1.02.1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: dmeventd
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liblvm2app2.2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libreadline5
 Architecture: armhf
 Auto-Installed: 1
 

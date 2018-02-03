@@ -245,3 +245,97 @@ check-selinux-installation
 selinux-config-enforcing 
 nano /etc/pam.d/login 
 selinux-activate 
+nano .ssh/authorized_keys 
+git status
+cd /
+git commit -m "Installation foirée de SELinux"
+git reset HEAD~
+git status
+apt remove --purge selinux-*
+apt remove --purge auditd
+apt remove --autoremove
+apt remove --autoremove --purge
+git status
+cd /
+ls
+cat .gitignore 
+git rm -r --cached /run/
+git status
+git rm -r --cached /var/log/
+git status
+git rm -r --cached /var/cache/
+git status
+git commit -ma "Added opti-1511 ssh_key"
+git commit -am "Added opti-1511 ssh_key"
+git status
+nano .gitignore 
+git status
+git add *
+git commit -m "added files"
+ls
+pwd
+git status
+/home/user/Cours/SecuSystemes_KAUFFMANN/binwalk
+/home/user/Cours/SecuSystemes_KAUFFMANN/compilation
+/home/user/Cours/SecuSystemes_KAUFFMANN/entropie.txt
+/home/user/Cours/SecuSystemes_KAUFFMANN/entropy.png
+/home/user/Cours/SecuSystemes_KAUFFMANN/reverse_emily
+/home/user/Cours/SecuSystemes_KAUFFMANN/TD_1_Reverse_engineering.md
+/home/user/Cours/SecuSystemes_KAUFFMANN/TD_1_Reverse_engineering.md.html
+/home/user/Cours/SecuSystemes_KAUFFMANN/TD_2_Emily.md
+/home/user/Cours/SecuSystemes_KAUFFMANN/TD_2_Emily.md.html
+/home/user/Cours/SecuSystemes_KAUFFMANN/TD_3_crosscompilation.md
+apt-get install cryptsetup lvm2 busybox
+nano /boot/config.txt 
+nano /boot/cmdline.txt 
+cp /boot/cmdline.txt /boot/cmdline.txt.bak
+nano /boot/cmdline.txt 
+ls /dev/
+nano /etc/fstab 
+nano /etc/crypttab 
+dd if=/dev/zero of=/tmp/fakeroot.img bs=1M count=20
+cryptsetup luksFormat /tmp/fakeroot.im
+cryptsetup luksFormat /tmp/fakeroot.img
+cryptsetup luksOpen /tmp/fakeroot.img crypt
+mkfs.ext4 /dev/mapper/crypt
+mkinitramfs -o /boot/initramfs.gz
+lsinitramfs /boot/initramfs.gz | grep cryptsetup
+lsinitramfs /boot/initramfs.gz
+mkinitramfs -o /boot/initramfs.gz
+nano /etc/fstab 
+mkinitramfs -o /boot/initramfs.gz
+lsinitramfs /boot/initramfs.gz | grep cryptsetup
+init 0
+apt install dropbear
+mkinitramfs -o /boot/initramfs.gz 
+cat /etc/initramfs-tools/root/.ssh/id_rsa
+mkinitramfs -o /boot/initramfs.gz 
+nano /etc/initramfs-tools/initramfs.conf 
+ip a
+exit
+ip a
+nano /usr/share/initramfs-tools/scripts/local-top/cryptroot
+mkinitramfs -o /boot/initramfs.gz
+nano /etc/initramfs-tools/initramfs.conf 
+mkinitramfs -o /boot/initramfs.gz
+apt install busybox dropbear*
+cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub >> /etc/dropbear-initramfs/authorized_keys
+nano /etc/dropbear-initramfs/authorized_keys
+update-initramfs -u
+mkinitramfs -o /boot/initramfs.gz
+sudo cat /etc/initramfs-tools/root/.ssh/id_rsa
+sudo cat /etc/initramfs-tools/root/.ssh/id_rsa
+sudo cat /etc/initramfs-tools/mkinitramfs -o /boot/initramfs.gz
+mkinitramfs -o /boot/initramfs.gz
+sudo cat /etc/initramfs-tools/root/.ssh/id_rsa
+mkinitramfs -o /boot/initramfs.gz 
+KEY_DIR="/mnt/sda1/.ssh"
+KEY_DIR="/etc/initramfs-tools/root/.ssh/"
+mkdir -p "$KEY_DIR"
+dropbearkey -t rsa -f "${KEY_DIR}/id_rsa"
+dropbearkey -y -f "${KEY_DIR}/id_rsa" | grep "^ssh-rsa " > "${KEY_DIR}/id_rsa.pub"
+cat "${KEY_DIR}/id_rsa.pub"
+nano /etc/initramfs-tools/root/.ssh/authorized_keys
+mkinitramfs -o /boot/initramfs.gz
+halt

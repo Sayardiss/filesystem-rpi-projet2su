@@ -1,0 +1,17 @@
+/.
+/etc
+/etc/dropbear
+/etc/dropbear/log
+/etc/dropbear/log/run
+/etc/dropbear/run
+/etc/init.d
+/etc/init.d/dropbear
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/dropbear-run
+/usr/share/doc/dropbear-run/README.runit
+/usr/share/doc/dropbear-run/changelog.Debian.gz
+/usr/share/doc/dropbear-run/changelog.gz
+/usr/share/doc/dropbear-run/copyright
+/etc/dropbear/log/main

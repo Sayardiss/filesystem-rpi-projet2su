@@ -1,0 +1,117 @@
+#!/bin/sh
+set -e
+
+showpubkey() {
+    local keyfile="$1" pubkey
+    if ! which ssh-keygen >/dev/null 2>&1; then
+        cat
+    else
+        pubkey=$(mktemp)
+        grep -m1 -E '^(ssh-(dss|rsa)|ecdsa-sha2-nistp(256|384|521)) ' >"$pubkey"
+        ssh-keygen -v -lf "$pubkey" | sed -r "1s@$pubkey(\s+\([^)]+\))\$@$keyfile\1@"
+        rm -f "$pubkey"
+    fi
+}
+
+DROPBEARCONVERT=/usr/lib/dropbear/dropbearconvert
+if [ "$1" = 'configure' ]; then
+    havehostkey=no
+    for keytype in dss rsa ecdsa; do
+        keyfile="/etc/dropbear/dropbear_${keytype}_host_key"
+        if [ -e "$keyfile" ]; then
+            havehostkey=yes
+            break
+        fi
+    done
+    if [ "$havehostkey" = no ]; then
+        # generate host keys
+        for keytype in dss rsa ecdsa; do
+            keyfile="/etc/dropbear/dropbear_${keytype}_host_key"
+            case "$keytype" in
+                dss) keytype_openssh=dsa;;
+                *) keytype_openssh="$keytype";;
+            esac
+            keyfile_openssh="/etc/ssh/ssh_host_${keytype_openssh}_key"
+
+            if [ -f "$keyfile_openssh" ] && ! grep -qE '^-+BEGIN OPENSSH PRIVATE KEY-+$' "$keyfile_openssh"; then
+                # dropbearconvert(1) can't read new OpenSSH private key format
+                echo "Converting existing OpenSSH $(echo "$keytype_openssh" | tr '[a-z]' '[A-Z]') host key to Dropbear format." >&2
+                $DROPBEARCONVERT openssh dropbear "$keyfile_openssh" "$keyfile"
+                dropbearkey -y -f "$keyfile" | showpubkey "$keyfile"
+            else
+                echo "Generating Dropbear $(echo "$keytype" | tr '[a-z]' '[A-Z]') host key.  Please wait." >&2
+                dropbearkey -t "$keytype" -f "$keyfile" | showpubkey "$keyfile"
+            fi
+        done
+    fi
+
+    if [ ! -s /etc/default/dropbear ]; then
+        # Add NO_START=1 if OpenSSH seems to be installed.
+        # Unfortunately we can't let dpkg keep track of user changes on
+        # that file (eg, by including a 'd/dropbear-run.drobear.default'
+        # file managed by dh_installinit) since its content is
+        # dynamically generated in this postinst script.
+        if which sshd >/dev/null 2>&1; then
+            cat >&2 <<-EOT
+				OpenSSH appears to be installed.  Setting /etc/default/dropbear so that
+				Dropbear will not start by default.  Edit this file to change this behaviour.
+
+			EOT
+            cat >>/etc/default/dropbear <<-EOT
+				# disabled because OpenSSH is installed
+				# change to NO_START=0 to enable Dropbear
+				NO_START=1
+			EOT
+        fi
+        cat >>/etc/default/dropbear <<-EOT
+			# the TCP port that Dropbear listens on
+			DROPBEAR_PORT=22
+
+			# any additional arguments for Dropbear
+			DROPBEAR_EXTRA_ARGS=
+
+			# specify an optional banner file containing a message to be
+			# sent to clients before they connect, such as "/etc/issue.net"
+			DROPBEAR_BANNER=""
+
+			# RSA hostkey file (default: /etc/dropbear/dropbear_rsa_host_key)
+			#DROPBEAR_RSAKEY="/etc/dropbear/dropbear_rsa_host_key"
+
+			# DSS hostkey file (default: /etc/dropbear/dropbear_dss_host_key)
+			#DROPBEAR_DSSKEY="/etc/dropbear/dropbear_dss_host_key"
+
+			# ECDSA hostkey file (default: /etc/dropbear/dropbear_ecdsa_host_key)
+			#DROPBEAR_ECDSAKEY="/etc/dropbear/dropbear_ecdsa_host_key"
+
+			# Receive window size - this is a tradeoff between memory and
+			# network performance
+			DROPBEAR_RECEIVE_WINDOW=65536
+		EOT
+    fi
+
+    if dpkg --compare-versions "$2" lt '0.50-4' && update-service --check dropbear 2>/dev/null; then
+        update-service --remove /etc/dropbear 2>/dev/null || true
+        sleep 6
+        rm -rf /var/run/dropbear /var/run/dropbear.log
+        update-service --add /etc/dropbear || true
+    fi
+fi
+
+# Automatically added by dh_installinit
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ]; then
+	if [ -x "/etc/init.d/dropbear" ]; then
+		update-rc.d dropbear defaults >/dev/null
+		if [ -n "$2" ]; then
+			_dh_action=restart
+		else
+			_dh_action=start
+		fi
+		invoke-rc.d dropbear $_dh_action || exit $?
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper symlink_to_dir /usr/share/doc/dropbear-run dropbear-bin 2016.72-1 -- "$@"
+# End automatically added section
+
+exit 0

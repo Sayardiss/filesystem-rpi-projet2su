@@ -1,0 +1,26 @@
+#! /bin/sh
+set -e
+
+# XXX backward compatibility; remove once Stretch is the current stable
+if [ "$1" = upgrade -o "$1" = install ] && [ $# -ge 2 ] && \
+   dpkg --compare-versions "$2" le '2016.72-1'; then
+        rm -f /etc/initramfs-tools/conf-hooks.d/dropbear
+
+        for x in etc/dropbear/dropbear_dss_host_key \
+                 etc/dropbear/dropbear_rsa_host_key \
+                 etc/dropbear/dropbear_ecdsa_host_key \
+                 root/.ssh/authorized_keys \
+                 root/.ssh/id_dsa.pub \
+                 root/.ssh/id_rsa.pub \
+                 root/.ssh/id_ecdsa.pub; do
+            [ -f "/etc/initramfs-tools/$x" ] || continue
+            [ -d /etc/dropbear-initramfs ] || mkdir /etc/dropbear-initramfs
+            mv -n "/etc/initramfs-tools/$x" /etc/dropbear-initramfs
+        done
+fi
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper symlink_to_dir /usr/share/doc/dropbear-initramfs dropbear-bin 2016.72-1 -- "$@"
+# End automatically added section
+
+exit 0
