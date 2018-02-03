@@ -1743,19 +1743,6 @@ Description: Exported ISC Shared Library
  .
  This package delivers the exported libisc shared library.
 
-Package: raspi-copies-and-fills
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 37
-Maintainer: Serge Schneider <serge@raspberrypi.org>
-Architecture: armhf
-Version: 0.6
-Depends: libc6 (>= 2.4)
-Description: ARM-accelerated versions of selected functions from string.h
- Optimized implementations of memset, memcpy, memcmp and memmove for ARM1176JZF-S and Cortex A7
-Homepage: https://github.com/bavison/arm-mem
-
 Package: libnghttp2-14
 Status: install ok installed
 Priority: optional
@@ -4413,25 +4400,6 @@ Description: GNU core utilities
  tail tee test timeout touch tr true truncate tsort tty uname unexpand
  uniq unlink users vdir wc who whoami yes
 Homepage: http://gnu.org/software/coreutils
-
-Package: ed
-Status: install ok installed
-Priority: optional
-Section: editors
-Installed-Size: 95
-Maintainer: Martin Zobel-Helas <zobel@debian.org>
-Architecture: armhf
-Multi-Arch: foreign
-Version: 1.10-2.1
-Depends: libc6 (>= 2.11)
-Description: classic UNIX line editor
- ed is a line-oriented text editor.  It is used to
- create, display, modify and otherwise manipulate text
- files.
- .
- red is a restricted ed: it can only edit files in the
- current directory and cannot execute shell commands.
-Homepage: http://www.gnu.org/software/ed/
 
 Package: file
 Status: install ok installed
@@ -8715,25 +8683,6 @@ Description: Not Erik's Windowing Toolkit - text mode windowing with slang
  to provide extra functionality. This package contains the shared library
  for programs that have been built with newt.
 Homepage: https://fedorahosted.org/newt/
-
-Package: htop
-Status: install ok installed
-Priority: optional
-Section: utils
-Installed-Size: 180
-Maintainer: Daniel Lange <dl.ml1@usrlocal.de>
-Architecture: armhf
-Version: 2.0.2-1
-Depends: libc6 (>= 2.15), libncursesw5 (>= 6), libtinfo5 (>= 6)
-Suggests: lsof, strace
-Description: interactive processes viewer
- Htop is an ncursed-based process viewer similar to top, but it
- allows one to scroll the list vertically and horizontally to see
- all processes and their full command lines.
- .
- Tasks related to processes (killing, renicing) can be done without
- entering their PIDs.
-Homepage: http://hisham.hm/htop/
 
 Package: bsdmainutils
 Status: install ok installed

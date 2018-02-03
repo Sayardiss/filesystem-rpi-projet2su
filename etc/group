@@ -52,4 +52,4 @@ avahi:x:112:
 spi:x:999:
 i2c:x:998:
 gpio:x:997:
-mongodb:x:113:mongodb
+mongodb:x:113:
