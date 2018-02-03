@@ -198,10 +198,6 @@ Package: binutils
 Architecture: armhf
 Auto-Installed: 1
 
-Package: cpp
-Architecture: armhf
-Auto-Installed: 1
-
 Package: bind9-host
 Architecture: armhf
 Auto-Installed: 1
@@ -215,10 +211,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: geoip-database
-Architecture: armhf
-Auto-Installed: 1
-
-Package: g++
 Architecture: armhf
 Auto-Installed: 1
 
@@ -251,10 +243,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: python-apt-common
-Architecture: armhf
-Auto-Installed: 1
-
-Package: gcc
 Architecture: armhf
 Auto-Installed: 1
 
@@ -367,10 +355,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: libgeoip1
-Architecture: armhf
-Auto-Installed: 1
-
-Package: g++-6
 Architecture: armhf
 Auto-Installed: 1
 
@@ -603,10 +587,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: dpkg-dev
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libstdc++-6-dev
 Architecture: armhf
 Auto-Installed: 1
 
