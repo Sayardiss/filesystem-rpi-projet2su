@@ -2015,15 +2015,16 @@ Description: Perl module for error/exception handling in an OO-ish way
 Homepage: https://metacpan.org/release/Error
 
 Package: curl
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: web
 Installed-Size: 309
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: armhf
 Multi-Arch: foreign
-Version: 7.52.1-5+deb9u3
-Depends: libc6 (>= 2.17), libcurl3 (= 7.52.1-5+deb9u3), zlib1g (>= 1:1.1.4)
+Version: 7.52.1-5+deb9u4
+Config-Version: 7.52.1-5+deb9u3
+Depends: libc6 (>= 2.17), libcurl3 (= 7.52.1-5+deb9u4), zlib1g (>= 1:1.1.4)
 Description: command line tool for transferring data with URL syntax
  curl is a command line tool for transferring data with URL syntax, supporting
  DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3,
@@ -2281,7 +2282,7 @@ Description: OpenLDAP common files for libraries
 Homepage: http://www.openldap.org/
 
 Package: libcurl3
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: libs
 Installed-Size: 539
@@ -2289,7 +2290,8 @@ Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: armhf
 Multi-Arch: same
 Source: curl
-Version: 7.52.1-5+deb9u3
+Version: 7.52.1-5+deb9u4
+Config-Version: 7.52.1-5+deb9u3
 Depends: libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.14+dfsg), libidn2-0 (>= 0.6), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.13.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.7.0), libssl1.0.2 (>= 1.0.2d), zlib1g (>= 1:1.1.4)
 Recommends: ca-certificates
 Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -2517,7 +2519,7 @@ Description: Linux Logical Volume Manager
 Homepage: http://sources.redhat.com/lvm2/
 
 Package: libcurl3-gnutls
-Status: install ok installed
+Status: install ok unpacked
 Priority: optional
 Section: libs
 Installed-Size: 531
@@ -2525,7 +2527,8 @@ Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: armhf
 Multi-Arch: same
 Source: curl
-Version: 7.52.1-5+deb9u3
+Version: 7.52.1-5+deb9u4
+Config-Version: 7.52.1-5+deb9u3
 Depends: libc6 (>= 2.17), libcomerr2 (>= 1.01), libgnutls30 (>= 3.5.6), libgssapi-krb5-2 (>= 1.14+dfsg), libidn2-0 (>= 0.6), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libnettle6, libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.13.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.7.0), zlib1g (>= 1:1.1.4)
 Recommends: ca-certificates
 Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
@@ -5975,7 +5978,7 @@ Homepage: http://www.openvpn.net/
 
 Package: libc-bin
 Essential: yes
-Status: install ok installed
+Status: install ok triggers-pending
 Priority: required
 Section: libs
 Installed-Size: 3026
@@ -6002,6 +6005,7 @@ Description: GNU C Library: Binaries
   * ldd, ldconfig: print/configure shared library dependencies
   * locale, localedef: show/generate locale definitions
   * tzselect, zdump, zic: select/dump/compile time zones
+Triggers-Pending: ldconfig
 Homepage: http://www.gnu.org/software/libc/libc.html
 
 Package: libsemanage1
@@ -6705,7 +6709,7 @@ Description: SELinux runtime shared libraries
 Homepage: http://userspace.selinuxproject.org/
 
 Package: systemd
-Status: install ok triggers-pending
+Status: install ok installed
 Priority: important
 Section: admin
 Installed-Size: 7985
@@ -6747,7 +6751,6 @@ Description: system and service manager
  .
  Installing the systemd package will not switch your init system unless you
  boot with init=/bin/systemd or install systemd-sysv in addition.
-Triggers-Pending: /etc/init.d
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
 
 Package: dpkg
@@ -7697,7 +7700,7 @@ Description: LVM2 application library
 Homepage: http://sources.redhat.com/lvm2/
 
 Package: man-db
-Status: install ok installed
+Status: install ok triggers-pending
 Priority: important
 Section: doc
 Installed-Size: 2106
@@ -7723,6 +7726,7 @@ Description: on-line manual pager
  manpath utility for determining the manual page search path, and the
  maintenance utilities mandb, catman and zsoelim. man-db uses the groff
  suite of programs to format and display the manual pages.
+Triggers-Pending: /usr/share/man
 Homepage: http://man-db.nongnu.org/
 
 Package: shared-mime-info
@@ -8287,7 +8291,7 @@ Description: An alternate POSIX capabilities library
 Homepage: http://people.redhat.com/sgrubb/libcap-ng
 
 Package: dbus
-Status: install ok triggers-pending
+Status: install ok installed
 Priority: standard
 Section: admin
 Installed-Size: 467
@@ -8317,7 +8321,6 @@ Description: simple interprocess messaging system (daemon and utilities)
  .
  The client-side library can be found in the libdbus-1-3 package, as it is no
  longer contained in this package.
-Triggers-Pending: /etc/dbus-1/system.d
 Homepage: http://dbus.freedesktop.org/
 
 Package: libmount1

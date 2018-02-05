@@ -5,21 +5,21 @@ Origin: Raspbian
 Label: Raspbian
 Suite: stable
 Codename: stretch
-Date: Thu, 18 Jan 2018 11:34:37 UTC
+Date: Mon, 05 Feb 2018 10:32:53 UTC
 Architectures: armhf
 Components: main contrib non-free rpi firmware
 Description: Debian armhf testing distribution for Raspberry Pi
 MD5Sum:
- 3896512b308aaab18f5f02aabf4ce889 61472968 main/binary-armhf/Packages
- fc10da8181125b60b39cf3fd7f398491 16384351 main/binary-armhf/Packages.gz
- 7f15efab446a4216f49885992ce4221d 11654764 main/binary-armhf/Packages.xz
+ 4396e87d0a9fadb1b678b176fbe8c960 61472011 main/binary-armhf/Packages
+ cec65920949edbbfa210d1017958608c 16384071 main/binary-armhf/Packages.gz
+ fa036f3dee6cdf96ac8da99e378bb978 11654552 main/binary-armhf/Packages.xz
  3ae69d1cbef047fef5641695e84a96d0 149 main/binary-armhf/Release
  7e35e11fe2f6a640cc98425f29f6d2a0 384152 main/debian-installer/binary-armhf/Packages
  227491d7fb3c522cfa4b6539e9b3662e 99930 main/debian-installer/binary-armhf/Packages.gz
  c772b3917068bf5db872d71a6d1c3797 80976 main/debian-installer/binary-armhf/Packages.xz
- fe71a22f2365cdd1f502aef32fc4ea9f 45421357 main/source/Sources
- 6c739d1a88bad8939bbec8fb4d4bb57a 12313917 main/source/Sources.gz
- efe7766be2ab9c249fddb52400f1620f 9714508 main/source/Sources.xz
+ bc2767faa4d650b128167a6d7ed2df53 45421744 main/source/Sources
+ c99f4cca8e258330c9f3e8a1a9e5b24f 12314039 main/source/Sources.gz
+ 73703a4c631851063a75631de1b1c0c9 9714328 main/source/Sources.xz
  4cec8dca27312eb805542c95c4fdb930 150 main/source/Release
  47821f85f6ec3d9985bef9713fa6302e 232202 contrib/binary-armhf/Packages
  e311bc3cc8637ccf7380a3fa75aff06d 66157 contrib/binary-armhf/Packages.gz
@@ -53,8 +53,8 @@ MD5Sum:
  0e7a8bcb931792faf52b6b26b48f380e 679 firmware/source/Sources.gz
  1670f246ff94c38acd20f8faebda1959 736 firmware/source/Sources.xz
  8ea82219c23d23776329a49731e6c940 154 firmware/source/Release
- ad96080e451b631e64a958de394197a8 528305252 main/Contents-armhf
- bda893148999083f27d047cd7ff6a0e6 35480207 main/Contents-armhf.gz
+ 64d8e34ec86e562687116ec624f2eb15 528309298 main/Contents-armhf
+ 10e345236c0da7fd46561270007d2928 35480233 main/Contents-armhf.gz
  fe1ccb55223312a449d34fdea1aec851 1247279 contrib/Contents-armhf
  1e5450434312b750b02b857445982e1e 90343 contrib/Contents-armhf.gz
  0aa3ecd50ddc8f676e9552e042920926 13879446 non-free/Contents-armhf
@@ -63,23 +63,23 @@ MD5Sum:
  90f696fec396b77d55a33257d2dcb103 328 rpi/Contents-armhf.gz
  ca841bb1451817d4e70e5ca537f5f995 49093 firmware/Contents-armhf
  63dcfe5719f75516820b495076469d5a 3945 firmware/Contents-armhf.gz
- cb95cb097268644d4af64a8f93c7a7a7 543470594 Contents-armhf
- fc47b514a1894aab9391f5201ca21e0d 36335602 Contents-armhf.gz
+ 6f4adb1c5638bc490b131c71e7e4aba1 543474640 Contents-armhf
+ 665408c2e6eed94c80cdcba7d3ac1faa 36335877 Contents-armhf.gz
  f3e08ea8407afdeb9063029e986f7c96 507852 main/Contents-udeb-armhf
  c458bfdf2d49c83d788228239edc6455 40578 main/Contents-udeb-armhf.gz
  f3e08ea8407afdeb9063029e986f7c96 507852 uContents-armhf
  c458bfdf2d49c83d788228239edc6455 40578 uContents-armhf.gz
 SHA1:
- 79245d9a12cea258742add2003faad7afc303023 61472968 main/binary-armhf/Packages
- a1769e2525c95fe951d7bffc30cc3fe169325f0f 16384351 main/binary-armhf/Packages.gz
- ed54d78671526cf4dffae3385994f07e9fc23b61 11654764 main/binary-armhf/Packages.xz
+ cdd17b7b129b93ed16f39fd00930b6de60809c9a 61472011 main/binary-armhf/Packages
+ 476ebf205cd2b0c01311536f52994fa0ff697df0 16384071 main/binary-armhf/Packages.gz
+ 273255b170cc29ced478bafc186e0bf59b4ed8ee 11654552 main/binary-armhf/Packages.xz
  39e832716efb5c4f3169c045e69c46ad0b980d54 149 main/binary-armhf/Release
  ba663f0e658019ffdff3a7888c62ba4993bbbc64 384152 main/debian-installer/binary-armhf/Packages
  00588d17bb1334630eb2c9fd519e50299c88cc91 99930 main/debian-installer/binary-armhf/Packages.gz
  34f3c6ec08eaf20f27cce26582495584501943c1 80976 main/debian-installer/binary-armhf/Packages.xz
- 5a75f395ac61017626944c57b1ddd7cc8f1c6e7b 45421357 main/source/Sources
- 8e6c56a512f11760e58ebc586a268a2895a12ddb 12313917 main/source/Sources.gz
- 1e5232ae9ed59b7358efa75ef04385a1cd76ab04 9714508 main/source/Sources.xz
+ 3f34bac3f6b590cf52c040c95d133ef647dd87e4 45421744 main/source/Sources
+ 4d33550400524b485db57677fc61f6070eef48dc 12314039 main/source/Sources.gz
+ 54dde73e99142661ff8f4d59d1f33e33b3e95040 9714328 main/source/Sources.xz
  206aea21a724f4bb97d52e6388d80be3becc5ed5 150 main/source/Release
  fc20a2a7422ad399ef78363f4407dccf137b1484 232202 contrib/binary-armhf/Packages
  8eb98fb63fad1140a49f5f4cc4aec71f7cf4c97f 66157 contrib/binary-armhf/Packages.gz
@@ -113,8 +113,8 @@ SHA1:
  574473b69722a451f3a51eb1efac4e3811dd3479 679 firmware/source/Sources.gz
  f43bedb55af5e778cdaaedc526184041815eb50f 736 firmware/source/Sources.xz
  235656fa746bdd98c55677a540dc50ad47798e3a 154 firmware/source/Release
- 110a49fbed403192fef18db211bb161c87fdd2fe 528305252 main/Contents-armhf
- 7545040cfc3510256da347f960eee20a9cfe268d 35480207 main/Contents-armhf.gz
+ 87ea2f54b9db5c43d2c3fd95f3f8fd17c7d08df5 528309298 main/Contents-armhf
+ dd5301e64756384758a9e74a59a1803addf59c38 35480233 main/Contents-armhf.gz
  3abe12916ca8933aca426b41570641773af04443 1247279 contrib/Contents-armhf
  60f7c9ffb24f2b5c719100071708af84ce07608e 90343 contrib/Contents-armhf.gz
  9275b6dff34b59e2318a457e7a2cc374d4650011 13879446 non-free/Contents-armhf
@@ -123,23 +123,23 @@ SHA1:
  46c59e7ec269101720a2dacf06cc3fefefda586e 328 rpi/Contents-armhf.gz
  ac44562702bc903d968a92d2f5605216a5b30dca 49093 firmware/Contents-armhf
  a83432984fb178b77d1f0bcf314770e6ceb2a8d3 3945 firmware/Contents-armhf.gz
- 558751ed2a2c390a9c92d2cde4fd37af36f2d63e 543470594 Contents-armhf
- 21249c77983f0d0749210e6460d1c8868ff6a83d 36335602 Contents-armhf.gz
+ e0d93c680a72039de63edd17d6339fe0d8d9d3af 543474640 Contents-armhf
+ d09cd943bcda67e790c4addf75fdd2e24675a7db 36335877 Contents-armhf.gz
  0d47b8b75a61d76bb8ecb01f72893933101616d6 507852 main/Contents-udeb-armhf
  a338a7527e35b07fe36e890f7038a1c13fdc5d72 40578 main/Contents-udeb-armhf.gz
  0d47b8b75a61d76bb8ecb01f72893933101616d6 507852 uContents-armhf
  a338a7527e35b07fe36e890f7038a1c13fdc5d72 40578 uContents-armhf.gz
 SHA256:
- 02b811121930e35037db41c36c6e4fbb9ca9d1e27ee0c8128f91ac0c65f1dc98 61472968 main/binary-armhf/Packages
- 2f7c16d4a728f8f7c6cc029a6c2f6cf8ecbd9a35860c7217d9e8659b336dd1be 16384351 main/binary-armhf/Packages.gz
- b60d2e7998c2711f8cc145dee4de868eee5ebab9c87d953e522f08d28623b76f 11654764 main/binary-armhf/Packages.xz
+ 2e8a4f6e4d7c99cff8472edb98645a169cbe5ef347d7b2d13101cd0003f631ab 61472011 main/binary-armhf/Packages
+ f841a2bdfc6e7885cdd2129f576538c329743d94a5dfafac79e486e2603f602d 16384071 main/binary-armhf/Packages.gz
+ 319809ac767a9a693703723d77f9f54b4e97263ef670e7eb0dcf26861ab6f314 11654552 main/binary-armhf/Packages.xz
  d70f240e2d9b2910cd57b23f6962e13a599d05430e4e0f42f5199537ecc39f52 149 main/binary-armhf/Release
  698c345fcd411560d003d3bf5f3220a29a37099d459e00a304f5a4e09bf2baba 384152 main/debian-installer/binary-armhf/Packages
  3d552f8003892c92c509522cfea788cf28ea87a14a3f37d88c21a0b8f2380528 99930 main/debian-installer/binary-armhf/Packages.gz
  16ab4af32bd08561ade3f65bbed867dacdc16e64766ee8594f8ddff6726a48d0 80976 main/debian-installer/binary-armhf/Packages.xz
- 151001e1908e19198ca98ee2f06bd003d6fb01d3ab3b19f09ed38ef5978e7d17 45421357 main/source/Sources
- e00f492aa8ee0466d95af028326052a57749773c577e835d6acbdccb251b13b3 12313917 main/source/Sources.gz
- acd64a219e989fca37c30130c7c7582a8fac8ec3baad89dc18a0f47584383653 9714508 main/source/Sources.xz
+ 03ba178b194d96e5bfac0179952a15d2eaa97296d6e0a821302093a48e7b87f0 45421744 main/source/Sources
+ 866d5b193a7488971965354ad3f9af3eb1185a8ab779ed73d960e203d83f557c 12314039 main/source/Sources.gz
+ 3a089a66950c03f70f6266fa221640a041d779f09506d0cad3c4a6c9b6e5b6ce 9714328 main/source/Sources.xz
  45bec60530fff8ada918ae4ef37fb7145eb3f38da1beeacde57eeff64fdf4ac5 150 main/source/Release
  edd3341bad3e1aa03211f31315962caac4712e1e79b97108d1138408f5dfd3db 232202 contrib/binary-armhf/Packages
  2cef6139a7fb7358c26cc27a3227cb2dcdcac9219e325d39d1270468d525fc3d 66157 contrib/binary-armhf/Packages.gz
@@ -173,8 +173,8 @@ SHA256:
  e20113060a25f4c4c7cb3d4b87e87b4f5102043c8e484d70572abf78932540f7 679 firmware/source/Sources.gz
  e665b1aa0ff5ba620a98b928c784b6b3988b99f550a555f7f50c0f8e2e91e59f 736 firmware/source/Sources.xz
  e927c16e49a36da1b8921ada72be7ad5a3f42676bd18f79be4d29deeb3f419b4 154 firmware/source/Release
- 70517520036beb66c608aa760db4830a19cbf2369949f89226566f5bdcd83d32 528305252 main/Contents-armhf
- 87c99e9ddde692d6e3f596b8bea02ea5833f1120991e9b162bd1df9c647e8367 35480207 main/Contents-armhf.gz
+ b3afe5a990ba1e27a291446153ec9691e85cd279a2ba2bbb07cc33078b54975e 528309298 main/Contents-armhf
+ aa5ba20e27fdc9e41a147d49a450c0dbb676927a4c22a848d0892ad53ff8c3da 35480233 main/Contents-armhf.gz
  95ad062232d56530c8190b797521c9a29a52f3960b0cfeb2b2a315c42ef2de92 1247279 contrib/Contents-armhf
  f1add02abf8d9704e1e97d2972a881d806e07584e962b61d5795c08761809e2c 90343 contrib/Contents-armhf.gz
  9500071a5b27b5d917d9b83c3c9abeaef6285fd04ac61a880119227ce55b29b0 13879446 non-free/Contents-armhf
@@ -183,8 +183,8 @@ SHA256:
  66c640144acbbce3fe681e18756145e7861c0db53e7dd54741e32c32677043e5 328 rpi/Contents-armhf.gz
  da2c7fea72c8a84b791a6ab69c347cc2f0b8183739134bca9befc3f2182a9ce6 49093 firmware/Contents-armhf
  55cf1a07de03d5fdc70c24e396d2abcc1e129800efdfa549783922dc165c7c64 3945 firmware/Contents-armhf.gz
- 2745d412eec10c4968fab8dbb63529aacfce5bbe33f4579da3e5c313f398a577 543470594 Contents-armhf
- 2f33d188aad48ec1f4ca78adc0f4b6cc3506d3de60fd7e0977ca39c0c884a15d 36335602 Contents-armhf.gz
+ 65d41a24e1610f4320aa34bb29692c80631bebab533a2cdb081d4a6f57434f57 543474640 Contents-armhf
+ 6584e33b745ebca2404326e800950abea5167515c2b1eb63a122ccebefb1f7b3 36335877 Contents-armhf.gz
  6d9351c04d17e8e1fd5298a29a80a0bdff224882f1786c7a35b5a82ba568d35c 507852 main/Contents-udeb-armhf
  55000b074c24d482fd05a5b47409a11221909e46096bdce7ac83ece414b650a7 40578 main/Contents-udeb-armhf.gz
  6d9351c04d17e8e1fd5298a29a80a0bdff224882f1786c7a35b5a82ba568d35c 507852 uContents-armhf
@@ -192,11 +192,11 @@ SHA256:
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQEcBAEBCAAGBQJaYIZNAAoJEJFlk42Q/d0upWwH/0soXej8YN1zhdRAIK3tsGWa
-o+fd7vSv98qlki9riP8FUHv+6mvxLLHOdfoYnnsNDGLZXB9pnA/O6pMXYdOwSwqK
-2S4VaQ5ZnOSiieajc0VryEsAAtSv5ioIBv51j0HKmvsol9gk9v2bouaNpTRPlED8
-Pb/HJJpE7oec5ME+3dykfG1DBELlnoZypEIZqM4Ssk0yyQK0p+UFFmVJ37GW1RmY
-GUHfqLI8FNujMVP1A8MJ4T/aOmZmyhZcCX7IvarZ+sejc+ix7Nny1j34CLWOyEBU
-ZDXiCNHS69WRSSdBNiBf/nHGnJQSbXAPHlJeLlSu7JM8uZNHN/a0tf4k1RGjOrM=
-=JMMb
+iQEcBAEBCAAGBQJaeDLWAAoJEJFlk42Q/d0uQ5oH/0ei9+1HYKAACkJUt6H10yVo
+fauFg390mmyk5wSHXUXxUFDu2wo+Q18RveoW+o4RdOJLbIa59FEEOsNuHq1TV2l5
+w1Qke5jUQp6C0CjCGdejG3MguHBmHvtIFK9fdiD+mhIQfd2buvMOd+8l4sIivqgx
+MwYdg9t826mcULCSz4K09qHEwSAP9MdkRWxqaeSMuZFh84FkWe78eR/vB0fmYApT
+E8Tq3hRZCCQDh3a0SLnJNMi+cmZnAPYE5jXfcKJb57tnngN/HwA24bMg5sqLuQ59
+MPSgt20lQ82Oy6DxKRPXZsfvpo5Gm/n8fUdUXcyBts/6xpPQKW1IEDNaJT0Gl1k=
+=E6/K
 -----END PGP SIGNATURE-----

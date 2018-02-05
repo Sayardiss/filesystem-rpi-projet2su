@@ -132,7 +132,7 @@ Description: GTK+ graphical user interface library -- gir bindings
 
 Package: gnome-panel-control
 Source: openbox
-Version: 3.6.1-4+rpi4
+Version: 3.6.1-4+rpi6
 Architecture: armhf
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Installed-Size: 59
@@ -142,11 +142,11 @@ Replaces: openbox (<< 3.4.11.2)
 Homepage: http://www.openbox.org
 Priority: optional
 Section: x11
-Filename: pool/ui/o/openbox/gnome-panel-control_3.6.1-4+rpi4_armhf.deb
-Size: 44848
-SHA256: ae99e8e7c314cb701e7488aa25b2be83d0bcd2eff4bc0d328d518380ecc58824
-SHA1: 9cbcb95be6947728a70ff5dac9c332f459daa468
-MD5sum: 5f001298659522be2db23d5179158f6e
+Filename: pool/ui/o/openbox/gnome-panel-control_3.6.1-4+rpi6_armhf.deb
+Size: 44934
+SHA256: acbf8570b68c599e5be4ada27f74c26e2750de6df79498e338976f38c811adf0
+SHA1: f6d533c8a8f9a73bcc343ff832ae29b17088913d
+MD5sum: 83f147ba94d54f23df67c6ee71bc302d
 Description: command line utility to invoke GNOME panel run dialog/menu
  gnome-panel-control can be used to invoke the GNOME panel run or main
  menu from the command line. This is originally a helper utility of openbox
@@ -154,20 +154,20 @@ Description: command line utility to invoke GNOME panel run dialog/menu
 
 Package: gnome-panel-control-dbgsym
 Source: openbox
-Version: 3.6.1-4+rpi4
+Version: 3.6.1-4+rpi6
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Installed-Size: 23
-Depends: gnome-panel-control (= 3.6.1-4+rpi4)
+Depends: gnome-panel-control (= 3.6.1-4+rpi6)
 Homepage: http://www.openbox.org
 Priority: extra
 Section: debug
-Filename: pool/ui/o/openbox/gnome-panel-control-dbgsym_3.6.1-4+rpi4_armhf.deb
-Size: 9760
-SHA256: 7395c9e445fb70d3b1380f186c634e15b2a6691326a1d3ae2972647bb24dd850
-SHA1: a69a361f0c4e79d7be3d7ffae65158a49d506986
-MD5sum: 34432ffd787c30c11a6cd414f7a2405d
+Filename: pool/ui/o/openbox/gnome-panel-control-dbgsym_3.6.1-4+rpi6_armhf.deb
+Size: 9764
+SHA256: f94606dbb0f540a4cbf3406046827382a67b85921ba0d0dda5ff73d3f00f1d31
+SHA1: 6cdb0336f2e14045368f0b31d651cb71b6342590
+MD5sum: 794e5787d972282cf1a7bce155adb393
 Description: Debug symbols for gnome-panel-control
 Build-Ids: 254733e199f67c4f0201d435310176309852695e
 
@@ -262,20 +262,20 @@ Description: Debug symbols for gtk-update-icon-cache
 Build-Ids: 095033a14e731dd9e64c6bc9f52e1c97230e37b9
 
 Package: gtk2-engines-clearlookspix
-Version: 1:2.20.4
+Version: 1:2.20.5
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.org>
-Installed-Size: 154
+Installed-Size: 165
 Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.19.7-2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
 Breaks: gnome-themes-extras (<< 2)
 Multi-Arch: same
 Priority: optional
 Section: gnome
-Filename: pool/ui/g/gtk2-engines-clearlookspix/gtk2-engines-clearlookspix_2.20.4_armhf.deb
-Size: 66826
-SHA256: 2ea96c1e6ee276e88fe43ba9f26d72be183654bc8bcd54bf46815a9e939ce5f7
-SHA1: bb0f0226f93b1fc2130763f444ddf6313d8ff8df
-MD5sum: ce95c021b941c10a0b68c20a9951eab2
+Filename: pool/ui/g/gtk2-engines-clearlookspix/gtk2-engines-clearlookspix_2.20.5_armhf.deb
+Size: 65924
+SHA256: 7031fafb8931cd718de2b6cdcb5a331b1114e3728d68afaa7c80603fabb54a97
+SHA1: 442afe6feb943816e2d0dcb69058594e584570cf
+MD5sum: 4d64eb8d96e379b572bad074eb9da20a
 Description: clearlookspix theme for GTK+ 2.x
  GTK+ is a multi-platform toolkit for creating graphical user
  interfaces. Offering a complete set of widgets, GTK+ is suitable
@@ -284,9 +284,28 @@ Description: clearlookspix theme for GTK+ 2.x
  .
  This package contains the clearlookspix theme engine.
 
+Package: gtk2-engines-clearlookspix-dbgsym
+Source: gtk2-engines-clearlookspix
+Version: 1:2.20.5
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 204
+Depends: gtk2-engines-clearlookspix (= 1:2.20.5)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/ui/g/gtk2-engines-clearlookspix/gtk2-engines-clearlookspix-dbgsym_2.20.5_armhf.deb
+Size: 178536
+SHA256: 00c352b613c2f4f44e1c90aca18c0880b1e9d0f629795d0ec8a0ebf92df2db46
+SHA1: 38a1fbe655f43831a1ea9fb1a27bf9d94bcfe907
+MD5sum: 70e7c77288b0e453b3c67bba391cd7a5
+Description: Debug symbols for gtk2-engines-clearlookspix
+Build-Ids: fcc053291abec3f471825b3bc7dae9cb42f620d8
+
 Package: libfm-data
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: all
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 1462
@@ -296,11 +315,11 @@ Multi-Arch: foreign
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
 Section: misc
-Filename: pool/ui/libf/libfm/libfm-data_1.2.5-1+rpi3_all.deb
-Size: 234456
-SHA256: 4fb374dcd8b52a0150a99d5e98269150bbdb61bb6c49976b588871bf7382e9d5
-SHA1: 80dbfdd842d2cfcc312ebbc1a99de0fdf285dd84
-MD5sum: c79699b29510446628a2c74d99a8fd38
+Filename: pool/ui/libf/libfm/libfm-data_1.2.5-1+rpi4_all.deb
+Size: 234466
+SHA256: 1abaa403ba928e13230a0141d14b3996de5d3d1743a1fcad908601dc95c315a2
+SHA1: 6db5b217da26ef2dee68106b93e693a92e3c0a3b
+MD5sum: 783bdcb741a9779b7674b48d5a7ce34b
 Description: file management support (common data)
  LibFM provides file management functions built on top of Glib/GIO,
  giving a convenient higher-level API.
@@ -309,22 +328,22 @@ Description: file management support (common data)
 
 Package: libfm-dbg
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 504
-Depends: libfm4 (= 1.2.5-1+rpi3), libfm-extra4 (= 1.2.5-1+rpi3)
+Depends: libfm4 (= 1.2.5-1+rpi4), libfm-extra4 (= 1.2.5-1+rpi4)
 Breaks: libfm1-dbg
 Replaces: libfm1-dbg
 Multi-Arch: same
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: extra
 Section: debug
-Filename: pool/ui/libf/libfm/libfm-dbg_1.2.5-1+rpi3_armhf.deb
-Size: 429260
-SHA256: 65f60d247f1d82c3a4832576f057b6671a8ac047d7f2cd37949ee3e9c351b2f5
-SHA1: 119f5372701951678a6091661ad5a301d051f0c3
-MD5sum: 1a9aea27846af2e2a2af761a8f1c8372
+Filename: pool/ui/libf/libfm/libfm-dbg_1.2.5-1+rpi4_armhf.deb
+Size: 429306
+SHA256: 59ceb3a0dc18501686c2a27fa4b1ca5d01533b7cbdef7f45aefc4a1b299c7feb
+SHA1: 3f6c400231973a9c4bdeb4a7aa89c55b1083972f
+MD5sum: 2cc4ba4509481b0a22db5fc0a832bb73
 Description: file management support (libfm debug)
  LibFM provides file management functions built on top of Glib/GIO,
  giving a convenient higher-level API.
@@ -334,21 +353,21 @@ Build-Ids: 81d2f1585764ab6f8fbc0f7459e9e8b10a3fa396
 
 Package: libfm-dev
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 293
-Depends: libfm4 (= 1.2.5-1+rpi3), libfm-extra-dev (= 1.2.5-1+rpi3)
+Depends: libfm4 (= 1.2.5-1+rpi4), libfm-extra-dev (= 1.2.5-1+rpi4)
 Suggests: libfm-doc
 Multi-Arch: same
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
 Section: libdevel
-Filename: pool/ui/libf/libfm/libfm-dev_1.2.5-1+rpi3_armhf.deb
-Size: 56746
-SHA256: 744ae4a208317e5e46f46dbc1dcf5ebc4c77afc7cd4a0d672bb10be2282b5cab
-SHA1: 4e03f3fd47456f1fea3eeae8df68f83bb4bc0938
-MD5sum: 2bbf6517b73b96b5d35b4695bfc813eb
+Filename: pool/ui/libf/libfm/libfm-dev_1.2.5-1+rpi4_armhf.deb
+Size: 56824
+SHA256: d9f34d72f059407216a910d7b8f221e2ec1f000cb98683868f4a9557a0c285c6
+SHA1: bf584351c16978bfa4e27c1e0f66986efef440c5
+MD5sum: c1ae21829a07c13d4fccdb93767fe5ea
 Description: file management support (core development files)
  LibFM provides file management functions built on top of Glib/GIO,
  giving a convenient higher-level API.
@@ -357,7 +376,7 @@ Description: file management support (core development files)
 
 Package: libfm-doc
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: all
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 2169
@@ -367,11 +386,11 @@ Replaces: libfm-dev (<< 1.1.1)
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
 Section: doc
-Filename: pool/ui/libf/libfm/libfm-doc_1.2.5-1+rpi3_all.deb
-Size: 152930
-SHA256: e78bc3a62b70f6e4a9dd875a61e1a7135b5dfb2f0d7ccd776c85929ade7847ac
-SHA1: cc0a73dea27860420b0252264fa85a6672e793c7
-MD5sum: 0eeba5656bea6f95cc90d76ead790b51
+Filename: pool/ui/libf/libfm/libfm-doc_1.2.5-1+rpi4_all.deb
+Size: 152984
+SHA256: 7eb014879660f980bc21bc596758fc31d34c43b59c262d241dfeeaf6b1cceb51
+SHA1: 5df8ca5a6c7a014dbbf12644180e76253e31b458
+MD5sum: 1363012522c01495b16fc95f16b254df
 Description: file management support (development documentation)
  LibFM provides file management functions built on top of Glib/GIO,
  giving a convenient higher-level API.
@@ -380,22 +399,22 @@ Description: file management support (development documentation)
 
 Package: libfm-extra-dev
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 49
-Depends: libfm-extra4 (= 1.2.5-1+rpi3), libglib2.0-dev
+Depends: libfm-extra4 (= 1.2.5-1+rpi4), libglib2.0-dev
 Breaks: libfm-dev (<= 1.2.4-1)
 Replaces: libfm-dev (<= 1.2.4-1)
 Multi-Arch: same
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
 Section: libdevel
-Filename: pool/ui/libf/libfm/libfm-extra-dev_1.2.5-1+rpi3_armhf.deb
-Size: 23114
-SHA256: 1a83a15edb3c107807fd68118f843199b7b32cb15917605178a5ae298b1bd112
-SHA1: b2472c9394a2e146fe5d0f3bcb3d1b99fc630fe4
-MD5sum: fe137033c26263b2ef01c8484f4bf8b8
+Filename: pool/ui/libf/libfm/libfm-extra-dev_1.2.5-1+rpi4_armhf.deb
+Size: 23174
+SHA256: 964d845e94c6f15585c00a1e46f356a4ede893b4f24f8ed1083e78971b9064c7
+SHA1: 64c7574a11d2277e909547d11622b0b34ad26f68
+MD5sum: 2655f346a1adbc815f80441fe95640ed
 Description: file management support (libfm-extra development files)
  LibFM provides file management functions built on top of Glib/GIO,
  giving a convenient higher-level API.
@@ -404,7 +423,7 @@ Description: file management support (libfm-extra development files)
 
 Package: libfm-extra4
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 62
@@ -413,11 +432,11 @@ Multi-Arch: same
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
 Section: libs
-Filename: pool/ui/libf/libfm/libfm-extra4_1.2.5-1+rpi3_armhf.deb
-Size: 29176
-SHA256: 4113a78d45a6b9ddfbb526b52e69d4e03d55e24f10ee0d6a3e51d4b124257a93
-SHA1: 6c353c6fd161207330c6abb7b5bafef3f74ceb7f
-MD5sum: 23a7fefadfba33a026c5c95ad6022550
+Filename: pool/ui/libf/libfm/libfm-extra4_1.2.5-1+rpi4_armhf.deb
+Size: 29252
+SHA256: 1bc12e3dc5d188c1f400b9b591e549bdbb73810257bf65d7ad76c752a982e3ef
+SHA1: 822a88265a6350c7113633ba1a07eca130f6edd5
+MD5sum: ddad55d2ab53264afcf3d2f55fdcd454
 Description: file management support (extra library)
  LibFM provides file management functions built on top of Glib/GIO
  giving a convenient higher-level API.
@@ -426,7 +445,7 @@ Description: file management support (extra library)
 
 Package: libfm-gtk-data
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: all
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 159
@@ -436,11 +455,11 @@ Multi-Arch: foreign
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
 Section: misc
-Filename: pool/ui/libf/libfm/libfm-gtk-data_1.2.5-1+rpi3_all.deb
-Size: 33888
-SHA256: 8cf104157c11a7e8b3152b8a5efd03199117c0a4bf9eae48fe9e14b4691da3c7
-SHA1: a49d7ddc6f9bdd0cab88b554749c5e939b4b253c
-MD5sum: 0ed8fd96e4dbc244b9b31d1db0b6fe51
+Filename: pool/ui/libf/libfm/libfm-gtk-data_1.2.5-1+rpi4_all.deb
+Size: 33948
+SHA256: ec6975ff5b00ef671e9c11e437c72592c1614ddf8e31e568e2965442db288cd8
+SHA1: c6d0024f042550a54e56d178610b6aa4c943bd76
+MD5sum: ba0fc7f71bcc639a721864c1bc539043
 Description: file management support (GTK+ library common data)
  LibFM provides file management functions built on top of Glib/GIO,
  giving a convenient higher-level API.
@@ -449,45 +468,45 @@ Description: file management support (GTK+ library common data)
 
 Package: libfm-gtk-dbg
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 753
-Depends: libfm-gtk4 (= 1.2.5-1+rpi3)
+Depends: libfm-gtk4 (= 1.2.5-1+rpi4)
 Breaks: libfm-dbg (<< 1.0.2)
 Multi-Arch: same
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: extra
 Section: debug
-Filename: pool/ui/libf/libfm/libfm-gtk-dbg_1.2.5-1+rpi3_armhf.deb
-Size: 655024
-SHA256: 33b7b1f3b3afe54b1e78fa5998d867d85b05706c1200ccbac88a9b923531bf31
-SHA1: 38eb493b819410a191efacafaea9185d9414c908
-MD5sum: 0e57567c11bee300829e59d5e2209f20
+Filename: pool/ui/libf/libfm/libfm-gtk-dbg_1.2.5-1+rpi4_armhf.deb
+Size: 655444
+SHA256: 7a91dc30b13de70ef31d63ac77a471827f7998a2e1478e13f9e94df0933f9eba
+SHA1: 6a1df886c258d71c952011b92467b7a9beef74d8
+MD5sum: 0b8f300a0bee1968f555475e9bee9439
 Description: file management support (libfm-gtk debug)
  LibFM provides file management functions built on top of Glib/GIO,
  giving a convenient higher-level API.
  .
  This package contains the debugging symbols for GTK+ library.
-Build-Ids: e7e046b03e48e937e1b4d8a842f2fff3a281ffec
+Build-Ids: 0e3e5e33e2a3ac752e687092e0e35480786b08df
 
 Package: libfm-gtk-dev
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 36
-Depends: libfm-dev (= 1.2.5-1+rpi3), libfm-gtk4 (= 1.2.5-1+rpi3), libgtk2.0-dev
+Depends: libfm-dev (= 1.2.5-1+rpi4), libfm-gtk4 (= 1.2.5-1+rpi4), libgtk2.0-dev
 Breaks: libfm-dev (<< 1.0.2)
 Multi-Arch: same
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
 Section: libdevel
-Filename: pool/ui/libf/libfm/libfm-gtk-dev_1.2.5-1+rpi3_armhf.deb
-Size: 21434
-SHA256: f8c0a5f960381d892d709525db94e268c53866a3828e61db96c0baa945248dc3
-SHA1: 32a51dfa4e33eeae6370839a765af6a8896df62a
-MD5sum: a55037f825dc8f23c108108d54ac8ff7
+Filename: pool/ui/libf/libfm/libfm-gtk-dev_1.2.5-1+rpi4_armhf.deb
+Size: 21506
+SHA256: 5aed02249e57aa3a1900b8836b3f4558e0d98a76069559a84c344ed3727f7614
+SHA1: 327fe130f59b92c39ffd000e9eb8b30fc9a78caa
+MD5sum: 9cd47e92451ce7057a39448aa4589397
 Description: file management support (GTK+ GUI development files)
  LibFM provides file management functions built on top of Glib/GIO,
  giving a convenient higher-level API.
@@ -496,21 +515,21 @@ Description: file management support (GTK+ GUI development files)
 
 Package: libfm-gtk4
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 381
-Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfm4 (= 1.2.5-1+rpi3), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libmenu-cache3 (>= 0.4.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libfm-gtk-data (>= 1.2.0~)
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfm4 (= 1.2.5-1+rpi4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libmenu-cache3 (>= 0.4.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libfm-gtk-data (>= 1.2.0~)
 Suggests: libfm-tools, nautilus-actions
 Multi-Arch: same
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
 Section: libs
-Filename: pool/ui/libf/libfm/libfm-gtk4_1.2.5-1+rpi3_armhf.deb
-Size: 134076
-SHA256: 18ea760379e52352fef6c75941ec42827badea139fc5207a4eea8f2624d9849c
-SHA1: 01a824346d9e1509fefaa30822f04b1a61cd378f
-MD5sum: e5814f9df914adeaab3ce978e9e16c5f
+Filename: pool/ui/libf/libfm/libfm-gtk4_1.2.5-1+rpi4_armhf.deb
+Size: 134158
+SHA256: 164ce8a68f09d8f8f29943d6628a694d28c9da5d5d580869617f189343c46f90
+SHA1: 10ba7286f138d5d4f7dd8df7d4aaccf883a8f2e6
+MD5sum: 1278996561154a9027507ab48c4dfb11
 Description: file management support (GTK+ 2.0 GUI library)
  LibFM provides file management functions built on top of Glib/GIO
  giving a convenient higher-level API.
@@ -519,7 +538,7 @@ Description: file management support (GTK+ 2.0 GUI library)
 
 Package: libfm-modules
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 139
@@ -528,11 +547,11 @@ Multi-Arch: same
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
 Section: libs
-Filename: pool/ui/libf/libfm/libfm-modules_1.2.5-1+rpi3_armhf.deb
-Size: 45866
-SHA256: bc7051e89690ea573efeedc374e0f78ba68f17d2273d538cb938450b06e923cb
-SHA1: 10d1cdd8c400c29645bd1ccb7739feae0f8d46a4
-MD5sum: 6ff9bfd71b4a28df03f0ad3f29fef0c8
+Filename: pool/ui/libf/libfm/libfm-modules_1.2.5-1+rpi4_armhf.deb
+Size: 45900
+SHA256: 9008787779cbfccc3a42c5b46fea8575653961b0ca39c5416d120d25de57383c
+SHA1: 0eb6a9799bb98da7b877195f51a6a5f9f6b7fedf
+MD5sum: 20db5ff7676a952a46b268861f37819b
 Description: file management support (loadable modules for library)
  LibFM provides file management functions built on top of Glib/GIO
  giving a convenient higher-level API.
@@ -541,20 +560,20 @@ Description: file management support (loadable modules for library)
 
 Package: libfm-modules-dbg
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 219
-Depends: libfm-modules (= 1.2.5-1+rpi3)
+Depends: libfm-modules (= 1.2.5-1+rpi4)
 Multi-Arch: same
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: extra
 Section: debug
-Filename: pool/ui/libf/libfm/libfm-modules-dbg_1.2.5-1+rpi3_armhf.deb
-Size: 159258
-SHA256: c0b7b5a5865738d0664a3a61fec3ac6a0dbd8ce28dfe96b9caee5deee0b69cc3
-SHA1: a43af69fb73426a7df5cdba110fbafec04e1ed73
-MD5sum: 8eb217aea415874424e482b8217fe7a4
+Filename: pool/ui/libf/libfm/libfm-modules-dbg_1.2.5-1+rpi4_armhf.deb
+Size: 159296
+SHA256: a0f81ad85af79cb49e7c252ac1e71c8bb934476e824137c79b4fe955e305e8a8
+SHA1: 86fe2d646bab10a02b7344156f962b6f9088c6a3
+MD5sum: f02b2d40f0a62e9287b42a11cc19d68e
 Description: file management support (libfm-modules debug)
  LibFM provides file management functions built on top of Glib/GIO,
  giving a convenient higher-level API.
@@ -564,7 +583,7 @@ Build-Ids: 0001a725f2ff26c2cce6b36aded2f85b819de1fe 2f8c5eb1c770ffb024e7fafdb03d
 
 Package: libfm-tools
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 73
@@ -575,11 +594,11 @@ Provides: libfm-gtk-bin, lxshortcut
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
 Section: misc
-Filename: pool/ui/libf/libfm/libfm-tools_1.2.5-1+rpi3_armhf.deb
-Size: 32592
-SHA256: 0088d505c454a1aa7e253f386d4646e4186ab9f773eb99b1d733f28fce7167e3
-SHA1: 0e3cc1cd2febd347791294c9c513a21d0cf6346d
-MD5sum: 116d8fc3a18ae48e1dc8c6eac8383e9a
+Filename: pool/ui/libf/libfm/libfm-tools_1.2.5-1+rpi4_armhf.deb
+Size: 32660
+SHA256: 4a1f1bac42a42cc4bd98b645ffadcd662d537b114da6322d609c5b56eed26d6f
+SHA1: eba953388e41ae9705774b7da5fa226819cdb9e1
+MD5sum: 8fe0a3740714f0003dcdaf90806212d8
 Description: file management support (utilities)
  LibFM provides file management functions built on top of Glib/GIO
  giving a convenient higher-level API.
@@ -588,26 +607,26 @@ Description: file management support (utilities)
 
 Package: libfm-tools-dbgsym
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 54
-Depends: libfm-tools (= 1.2.5-1+rpi3)
+Depends: libfm-tools (= 1.2.5-1+rpi4)
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: extra
 Section: debug
-Filename: pool/ui/libf/libfm/libfm-tools-dbgsym_1.2.5-1+rpi3_armhf.deb
+Filename: pool/ui/libf/libfm/libfm-tools-dbgsym_1.2.5-1+rpi4_armhf.deb
 Size: 33502
-SHA256: 54649c34cc8f277a6ec8441e36e9281f288fd113f737e0f06286326fa2cf12b3
-SHA1: eb5e59ca171e9d2d1928cf1f2e3f5cfe9fae1352
-MD5sum: 3c52240c60148a0e9a30f36024a3770e
+SHA256: b534cb2b7cd808a9947bae7a1482c46b74e1f80793f21bcc586cc64fb040c02b
+SHA1: 86a424860d0a2d144cb3768a142f23c86cd7fc72
+MD5sum: ea810eb68bbc3c8b41574089d71fa5f2
 Description: Debug symbols for libfm-tools
 Build-Ids: e42dbf242cb717df44de6df39507a85659f114f9 fd14ddba44c8661a21f9c1dc2cc5ab2df4588c0a
 
 Package: libfm4
 Source: libfm
-Version: 1.2.5-1+rpi3
+Version: 1.2.5-1+rpi4
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 274
@@ -617,11 +636,11 @@ Multi-Arch: same
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
 Section: libs
-Filename: pool/ui/libf/libfm/libfm4_1.2.5-1+rpi3_armhf.deb
-Size: 100654
-SHA256: a93d1340e1d7ff0469cc866231de46a7ff6b52e56ddc1afaf36337efea32d40d
-SHA1: 87f00cce7ce55327f5bc56e385777ba82539abff
-MD5sum: d0b5856d75b424a6a5ad0547bed16832
+Filename: pool/ui/libf/libfm/libfm4_1.2.5-1+rpi4_armhf.deb
+Size: 101208
+SHA256: 4fdc347782a581697adc974b109417aaf21d9d560d53d3194f11820f30e80c55
+SHA1: 08d6c009e4d8a6039bb3e5e4fbcdbe30ee8bceb4
+MD5sum: 64cd7dc8945ba9cb1d4d57aa49a3f0bc
 Description: file management support (core library)
  LibFM provides file management functions built on top of Glib/GIO,
  giving a convenient higher-level API.
@@ -905,7 +924,7 @@ Description: documentation for the GTK+ graphical user interface library
 
 Package: libobrender32v5
 Source: openbox
-Version: 3.6.1-4+rpi4
+Version: 3.6.1-4+rpi6
 Architecture: armhf
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Installed-Size: 143
@@ -915,11 +934,11 @@ Replaces: libobrender15, libobrender16, libobrender32
 Homepage: http://www.openbox.org
 Priority: optional
 Section: libs
-Filename: pool/ui/o/openbox/libobrender32v5_3.6.1-4+rpi4_armhf.deb
-Size: 69114
-SHA256: eb6c62bd68bf15be133b718681b3904613f9b64b56618471d947c9e0ad0d1a50
-SHA1: 8fd8cf6c17356f662887928d636664aabc1bb476
-MD5sum: 58afdcaaeb164471dfff33e757f3347c
+Filename: pool/ui/o/openbox/libobrender32v5_3.6.1-4+rpi6_armhf.deb
+Size: 69200
+SHA256: 150b7ab53bd79c6f1a0ffe27f4db9926ddc17823859a6851af2b482eccf0e1b1
+SHA1: 1f5faceea5cf8f30a3e314151ce3bcc29a9339b6
+MD5sum: 3cee775853b037ca0f85a543b0caa1b5
 Description: rendering library for openbox themes
  Openbox works with your applications, and makes your desktop easier to manage.
  This is because the approach to its development was the opposite of what seems
@@ -940,26 +959,26 @@ Description: rendering library for openbox themes
 
 Package: libobrender32v5-dbgsym
 Source: openbox
-Version: 3.6.1-4+rpi4
+Version: 3.6.1-4+rpi6
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Installed-Size: 104
-Depends: libobrender32v5 (= 3.6.1-4+rpi4)
+Depends: libobrender32v5 (= 3.6.1-4+rpi6)
 Homepage: http://www.openbox.org
 Priority: extra
 Section: debug
-Filename: pool/ui/o/openbox/libobrender32v5-dbgsym_3.6.1-4+rpi4_armhf.deb
-Size: 85362
-SHA256: 6853355a1376f194af06611fa64b0822a0a904ceb57067e806b642d9b8a0a1cc
-SHA1: 5de97b05c30f2d2fe3f79e952b333e6632d0f296
-MD5sum: a1fcd19866614b8e0e5a3a99cc4c3f8c
+Filename: pool/ui/o/openbox/libobrender32v5-dbgsym_3.6.1-4+rpi6_armhf.deb
+Size: 85346
+SHA256: 865962f64138bdb472346dbb1494537dfa83462c3eea169da32442d092ff2d8c
+SHA1: 647afdb239f41fb760a79ad85ddbe0cdf8fee9ed
+MD5sum: ec923c5436e707b8f528b4d5a1c31899
 Description: Debug symbols for libobrender32v5
 Build-Ids: 61bc108af0aaebd939bbbe9a5e2ee725c3c05fc8
 
 Package: libobt2v5
 Source: openbox
-Version: 3.6.1-4+rpi4
+Version: 3.6.1-4+rpi6
 Architecture: armhf
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Installed-Size: 116
@@ -969,11 +988,11 @@ Replaces: libobparser15, libobparser16, libobt2
 Homepage: http://www.openbox.org
 Priority: optional
 Section: libs
-Filename: pool/ui/o/openbox/libobt2v5_3.6.1-4+rpi4_armhf.deb
-Size: 62160
-SHA256: 2153a8fe58bead8dc9004a9548cbe21e5e76c7d690f7e687b8527f41b577c188
-SHA1: 8cefad612a10d8dbc18f06a9e592656585381ab9
-MD5sum: f9807a5fa65c4dd622f71b966dec18df
+Filename: pool/ui/o/openbox/libobt2v5_3.6.1-4+rpi6_armhf.deb
+Size: 62226
+SHA256: 1a6af90d5c11b1fc7f0d9e26ed23df87faca16d37dfe7d82f5d3f90c7fca2273
+SHA1: 8d587720d5d037935931a5b43a7e853aa7faac7e
+MD5sum: 60109bb49a37e9c7d7c3207cadae4872
 Description: parsing library for openbox
  Openbox works with your applications, and makes your desktop easier to manage.
  This is because the approach to its development was the opposite of what seems
@@ -994,20 +1013,20 @@ Description: parsing library for openbox
 
 Package: libobt2v5-dbgsym
 Source: openbox
-Version: 3.6.1-4+rpi4
+Version: 3.6.1-4+rpi6
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Installed-Size: 104
-Depends: libobt2v5 (= 3.6.1-4+rpi4)
+Depends: libobt2v5 (= 3.6.1-4+rpi6)
 Homepage: http://www.openbox.org
 Priority: extra
 Section: debug
-Filename: pool/ui/o/openbox/libobt2v5-dbgsym_3.6.1-4+rpi4_armhf.deb
-Size: 83018
-SHA256: 9a6f1a61c3fefa366054f49a0b0c3805527435e65f8ec6347369ab20b694421b
-SHA1: b8fab734694d581463bc34303252fb31a48ec317
-MD5sum: 40d7b39ba9336cd3d5d3bc28fce9b912
+Filename: pool/ui/o/openbox/libobt2v5-dbgsym_3.6.1-4+rpi6_armhf.deb
+Size: 83012
+SHA256: 99e4443c746d76a01947e56c4edca1dda112c1857cbc39d0f21ae792d0a1042e
+SHA1: 574e884ca9d3454b581fc7d8c8e7583aa4285fac
+MD5sum: 988b4cd25abb79fd2aec4902beb3a360
 Description: Debug symbols for libobt2v5
 Build-Ids: ec8f8d2c1b6b68ce1db995e912426f8dab4a07c6
 
@@ -1248,21 +1267,21 @@ Description: Application that allows to easily switch between keyboard layouts
  keyboard layouts. It contains an easy mode showing the keyboard layouts.
 
 Package: lxpanel
-Version: 0.9.3-1+rpi5
+Version: 0.9.3-1+rpi6
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 616
-Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk2.0-0 (>= 2.24.0), libiw30 (>= 30~pre1), libkeybinder0 (>= 0.3.0), libmenu-cache3 (>= 0.5.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libwnck22 (>= 2.30.7), libx11-6, libxml2 (>= 2.7.4), lxmenu-data, lxpanel-data (= 0.9.3-1+rpi5), libfm-modules
+Depends: libasound2 (>= 1.0.16), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk2.0-0 (>= 2.24.0), libiw30 (>= 30~pre1), libkeybinder0 (>= 0.3.0), libmenu-cache3 (>= 0.5.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libwnck22 (>= 2.30.7), libx11-6, libxml2 (>= 2.7.4), lxmenu-data, lxpanel-data (= 0.9.3-1+rpi6), libfm-modules
 Recommends: xkb-data, x-terminal-emulator
 Suggests: menu, firefox-esr | firefox | www-browser
 Homepage: http://www.lxde.org/
 Priority: optional
 Section: x11
-Filename: pool/ui/l/lxpanel/lxpanel_0.9.3-1+rpi5_armhf.deb
-Size: 187356
-SHA256: 339b39a59882d657adeb3832a56d05bfd4ee645222d3ef58de746bfc6e2a336c
-SHA1: 66740a4a06b8fc204f113e64a89df7c36c20f074
-MD5sum: 603b553e67d040486d644198cf1f2301
+Filename: pool/ui/l/lxpanel/lxpanel_0.9.3-1+rpi6_armhf.deb
+Size: 188178
+SHA256: acb4798f77f9c449d87958d903d7d296e89fd383afae2317f2bcd7d3864cdcca
+SHA1: ac5df78049911098d09d8dcf6ea4f3e174ff6e6f
+MD5sum: 91d347c6572801a6c0e357559c55fcb2
 Description: LXDE panel
  LXPanel is a GUI application for the Lightweight X11 Desktop Environment
  (LXDE).
@@ -1287,7 +1306,7 @@ Description: LXDE panel
 
 Package: lxpanel-data
 Source: lxpanel
-Version: 0.9.3-1+rpi5
+Version: 0.9.3-1+rpi6
 Architecture: all
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 2722
@@ -1296,11 +1315,11 @@ Replaces: lxpanel (<< 0.7.0)
 Homepage: http://www.lxde.org/
 Priority: optional
 Section: x11
-Filename: pool/ui/l/lxpanel/lxpanel-data_0.9.3-1+rpi5_all.deb
-Size: 1050230
-SHA256: a83c29fbb182e8b3766c992a12ad87b853ebbae693c046482936cf420204c6c3
-SHA1: a09eb0e56421e8d5e30eb14f26816c731f8d631f
-MD5sum: ca5c2ad55253e0bb1d935d351fe673ba
+Filename: pool/ui/l/lxpanel/lxpanel-data_0.9.3-1+rpi6_all.deb
+Size: 1049910
+SHA256: 77f657561996a1cc5e728b1f06130b47ade9b5a2270499eb4bab7301ff1ebe1d
+SHA1: 101e6440928de1a7b556579846fcdf34d3a3b334
+MD5sum: 39d24049b48c11c2a9ccaee9662d1344
 Description: LXDE panel (data files)
  LXPanel is a GUI application for the Lightweight X11 Desktop Environment
  (LXDE).
@@ -1309,43 +1328,43 @@ Description: LXDE panel (data files)
 
 Package: lxpanel-dbg
 Source: lxpanel
-Version: 0.9.3-1+rpi5
+Version: 0.9.3-1+rpi6
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
-Installed-Size: 1231
-Depends: lxpanel (= 0.9.3-1+rpi5)
+Installed-Size: 1233
+Depends: lxpanel (= 0.9.3-1+rpi6)
 Homepage: http://www.lxde.org/
 Priority: extra
 Section: debug
-Filename: pool/ui/l/lxpanel/lxpanel-dbg_0.9.3-1+rpi5_armhf.deb
-Size: 1039278
-SHA256: 1f426f5f6b3a60148b0282d34502eef7729b2155be2d5557a202b07bc7be9161
-SHA1: c67a6c385056da65b18685eb4e9f84bac38ea2f9
-MD5sum: d4e7e91a794f51ca2a0a8806511523c9
+Filename: pool/ui/l/lxpanel/lxpanel-dbg_0.9.3-1+rpi6_armhf.deb
+Size: 1040854
+SHA256: 9b9171563a56dc39de76660d03f91eb86d8ea811cec0752e511481cedf825a1e
+SHA1: 41e4a3eb832773aefbec9fd836382823e17ec3a2
+MD5sum: cf99bf0bacc4d18c3d2cf84418c8dfcb
 Description: LXDE panel (debug)
  LXPanel is a GUI application for the Lightweight X11 Desktop Environment
  (LXDE).
  .
  This package contains the debugging symbols.
-Build-Ids: 14fe4422c80b5d520d88c2db4bbad7303a178424 20e1a2f941eb34f3a243aec68c21b1457dd1a606 4184ad86783791c5fd7f170ffa6a9a557890845e 49dc1a51c1ebe669d02ea125e271ba0a1504ccc0 6e22f0ad95c0b4faaec9355fc9e9818133d2d1c9 b9196827532ceead874abaef8b14ba542fd4065f bc3e00e472ce67a843516ec8c854501eef29413f be6cd78abaafdc05f6f942585dce511f573b615d c27518163a76a77eb11a44be5b8bb46f756ee62b d60f9178d72b5bda7bee96d744c131b29ca4792a d88efbe640993cbc28f06797e57bb4da8491e8d4 d99e7462065df2ca7ab207082b32819b02426568 e57adbe909f57d71e7d8f1f96b7c9edeba4f51b3 e758909dce8f0991614b3224dcf9ff5a907d2bb6 ff3860b2ee0817a5fd0072a20d7a46ddbab11132
+Build-Ids: 02f50731bdf60d2f003657053d5a056aa0f98a6d 08663c09a50c0abd9007378434fcde3f28017d16 20e1a2f941eb34f3a243aec68c21b1457dd1a606 3ef2e3ac1155395e3167ffe8fd4d6dbdcf7f8d8a 59d17d26fc801ba511e8b1076b60cf9c09f89226 64a0eb8e8943224f1ae1124c265ef621f454b419 6f2d9f986d2b8b5e78def71d18323feb0ef57c40 764b99c28417877f97bbb0a418fb369b44f0c6e0 7e2886fd2e417e6437bd542058bc57b51911a7e3 926583e7fad08ced09f905f225edca6623850e35 9aa17979258287004c0ca892df01c2fb41f85fdf a93f168b953542652aad9d7b7871b103d12d84be aff3b6c8bf39683e3405e8ad5a98455affebd866 d40d7e7bc6634ce47ff5087c3ceb049c9089be72 dd20819ad92ee0184b832d11fc7d793dfc04bea9
 
 Package: lxpanel-dev
 Source: lxpanel
-Version: 0.9.3-1+rpi5
+Version: 0.9.3-1+rpi6
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 77
-Depends: lxpanel (= 0.9.3-1+rpi5), libgtk2.0-dev, libfm-gtk-dev (>= 1.2.0)
+Depends: lxpanel (= 0.9.3-1+rpi6), libgtk2.0-dev, libfm-gtk-dev (>= 1.2.0)
 Breaks: lxpanel (<< 0.8.2)
 Replaces: lxpanel (<< 0.8.2)
 Homepage: http://www.lxde.org/
 Priority: optional
 Section: x11
-Filename: pool/ui/l/lxpanel/lxpanel-dev_0.9.3-1+rpi5_armhf.deb
-Size: 29364
-SHA256: 66f3d2a84547aefec432101c12137ce004a7c07270e496c7b1e1d9bbad1d5f91
-SHA1: f3654e0e24ad6fdbc04493ad7a362391215aae87
-MD5sum: 6dd004de10b666b2568c1de1d57aa6be
+Filename: pool/ui/l/lxpanel/lxpanel-dev_0.9.3-1+rpi6_armhf.deb
+Size: 29460
+SHA256: b2a859470160a585b245e508908a14690c78d7fe971c3ee90e2ec442cfdcacd7
+SHA1: 2171405e0f99d0627f362b9692776fbe7ae472f4
+MD5sum: b096ef0fb310d941e5ea6c39e78c61ff
 Description: LXDE panel (plugins development files)
  LXPanel is a GUI application for the Lightweight X11 Desktop Environment
  (LXDE).
@@ -1354,7 +1373,7 @@ Description: LXDE panel (plugins development files)
  depends on other relevant packages for such task.
 
 Package: lxplug-bluetooth
-Version: 0.4
+Version: 0.5
 Architecture: armhf
 Maintainer: Simon Long <simon@raspberrypi.org>
 Installed-Size: 63
@@ -1363,32 +1382,32 @@ Recommends: bluealsa, pi-bluetooth
 Homepage: http://raspberrypi.org/
 Priority: optional
 Section: x11
-Filename: pool/ui/l/lxplug-bluetooth/lxplug-bluetooth_0.4_armhf.deb
-Size: 15934
-SHA256: 8141428cb0bce7e2a1462bc52894493db37f7033cbf83157b0b8e5c804e93b3d
-SHA1: 22fa238846107a43a27f16c4198dc8214b951071
-MD5sum: 20fcd7cdd858735b41f77be0907e752c
+Filename: pool/ui/l/lxplug-bluetooth/lxplug-bluetooth_0.5_armhf.deb
+Size: 16052
+SHA256: ccd9be392f6366720f8f26e611c9c03d70ccfc785010a446eafcaf407d65f8a9
+SHA1: bfddfdc770f4bc1bc051d4877151236ebbe777f6
+MD5sum: 2ad9d493a6ceefb670549b0abf3184eb
 Description: Bluetooth plugin for lxpanel
  Plugin for lxpanel to control pairing and connection of Bluetooth devices.
 
 Package: lxplug-bluetooth-dbgsym
 Source: lxplug-bluetooth
-Version: 0.4
+Version: 0.5
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Simon Long <simon@raspberrypi.org>
 Installed-Size: 68
-Depends: lxplug-bluetooth (= 0.4)
+Depends: lxplug-bluetooth (= 0.5)
 Homepage: http://raspberrypi.org/
 Priority: extra
 Section: debug
-Filename: pool/ui/l/lxplug-bluetooth/lxplug-bluetooth-dbgsym_0.4_armhf.deb
-Size: 49542
-SHA256: d769ee326a2e2a9204f7c6fe59cc660bdc91ab06113d060d120dc43b2a9eaab7
-SHA1: 1e862c49a7727500b1692c107f38bb3b971b40fc
-MD5sum: ce6d361d78cca89092dcae4f360a2bd1
+Filename: pool/ui/l/lxplug-bluetooth/lxplug-bluetooth-dbgsym_0.5_armhf.deb
+Size: 49654
+SHA256: e26dd2cc8e6cef247afcf12cc266a293c5eaf99d2f2e759ce82d6141753b1071
+SHA1: c8e264da4492c54a248d198ad9b8074c30967033
+MD5sum: 67ddde626294e5c548a9f16750a45a03
 Description: Debug symbols for lxplug-bluetooth
-Build-Ids: 9a6d0424604a17bbcdd435d32e6416f7653e77a9
+Build-Ids: d341650f7892ef0c393ed800ee97ffc0ef957f8f
 
 Package: lxplug-ejecter
 Version: 0.3
@@ -1427,7 +1446,7 @@ Description: Debug symbols for lxplug-ejecter
 Build-Ids: 02a08a079f665e01b9dcaa914827ff5874d122bd
 
 Package: lxplug-network
-Version: 0.5
+Version: 0.6
 Architecture: armhf
 Maintainer: Simon Long <simon@raspberrypi.org>
 Installed-Size: 88
@@ -1435,69 +1454,69 @@ Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.8), libcairo2 (>= 1.2.4), libfm-gt
 Homepage: http://raspberrypi.org/
 Priority: optional
 Section: x11
-Filename: pool/ui/l/lxplug-network/lxplug-network_0.5_armhf.deb
-Size: 28446
-SHA256: 0fe66d8772c4a58b6321601e6a876954991ef946e7edd650461b7dc037bd0bca
-SHA1: b33155fab6aed7feb0385fba17f9c1f53313e44c
-MD5sum: 690b44866015ea40eae4b0b34ee89a6a
+Filename: pool/ui/l/lxplug-network/lxplug-network_0.6_armhf.deb
+Size: 28592
+SHA256: 14a117af85695c6b57756738401c0a182d82554316c2749bc762a9c2c9b6d6e1
+SHA1: a026dcabfa4b70d911c3c9581107c30ff106afb6
+MD5sum: cf47b9e63132024b6aae96057e3f79de
 Description: Network plugin for lxpanel
  Plugin for lxpanel ported from dhcpcd-ui to control connection to
  wireless and wired networks.
 
 Package: lxplug-network-dbgsym
 Source: lxplug-network
-Version: 0.5
+Version: 0.6
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Simon Long <simon@raspberrypi.org>
 Installed-Size: 138
-Depends: lxplug-network (= 0.5)
+Depends: lxplug-network (= 0.6)
 Homepage: http://raspberrypi.org/
 Priority: extra
 Section: debug
-Filename: pool/ui/l/lxplug-network/lxplug-network-dbgsym_0.5_armhf.deb
-Size: 112794
-SHA256: 2332206708298b2eb80636e3ec7058525617cac6a653cccca78eaab040fbb361
-SHA1: 80e1eb930f4fe2ea68455b221384a70e5c5e4d2e
-MD5sum: b7ad42fefaa260ee394505a04ca3c7da
+Filename: pool/ui/l/lxplug-network/lxplug-network-dbgsym_0.6_armhf.deb
+Size: 112928
+SHA256: b476fe97bf4f260f8c18e3aa2911f55f282e12471d96fc42dfc5dd38a8c4b9c1
+SHA1: 70b4d5dff19358ad159e4c2ec3823ff165f956c6
+MD5sum: e8a08bd1ffc66f574baeb4f206346449
 Description: Debug symbols for lxplug-network
-Build-Ids: 69c49050e59ba73f36cb245892ae1627ab0ab12c
+Build-Ids: 1b3269984b6c5fcc4e802ae3de18cfa24297a11a
 
 Package: lxplug-ptbatt
-Version: 0.2
+Version: 0.3
 Architecture: armhf
 Maintainer: Simon Long <simon@raspberrypi.org>
 Installed-Size: 46
-Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 0.1.12), libfm4 (>= 0.1.12), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.18.0), libmenu-cache3 (>= 0.3.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libwnck22 (>= 2.30.7), lxmenu-data, lxpanel, lxpanel-data, libfm-modules, wiringpi
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 0.1.12), libfm4 (>= 0.1.12), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.18.0), libmenu-cache3 (>= 0.3.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libwnck22 (>= 2.30.7), libzmq5 (>= 3.2.3+dfsg), lxmenu-data, lxpanel, lxpanel-data, libfm-modules
 Homepage: http://raspberrypi.org/
 Priority: optional
 Section: x11
-Filename: pool/ui/l/lxplug-ptbatt/lxplug-ptbatt_0.2_armhf.deb
-Size: 12228
-SHA256: b9502582653890974d299734537881ce32cb892452efcb7fb3cbe2e6823e5440
-SHA1: 0bdecde3dd53c8149654be8f7e243fc7eb8b3d00
-MD5sum: 577fdd7ea8ade0e4659ff7f35f7a7bb5
+Filename: pool/ui/l/lxplug-ptbatt/lxplug-ptbatt_0.3_armhf.deb
+Size: 12514
+SHA256: f5123be95e480d9b2022d25970ae4a8b61bf78b6c2eef570ddda34d3b18a92b2
+SHA1: e7970ae0c003a3eaf730aa7fadefae9283f79cbf
+MD5sum: 9c183e44a8116288555bd6d74cbdb6e3
 Description: Battery monitor plugin for lxpanel
  Battery indicator plugin for lxpanel, for PiTop.
 
 Package: lxplug-ptbatt-dbgsym
 Source: lxplug-ptbatt
-Version: 0.2
+Version: 0.3
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Simon Long <simon@raspberrypi.org>
 Installed-Size: 43
-Depends: lxplug-ptbatt (= 0.2)
+Depends: lxplug-ptbatt (= 0.3)
 Homepage: http://raspberrypi.org/
 Priority: extra
 Section: debug
-Filename: pool/ui/l/lxplug-ptbatt/lxplug-ptbatt-dbgsym_0.2_armhf.deb
-Size: 28972
-SHA256: 5b17784ea5b2adf92be5cbab43079301dd16f13d567d134ee4f3c65dfeb2443f
-SHA1: daa8ed730f3b609529aa5b923cbbf814f0fe4193
-MD5sum: ab86021533432c0a1614463ffa4282da
+Filename: pool/ui/l/lxplug-ptbatt/lxplug-ptbatt-dbgsym_0.3_armhf.deb
+Size: 28510
+SHA256: eec76a7ee7978c0e17f34a957e4370aa30a59abf8459272df6ab78867d0800ff
+SHA1: baba47e34ea664bfee1f0503e29056a9f67e496e
+MD5sum: cea8ca1f05b6863913a558af9424753a
 Description: Debug symbols for lxplug-ptbatt
-Build-Ids: d25dd43bd4b7eb93d8a509b503448c49b51e70c0
+Build-Ids: b8a78e7306774eaa764a6064768af9d6bbce0243
 
 Package: lxplug-volume
 Version: 0.7
@@ -1582,23 +1601,23 @@ Description: LXDE terminal emulator (debug)
 Build-Ids: d0b63724f5c26f3ad6d3e663680297d88e3905b6
 
 Package: openbox
-Version: 3.6.1-4+rpi4
+Version: 3.6.1-4+rpi6
 Architecture: armhf
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Installed-Size: 1148
 Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.35.9), libice6 (>= 1:1.0.0), libobrender32v5 (>= 3.6.0), libobt2v5 (>= 3.6.0), libsm6, libstartup-notification0 (>= 0.7), libx11-6, libxau6, libxcursor1 (>> 1.1.2), libxext6, libxi6 (>= 2:1.2.99.4), libxinerama1, libxrandr2
 Recommends: obconf, python-xdg | obsession, scrot
-Suggests: menu, fonts-dejavu, python, libxml2-dev, tint2, openbox-menu, openbox-gnome-session (= 3.6.1-4+rpi4), openbox-kde-session (= 3.6.1-4+rpi4)
+Suggests: menu, fonts-dejavu, python, libxml2-dev, tint2, openbox-menu, openbox-gnome-session (= 3.6.1-4+rpi6), openbox-kde-session (= 3.6.1-4+rpi6)
 Breaks: menu (<< 2.1.12)
 Provides: x-session-manager, x-window-manager
 Homepage: http://www.openbox.org
 Priority: optional
 Section: x11
-Filename: pool/ui/o/openbox/openbox_3.6.1-4+rpi4_armhf.deb
-Size: 280214
-SHA256: ebecdb9c0a57dafb7c48d7f713c2c6f72d0a3a22ecfbeb6b08657ec889dc51e7
-SHA1: b1720c50a60754997cfd5ba31d54bfa280331a97
-MD5sum: 4fc45e5b39246b43fb33363a92b544da
+Filename: pool/ui/o/openbox/openbox_3.6.1-4+rpi6_armhf.deb
+Size: 280514
+SHA256: f6dd58dc1cc618e4df40d50a2ecdc61cf5600f976576fc68d9b2e2fdb2119887
+SHA1: a0052031f6751f3ea232a7fa24c1a5a9774df083
+MD5sum: b8660cc1e76187876ca031ad551c0f60
 Description: standards-compliant, fast, light-weight and extensible window manager
  Openbox works with your applications, and makes your desktop easier to manage.
  This is because the approach to its development was the opposite of what seems
@@ -1626,38 +1645,38 @@ Description: standards-compliant, fast, light-weight and extensible window manag
 
 Package: openbox-dbgsym
 Source: openbox
-Version: 3.6.1-4+rpi4
+Version: 3.6.1-4+rpi6
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Installed-Size: 768
-Depends: openbox (= 3.6.1-4+rpi4)
+Depends: openbox (= 3.6.1-4+rpi6)
 Homepage: http://www.openbox.org
 Priority: extra
 Section: debug
-Filename: pool/ui/o/openbox/openbox-dbgsym_3.6.1-4+rpi4_armhf.deb
-Size: 668362
-SHA256: 55d9c69c20a7774876dfa6e26231ca0f4244ee276b12dbe0a86e998967d81218
-SHA1: ea8fc76eddb7bcef3587bb4c825e986988fc1f9b
-MD5sum: 04dfe57dbac73744d0fda95cc332edb7
+Filename: pool/ui/o/openbox/openbox-dbgsym_3.6.1-4+rpi6_armhf.deb
+Size: 668228
+SHA256: 5d89a3904e5410ba1e0b2a86ad15c0b8fe775703d7c8a0ec9d49e1d794c6c610
+SHA1: 8faab4ff21e4e6cb2a4bd9fd8f6fa73c1f1a1f6c
+MD5sum: 3d0ad4b0e0661634b117195b1b32d0c5
 Description: Debug symbols for openbox
-Build-Ids: 758e6bb049989b64d737fb398211135f612da3b9 c31626694dfd1a14937c9dbc6e332da967b4a45d cc0d8c8748905ca8b95dc65a905b21f104e6ad62
+Build-Ids: 758e6bb049989b64d737fb398211135f612da3b9 cc0d8c8748905ca8b95dc65a905b21f104e6ad62 dad8f07ee5d89ba8d3a974075f2dfd88dfce5b40
 
 Package: openbox-dev
 Source: openbox
-Version: 3.6.1-4+rpi4
+Version: 3.6.1-4+rpi6
 Architecture: armhf
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Installed-Size: 318
-Depends: libobrender32v5 (= 3.6.1-4+rpi4), libobt2v5 (= 3.6.1-4+rpi4), libxml2-dev, libglib2.0-dev, libpango1.0-dev, libimlib2-dev, librsvg2-dev, libxcursor-dev
+Depends: libobrender32v5 (= 3.6.1-4+rpi6), libobt2v5 (= 3.6.1-4+rpi6), libxml2-dev, libglib2.0-dev, libpango1.0-dev, libimlib2-dev, librsvg2-dev, libxcursor-dev
 Homepage: http://www.openbox.org
 Priority: optional
 Section: libdevel
-Filename: pool/ui/o/openbox/openbox-dev_3.6.1-4+rpi4_armhf.deb
-Size: 104174
-SHA256: f6f36e7eb91bc07e8c728fe3d20be28d70cbb3e07e1e5aa9221e4227f013a674
-SHA1: b0339fc96d5cce993c94fe015a12457765bd43a8
-MD5sum: cfd598e667a30e06d47ec9cf85609ce0
+Filename: pool/ui/o/openbox/openbox-dev_3.6.1-4+rpi6_armhf.deb
+Size: 104246
+SHA256: 9c70ff1e9805de20568051c848a0de4a3dd2a68cca347e79de56e418887d5bd5
+SHA1: bbfb3152b043ed745d19f989b14c2d2b6092909c
+MD5sum: 454ad53e2c0c0911189af01e884eb50d
 Description: development files for the openbox window manager
  Openbox works with your applications, and makes your desktop easier to manage.
  This is because the approach to its development was the opposite of what seems
@@ -1677,22 +1696,22 @@ Description: development files for the openbox window manager
 
 Package: openbox-gnome-session
 Source: openbox
-Version: 3.6.1-4+rpi4
+Version: 3.6.1-4+rpi6
 Architecture: all
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Installed-Size: 65
-Depends: openbox (>= 3.6.1-4+rpi4), gnome-session-bin, gconf2, x11-utils
+Depends: openbox (>= 3.6.1-4+rpi6), gnome-session-bin, gconf2, x11-utils
 Enhances: gnome-session
 Breaks: openbox (<< 3.5.2-5)
 Replaces: openbox (<< 3.5.2-5)
 Homepage: http://www.openbox.org
 Priority: optional
 Section: x11
-Filename: pool/ui/o/openbox/openbox-gnome-session_3.6.1-4+rpi4_all.deb
-Size: 41812
-SHA256: 84a03db59553c3788c68adf5cce5ad89ad3547c2eaafb4e47eb2393858b07af4
-SHA1: fd8e7cd475fde2584dc27cad9932b90ef64a2d5a
-MD5sum: 8bfcdeacd34b74ccdce0be481aa59fb8
+Filename: pool/ui/o/openbox/openbox-gnome-session_3.6.1-4+rpi6_all.deb
+Size: 41878
+SHA256: 1797602b84664b89d7a78fa9d426b80e5b18bc64f0304d4de073ea2429b78bcd
+SHA1: c50335d6ca3d500c022b80eabb79f03aa2f9e35a
+MD5sum: 4f8aebb1785e21c55378bf2a14011c5e
 Description: command line utility to run Openbox as GNOME session
  openbox-gnome-session can provide GNOME session with openbox as
  a default window manager. It can replace the original window manager
@@ -1700,29 +1719,29 @@ Description: command line utility to run Openbox as GNOME session
 
 Package: openbox-kde-session
 Source: openbox
-Version: 3.6.1-4+rpi4
+Version: 3.6.1-4+rpi6
 Architecture: all
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Installed-Size: 57
-Depends: openbox (>= 3.6.1-4+rpi4), x11-utils, plasma-workspace
+Depends: openbox (>= 3.6.1-4+rpi6), x11-utils, plasma-workspace
 Enhances: kde-workspace
 Breaks: openbox (<< 3.5.2-5)
 Replaces: openbox (<< 3.5.2-5)
 Homepage: http://www.openbox.org
 Priority: optional
 Section: x11
-Filename: pool/ui/o/openbox/openbox-kde-session_3.6.1-4+rpi4_all.deb
-Size: 40864
-SHA256: 0c2f0515424ad0068257cbaec9b8efaf6acb5d4ee51e02df53c2815d60f91209
-SHA1: 82a26a4062b8950e7d25d6b0ac4f6286e97c7404
-MD5sum: af309090235b0de5edb52a61672aa356
+Filename: pool/ui/o/openbox/openbox-kde-session_3.6.1-4+rpi6_all.deb
+Size: 40944
+SHA256: 3a271d092594c87e2087639cb7c82b8c84424f6aa33194a897c0e7f2cfe11d70
+SHA1: c9d1ba2369f5360b4959f676971477450ff402a8
+MD5sum: cca902bfe5f6430c8b242ae3d9e8c3d9
 Description: command line utility to run Openbox as KDE SC session
  openbox-kde-session can provide KDE SC session with openbox as
  a default window manager. Can replace the original window manager
  called KWin.
 
 Package: pcmanfm
-Version: 1.2.5-3+rpi3
+Version: 1.2.5-3+rpi4
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 1482
@@ -1731,11 +1750,11 @@ Recommends: gvfs-backends, gvfs-fuse, polkit-1-auth-agent | policykit-1-gnome, l
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: optional
 Section: utils
-Filename: pool/ui/p/pcmanfm/pcmanfm_1.2.5-3+rpi3_armhf.deb
-Size: 273586
-SHA256: 028e01818f599538dc0be24a6e7e8aba99182c17852fe2cbeccb8038d704d66c
-SHA1: 7173877fc9a1eca2aee6493485548cf47534e650
-MD5sum: 70f16a2f6978c2deddcaacd79cad0b3c
+Filename: pool/ui/p/pcmanfm/pcmanfm_1.2.5-3+rpi4_armhf.deb
+Size: 273030
+SHA256: 0727890f67292b117c4e9d9c59fd07d93c9613762c193e313a78b2b5b2265408
+SHA1: ba3991384fe2e3295204577806ca101769be98f7
+MD5sum: bb4d93152b38b26db5efbb018425e9b1
 Description: extremely fast and lightweight file manager
  PCMan File Manager is a GTK+ based file manager, featuring:
  .
@@ -1756,26 +1775,26 @@ Description: extremely fast and lightweight file manager
 
 Package: pcmanfm-dbg
 Source: pcmanfm
-Version: 1.2.5-3+rpi3
+Version: 1.2.5-3+rpi4
 Architecture: armhf
 Maintainer: Debian LXDE Maintainers <pkg-lxde-maintainers@lists.alioth.debian.org>
 Installed-Size: 370
 Pre-Depends: dpkg (>= 1.17.13)
-Depends: pcmanfm (= 1.2.5-3+rpi3)
+Depends: pcmanfm (= 1.2.5-3+rpi4)
 Homepage: http://pcmanfm.sourceforge.net/
 Priority: extra
 Section: debug
-Filename: pool/ui/p/pcmanfm/pcmanfm-dbg_1.2.5-3+rpi3_armhf.deb
-Size: 312166
-SHA256: 440dc0bd3510aae7c9caff7e6aac40a19846c42b478b0932ba880de161cf1109
-SHA1: 42271969c60ed8d9e0236c6d48768327f50f2285
-MD5sum: d46f1661150903dd91fa1952d140182b
+Filename: pool/ui/p/pcmanfm/pcmanfm-dbg_1.2.5-3+rpi4_armhf.deb
+Size: 312398
+SHA256: 11d607eee89c79b9f4e45a4fe1b66614ed91af629411b7597881006f7fadbc61
+SHA1: ed8f52204622556f16f6876a7f139cbfb086ebbe
+MD5sum: 610c4e4d4e9edc60c8d690dd3ad45334
 Description: extremely fast and lightweight file manager (debug)
  PCMan File Manager is a GTK+ based file manager. It is a primary file
  manager for the LXDE but can be used in any other desktop environment.
  .
  This package contains the debugging symbols.
-Build-Ids: 97ebd02de294c805e161f7a54c59e482f904cb6e
+Build-Ids: 29eff0bfaa04020b44ac993e82270dcafb0933e1
 
 Package: pi-greeter
 Version: 0.6
@@ -1947,59 +1966,78 @@ Description: Debug symbols for pimixer
 Build-Ids: 400bbaec14a870f2eeda43abc7e02d12b91bc02c
 
 Package: pipanel
-Version: 20170707~125920
+Version: 20180126~074441
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.org>
-Installed-Size: 86
+Installed-Size: 107
 Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.12.0), libxml2 (>= 2.7.4), openbox, lxsession
 Homepage: https://www.raspberrypi.org/
 Priority: optional
 Section: x11
-Filename: pool/ui/p/pipanel/pipanel_20170707~125920_armhf.deb
-Size: 14348
-SHA256: a8cc11eab48e80250be1dd26bdd09761488bd1c6c23dcfced4d679b77c6ff723
-SHA1: 2c232db408a4b193bc24b13af8e763a6cb3a2e0d
-MD5sum: 5a7768a66809eddd539852383e4a8321
+Filename: pool/ui/p/pipanel/pipanel_20180126~074441_armhf.deb
+Size: 18614
+SHA256: 37737a3817b61092274d8b042eddb8118e3ab59943f582be2d8a60f8814171bf
+SHA1: 034a15692af61ebf3c16a1118354129bbd8afc87
+MD5sum: d80e701a2b21c89a8c13c3c8e1f2e73a
 Description: Settings panel for Raspberry Pi desktop appearance
  pipanel is an application which allows the configuration of the LX Desktop
  user interface from one convenient dialog.
 
 Package: pipanel-dbgsym
 Source: pipanel
-Version: 20170707~125920
+Version: 20180126~074441
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.org>
-Installed-Size: 49
-Depends: pipanel (= 20170707~125920)
+Installed-Size: 57
+Depends: pipanel (= 20180126~074441)
 Homepage: https://www.raspberrypi.org/
 Priority: extra
 Section: debug
-Filename: pool/ui/p/pipanel/pipanel-dbgsym_20170707~125920_armhf.deb
-Size: 32418
-SHA256: 1085b24d9c59d5671660bd5ea69ca822b2381354c312bad48097c86b7e447e0c
-SHA1: 409cb22de804623923311dd5febb15e82297c5c1
-MD5sum: ed3e850d02a9b27534923875c5671af6
+Filename: pool/ui/p/pipanel/pipanel-dbgsym_20180126~074441_armhf.deb
+Size: 40138
+SHA256: 344fcbc70603ba32762ebbe40fa1639c159e8b8bcf51cd705b17e7066ef5ab1d
+SHA1: 7c06d5f8eded4c76d6da69a008b5ac77a4d5762b
+MD5sum: 4f18b1aa1b78011e35aacfd2bbd55e26
 Description: Debug symbols for pipanel
-Build-Ids: e616c9c851f4721e4bbe5b9299c95bb89c9e8aae
+Build-Ids: f5eb69fdace720c9a6cb666069495ff5fca81469
 
 Package: pishutdown
-Version: 0.8
+Version: 0.9
 Architecture: armhf
 Maintainer: Simon Long <simon@raspberrypi.org>
-Installed-Size: 15
+Installed-Size: 31
 Depends: libc6 (>= 2.7), libgdk-pixbuf2.0-0 (>= 2.22.0), libgtk2.0-0 (>= 2.8.0)
 Homepage: http://github.com/raspberrypi/pishutdown
 Priority: optional
 Section: utils
-Filename: pool/ui/p/pishutdown/pishutdown_0.8_armhf.deb
-Size: 6108
-SHA256: 80545b71f30b966439e464b80d35313efe7ccaecadce238c38929c13bfe87012
-SHA1: 51e5861cf1803774c9a36232a39c42fe4fc2cdf5
-MD5sum: 8ff1f562fc4e05eb18d51e750c25852c
+Filename: pool/ui/p/pishutdown/pishutdown_0.9_armhf.deb
+Size: 6158
+SHA256: 53c069ca08a3b8c993b311da38232dca49dddfd4c11589f62c8c72f996bd3760
+SHA1: ec6e94ae65aaabecbfed0cee44ad6aac75553a2d
+MD5sum: eeed042153f02b0eff7963b7bf1ce91b
 Description: Desktop shutdown helper for Raspberry Pi
  Small application offering shutdown / reboot / logout options, run from the
  shutdown option on the main menu.
+
+Package: pishutdown-dbgsym
+Source: pishutdown
+Version: 0.9
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Simon Long <simon@raspberrypi.org>
+Installed-Size: 31
+Depends: pishutdown (= 0.9)
+Homepage: http://github.com/raspberrypi/pishutdown
+Priority: extra
+Section: debug
+Filename: pool/ui/p/pishutdown/pishutdown-dbgsym_0.9_armhf.deb
+Size: 17234
+SHA256: 3e0967c9a6a6d641a50b270019b2dfffbb02d932f1f196911775b1814969d790
+SHA1: 00a39488db304a31e5e804a318e6634bb9190c7f
+MD5sum: d2e83b2033f2a5a7b95a1f1d6c9382ce
+Description: Debug symbols for pishutdown
+Build-Ids: e2e98ac783cce2c97a4be081c7169094e9206d00
 
 Package: pitop-util
 Version: 0.20171030
@@ -2039,7 +2077,7 @@ Build-Ids: 61b157b9a8ee16393e7a109f2b54fba5379ec5a4
 
 Package: pix-icons
 Source: rpd-icons
-Version: 0.12
+Version: 0.13
 Architecture: all
 Maintainer: Simon Long <simon@raspberrypi.org>
 Installed-Size: 8
@@ -2047,11 +2085,11 @@ Depends: rpd-icons
 Homepage: http://raspberrypi.org/
 Priority: extra
 Section: oldlibs
-Filename: pool/ui/r/rpd-icons/pix-icons_0.12_all.deb
-Size: 2070
-SHA256: 39836728eb4bf586229217aa43d67fd35e485e41195af329699e737d42309f8e
-SHA1: 45002e5134067866852f1cbf760dd7036cd68b09
-MD5sum: 7432bdfbd7a4c28e23bf19fa2bc52797
+Filename: pool/ui/r/rpd-icons/pix-icons_0.13_all.deb
+Size: 2162
+SHA256: e7c8c79619ae16cb1b9725233659933f45614ef89e97426d90526721ca81c3cf
+SHA1: acc5c101aa576f8e001e6524b740c33a42ffc7ba
+MD5sum: 8a5918ea695cd725f608edcb31ac4a57
 Description: transitional package
  This is a transitional package. It can safely be removed.
 
@@ -2268,74 +2306,74 @@ Description: ssh password check
  displays a warning.
 
 Package: raspberrypi-ui-mods
-Version: 1.20171115
+Version: 1.20180125
 Architecture: all
 Maintainer: Serge Schneider <serge@raspberrypi.org>
-Installed-Size: 1254
+Installed-Size: 1266
 Depends: lxpanel, pcmanfm, openbox, xserver-xorg, x11-xserver-utils, policykit-1, lightdm, raspberrypi-sys-mods, zenity, libglib2.0-bin
 Recommends: xserver-xorg-video-fbturbo, libgksu2-0, fonts-piboto, pimixer, pipanel, lxinput, raspberrypi-artwork, pi-greeter, rpd-plym-splash, rpd-wallpaper, pishutdown, scrot, fontconfig-infinality, point-rpi, gtk2-engines-pixbuf, gtk2-engines-clearlookspix, gnome-icon-theme, rpd-icons, lxplug-volume, lxplug-network, lxplug-bluetooth, lxplug-ejecter, lxplug-ptbatt
 Priority: extra
 Section: x11
-Filename: pool/ui/r/raspberrypi-ui-mods/raspberrypi-ui-mods_1.20171115_all.deb
-Size: 312222
-SHA256: faaf9d5fa3be3ef8ed14308561cb70c14bc39585cb33e779362d249fd3112817
-SHA1: 3dfd69293dc7bba1cbd19be07d093f73839a7814
-MD5sum: 30a2a0df20cc12a828522640735905ed
+Filename: pool/ui/r/raspberrypi-ui-mods/raspberrypi-ui-mods_1.20180125_all.deb
+Size: 313044
+SHA256: d868ba645c7695636801e32b0e21edc43173293c4be37c98fd9321a99475031e
+SHA1: 18d3b1ea7074fcbb6ff2e6b0c171e68af8160cbd
+MD5sum: 4d4b846f0103ab75a940cf80cb64054a
 Description: Config to customise the LXDE UI for the Raspberry Pi
  Customised theme and configuration for LXDE desktop on Raspberry Pi.
 
 Package: rc-gui
-Version: 1.13
+Version: 1.14
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.org>
-Installed-Size: 276
+Installed-Size: 321
 Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), raspi-config, lxkeymap
 Homepage: https://github.com/RPi-Distro/rc_gui
 Priority: optional
 Section: admin
-Filename: pool/ui/r/rc-gui/rc-gui_1.13_armhf.deb
-Size: 38850
-SHA256: 65163d387048bad9937258bc05f0c3335d62077d302d3a4d820d1e57ae02c54c
-SHA1: 9699e7b545c65d88744e4cc93902173cc0b04497
-MD5sum: 514e03078e4b10e60baa6eb01c3c58af
+Filename: pool/ui/r/rc-gui/rc-gui_1.14_armhf.deb
+Size: 39166
+SHA256: 3d76a4e632a622862a0ebc2b36553648e829346baf570765a43ee44ad72dc399
+SHA1: bf83d92346fe5f69d5c3be27edf31da275d69379
+MD5sum: 16cdc3e083469d33393618851fc5d7a0
 Description: raspi-config GUI
  Application which allows the configuration of Raspberry Pi system settings
 
 Package: rc-gui-dbgsym
 Source: rc-gui
-Version: 1.10
+Version: 1.14
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Serge Schneider <serge@raspberrypi.org>
 Installed-Size: 49
-Depends: rc-gui (= 1.10)
+Depends: rc-gui (= 1.14)
 Homepage: https://github.com/RPi-Distro/rc_gui
 Priority: extra
 Section: debug
-Filename: pool/ui/r/rc-gui/rc-gui-dbgsym_1.10_armhf.deb
-Size: 32716
-SHA256: b7e6b43d89a2a381a77ac0ee1b9a79ae25511d015c01bbe2c0113054c052d5b2
-SHA1: 18db08ba005f499e4cdc0644ee253fc4288afd1f
-MD5sum: 25596e1b1a73b50ffcd9e2c06ee212a7
+Filename: pool/ui/r/rc-gui/rc-gui-dbgsym_1.14_armhf.deb
+Size: 32854
+SHA256: 66f4a858a1115b5fdc509ddcfff04f1520cfc66be32bb4cc7cc747d7ad90cc9a
+SHA1: d0ef88236ef518d9f1848d9e60c841519c22cad4
+MD5sum: d385f22dbd950a33f5910433d184bfc6
 Description: Debug symbols for rc-gui
-Build-Ids: 6fd803601bf1a8b51c79f67b1c94d91d6fd2ade3
+Build-Ids: d896b3c23c6ebd697c8a5e23363eb3022f1f80be
 
 Package: rpd-icons
-Version: 0.12
+Version: 0.13
 Architecture: all
 Maintainer: Simon Long <simon@raspberrypi.org>
-Installed-Size: 2687
+Installed-Size: 3764
 Depends: libgtk2.0-bin
 Breaks: pix-icons (<< 0.5-1~)
 Replaces: pix-icons (<< 0.5-1~)
 Homepage: http://raspberrypi.org/
 Priority: optional
 Section: x11
-Filename: pool/ui/r/rpd-icons/rpd-icons_0.12_all.deb
-Size: 855452
-SHA256: 3f453d03d3bd3786d749007250a3752d2b915f6b48c1227c21aed4dd6ed44a80
-SHA1: b476bce85bfe7d2b812b8c0dc0335e50313b2bf3
-MD5sum: 773b13034217406735025a8cfa020754
+Filename: pool/ui/r/rpd-icons/rpd-icons_0.13_all.deb
+Size: 986818
+SHA256: 920f3c94c1e2d3c449ccfb6bd13a987ea4f13a0fe5bc0d63e1a2ca1d52c8b981
+SHA1: 9ecb792b3f84abf2410efc65c545184ab9ef569e
+MD5sum: 8ffa086ed98e78a966fb7d0d04b8a1c9
 Description: Icons for Raspberry Pi Desktop
  Custom icon set for the Raspberry Pi Desktop environment.
 
@@ -2377,20 +2415,20 @@ Description: Wallpaper for Raspberry Pi Desktop
  Custom wallpaper graphic files for Raspberry Pi Desktop environment.
 
 Package: rpi-chromium-mods
-Version: 20171113
+Version: 20180112
 Architecture: armhf
 Maintainer: Simon Long <simon@raspberrypi.org>
-Installed-Size: 20008
+Installed-Size: 20013
 Pre-Depends: dpkg (>= 1.15.7.2)
 Depends: debconf, libc6 (>= 2.15), libgcc1 (>= 1:3.5), libstdc++6 (>= 4.9), debconf (>= 0.5) | debconf-2.0, chromium-browser (>= 55)
 Homepage: <insert the upstream URL, if relevant>
 Priority: optional
 Section: unknown
-Filename: pool/ui/r/rpi-chromium-mods/rpi-chromium-mods_20171113_armhf.deb
-Size: 9199366
-SHA256: ab2fd67c272b7460be6bc8e2f9b4db9b175a069adab35fd8d7c68bdb1c479996
-SHA1: 2861597c54015817718554ad3b1a0a60b5eef928
-MD5sum: e7bd4c6d4dc2f29d7bef677c5cef6e4c
+Filename: pool/ui/r/rpi-chromium-mods/rpi-chromium-mods_20180112_armhf.deb
+Size: 9200544
+SHA256: 172a9a539000bdf0f3849873d5b6a8e690a4bc5d871c935eef03db3d568daa24
+SHA1: 7cdcf58875e72703c36c37a3d5b10d49bff9c0df
+MD5sum: 3c4f0107da1cf2530c7283d5e9d6be16
 Description: Raspberry Pi-specific mods to Chromium
  Package contains Raspberry Pi-specific modifications to the
  default Chromium browser install, including optimized settings

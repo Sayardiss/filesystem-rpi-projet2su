@@ -48,8 +48,8 @@ netdev:!::
 messagebus:!::
 ssh:!::
 bluetooth:!::
-avahi:!::
 spi:!::
 i2c:!::
 gpio:!::
 mongodb:!::
+mysql:!::
