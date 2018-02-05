@@ -342,3 +342,118 @@ mkinitramfs -o /boot/initramfs.gz
 halt
 =======
 >>>>>>> 519cc6d7ddfecdf5eb2614e536947cfc8b423595
+ls
+git status
+apt remove dropbear --purge
+git status
+git add -A
+cd /
+le
+git status
+git commit -a "Ajout de LUKS"
+git commit -m "Ajout de LUKS"
+git push
+git pull
+git merge --strategy-option ours
+git status
+git add -A
+git merge --strategy-option ours
+git commit -m "Ajout de LUKS - conflits"
+git merge --strategy-option ours
+git push
+git status
+apt purge samba*
+apt purge ^x11
+apt autremove -y
+apt autoremove -y
+apt purge libx11-.*
+apt purge --auto-remove libx11-.*
+apt purge --auto-remove aspell-en
+apt purge --auto-remove pengu*
+apt purge --auto-remove gdb
+apt purge --auto-remove sudo
+apt purge --auto-remove perl*
+dpkg-query -Wf '${Installed-Size}\t${Package}\t${Priority}\n' |     egrep '\s(optional|extra)' | cut -f 1,2 | sort -nr | less
+dpkg-query -Wf '${Installed-Size}\t${Package}\t${Priority}\n' |     egrep '\s(optional|extra)' | cut -f 1,2 | sort -nr > /root/package_list
+cd root/
+cat package_list 
+apt purge --auto-remove mongo*
+rm -rf /var/lib/mongodb/
+rm -rf /var/log/mongodb/
+
+cat /var/log/apt/history.log
+git status
+git add -a
+git add -A
+git commit -m "Removed several packages. See /var/log/apt/history.log"
+git push
+dpkg-query -Wf '${Installed-Size}\t${Package}\t${Priority}\n' |     egrep '\s(optional|extra)' | cut -f 1,2 | sort -nr
+apt purge --auto-remove python-rpi.gpio
+apt purge --auto-remove gcc*
+apt purge --auto-remove gcc
+ls
+dpkg-query -Wf '${Installed-Size}\t${Package}\t${Priority}\n' |     egrep '\s(optional|extra)' | cut -f 1,2 | sort -nr
+man cpp
+apt purge --auto-remove cpp
+dpkg-query -Wf '${Installed-Size}\t${Package}\t${Priority}\n' |     egrep '\s(optional|extra)' | cut -f 1,2 | sort -nr
+apt purge --auto-remove rpi-update 
+dpkg-query -Wf '${Installed-Size}\t${Package}\t${Priority}\n' |     egrep '\s(optional|extra)' | cut -f 1,2 | sort -n
+dpkg-query -Wf '${Installed-Size}\t${Package}\t${Priority}\n' |     egrep '\s(optional|extra)' | cut -f 1,2 | sort -nr
+apt purge --auto-remove strace
+dpkg-query -Wf '${Installed-Size}\t${Package}\t${Priority}\n' |     egrep '\s(optional|extra)' | cut -f 1,2 | sort -nr
+apt purge --auto-remove gdb
+git status
+git add -A
+git commit -m "Removed GCC/CPP"
+git push
+dpkg-query -Wf '${Installed-Size}\t${Package}\t${Priority}\n' |     egrep '\s(optional|extra)' | cut -f 1,2 | sort -nr
+apt purge --auto-remove raspi-copies-and-fills 
+apt purge --auto-remove raspi-config 
+apt purge --auto-remove ed
+apt purge --auto-remove htop
+cat /sys/class/gpio/unexport 
+cat /sys/class/gpio/export 
+awk -F':' '{ print $1}' /etc/passwd
+deluser mongodb
+passwd games -l
+cat /etc/passwd
+man gpio
+nano /boot/config.txt 
+ip a
+git status
+git add -A
+git commit -m "Removed ed and raspi packages. Disabled WiFi in /boot/config.txt"
+git push
+ls
+ls
+ls
+ls
+git status
+dpkg-query -Wf '${Installed-Size}\t${Package}\t${Priority}\n' |     egrep '\s(optional|extra)' | cut -f 1,2 | sort -nr
+apt purge --auto-remove avahi-daemon 
+netstat -atn
+netstat -an
+nano /etc/network/interfaces
+ip a
+nano /etc/network/interfaces
+nano /etc/sysctl.conf 
+ifconfig -a
+reboot
+ping 8.8.8.8
+curl ipinfo.io
+curl ipinfo.io/ip
+curl ipinfo.io/city
+ss -at
+ss atu
+ss -atu
+ss -atu
+ss -tulpn
+ss -tupn
+ss -tulpn
+ss -putln
+lsof -i
+nmap -sT -O localhost
+apt install nmap
+nano /etc/ssh/sshd_config 
+service sshd restart
+reboot

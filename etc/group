@@ -48,7 +48,6 @@ netdev:x:108:
 messagebus:x:109:
 ssh:x:110:
 bluetooth:x:111:
-avahi:x:112:
 spi:x:999:
 i2c:x:998:
 gpio:x:997:

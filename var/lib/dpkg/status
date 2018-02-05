@@ -37,23 +37,6 @@ Description: replacement for GNU Pth using system threads
  compatible to GNU Pth.
 Homepage: https://www.gnupg.org/
 
-Package: bind9-host
-Status: install ok installed
-Priority: standard
-Section: net
-Installed-Size: 303
-Maintainer: LaMont Jones <lamont@debian.org>
-Architecture: armhf
-Source: bind9
-Version: 1:9.10.3.dfsg.P4-12.3+deb9u4
-Replaces: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
-Provides: host
-Depends: libbind9-140 (= 1:9.10.3.dfsg.P4-12.3+deb9u4), libc6 (>= 2.4), libcap2 (>= 1:2.10), libcomerr2 (>= 1.01), libdns162 (= 1:9.10.3.dfsg.P4-12.3+deb9u4), libgeoip1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc160 (= 1:9.10.3.dfsg.P4-12.3+deb9u4), libisccfg140 (= 1:9.10.3.dfsg.P4-12.3+deb9u4), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), liblwres141 (= 1:9.10.3.dfsg.P4-12.3+deb9u4), libssl1.0.2 (>= 1.0.2d), libxml2 (>= 2.6.27)
-Conflicts: dnsutils (<< 1:9.0.0), host (<< 1:9.7.0)
-Description: Version of 'host' bundled with BIND 9.X
- This package provides the 'host' program in the form that is bundled with
- the BIND 9.X sources.
-
 Package: iputils-ping
 Status: install ok installed
 Priority: important
@@ -464,25 +447,6 @@ Description: console font and keymap setup program
  classic VGA, the simplistic Fixed, and the cleaned Terminus,
  TerminusBold and TerminusBoldVGA.
 
-Package: libnss-mdns
-Status: install ok installed
-Priority: optional
-Section: admin
-Installed-Size: 103
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: nss-mdns
-Version: 0.10-8
-Depends: avahi-daemon (>= 0.6.16-1), base-files (>= 3.1.10), libc6 (>= 2.4)
-Suggests: avahi-autoipd | zeroconf
-Description: NSS module for Multicast DNS name resolution
- nss-mdns is a plugin for the GNU Name Service Switch (NSS) functionality
- of the GNU C Library (glibc) providing host name resolution via Multicast
- DNS (using Zeroconf, aka Apple Bonjour / Apple Rendezvous ), effectively
- allowing name resolution by common Unix/Linux programs in the ad-hoc mDNS
- domain .local.
-
 Package: libtinfo5
 Status: install ok installed
 Priority: required
@@ -847,34 +811,6 @@ Description: Extended attribute shared library
  of extended attributes.
 Homepage: http://savannah.nongnu.org/projects/attr/
 
-Package: libdaemon0
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 31
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: libdaemon
-Version: 0.14-6
-Depends: libc6 (>= 2.15)
-Pre-Depends: multiarch-support
-Description: lightweight C library for daemons - runtime library
- libdaemon is a lightweight C library which eases the writing of UNIX daemons.
- It consists of the following parts:
- .
-  * Wrapper around fork() for correct daemonization of a process
-  * Wrapper around syslog() for simple log output to syslog or STDERR
-  * An API for writing PID files
-  * An API for serializing signals into a pipe for use with select() or poll()
-  * An API for running subprocesses with STDOUT and STDERR redirected to syslog
- .
- Routines like these are included in most of the daemon software available. It
- is not simple to get these done right and code duplication is not acceptable.
- .
- This package includes the libdaemon run time shared library.
-Homepage: http://0pointer.de/lennart/projects/libdaemon/
-
 Package: libmnl-dev
 Status: install ok installed
 Priority: important
@@ -977,27 +913,6 @@ Description: Helper functions for handling strings (lib)
  .
  This package contains the shared library.
 Homepage: http://libestr.sourceforge.net/
-
-Package: libdns162
-Status: install ok installed
-Priority: standard
-Section: libs
-Installed-Size: 3858
-Maintainer: LaMont Jones <lamont@debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: bind9
-Version: 1:9.10.3.dfsg.P4-12.3+deb9u4
-Replaces: libbind0
-Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libcomerr2 (>= 1.01), libgeoip1, libgssapi-krb5-2 (>= 1.14+dfsg), libisc160, libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libssl1.0.2 (>= 1.0.2d), libxml2 (>= 2.7.4)
-Conflicts: libbind0, libbind9-41
-Description: DNS Shared Library used by BIND
- The Berkeley Internet Name Domain (BIND) implements an Internet domain
- name server.  BIND is the most widely-used name server software on the
- Internet, and is supported by the Internet Software Consortium, www.isc.org.
- .
- This package delivers the libdns shared library used by BIND's daemons and
- clients.
 
 Package: libexpat1
 Status: install ok installed
@@ -1453,27 +1368,6 @@ Description: netfilter libip4tc library
  This library has been considered private for years (and still is), in the
  sense of changing symbols and backward compatibility not guaranteed.
 Homepage: http://www.netfilter.org/
-
-Package: libisc160
-Status: install ok installed
-Priority: standard
-Section: libs
-Installed-Size: 1010
-Maintainer: LaMont Jones <lamont@debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: bind9
-Version: 1:9.10.3.dfsg.P4-12.3+deb9u4
-Replaces: libbind0
-Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libgeoip1, libxml2 (>= 2.7.4)
-Conflicts: libbind0, libbind9-41
-Description: ISC Shared Library used by BIND
- The Berkeley Internet Name Domain (BIND) implements an Internet domain
- name server.  BIND is the most widely-used name server software on the
- Internet, and is supported by the Internet Software Consortium, www.isc.org.
- .
- This package delivers the libisc shared library used by BIND's daemons and
- clients.
 
 Package: grep
 Essential: yes
@@ -1997,26 +1891,6 @@ Description: tool to make (or reverse) a hex dump
  xxd creates a hex dump of a given file or standard input.  It can also convert
  a hex dump back to its original binary form.
 Homepage: http://www.vim.org/
-
-Package: geoip-database
-Status: install ok installed
-Priority: optional
-Section: net
-Installed-Size: 6841
-Maintainer: Patrick Matthäi <pmatthaei@debian.org>
-Architecture: all
-Version: 20170512-1
-Recommends: libgeoip1
-Breaks: libgeoip1 (<< 1.4.5.dfsg)
-Description: IP lookup command line tools that use the GeoIP library (country database)
- GeoIP is a C library that enables the user to find the country that any
- IP address or hostname originates from. It uses a file based database.
- .
- This database simply contains IP blocks as keys, and countries as values and
- it should be more complete and accurate than using reverse DNS lookups.
- .
- This package contains the free GeoLiteCountry database.
-Homepage: http://www.maxmind.com/
 
 Package: libdw1
 Status: install ok installed
@@ -3312,28 +3186,6 @@ Description: POSIX 1003.1e capabilities (library)
  This package contains the shared library.
 Homepage: http://sites.google.com/site/fullycapable/
 
-Package: libisccfg140
-Status: install ok installed
-Priority: standard
-Section: libs
-Installed-Size: 292
-Maintainer: LaMont Jones <lamont@debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: bind9
-Version: 1:9.10.3.dfsg.P4-12.3+deb9u4
-Replaces: libbind0
-Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libcomerr2 (>= 1.01), libdns162, libgeoip1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc160, libisccc140, libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libssl1.0.2 (>= 1.0.2d), libxml2 (>= 2.6.27)
-Conflicts: libbind0, libbind9-41
-Description: Config File Handling Library used by BIND
- The Berkeley Internet Name Domain (BIND) implements an Internet domain
- name server.  BIND is the most widely-used name server software on the
- Internet, and is supported by the Internet Software Consortium, www.isc.org.
- .
- This package delivers the libisccfg shared library used by BIND's daemons
- and clients to read and write ISC-style configuration files like named.conf
- and rndc.conf.
-
 Package: bsdutils
 Essential: yes
 Status: install ok installed
@@ -4286,29 +4138,6 @@ Description: SGML infrastructure and SGML catalog file support
  .
    * update-catalog(8): tool for maintaining the root SGML catalog
      file and the package SGML catalog files in the '/etc/sgml' directory.
-
-Package: libgeoip1
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 269
-Maintainer: Patrick Matthäi <pmatthaei@debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: geoip
-Version: 1.6.9-4
-Depends: libc6 (>= 2.4)
-Recommends: geoip-database
-Suggests: geoip-bin
-Description: non-DNS IP-to-country resolver library
- GeoIP is a C library that enables the user to find the country that any
- IP address or hostname originates from. It uses a file based database.
- .
- This database simply contains IP blocks as keys, and countries as values and
- it should be more complete and accurate than using reverse DNS lookups.
- .
- This package contains the shared library.
-Homepage: http://www.maxmind.com/
 
 Package: parted
 Status: install ok installed
@@ -5485,39 +5314,6 @@ Description: library for common error values and messages in GnuPG components
  pinentry, SmartCard Daemon and possibly more in the future.
 Homepage: https://www.gnupg.org/related_software/libgpg-error/
 
-Package: avahi-daemon
-Status: install ok installed
-Priority: optional
-Section: net
-Installed-Size: 244
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Architecture: armhf
-Multi-Arch: foreign
-Source: avahi
-Version: 0.6.32-2
-Depends: libavahi-common3 (>= 0.6.16), libavahi-core7 (>= 0.6.24), libc6 (>= 2.8), libcap2 (>= 1:2.10), libdaemon0 (>= 0.14), libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.0.1), init-system-helpers (>= 1.18~), adduser, dbus (>= 0.60), lsb-base (>= 3.0-6), bind9-host | host
-Recommends: libnss-mdns
-Suggests: avahi-autoipd
-Conffiles:
- /etc/avahi/avahi-daemon.conf 97d541005ab4ecf02e873c729c461ae7
- /etc/avahi/hosts 186990ae1edac95a88dbef6a36a07716
- /etc/dbus-1/system.d/avahi-dbus.conf 4b8ff37c10615ae704b7827a438ff534
- /etc/default/avahi-daemon 292bdbb95b392a71a0c363eb58b3a119
- /etc/init.d/avahi-daemon 7e648c77846d70c4ef1b49c0c4f7cfad
- /etc/network/if-up.d/avahi-daemon 6dbf1a91ab420a99d1205972d6401e67
- /etc/resolvconf/update-libc.d/avahi-daemon 2cf53ff5a00f9d1fed653a2913de5bc7
-Description: Avahi mDNS/DNS-SD daemon
- Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
- It allows programs to publish and discover services and hosts
- running on a local network with no specific configuration. For
- example you can plug into a network and instantly find printers to
- print to, files to look at and people to talk to.
- .
- This package contains the Avahi Daemon which represents your machine
- on the network and allows other applications to publish and resolve
- mDNS/DNS-SD records.
-Homepage: http://avahi.org/
-
 Package: plymouth
 Status: install ok installed
 Priority: optional
@@ -5761,27 +5557,6 @@ Description: manipulating sets and relations of integer points bounded by linear
  .
  This package contains the runtime library.
 Homepage: http://isl.gforge.inria.fr/
-
-Package: libisccc140
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 225
-Maintainer: LaMont Jones <lamont@debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: bind9
-Version: 1:9.10.3.dfsg.P4-12.3+deb9u4
-Replaces: libbind0
-Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libgeoip1, libisc160, libxml2 (>= 2.6.27)
-Conflicts: libbind0, libbind9-41
-Description: Command Channel Library used by BIND
- The Berkeley Internet Name Domain (BIND) implements an Internet domain
- name server.  BIND is the most widely-used name server software on the
- Internet, and is supported by the Internet Software Consortium, www.isc.org.
- .
- This package delivers the libisccc shared library used by BIND's daemons
- and clients, particularly rndc.
 
 Package: libgmp10
 Status: install ok installed
@@ -6973,27 +6748,6 @@ Description: system and service manager
  Installing the systemd package will not switch your init system unless you
  boot with init=/bin/systemd or install systemd-sysv in addition.
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
-
-Package: liblwres141
-Status: install ok installed
-Priority: standard
-Section: libs
-Installed-Size: 261
-Maintainer: LaMont Jones <lamont@debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: bind9
-Version: 1:9.10.3.dfsg.P4-12.3+deb9u4
-Replaces: libbind0
-Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libgeoip1, libxml2 (>= 2.6.27)
-Conflicts: libbind0
-Description: Lightweight Resolver Library used by BIND
- The Berkeley Internet Name Domain (BIND) implements an Internet domain
- name server.  BIND is the most widely-used name server software on the
- Internet, and is supported by the Internet Software Consortium, www.isc.org.
- .
- This package delivers the liblwres shared library used by BIND's daemons
- and clients.
 
 Package: dpkg
 Essential: yes
@@ -8338,28 +8092,6 @@ Description: GNU C Library: Development binaries
  development package.
 Homepage: http://www.gnu.org/software/libc/libc.html
 
-Package: libavahi-common3
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 95
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: avahi
-Version: 0.6.32-2
-Depends: libc6 (>= 2.4), libavahi-common-data
-Description: Avahi common library
- Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
- It allows programs to publish and discover services and hosts
- running on a local network with no specific configuration. For
- example you can plug into a network and instantly find printers to
- print to, files to look at and people to talk to.
- .
- This package contains the Avahi common library, which is a set of common
- functions used by many of Avahis components and client applications.
-Homepage: http://avahi.org/
-
 Package: libccid
 Status: install ok installed
 Priority: extra
@@ -8496,27 +8228,6 @@ Description: Pluggable Authentication Modules library
  One may entirely upgrade the local authentication system without touching
  the applications themselves.
 Homepage: http://www.linux-pam.org/
-
-Package: libbind9-140
-Status: install ok installed
-Priority: standard
-Section: libs
-Installed-Size: 245
-Maintainer: LaMont Jones <lamont@debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: bind9
-Version: 1:9.10.3.dfsg.P4-12.3+deb9u4
-Replaces: libbind0
-Depends: libc6 (>= 2.4), libcap2 (>= 1:2.10), libcomerr2 (>= 1.01), libdns162, libgeoip1, libgssapi-krb5-2 (>= 1.6.dfsg.2), libisc160, libisccfg140, libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libssl1.0.2 (>= 1.0.2d), libxml2 (>= 2.6.27)
-Conflicts: libbind0, libbind9-41
-Description: BIND9 Shared Library used by BIND
- The Berkeley Internet Name Domain (BIND) implements an Internet domain
- name server.  BIND is the most widely-used name server software on the
- Internet, and is supported by the Internet Software Consortium, www.isc.org.
- .
- This package delivers the libbind9 shared library used by BIND's daemons and
- clients.
 
 Package: xml-core
 Status: install ok installed
@@ -10197,26 +9908,6 @@ Description: converts RPC program numbers into universal addresses
  into universal addresses.
 Homepage: http://sourceforge.net/projects/rpcbind/
 
-Package: libavahi-common-data
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 755
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: avahi
-Version: 0.6.32-2
-Description: Avahi common data files
- Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
- It allows programs to publish and discover services and hosts
- running on a local network with no specific configuration. For
- example you can plug into a network and instantly find printers to
- print to, files to look at and people to talk to.
- .
- This package contains common data files for avahi.
-Homepage: http://avahi.org/
-
 Package: libpython3.5-minimal
 Status: install ok installed
 Priority: optional
@@ -10323,30 +10014,4 @@ Description: compression library - development
  in gzip and PKZIP.  This package includes the development support
  files.
 Homepage: http://zlib.net/
-
-Package: libavahi-core7
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 248
-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: avahi
-Version: 0.6.32-2
-Depends: libavahi-common3 (>= 0.6.16), libc6 (>= 2.15)
-Description: Avahi's embeddable mDNS/DNS-SD library
- Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
- It allows programs to publish and discover services and hosts
- running on a local network with no specific configuration. For
- example you can plug into a network and instantly find printers to
- print to, files to look at and people to talk to.
- .
- This package contains the library for Avahi's embeddable mDNS/DNS-SD stack.
- This can be used by embedded applications to integrate mDNS/DNS-SD
- functionality into their applications.
- .
- You should not however use this library for non-embedded applications, you
- should use libavahi-client which interacts with the avahi daemon.
-Homepage: http://avahi.org/
 
