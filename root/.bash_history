@@ -1,4 +1,3 @@
-passwd pi
 passwd
 vi /etc/hostname 
 vi /etc/hostname 
@@ -457,3 +456,45 @@ apt install nmap
 nano /etc/ssh/sshd_config 
 service sshd restart
 reboot
+ls
+apt install mysql-server
+git status
+cd /
+git status
+nano .gitignore 
+git rm -r --cached /dev/char
+git status
+git add -A
+git commit -m "Changed SSH port to 666, removed avahi and dynamic IP and IPv6"
+git push
+apt install mysql-server
+cd
+mysql_install_db 
+cat /var/lib/mysql
+ls /var/lib/mysql
+cat /var/lib/mysql/mysql
+ls -al /var/lib/mysql/
+apt purge --auto-remove mysql*
+dpkg -l | grep -i mysql
+apt-get clean
+updatedb
+apt purge --auto-remove mariadb*
+apt update
+apt list --upgradable
+apt upgrade
+git status
+git commit -am "Upgrade"
+git push
+nano /.gitignore 
+git status
+apt install mysql-server
+hostname
+hostname -f
+mysql_secure_installation
+mysql_secure_installation
+mysql -u root -p
+mysql -u root -p'   '
+mysql -u root -p
+mysql -u root -p
+mysql -u root -p
+mysql -u testuser -p

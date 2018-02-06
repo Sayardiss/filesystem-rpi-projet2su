@@ -1,4 +1,4 @@
-root:$6$X/gcWC6A$c3twpMdxdj8v7XEHoVZ5ekxxLn.L11kexbKEWjE7HOHDmJcKKglaR4Ddo/KRwi80Ur7DPe2oaW8hpkK5V.UC6/:17549:0:99999:7:::
+root:$6$hf97sxh/$/OezCcHtMtJBil2QpmfZzemlyToByJ.NZV9/UuNTEAfNJ8LonKB0h3uuiPRXpJ975uHlezMjNUzgDoNfCwH.81:17568:0:99999:7:::
 daemon:*:17499:0:99999:7:::
 bin:*:17499:0:99999:7:::
 sys:*:17499:0:99999:7:::
@@ -25,3 +25,4 @@ messagebus:*:17499:0:99999:7:::
 statd:*:17499:0:99999:7:::
 sshd:*:17499:0:99999:7:::
 mysql:!:17567:0:99999:7:::
+music:$6$OX0QzR4D$oLZy8pBMvvEZ.MQrgYXNEfH7R59WMRWIn5mcMRqwzmZt/qwPcm/p3vuaQN8R5GJxHI98iXfssBY4N.obAdxgl1:17568:0:99999:7:::

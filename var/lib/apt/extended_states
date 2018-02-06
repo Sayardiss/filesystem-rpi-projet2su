@@ -618,3 +618,123 @@ Package: libreadline5
 Architecture: armhf
 Auto-Installed: 1
 
+Package: libhttp-message-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libencode-locale-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mariadb-common
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libdbi-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libarchive13
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libcgi-fast-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: lsof
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhttp-date-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liblwp-mediatypes-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libfcgi-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libcgi-pm-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mariadb-server-core-10.1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libaio1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libio-html-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libterm-readkey-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mariadb-server-10.1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: default-mysql-server
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhtml-tagset-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: galera-3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mysql-common
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libjemalloc1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mariadb-client-10.1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mariadb-client-core-10.1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhtml-template-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libtimedate-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libdbd-mysql-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libmariadbclient18
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhtml-parser-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liburi-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: socat
+Architecture: armhf
+Auto-Installed: 1
+

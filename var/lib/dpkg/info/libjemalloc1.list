@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libjemalloc.so.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libjemalloc1
+/usr/share/doc/libjemalloc1/README
+/usr/share/doc/libjemalloc1/changelog.Debian.gz
+/usr/share/doc/libjemalloc1/changelog.gz
+/usr/share/doc/libjemalloc1/copyright

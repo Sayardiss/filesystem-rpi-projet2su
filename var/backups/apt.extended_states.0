@@ -94,10 +94,6 @@ Package: libnghttp2-14
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libisccfg140
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libmtp9
 Architecture: armhf
 Auto-Installed: 1
@@ -198,27 +194,11 @@ Package: binutils
 Architecture: armhf
 Auto-Installed: 1
 
-Package: bind9-host
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libwrap0
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libavahi-common-data
-Architecture: armhf
-Auto-Installed: 1
-
-Package: geoip-database
-Architecture: armhf
-Auto-Installed: 1
-
 Package: perl-modules-5.24
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libavahi-common3
 Architecture: armhf
 Auto-Installed: 1
 
@@ -255,14 +235,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: python3.5-minimal
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libisc160
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libdaemon0
 Architecture: armhf
 Auto-Installed: 1
 
@@ -338,10 +310,6 @@ Package: libgcc-6-dev
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libnss-mdns
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libmagic-mgc
 Architecture: armhf
 Auto-Installed: 1
@@ -351,10 +319,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: libubsan0
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libgeoip1
 Architecture: armhf
 Auto-Installed: 1
 
@@ -382,19 +346,11 @@ Package: libldap-common
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libavahi-core7
-Architecture: armhf
-Auto-Installed: 1
-
 Package: gcc-6
 Architecture: armhf
 Auto-Installed: 1
 
 Package: libtirpc1
-Architecture: armhf
-Auto-Installed: 1
-
-Package: liblwres141
 Architecture: armhf
 Auto-Installed: 1
 
@@ -446,10 +402,6 @@ Package: bzip2
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libdns162
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libevent-2.0-5
 Architecture: armhf
 Auto-Installed: 1
@@ -494,10 +446,6 @@ Package: perl
 Architecture: armhf
 Auto-Installed: 1
 
-Package: libisccc140
-Architecture: armhf
-Auto-Installed: 1
-
 Package: libpng-tools
 Architecture: armhf
 Auto-Installed: 1
@@ -507,10 +455,6 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: libatomic1
-Architecture: armhf
-Auto-Installed: 1
-
-Package: libbind9-140
 Architecture: armhf
 Auto-Installed: 1
 
@@ -671,6 +615,126 @@ Architecture: armhf
 Auto-Installed: 1
 
 Package: libreadline5
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhttp-message-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libencode-locale-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mariadb-common
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libdbi-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libarchive13
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libcgi-fast-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: lsof
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhttp-date-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liblwp-mediatypes-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libfcgi-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libcgi-pm-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mariadb-server-core-10.1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libaio1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libio-html-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libterm-readkey-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mariadb-server-10.1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: default-mysql-server
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhtml-tagset-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: galera-3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mysql-common
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libjemalloc1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mariadb-client-10.1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: mariadb-client-core-10.1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhtml-template-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libtimedate-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libdbd-mysql-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libmariadbclient18
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhtml-parser-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liburi-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: socat
 Architecture: armhf
 Auto-Installed: 1
 

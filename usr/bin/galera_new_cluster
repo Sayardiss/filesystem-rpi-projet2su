@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# This file is free software; you can redistribute it and/or modify it
+# under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation; either version 2.1 of the License, or
+# (at your option) any later version.
+
+VERSION="10.1.23-9+deb9u1"
+COMPILATION_COMMENT="Raspbian 9.0"
+
+systemctl set-environment _WSREP_NEW_CLUSTER='--wsrep-new-cluster' && \
+    systemctl start ${1:-mariadb}
+
+systemctl set-environment _WSREP_NEW_CLUSTER=''

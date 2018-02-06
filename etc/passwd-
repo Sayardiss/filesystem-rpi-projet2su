@@ -25,3 +25,5 @@ messagebus:x:105:109::/var/run/dbus:/bin/false
 statd:x:106:65534::/var/lib/nfs:/bin/false
 sshd:x:107:65534::/run/sshd:/usr/sbin/nologin
 mysql:x:108:112:MySQL Server,,,:/nonexistent:/bin/false
+music:x:1000:1000:MusicOnPi,E209,,:/home/music:/bin/bash
+admin:x:1001:1001::/home/admin:/bin/bash

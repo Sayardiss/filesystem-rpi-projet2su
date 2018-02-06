@@ -1,0 +1,318 @@
+
+Template: mariadb-server-10.1/old_data_directory_saved
+Type: note
+Description: The old data directory will be saved at new location
+ A file named /var/lib/mysql/debian-*.flag exists on this system.
+ The number indicates a database binary format version that cannot automatically
+ be upgraded (or downgraded).
+ .
+ Therefore the previous data directory will be renamed to /var/lib/mysql-* and
+ a new data directory will be initialized at /var/lib/mysql.
+ .
+ Please manually export/import your data (e.g. with mysqldump) if needed.
+Description-ca.UTF-8: El directori de dades antigues es desarà a una nova localització
+ Ja hi ha un fitxer amb el nom «/var/lib/mysql/debian-*.flag» en aquests sistema. El número indica la versió de format binari de la base de dades que no és possible actualitzar (o tornar a una versió anterior) automàticament.
+ .
+ En conseqüència, el directori de dades anterior serà renomenat a «/var/lib/mysql-*» i s'iniciarà un nou directori de dades a «/var/lib/mysql».
+ .
+ Si us plau, importau o exportau manualment les vostres dades (p. ex. amb «mysqldump») si és necessari.
+Description-da.UTF-8: Den gamle datamappe vil blive gemt på en ny placering
+ En fil navngivet /var/lib/msyql/debian-*.flag findes på dette system. Nummeret antyder en databaseversion i binært format, som ikke automatisk kan opgraderes (eller nedgraderes).
+ .
+ Derfor vil den tidligere datamappe blive omdøbt til /var/lib/mysql-* og en ny datamappe vil blive initialiseret i /var/lib/msyql.
+ .
+ Eksporter/importer venligst manuelt dine data (f.eks. med mysqldump) hvis krævet.
+Description-de.UTF-8: Das alte Datenverzeichnis wird an einer neuen Stelle gespeichert
+ Auf diesem System gibt es bereits eine Datei namens /var/lib/mysql/debian-*.flag. Die Zahl gibt eine Binärformatversion der Datenbank an, von der nicht automatisch ein Upgrade (oder Downgrade) durchgeführt werden kann.
+ .
+ Daher wird das vorherige Datenverzeichnis in /var/lib/mysql-* umbenannt und unter /var/lib/mysql wird ein neues Datenverzeichnis initialisiert.
+ .
+ Bitte exportieren/importieren Sie im Bedarfsfall Ihre Daten (z.B. mit Mysqldump).
+Description-es.UTF-8: Se guardará el directorio antiguo de datos a la nueva ubicación
+ Se ha encontrado un archivo «/var/lib/mysql/debian-*.flag» en el sistema. Este número indica una versión de base de datos en formato binario que no puede ser subirse (o bajarse) de versión automáticamente.
+ .
+ Por tanto, el archivo de datos anterior se renombrará a «/var/lib/mysql-*» y se inicializará un nuevo directorio de datos en «/var/lib/mysql».
+ .
+ Si lo necesita, tendrá que exportar e importar sus datos manualmente (p.ej. con mysqldump).
+Description-fi.UTF-8: Vanha datahakemisto tullaan tallentamaan uuteen paikkaan
+ Järjestelmässä on tiedosto /var/lib/mysql/debian-*.flag. Numero osoittaa tietokantatiedoston binääriformaatin version, josta/johon päivittäminen ei automaattisesti onnistu. 
+ .
+ Siksipä vanha datahakemisto tullaan siirtämään nimelle /var/lib/mysql-* ja uudet tiedostot luodaan hakemistoon /var/lib/mysql.
+ .
+ Tarpeittesi mukaan tuo tai vie tietokannan sisältö käsipelillä, esim. käyttäen mysqldump-ohjelmaa.
+Description-fr.UTF-8: L'ancien répertoire de données sera sauvegardé à un nouvel emplacement
+ Un fichier nommé /var/lib/mysql/debian-*.flag existe déjà sur ce système. Le numéro indique une version de base de données au format binaire qui ne peut pas être mise à niveau (ou rétrogradée) automatiquement.
+ .
+ L'ancien répertoire sera renommé en /var/lib/mysql-* et un nouveau répertoire de données sera initialisé à l'emplacement /var/lib/mysql.
+ .
+ Veuillez exporter puis importer vos données manuellement si besoin (par exemple avec mysqldump).
+Description-it.UTF-8: La vecchia directory data verrà salvata in una nuova posizione
+ Su questo sistema esiste già un file con nome /var/lib/mysql/debian-*.flag. Il numero indica una versione del database in formato binario che non è possibile promuovere (o retrocedere) a una nuova versione automaticamente.
+ .
+ Di conseguenza la precedene directory data verrà rinominata in /var/lib/mysql-* e verrà preparata una nuova directory data in /var/lib/mysql.
+ .
+ Se necessario eseguire manualmente l'export/import (per esempio con mysqldump) dei propri dati.
+Description-nl.UTF-8: De oude data-map zal op een nieuwe locatie bewaard worden
+ Er bestaat op dit systeem een bestand met als naam /var/lib/mysql/debian-*.flag. Het nummer duidt op een versie van het binair database-bestandsformaat dat niet automatisch opgewaardeerd (of gedegradeerd) kan worden.
+ .
+ Daarom zal de vroegere data-map hernoemd worden naar /var/lib/mysql-* en zal er een nieuwe data-map geïnitialiseerd worden op /var/lib/mysql.
+ .
+ Gelieve uw data zo nodig handmatig te exporteren/importeren (bijv. met mysqldump).
+Description-pt_BR.UTF-8: O diretório de dados antigo será salvo em novo local
+ Um arquivo chamado /var/lib/mysql/debian-*.flag já existe nesse sistema. O número indicou uma versão de formato binário de banco de dados que não pode ser atualizada (ou rebaixada) automaticamente.
+ .
+ Portanto, o diretório de dados anterior será renomeado para /var/lib/mysql-* e um novo diretório de dados será inicializado em /var/lib/mysql.
+ .
+ Por favor, exporte/importe manualmente seus dados (por exemplo, com mysqldump) se necessário.
+Description-ru.UTF-8: Каталог со старыми данными будет сохранён в новом месте
+ В системе найден файл /var/lib/mysql/debian-*.flag. Число представляет версию двоичного формата базы данных, которую невозможно обновить автоматически (или откатить к старой версии).
+ .
+ В следствии этого, предыдущий каталог с данными будет переименован в /var/lib/mysql-*, а в /var/lib/mysql будет инициализирован каталог для новых данных.
+ .
+ Если нужно, выполните экспорт/импорт данных вручную (например, с помощью mysqldump).
+Description-sv.UTF-8: Den gamla data-katalogen kommer att sparas till en ny plats
+ En fil med namn på formatet /var/lib/mysql/debian-*.flag hittades i systemet. Siffran indikerar ett binärformat på databasen som inte kan uppgraderas (eller nedgraderas).
+ .
+ Därför kommer den gamla data-katalogen att byta namn till /var/lib/mysql-* och en ny katalog kommer att initieras på /var/lib/mysql.
+ .
+ Exportera/importera din data manuellt (exempelvis med mysqldump) om detta är nödvändigt.
+Description-tr.UTF-8: Eski veritabanı dizini yeni konumuna kaydedilecektir
+ Bu sistemde /var/lib/mysql/debian-*.flag adlı bir dosya bulunmaktadır. Belirtilen numara kendiliğinden yükseltilemeyecek ya da alçaltılamayacak bir ikilik veritabanı biçimini işaret etmektedir.
+ .
+ Önceki veri dizini /var/lib/mysql-* olarak yeniden adlandırılacak ve yeni veri dizini /var/lib/mysql konumunda hazırlanacaktır.
+ .
+ Gerektiğinde verinizi elle (ör. mysqldump ile) içe/dışa aktarın.
+Description-vi.UTF-8: Thư mục dữ liệu cũ sẽ được lưu tại vị trí mới
+ Một tập tin có tên /var/lib/mysql/debian-*.flag đã sẵn có trên hệ thống này. Con số chỉ ra rằng một phiên bản định dạng cơ sở dữ liệu không thể tự động nâng cấp (hoặc hạ cấp).
+ .
+ Do đó thư mục dữ liệu trước đây sẽ được đổi tên thành /var/lib/mysql-* và thư mục dữ liệu mới sẽ được khởi tạo tại /var/lib/mysql.
+ .
+ Vui lòng xuất/nhập dữ liệu của bạn bằng tay nếu thấy cần (ví dụ bằng mysqldump).
+
+Template: mariadb-server-10.1/nis_warning
+Type: note
+Description: Important note for NIS/YP users
+ Using MariaDB under NIS/YP requires a mysql user account to be added on
+ the local system with:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ You should also check the permissions and ownership of the
+ /var/lib/mysql directory:
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-ca.UTF-8: Nota important pels usuaris de «NIS/YP»
+ Fer servir MariaDB sota «NIS/YP» requereix afegir un compte d'usuari MySQL al sistema local fent servir:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ També heu de comprovar els permisos i els propietaris del directori «/var/lib/mysql»
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-cs.UTF-8: Důležitá poznámka pro uživatele NIS/YP
+ Používání MariaDB pod NIS/YP vyžaduje, aby byl účet mysql uživatele přidán na lokálním systému příkazem:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ Také byste měli zkontrolovat vlastníka a oprávnění adresáře /var/lib/mysql:
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-da.UTF-8: Vigtig oplysning til NIS/YP-brugere
+ Brug af MariaDB under NIS/YP kræver, at en mysql-brugerkonto tilføjes på det lokale system med:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ Du bør også kontrollere filrettighederne og ejerskabet af mappen /var/lib/mysql:
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-de.UTF-8: Wichtige Anmerkung für NIS/YP-Benutzer!
+ Falls MariaDB mit NIS/YP genutzt wird, muss ein »mysql«-Benutzerkonto auf dem lokalen System hinzugefügt werden mit:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ Sie sollten außerdem Besitzer und Zugriffsrechte des Verzeichnisses /var/lib/mysql überprüfen:
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-es.UTF-8: Nota importante para los usuarios de NIS/YP
+ Para utilizar MariaDB bajo NIS/YP es necesario añadir una cuenta de usuario mysql en el sistema local con:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ También debería comprobar los permisos y el propietario del directorio /var/lib/mysql:
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-fi.UTF-8: Merkittävä huomio NIS/YP -käyttäjille
+ MariaDB:n käyttäminen NIS/YP:n kanssa edellyttää, että järjestelmään luodaan käyttäjätunnus mysql:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ Tarkista myös hakemiston /var/lib/mysql omistaja ja oikeudet:
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-fr.UTF-8: Note importante pour les utilisateurs NIS/YP
+ L'utilisation de MariaDB avec NIS/YP impose l'ajout d'un compte local « mysql » avec la commande :
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ Vous devez également vérifier le propriétaire et les permissions du répertoire /var/lib/mysql :
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-it.UTF-8: Nota importante per gli utenti NIS/YP
+ Per usare MariaDB con NIS/YP è necessario aggiungere al sistema un account utente locale con nome mysql con:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ Inoltre è opportuno verificare i permessi e la proprietà della directory /var/lib/mysql:
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-ja.UTF-8: NIS/YP ユーザへの重要な注意
+ NIS/YP 配下で MariaDB を使うにはローカルのシステムに mysql のユーザアカウントを追加するのが必要です。
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ /var/lib/mysql の所有者権限をチェックする必要もあります。
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-nl.UTF-8: Belangrijke opmerking voor gebruikers van NIS/YP
+ Het gebruik van MariaDB onder NIS/YP vereist dat een mysql gebruikersaccount wordt toegevoegd aan het lokale systeem met:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ U moet ook controleren wie eigenaar is en wat de gebruikersrechten zijn van de map /var/lib/mysql:
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-pt.UTF-8: Nota importante para os utilizadores de NIS/YP
+ Utilizar MariaDB com NIS/YP necessita de uma conta de utilizador de mysql para ser acrescentada ao sistema local com:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ Deve também verificar as permissões e o dono do directório /var/lib/mysql:
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-pt_BR.UTF-8: Aviso importante para usuários NIS/YP
+ Usar o MariaDB sob NIS/YP requer que uma conta de usuário mysql seja adicionada ao sistema local com:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ Você deverá também verificar as permissões e o dono do diretório /var/lib/mysql:
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-ru.UTF-8: Важное замечание для пользователей NIS/YP
+ Использование MariaDB в NIS/YP требует добавления учётной записи mysql в локальную систему с:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ Также проверьте права доступа и владельца каталога /var/lib/mysql:
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-sv.UTF-8: Viktig information för NIS/YP-användare
+ För att kunna använda MariaDB under NIS/YP måste ett användarkonto för mysql läggas till i systemet.
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ Du bör också kontrollera rättigheterna och ägaren av katalogen /var/lib/mysql.
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-tr.UTF-8: NIS/YP kullanıcıları için önemli not
+ MariaDB'nin NIS/YP ile kullanılması için yerel sisteme aşağıdaki komut çalıştırılarak mysql kullanıcı hesabının eklenmesi gereklidir:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ /var/lib/mysql dizininin sahiplik ve izin ayarlarını da gözden geçirmelisiniz:
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+Description-vi.UTF-8: Chú ý quan trọng cho người dùng NIS/YP
+ Dùng MariaDB dưới NIS/YP cần một tài khoản người dùng được thêm vào một hệ thống nội bộ với:
+ .
+  adduser --system --group --home /var/lib/mysql mysql
+ .
+ Bạn cũng nên kiểm tra phân quyền và chủ sở hữu của thư mục /var/lib/mysql:
+ .
+  /var/lib/mysql: drwxr-xr-x   mysql    mysql
+
+Template: mariadb-server-10.1/postrm_remove_databases
+Type: boolean
+Default: false
+Description: Remove all MariaDB databases?
+ The /var/lib/mysql directory which contains the MariaDB databases is about
+ to be removed.
+ .
+ If you're removing the MariaDB package in order to later install a more
+ recent version or if a different mariadb-server package is already
+ using it, the data should be kept.
+Description-ar.UTF-8: إزالة جميع قواعد بيانات MariaDB؟
+ الدليل /var/lib/mysql الذي يحتوي قواعد بيانات MariaDB ستتم إزالته.
+ .
+ إن كنت تقوم بإزالة حزمة MariaDB كي تقوم لاحقاً بتثبيت نسخة أحدث أو إن كانت حزمة mariadb-server مختلفة تستخدمها، فيجب إبقاء البيانات.
+Description-ca.UTF-8: Eliminar totes les bases de dades MariaDB?
+ El directori «/var/lib/mysql» que conté totes les bases de dades MariaDB està a punt d'ésser eliminat.
+ .
+ Si estau des-instal·lant el paquet MariaDB amb la intenció d'instal·lar a continuació una versió més recent o hi ha una versió diferent del paquet «mariadb-server» que l'està fent servir, cal mantenir les dades.
+Description-cs.UTF-8: Odstranit všechny MariaDB databáze?
+ Adresář /var/lib/mysql, ve kterém se nachází MariaDB databáze, bude odstraněn.
+ .
+ Jestliže odstraňujete balík MariaDB za účelem instalace novější verze MariaDB, nebo pokud tato data souběžně využívá jiný balík mariadb-server, měli byste data ponechat.
+Description-da.UTF-8: Fjern alle MariaDB-databaser?
+ Mappen /var/lib/mysql, der indeholder MariaDB-databaserne, er ved at blive fjernet.
+ .
+ Hvis du fjerner MariaDB-pakken for senere at installere en nyere version, eller hvis en anden mariadb-server-pakke allerede benytter den, bør dataene bevares.
+Description-de.UTF-8: Alle MariaDB-Datenbanken entfernen?
+ Das Verzeichnis /var/lib/mysql mit den MariaDB-Datenbanken soll entfernt werden.
+ .
+ Falls geplant ist, das MariaDB-Paket zu entfernen, um lediglich eine höhere Version zu installieren oder ein anderes mariadb-server-Paket die Daten benutzt, sollten diese beibehalten werden.
+Description-es.UTF-8: ¿Desea eliminar todas las bases de datos MariaDB?
+ El directorio /var/lib/mysql contiene bases de datos MariaDB que van a eliminarse.
+ .
+ Debería mantener los datos si tiene planificado instalar una versión de MariaDB más reciente o si hay un paquete «mariadb-server» distinto que los está utilizando.
+Description-eu.UTF-8: Ezabatu MariaDB datubase guztiak?
+ MariaDB datubaseak dituen /var/lib/mysql direktorioa ezabatua izango da.
+ .
+ MariaDB paketea beranduago bertsio berriago bat instalatzeko kentzen ari bazara, edo beste mariadb-server pakete bat berau erabiltzen ari bada, datuak mantendu egin beharko lirateke.
+Description-fi.UTF-8: Poistetaanko kaikki MariaDB-tietokannat?
+ MariaDB-tietokannat sisältävä hakemisto /var/lib/mysql ollaan poistamassa.
+ .
+ Jos poistat MariaDB-paketin asentaaksesi uudemman version tai jos joku muu mariadb-server -paketti jo käyttää tietoja, tiedot tulisi säästää.
+Description-fr.UTF-8: Faut-il supprimer toutes les bases de données MariaDB ?
+ Le répertoire /var/lib/mysql qui contient les bases de données de MariaDB va être supprimé.
+ .
+ Si vous retirez le paquet MariaDB en vue d'en installer une version plus récente ou si un autre paquet mariadb-server les utilise déjà, vous devriez les conserver.
+Description-gl.UTF-8: ¿Eliminar tódalas bases de datos de MariaDB?
+ Hase eliminar o directorio /var/lib/mysql, que contén as bases de datos de MariaDB.
+ .
+ Se está a eliminar o paquete MariaDB para instalar despois unha versión máis recente ou se xa hai un paquete mariadb-server diferente a empregalo, debería conservar os datos.
+Description-it.UTF-8: Eliminare tutti i database MariaDB?
+ La directory /var/lib/mysql che contiene i database di MariaDB sta per essere eliminata.
+ .
+ Se si rimuove il pacchetto MariaDB per poi installare una versione più recente oppure se sono già in uso da un altro pacchetto mariadb-server, i dati non devono essere eliminati.
+Description-ja.UTF-8: すべての MariaDB データベースを削除しますか?
+ MariaDB データベースを含んでいるディレクトリ /var/lib/mysql を削除しようとしています。
+ .
+ 後でより新しいバージョンのものをインストールしようとするために MariaDB パッケージを削除しようとしている、あるいは別の mariadb-server パッケージを既に使っている場合、データは保持する必要があります。
+Description-nl.UTF-8: Wilt u alle MariaDB-databases verwijderen?
+ De map /var/lib/mysql die de MariaDB-databases bevat staat op het punt om verwijderd te worden.
+ .
+ Als u het MariaDB-pakket verwijdert om later een meer recente versie te installeren of als een ander mariadb-serverpakket het al gebruikt, zou de data behouden moeten worden.
+Description-pt.UTF-8: Remover todas as bases de dados MariaDB?
+ O directório /var/lib/mysql que contém as bases de dados MariaDB está prestes a ser removido.
+ .
+ Se está a remover o pacote MariaDB de forma a posteriormente instalar uma versão mais recente ou se um pacote mariadb-server já o está a utilizar, então os dados devem ser mantidos.
+Description-pt_BR.UTF-8: Remover todas as bases de dados do MariaDB?
+ O diretório /var/lib/mysql, o qual contém as bases de dados do MariaDB, está prestes a ser removido.
+ .
+ Caso você esteja removendo o pacote MariaDB para posteriormente instalar uma versão mais recente ou, caso uma versão diferente do pacote mariadb-server esteja sendo utilizada, os dados deverão ser mantidos.
+Description-ru.UTF-8: Удалить все базы данных MariaDB?
+ Запрос на удаление каталога /var/lib/mysql, содержащий базы данных MariaDB.
+ .
+ Если вы удаляете пакет MariaDB для установки более новой версии MariaDB, или есть другие пакеты mariadb-server, использующие этот каталог, то данные лучше сохранить.
+Description-sv.UTF-8: Ta bort alla MariaDB-databaser?
+ Katalogen /var/lib/mysql som innehåller MariaDB-databaser kommer att tas bort.
+ .
+ Om avinstallationen av MariaDB-paketet görs för att senare kunna installera en nyare version eller om en annan mariadb-server redan använder filerna ska de inte raderas.
+Description-tr.UTF-8: Tüm MariaDB veritabanları kaldırılsın mı?
+ MariaDB veritabanlarını barındıran /var/lib/mysql dizini kaldırılmak üzere
+ .
+ Eğer MariaDB paketini daha sonra güncel bir sürümünü kurmak üzere kaldırıyorsanız ya da veritabanlarınıza başka bir mariadb-server paketi ile erişiyorsanız, veritabanlarınızı kaldırmamalısınız.
+Description-vi.UTF-8: Xóa bỏ mọi cơ sở dữ liệu MariaDB chứ?
+ Thư mục /var/lib/mysql nơi mà chứa các cơ sở dữ liệu MariaDB chuẩn bị bị xóa bỏ.
+ .
+ Nếu bạn gỡ bỏ gói cốt để mà sau này cài đặt gói máy phục vụ phiên bản gần đây hoặc là một gói mariadb-server khác đang được dùng, dữ liệu nên được giữ lại.

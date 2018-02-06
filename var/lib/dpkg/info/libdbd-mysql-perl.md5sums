@@ -1,0 +1,7 @@
+f60f414abee683e31b0b7e7a19f24a08  usr/lib/arm-linux-gnueabihf/perl5/5.24/DBD/mysql.pm
+4f3a201db1ad9a8df4cff7020aff585b  usr/lib/arm-linux-gnueabihf/perl5/5.24/DBD/mysql/GetInfo.pm
+8f65b5e14245bf8cd20cca51eed6e339  usr/lib/arm-linux-gnueabihf/perl5/5.24/auto/DBD/mysql/mysql.so
+680fd988899afad7c3fbcd0b415b11a1  usr/share/doc/libdbd-mysql-perl/changelog.Debian.gz
+85f9ea15a6aff2b006dbe971db471f75  usr/share/doc/libdbd-mysql-perl/changelog.gz
+d1911d0bfabbc6cc9a3aa45c90f9cf2c  usr/share/doc/libdbd-mysql-perl/copyright
+7934e514967e463c0953556c7601e26a  usr/share/man/man3/DBD::mysql.3pm.gz

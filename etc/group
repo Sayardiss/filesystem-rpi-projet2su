@@ -52,3 +52,6 @@ spi:x:999:
 i2c:x:998:
 gpio:x:997:
 mongodb:x:113:
+mysql:x:112:
+music:x:1000:
+admin:x:1001:

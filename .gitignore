@@ -13,3 +13,4 @@
 /var/cache/
 /usr/share/man/
 /dev/char/
+/var/lib/apt/lists/

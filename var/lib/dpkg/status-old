@@ -37,6 +37,21 @@ Description: replacement for GNU Pth using system threads
  compatible to GNU Pth.
 Homepage: https://www.gnupg.org/
 
+Package: libhtml-tagset-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 32
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 3.20-3
+Depends: perl
+Description: Data tables pertaining to HTML
+ HTML-Tagset contains data tables useful in dealing with HTML.  For instance,
+ it provides %HTML::Tagset::emptyElement, which lists all of the HTML elements
+ which cannot have content.  It provides no functions or methods.
+Homepage: https://metacpan.org/release/HTML-Tagset
+
 Package: iputils-ping
 Status: install ok installed
 Priority: important
@@ -194,6 +209,26 @@ Description: Linux Kernel Device Mapper event daemon
  .
  This package contains a daemon to monitor events of devmapper devices.
 Homepage: http://sources.redhat.com/lvm2/
+
+Package: mariadb-common
+Status: install ok installed
+Priority: optional
+Section: database
+Installed-Size: 70
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: mariadb-10.1
+Version: 10.1.23-9+deb9u1
+Depends: mysql-common (>= 5.6.25)
+Conffiles:
+ /etc/mysql/mariadb.cnf 46a0151b3b022b225cabb97e6d1ad947
+Description: MariaDB common metapackage
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+Homepage: https://mariadb.org/
 
 Package: libatomic1
 Status: install ok installed
@@ -933,6 +968,34 @@ Description: XML parsing C library - runtime library
  might find in the XML document (like start tags).
 Homepage: http://expat.sourceforge.net
 
+Package: mariadb-client-10.1
+Status: install ok installed
+Priority: optional
+Section: database
+Installed-Size: 40155
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Architecture: armhf
+Source: mariadb-10.1
+Version: 10.1.23-9+deb9u1
+Replaces: mariadb-client-10.0, mariadb-client-5.5, mariadb-server-10.0 (<< 10.0.13-1~), mysql-client-5.5, mysql-client-5.6, mysql-client-5.7, mytop, virtual-mysql-client
+Provides: virtual-mysql-client
+Depends: debianutils (>= 1.6), mariadb-client-core-10.1 (>= 10.1.23-9+deb9u1), perl:any, libaio1 (>= 0.3.93), libarchive13 (>= 3.0.4), libc6 (>= 2.17), libjemalloc1 (>= 2.1.1), libpcre3, libstdc++6 (>= 5.2), libsystemd0, zlib1g (>= 1:1.2.0)
+Recommends: libdbd-mysql-perl (>= 1.2202), libdbi-perl, libterm-readkey-perl
+Breaks: mariadb-client-10.0, mariadb-client-5.5, mariadb-server-10.0 (<< 10.0.13-1~), mysql-client-5.5, mysql-client-5.6, mysql-client-5.7
+Conflicts: mysql-client-core-5.5, mysql-client-core-5.6, mysql-client-core-5.7, mytop, virtual-mysql-client
+Conffiles:
+ /etc/mysql/mariadb.conf.d/50-client.cnf 5898a2c9f6b119afac615d3377f2db49
+ /etc/mysql/mariadb.conf.d/50-mysql-clients.cnf 593e201008e699b8af7abcf9eb6c5d88
+Description: MariaDB database client binaries
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes the client binaries and the additional tools
+ innotop and mysqlreport.
+Homepage: https://mariadb.org/
+
 Package: libcc1-0
 Status: install ok installed
 Priority: optional
@@ -1160,6 +1223,23 @@ Description: https download transport for APT
  This transport supports server as well as client authentication
  with certificates.
 
+Package: libhttp-date-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 56
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.02-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libtimedate-perl
+Breaks: libwww-perl (<< 6.00)
+Description: module of date conversion routines
+ HTTP::Date provides functions that deal the date formats used by the HTTP
+ protocol (and then some more). Only the first two functions, time2str() and
+ str2time(), are exported by default.
+Homepage: http://search.cpan.org/dist/HTTP-Date/
+
 Package: klibc-utils
 Status: install ok installed
 Priority: optional
@@ -1194,6 +1274,25 @@ Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
  contained in the GNU Compiler Collection (GCC).
 Homepage: http://gcc.gnu.org/
+
+Package: default-mysql-server
+Status: install ok installed
+Priority: optional
+Section: database
+Installed-Size: 9
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Architecture: all
+Source: mysql-defaults
+Version: 1.0.2
+Depends: mariadb-server-10.1
+Description: MySQL database server binaries and system database setup (metapackage)
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package depends on the default implementation of all the infrastructure
+ needed to setup system databases.
 
 Package: libv4l2rds0
 Status: install ok installed
@@ -1302,6 +1401,20 @@ Description: system and service manager - PAM module
  .
  Packages that depend on logind functionality need to depend on libpam-systemd.
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
+
+Package: mysql-server
+Status: install ok installed
+Priority: optional
+Section: misc
+Installed-Size: 8
+Maintainer: Ondřej Surý <ondrej@debian.org>
+Architecture: armhf
+Source: mysql-transitional
+Version: 5.5.9999+default
+Depends: default-mysql-server
+Description: MySQL database server binaries and system database setup [transitional]
+ This is a transitional MySQL database that depends on default MySQL
+ database metapackage.  It can be safely removed.
 
 Package: libpam-modules-bin
 Status: install ok installed
@@ -1547,6 +1660,29 @@ Description: Middleware to access a smart card using PC/SC (daemon side)
  drivers at runtime and manage connections to the readers.
 Homepage: http://pcsclite.alioth.debian.org/
 
+Package: mariadb-server-core-10.1
+Status: install ok installed
+Priority: optional
+Section: database
+Installed-Size: 22421
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Architecture: armhf
+Source: mariadb-10.1
+Version: 10.1.23-9+deb9u1
+Replaces: mariadb-client-10.1 (<< 10.1.23-9+deb9u1), mariadb-server-10.1 (<< 10.1.23-9+deb9u1), mariadb-server-core-10.0, mariadb-server-core-5.5, mysql-client-5.5, mysql-client-5.6, mysql-client-5.7, mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, virtual-mysql-server-core
+Provides: virtual-mysql-server-core
+Depends: mariadb-common (>= 10.1.23-9+deb9u1), libaio1 (>= 0.3.93), libc6 (>= 2.17), libjemalloc1 (>= 2.1.1), libpcre3, libstdc++6 (>= 5.2), libsystemd0, zlib1g (>= 1:1.2.0)
+Breaks: mariadb-client-10.1 (<< 10.1.23-9+deb9u1), mariadb-server-10.1 (<< 10.1.23-9+deb9u1), mariadb-server-core-10.0, mariadb-server-core-5.5, mysql-client-5.5, mysql-client-5.6, mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7
+Conflicts: mariadb-galera-server-5.5, mysql-server-5.5, mysql-server-5.6, mysql-server-5.7, virtual-mysql-server-core
+Description: MariaDB database core server files
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes the core server files, as used by Akonadi.
+Homepage: https://mariadb.org/
+
 Package: raspberrypi-sys-mods
 Status: install ok installed
 Priority: optional
@@ -1655,6 +1791,32 @@ Description: library implementing HTTP/2 protocol (shared library)
  .
  This package installs a shared library.
 Homepage: https://nghttp2.org/
+
+Package: libhtml-template-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 190
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 2.95-2
+Depends: perl, libcgi-pm-perl | perl (<< 5.19)
+Suggests: libipc-sharedcache-perl
+Description: module for using HTML templates with Perl
+ HTML::Template attempts to make using HTML templates simple and
+ natural. It extends standard HTML with the pseudo tags <TMPL_VAR>,
+ <TMPL_LOOP>, <TMPL_INCLUDE>, <TMPL_IF> and <TMPL_ELSE>. These are used
+ to implement some basic logic - variable substitution, loops,
+ conditional branches - inside the HTML template, while leaving the more
+ complex computations to separate Perl code. This keeps the template
+ accessible for designers and other non-Perl people, without limiting
+ the programmer.
+ .
+ HTML::Template optionally stores its cache in shared memory using the
+ IPC::SharedCache module. Please install libipc-sharedcache-perl and
+ pass the shared_cache option to HTML::Template if you want to make use
+ of this.
+Homepage: https://metacpan.org/release/HTML-Template
 
 Package: libluajit-5.1-common
 Status: install ok installed
@@ -1852,6 +2014,30 @@ Description: lightweight SSH2 server and client - command line tools
  This package provides dropbear, dbclient, dropbearkey and dropbearconvert.
 Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
 
+Package: libencode-locale-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 34
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.05-1
+Depends: perl
+Description: utility to determine the locale encoding
+ In many applications it's wise to let Perl use Unicode for the strings it
+ processes. Most of the interfaces Perl has to the outside world are still byte
+ based. Programs therefore need to decode byte strings that enter the program
+ from the outside and encode them again on the way out.
+ .
+ The POSIX locale system is used to specify both the language conventions
+ requested by the user and the preferred character set to consume and output.
+ The Encode::Locale module looks up the charset and encoding (called a CODESET
+ in the locale jargon) and arranges for the Encode module to know this encoding
+ under the name "locale". It means bytes obtained from the environment can be
+ converted to Unicode strings by calling Encode::encode(locale => $bytes) and
+ converted back again with Encode::decode(locale => $string).
+Homepage: https://metacpan.org/release/Encode-Locale
+
 Package: libgcrypt20
 Status: install ok installed
 Priority: standard
@@ -1909,6 +2095,49 @@ Description: library that provides access to the DWARF debug information
  .
  This library is part of elfutils.
 Homepage: https://sourceware.org/elfutils/
+
+Package: libjemalloc1
+Status: install ok installed
+Priority: extra
+Section: libs
+Installed-Size: 218
+Maintainer: Stig Sandbeck Mathisen <ssm@debian.org>
+Architecture: armhf
+Source: jemalloc
+Version: 3.6.0-9.1
+Depends: libc6 (>= 2.4)
+Description: general-purpose scalable concurrent malloc(3) implementation
+ A library providing a malloc(3) implementation for multi-threaded processes on
+ multi-processor systems.
+ .
+ Notable features are reduced lock contention, predictable low fragmentation,
+ and introspection with heap profiling.
+Homepage: http://www.canonware.com/jemalloc/
+
+Package: sudo
+Status: install ok unpacked
+Priority: optional
+Section: admin
+Installed-Size: 3002
+Maintainer: Bdale Garbee <bdale@gag.com>
+Architecture: armhf
+Version: 1.8.19p1-2.1
+Replaces: sudo-ldap
+Depends: libaudit1 (>= 1:2.2.1), libc6 (>= 2.17), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libpam-modules, lsb-base
+Conflicts: sudo-ldap
+Conffiles:
+ /etc/init.d/sudo newconffile
+ /etc/pam.d/sudo newconffile
+ /etc/sudoers newconffile
+ /etc/sudoers.d/README newconffile
+Description: Provide limited super user privileges to specific users
+ Sudo is a program designed to allow a sysadmin to give limited root
+ privileges to users and log root activity.  The basic philosophy is to give
+ as few privileges as possible but still allow people to get their work done.
+ .
+ This version is built with minimal shared library dependencies, use the
+ sudo-ldap package instead if you need LDAP support for sudoers.
+Homepage: http://www.sudo.ws/
 
 Package: iso-codes
 Status: install ok installed
@@ -2015,7 +2244,7 @@ Description: Perl module for error/exception handling in an OO-ish way
 Homepage: https://metacpan.org/release/Error
 
 Package: curl
-Status: install ok unpacked
+Status: install ok installed
 Priority: optional
 Section: web
 Installed-Size: 309
@@ -2023,7 +2252,6 @@ Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Architecture: armhf
 Multi-Arch: foreign
 Version: 7.52.1-5+deb9u4
-Config-Version: 7.52.1-5+deb9u3
 Depends: libc6 (>= 2.17), libcurl3 (= 7.52.1-5+deb9u4), zlib1g (>= 1:1.1.4)
 Description: command line tool for transferring data with URL syntax
  curl is a command line tool for transferring data with URL syntax, supporting
@@ -2096,6 +2324,27 @@ Description: GNU Bourne Again SHell
  The Programmable Completion Code, by Ian Macdonald, is now found in
  the bash-completion package.
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+
+Package: libtimedate-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 96
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 2.3000-2
+Replaces: timedate
+Provides: timedate
+Depends: perl
+Breaks: timedate
+Description: collection of modules to manipulate date/time information
+ TimeDate is a collection of Perl modules useful for manipulating date and
+ time information. Date::Parse can parse absolute date specifications in a
+ wide variety of input formats and many languages (via Date::Language).
+ .
+ This package also includes Date::Format, which can format dates into strings,
+ as well as Time::Zone, which contains miscellaneous time zone functions.
+Homepage: https://metacpan.org/release/TimeDate
 
 Package: isc-dhcp-common
 Status: install ok installed
@@ -2282,7 +2531,7 @@ Description: OpenLDAP common files for libraries
 Homepage: http://www.openldap.org/
 
 Package: libcurl3
-Status: install ok unpacked
+Status: install ok installed
 Priority: optional
 Section: libs
 Installed-Size: 539
@@ -2291,7 +2540,6 @@ Architecture: armhf
 Multi-Arch: same
 Source: curl
 Version: 7.52.1-5+deb9u4
-Config-Version: 7.52.1-5+deb9u3
 Depends: libc6 (>= 2.17), libcomerr2 (>= 1.01), libgssapi-krb5-2 (>= 1.14+dfsg), libidn2-0 (>= 0.6), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.13.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.7.0), libssl1.0.2 (>= 1.0.2d), zlib1g (>= 1:1.1.4)
 Recommends: ca-certificates
 Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
@@ -2310,6 +2558,55 @@ Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
  .
  SSL support is provided by OpenSSL.
 Homepage: http://curl.haxx.se
+
+Package: libarchive13
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 669
+Maintainer: Debian Libarchive Maintainers <ah-libarchive@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libarchive
+Version: 3.2.2-2
+Depends: libacl1 (>= 2.2.51-8), libbz2-1.0, libc6 (>= 2.16), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.2.2), liblzo2-2, libnettle6, libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Suggests: lrzip
+Description: Multi-format archive and compression library (shared library)
+ The libarchive library provides a flexible interface for reading and writing
+ archives in various formats such as tar and cpio. libarchive also supports
+ reading and writing archives compressed using various compression filters such
+ as gzip and bzip2. The library is inherently stream-oriented; readers serially
+ iterate through the archive, writers serially add things to the archive.
+ .
+ Archive formats supported are:
+ .
+    * tar (read and write, including GNU extensions)
+    * pax (read and write, including GNU and star extensions)
+    * cpio (read and write, including odc and newc variants)
+    * iso9660 (read and write, including Joliet and Rockridge extensions, with
+      some limitations)
+    * zip (read only, with some limitations, uses zlib)
+    * mtree (read and write)
+    * shar (write only)
+    * ar (read and write, including BSD and GNU/SysV variants)
+    * empty (read only; in particular, note that no other format will accept an
+      empty file)
+    * raw (read only)
+    * xar (read only)
+    * rar (read only, with some limitations)
+    * 7zip (read and write, with some limitations)
+ .
+ Filters supported are:
+ .
+    * gzip (read and write, uses zlib)
+    * bzip2 (read and write, uses bzlib)
+    * compress (read and write, uses an internal implementation)
+    * uudecode (read only)
+    * separate command-line compressors with fixed-signature auto-detection
+    * xz and lzma (read and write using liblzma)
+ .
+ This package provides the libarchive shared library.
+Homepage: http://www.libarchive.org/
 
 Package: libjim0.76
 Status: install ok installed
@@ -2518,8 +2815,32 @@ Description: Linux Logical Volume Manager
  regular block devices.
 Homepage: http://sources.redhat.com/lvm2/
 
+Package: socat
+Status: install ok installed
+Priority: extra
+Section: net
+Installed-Size: 838
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Architecture: armhf
+Version: 1.7.3.1-2+deb9u1
+Depends: libc6 (>= 2.15), libssl1.1 (>= 1.1.0), libwrap0 (>= 7.6-4~)
+Description: multipurpose relay for bidirectional data transfer
+ Socat (for SOcket CAT) establishes two bidirectional byte streams
+ and transfers data between them. Data channels may be files, pipes,
+ devices (terminal or modem, etc.), or sockets (Unix, IPv4, IPv6, raw,
+ UDP, TCP, SSL). It provides forking, logging and tracing, different
+ modes for interprocess communication and many more options.
+ .
+ It can be used, for example, as a TCP relay (one-shot or daemon),
+ as an external socksifier, as a shell interface to Unix sockets,
+ as an IPv6 relay, as a netcat and rinetd replacement, to redirect
+ TCP-oriented programs to a serial line, or to establish a relatively
+ secure environment (su and chroot) for running client or server shell
+ scripts inside network connections. Socat supports sctp as of 1.7.0.
+Homepage: http://www.dest-unreach.org/socat/
+
 Package: libcurl3-gnutls
-Status: install ok unpacked
+Status: install ok installed
 Priority: optional
 Section: libs
 Installed-Size: 531
@@ -2528,7 +2849,6 @@ Architecture: armhf
 Multi-Arch: same
 Source: curl
 Version: 7.52.1-5+deb9u4
-Config-Version: 7.52.1-5+deb9u3
 Depends: libc6 (>= 2.17), libcomerr2 (>= 1.01), libgnutls30 (>= 3.5.6), libgssapi-krb5-2 (>= 1.14+dfsg), libidn2-0 (>= 0.6), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libnettle6, libnghttp2-14 (>= 1.12.0), libpsl5 (>= 0.13.0), librtmp1 (>= 2.4+20131018.git79459a2-3~), libssh2-1 (>= 1.7.0), zlib1g (>= 1:1.1.4)
 Recommends: ca-certificates
 Description: easy-to-use client-side URL transfer library (GnuTLS flavour)
@@ -2568,6 +2888,46 @@ Description: PNG library - tools (version 1.6)
  This package contains a program to interact with libpng from the
  command line.
 Homepage: http://libpng.org/pub/png/libpng.html
+
+Package: mariadb-client-core-10.1
+Status: install ok installed
+Priority: optional
+Section: database
+Installed-Size: 20590
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Architecture: armhf
+Source: mariadb-10.1
+Version: 10.1.23-9+deb9u1
+Replaces: mariadb-client-10.0 (<< 10.0.24-6~), mariadb-client-core-10.0, mariadb-client-core-5.5, mysql-client-core-5.5, mysql-client-core-5.6, mysql-client-core-5.7, virtual-mysql-client-core
+Provides: virtual-mysql-client-core
+Depends: mariadb-common (>= 10.1.23-9+deb9u1), libaio1 (>= 0.3.93), libc6 (>= 2.17), libncurses5 (>= 6), libpcre3, libreadline5 (>= 5.2), libstdc++6 (>= 5.2), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
+Breaks: mariadb-client-10.0 (<< 10.0.24-6~), mariadb-client-core-10.0, mariadb-client-core-5.5, mysql-client-core-5.5, mysql-client-core-5.6, mysql-client-core-5.7
+Conflicts: mysql-client-5.5, mysql-client-5.6, mysql-client-5.7, virtual-mysql-client-core
+Description: MariaDB database core client binaries
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes the core client files, as used by Akonadi.
+Homepage: https://mariadb.org/
+
+Package: lsof
+Status: install ok installed
+Priority: standard
+Section: utils
+Installed-Size: 459
+Maintainer: Norbert Tretkowski <nobse@debian.org>
+Architecture: armhf
+Version: 4.89+dfsg-0.1
+Depends: libc6 (>= 2.11), libselinux1 (>= 1.32)
+Suggests: perl
+Description: Utility to list open files
+ Lsof is a Unix-specific diagnostic tool.  Its name stands
+ for LiSt Open Files, and it does just that.  It lists
+ information about any files that are open, by processes
+ currently running on the system.
+Homepage: http://people.freebsd.org/~abe/
 
 Package: libpsl5
 Status: install ok installed
@@ -3094,6 +3454,33 @@ Description: GLib library of C routines
  This package contains the shared libraries.
 Homepage: http://www.gtk.org/
 
+Package: mysql-common
+Status: install ok installed
+Priority: optional
+Section: database
+Installed-Size: 28
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: mysql-defaults (1.0.2)
+Version: 5.8+1.0.2
+Replaces: mariadb-server-5.5, mysql-common-5.6, mysql-server-5.5, percona-xtradb-cluster-common-5.5
+Provides: mysql-common-5.6
+Breaks: mariadb-common (<< 10.0.20-3~)
+Conflicts: mariadb-server-5.5, mysql-common-5.6, mysql-server-5.5, percona-xtradb-cluster-common-5.5
+Conffiles:
+ /etc/mysql/conf.d/mysql.cnf 61e0993270966cc6bc96b46c01ade21f
+ /etc/mysql/conf.d/mysqldump.cnf 20890decb4486ce539753193908fb356
+ /etc/mysql/my.cnf.fallback cfe2bc1819d5e200eca8ca6912f714af
+Description: MySQL database common files, e.g. /etc/mysql/my.cnf
+ MySQL is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MySQL are speed, robustness and
+ ease of use.
+ .
+ This package includes files needed by all versions of the client library,
+ e.g. /etc/mysql/my.cnf.
+
 Package: gpgv
 Status: install ok installed
 Priority: important
@@ -3188,6 +3575,21 @@ Description: POSIX 1003.1e capabilities (library)
  .
  This package contains the shared library.
 Homepage: http://sites.google.com/site/fullycapable/
+
+Package: libio-html-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 40
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.001-1
+Depends: perl
+Description: open an HTML file with automatic charset detection
+ IO::HTML provides an easy way to open a file containing HTML while
+ automatically determining its encoding.  It uses the HTML5 encoding
+ sniffing algorithm specified in section 8.2.2.1 of the draft standard.
+Homepage: http://search.cpan.org/dist/IO-HTML/
 
 Package: bsdutils
 Essential: yes
@@ -4014,6 +4416,26 @@ Description: interface library to sysfs
  library. Development files and C examples are provided by the package
  libsysfs-dev.
 
+Package: libmariadbclient18
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 3924
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: mariadb-10.1
+Version: 10.1.23-9+deb9u1
+Depends: mysql-common, libc6 (>= 2.17), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Description: MariaDB database client library
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes the client library.
+Homepage: https://mariadb.org/
+
 Package: librtmp1
 Status: install ok installed
 Priority: optional
@@ -4740,6 +5162,44 @@ Description: log normalizing library
  This package contains the shared library.
 Homepage: http://www.liblognorm.com/
 
+Package: libcgi-fast-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 28
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1:2.12-1
+Replaces: libcgi-pm-perl (<< 4)
+Depends: perl, libcgi-pm-perl (>= 4), libfcgi-perl
+Breaks: libcgi-pm-perl (<< 4)
+Description: CGI subclass for work with FCGI
+ CGI::Fast is a subclass of the CGI object created by CGI.pm. It is
+ specialized to work with the FCGI module, which greatly speeds up CGI scripts
+ by turning them into persistently running server processes. Scripts that
+ perform time-consuming initialization processes, such as loading large
+ modules or opening persistent database connections, will see large
+ performance improvements.
+Homepage: https://metacpan.org/release/CGI-Fast
+
+Package: libterm-readkey-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 66
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Version: 2.37-1
+Depends: perl (>= 5.24.1~rc3-3), perlapi-5.24.1, libc6 (>= 2.15)
+Description: perl module for simple terminal control
+ Term::ReadKey is a compiled perl module dedicated to providing simple
+ control over terminal driver modes (cbreak, raw, cooked, etc.) support for
+ non-blocking reads, if the architecture allows, and some generalized handy
+ functions for working with terminals. One of the main goals is to have the
+ functions as portable as possible, so you can just plug in "use
+ Term::ReadKey" on any architecture and have a good likelihood of it working.
+Homepage: https://metacpan.org/release/TermReadKey
+
 Package: gcc-6
 Status: install ok installed
 Priority: optional
@@ -5245,28 +5705,6 @@ Description: secure shell client and server (metapackage)
  may remove it if nothing depends on it.
 Homepage: http://www.openssh.com/
 
-Package: libdevmapper-event1.02.1
-Status: install ok installed
-Priority: optional
-Section: libs
-Installed-Size: 67
-Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
-Architecture: armhf
-Multi-Arch: same
-Source: lvm2 (2.02.168-2)
-Version: 2:1.02.137-2
-Depends: libc6 (>= 2.15), libdevmapper1.02.1 (>= 2:1.02.103)
-Description: Linux Kernel Device Mapper event support library
- The Linux Kernel Device Mapper is the LVM (Linux Logical Volume Management)
- Team's implementation of a minimalistic kernel-space driver that handles
- volume management, while keeping knowledge of the underlying device layout
- in user-space.  This makes it useful for not only LVM, but software raid,
- and other drivers that create "virtual" block devices.
- .
- This package contains the userspace library to help with event monitoring
- for devmapper devices, in conjunction with the dmevent daemon.
-Homepage: http://sources.redhat.com/lvm2/
-
 Package: perl
 Status: install ok installed
 Priority: standard
@@ -5299,6 +5737,28 @@ Description: Larry Wall's Practical Extraction and Report Language
  integration, networking protocols, and encryption. Perl provides
  interfaces to C and C++ for custom extension development.
 Homepage: http://dev.perl.org/perl5/
+
+Package: libdevmapper-event1.02.1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 67
+Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: lvm2 (2.02.168-2)
+Version: 2:1.02.137-2
+Depends: libc6 (>= 2.15), libdevmapper1.02.1 (>= 2:1.02.103)
+Description: Linux Kernel Device Mapper event support library
+ The Linux Kernel Device Mapper is the LVM (Linux Logical Volume Management)
+ Team's implementation of a minimalistic kernel-space driver that handles
+ volume management, while keeping knowledge of the underlying device layout
+ in user-space.  This makes it useful for not only LVM, but software raid,
+ and other drivers that create "virtual" block devices.
+ .
+ This package contains the userspace library to help with event monitoring
+ for devmapper devices, in conjunction with the dmevent daemon.
+Homepage: http://sources.redhat.com/lvm2/
 
 Package: libgpg-error0
 Status: install ok installed
@@ -5861,6 +6321,24 @@ Description: userspace USB programming library
  library.
 Homepage: http://www.libusb.info
 
+Package: liblwp-mediatypes-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 100
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.02-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl
+Breaks: libwww-perl (<< 6.00)
+Description: module to guess media type for a file or a URL
+ LWP::MediaTypes provides functions for handling media (also known as MIME)
+ types and encodings. The mapping from file extensions to media types is
+ defined by the media.types file. If the ~/.media.types file exists it is used
+ instead. For backwards compatibility it will also look for ~/.mime.types.
+Homepage: http://search.cpan.org/dist/LWP-MediaTypes/
+
 Package: libalgorithm-diff-xs-perl
 Status: install ok installed
 Priority: optional
@@ -5978,7 +6456,7 @@ Homepage: http://www.openvpn.net/
 
 Package: libc-bin
 Essential: yes
-Status: install ok triggers-pending
+Status: install ok installed
 Priority: required
 Section: libs
 Installed-Size: 3026
@@ -6005,8 +6483,26 @@ Description: GNU C Library: Binaries
   * ldd, ldconfig: print/configure shared library dependencies
   * locale, localedef: show/generate locale definitions
   * tzselect, zdump, zic: select/dump/compile time zones
-Triggers-Pending: ldconfig
 Homepage: http://www.gnu.org/software/libc/libc.html
+
+Package: libaio1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 29
+Maintainer: Guillem Jover <guillem@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libaio
+Version: 0.3.110-3
+Depends: libc6 (>= 2.4)
+Description: Linux kernel AIO access library - shared library
+ This library enables userspace to use Linux kernel asynchronous I/O
+ system calls, important for the performance of databases and other
+ advanced applications.
+ .
+ This package contains the shared library.
+Homepage: https://fedorahosted.org/releases/l/i/libaio/
 
 Package: libsemanage1
 Status: install ok installed
@@ -6178,6 +6674,28 @@ Description: Utilities for configuring and using ALSA
  ALSA is the Advanced Linux Sound Architecture.
 Homepage: https://www.alsa-project.org/
 
+Package: galera-3
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 2585
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Architecture: armhf
+Version: 25.3.19-2+rpi1
+Replaces: galera
+Provides: galera, galera3, percona-xtradb-cluster-galera-25, wsrep
+Depends: libatomic1 (>= 4.8), libc6 (>= 2.9), libgcc1 (>= 1:3.5), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5.2)
+Breaks: galera
+Conflicts: garbd-2, garbd2, percona-galera-3, percona-xtradb-cluster-galera, percona-xtradb-cluster-galera-2.x, percona-xtradb-cluster-galera-3.x, percona-xtradb-cluster-garbd-2.x, percona-xtradb-cluster-garbd-3.x
+Description: Replication framework for transactional applications
+ Galera is a fast synchronous multimaster wsrep provider (replication engine)
+ for transactional databases and similar applications. For more information
+ about wsrep API see http://launchpad.net/wsrep. For a description of Galera
+ replication engine see http://galeracluster.com.
+ .
+ This package contains the Galera library/plugin.
+Homepage: http://www.galeracluster.com/
+
 Package: libseccomp2
 Status: install ok installed
 Priority: optional
@@ -6333,6 +6851,29 @@ Description: Just in time compiler for Lua programming language version 5.1
  This package contains the standalone interpreter/jitter that can be used
  as a replacement for the standard lua5.1 interpreter.
 Homepage: http://luajit.org
+
+Package: liburi-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 228
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.71-1
+Depends: perl
+Suggests: libwww-perl
+Description: module to manipulate and access URI strings
+ URI is a collection of Perl modules that represent and manipulate Uniform
+ Resource Identifier (URI) references as specified in RFC 2396.
+ .
+ URI objects can be used to access and manipulate the various components
+ that make up these strings.  There are also methods to combine URIs in
+ various ways.
+ .
+ The URI class replaces the URI::URL class that used to be distributed with
+ libwww-perl. This package also includes an emulation of the old URI::URL
+ interface, which implements both the old and the new interface.
+Homepage: https://metacpan.org/release/URI
 
 Package: kbd
 Status: install ok installed
@@ -6709,7 +7250,7 @@ Description: SELinux runtime shared libraries
 Homepage: http://userspace.selinuxproject.org/
 
 Package: systemd
-Status: install ok installed
+Status: install ok triggers-pending
 Priority: important
 Section: admin
 Installed-Size: 7985
@@ -6751,7 +7292,31 @@ Description: system and service manager
  .
  Installing the systemd package will not switch your init system unless you
  boot with init=/bin/systemd or install systemd-sysv in addition.
+Triggers-Pending: /etc/init.d
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
+
+Package: libhtml-parser-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 221
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Version: 3.72-3
+Depends: perl (>= 5.24.1~rc3-3), perlapi-5.24.1, libc6 (>= 2.4), libhtml-tagset-perl, liburi-perl
+Recommends: libhttp-message-perl
+Suggests: libdata-dump-perl
+Enhances: libwww-perl
+Description: collection of modules that parse HTML text documents
+ HTML::Parser is a collection of modules useful for handling HTML documents.
+ These modules used to be part of the libwww-perl distribution, but are now
+ unbundled in order to facilitate a separate development track.
+ .
+ Objects of the HTML::Parser class will recognize markup and separate it from
+ content data. As different kinds of markup are recognized, the corresponding
+ event handler is invoked. The document to be parsed may also be supplied in
+ arbitrary chunks, making on-the-fly parsing of network documents possible.
+Homepage: https://metacpan.org/release/HTML-Parser
 
 Package: dpkg
 Essential: yes
@@ -7202,6 +7767,23 @@ Description: Vi IMproved - Common files
  available in Debian.  Examples of such shared files are: manpages and
  configuration files.
 Homepage: http://www.vim.org/
+
+Package: libcgi-pm-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 478
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 4.35-1
+Depends: perl, libhtml-parser-perl
+Recommends: libcgi-fast-perl (>= 1:2.01)
+Breaks: git (<< 1:2.1.3), libcgi-fast-perl (<< 1:2)
+Description: module for Common Gateway Interface applications
+ CGI.pm is a Perl module that provides classes useful for creating Web forms
+ and for parsing their contents. It defines CGI objects, entities that contain
+ the values of the current query string and other state variables.
+Homepage: https://metacpan.org/release/CGI
 
 Package: apt-listchanges
 Status: install ok installed
@@ -7746,6 +8328,31 @@ Description: FreeDesktop.org shared MIME database and spec
  .
  At this time at least ROX, GNOME, KDE and Xfce use this database.
 Homepage: https://freedesktop.org/wiki/Software/shared-mime-info
+
+Package: libhttp-message-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 184
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.11-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libencode-locale-perl, libhttp-date-perl, libio-html-perl, liblwp-mediatypes-perl, liburi-perl, perl (>= 5.11) | libio-compress-perl
+Breaks: libwww-perl (<< 6.00)
+Description: perl interface to HTTP style messages
+ The HTTP::Message distribution contains classes useful for representing the
+ messages passed in HTTP style communication. These are classes representing
+ requests, responses and the headers contained within them.
+ .
+ The HTTP::Headers class encapsulates HTTP-style message headers. The headers
+ consist of attribute-value pairs also called fields, which may be repeated,
+ and which are printed in a particular order. The field names are cases
+ insensitive.
+ .
+ Instances of this class are usually created as member variables of the
+ HTTP::Request and HTTP::Response classes, internal to the library.
+Homepage: https://metacpan.org/release/HTTP-Message
 
 Package: openresolv
 Status: install ok installed
@@ -8653,6 +9260,67 @@ Description: Minimal subset of the Python language (version 2.7)
  This package contains some essential modules. It is normally not
  used on it's own, but as a dependency of python2.7-minimal.
 
+Package: mariadb-server-10.1
+Status: install ok installed
+Priority: optional
+Section: database
+Installed-Size: 71216
+Maintainer: Debian MySQL Maintainers <pkg-mysql-maint@lists.alioth.debian.org>
+Architecture: armhf
+Source: mariadb-10.1
+Version: 10.1.23-9+deb9u1
+Replaces: mariadb-galera-server, mariadb-galera-server-10.0, mariadb-galera-server-5.5, mariadb-server-10.0, mariadb-server-5.5, mariadb-tokudb-engine-10.0, mariadb-tokudb-engine-10.1, mariadb-tokudb-engine-5.5, mysql-client-5.5, mysql-server-5.5, mysql-server-5.6, mysql-server-5.7, virtual-mysql-server
+Provides: virtual-mysql-server
+Depends: galera-3 (>= 25.3), gawk, iproute2, libdbi-perl, lsb-base (>= 3.0-10), lsof, mariadb-client-10.1 (>= 10.1.23-9+deb9u1), mariadb-server-core-10.1 (>= 10.1.23-9+deb9u1), passwd, perl (>= 5.6), psmisc, rsync, socat, debconf (>= 0.5) | debconf-2.0, init-system-helpers (>= 1.18~), libaio1 (>= 0.3.93), libc6 (>= 2.17), libpam0g (>= 0.99.7.1), libstdc++6 (>= 5.2), libsystemd0, zlib1g (>= 1:1.2.0)
+Pre-Depends: adduser (>= 3.40), debconf, mariadb-common (>= 10.1.23-9+deb9u1)
+Recommends: libhtml-template-perl
+Suggests: mailx, mariadb-test, netcat-openbsd, tinyca
+Breaks: cqrlog (<< 1.9.0-5~), mariadb-galera-server, mariadb-galera-server-10.0, mariadb-galera-server-5.5, mariadb-server-10.0, mariadb-server-5.5, mariadb-tokudb-engine-10.0, mariadb-tokudb-engine-10.1, mariadb-tokudb-engine-5.5, mysql-client-5.5, mysql-server-5.5, mysql-server-5.6, mysql-server-5.7
+Conflicts: mariadb-tokudb-engine-10.0, mariadb-tokudb-engine-10.1, mariadb-tokudb-engine-5.5, mysql-server-core-5.5, mysql-server-core-5.6, mysql-server-core-5.7, virtual-mysql-server
+Conffiles:
+ /etc/apparmor.d/usr.sbin.mysqld 5b43a33a4995f3532bcea02d9c2c87c1
+ /etc/default/mysql 64e6d248978c07392628278d0be66888
+ /etc/init.d/mysql 50c82644a999f08a0861a85c92b7d525
+ /etc/insserv.conf.d/mariadb 2588bf6ebd0da2f146befac246610658
+ /etc/logcheck/ignore.d.paranoid/mariadb-server-10_1 6babe46e791059cdd5a26f4f7fec9eca
+ /etc/logcheck/ignore.d.server/mariadb-server-10_1 a5b52544898b1d96ce64f96ec913ee65
+ /etc/logcheck/ignore.d.workstation/mariadb-server-10_1 a9766f2dd21ba5e5474526b9df4a82a7
+ /etc/logrotate.d/mysql-server 3b27c6ac3dbfe31c1c1db0f880b3a2f4
+ /etc/mysql/debian-start 698c5abe65f83aec900a3f0e3500e758
+ /etc/mysql/mariadb.conf.d/50-mysqld_safe.cnf ace3390ea785e7bb3e87bee2ef0f9da8
+ /etc/mysql/mariadb.conf.d/50-server.cnf 073e32328fb38e45ea4d3a497bbda982
+Description: MariaDB database server binaries
+ MariaDB is a fast, stable and true multi-user, multi-threaded SQL database
+ server. SQL (Structured Query Language) is the most popular database query
+ language in the world. The main goals of MariaDB are speed, robustness and
+ ease of use.
+ .
+ This package includes the server binaries.
+Homepage: https://mariadb.org/
+
+Package: libdbd-mysql-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 249
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Version: 4.041-2
+Depends: perl (>= 5.24.1-1), perl-dbdabi-94, perlapi-5.24.1, libc6 (>= 2.4), libmariadbclient18 (>= 10.0.14), zlib1g (>= 1:1.1.4), libdbi-perl
+Description: Perl5 database interface to the MariaDB/MySQL database
+ DBD::mysql is the Perl5 Database Interface driver for the MariaDB/MySQL
+ database. In other words: DBD::mysql is an interface between the Perl
+ programming language and the MySQL programming API that comes with the
+ MariaDB/MySQL relational database management system. Most functions provided by
+ this programming API are supported. Some rarely used functions are
+ missing, mainly because no one ever requested them. However supported
+ features include: compression of data between server and client; timeouts;
+ SSL; prepared statement support; server administration such as creating
+ and dropping databases and restarting the server; auto-reconnection;
+ utf8; bind type guessing; bind comment placeholders; automated insert ids;
+ transactions; multiple result sets and multithreading.
+Homepage: http://dbi.perl.org/
+
 Package: net-tools
 Status: install ok installed
 Priority: important
@@ -9216,6 +9884,26 @@ Description: Common Trace Format (CTF) library
  This package provides CTF plugin for Babeltrace.
 Homepage: http://www.efficios.com/babeltrace
 
+Package: libfcgi-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 88
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Version: 0.78-2
+Depends: perl (>= 5.24.1~rc3-3), perlapi-5.24.1, libc6 (>= 2.15)
+Description: helper module for FastCGI
+ FCGI is a simple Perl module for writing FastCGI applications. FastCGI is a
+ language-independent, scalable, open extension to CGI that provides faster
+ performance by keeping programs persistent in memory and allowing them to
+ handle multiple requests. This module provides the core interface needed to
+ write these applications.
+ .
+ For complex applications, you should consider a more full-featured solution
+ such as Plack or Catalyst (see libcatalyst-perl).
+Homepage: https://metacpan.org/release/FCGI
+
 Package: libsigc++-2.0-0v5
 Status: install ok installed
 Priority: optional
@@ -9371,6 +10059,38 @@ Description: Log rotation utility
  monthly or when the log file gets to a certain size.  Normally, logrotate
  runs as a daily cron job.
 Homepage: https://github.com/logrotate/logrotate
+
+Package: libdbi-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 2091
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Source: libdbi-perl (1.636-1)
+Version: 1.636-1+b1
+Provides: perl-dbdabi-94
+Depends: perl (>= 5.24.1~rc3-3), perlapi-5.24.1, libc6 (>= 2.4)
+Suggests: libclone-perl (>= 0.34), libmldbm-perl, libnet-daemon-perl, libsql-statement-perl (>= 1.402)
+Breaks: libdbd-anydata-perl (<< 0.11+), libdbd-csv-perl (<< 0.3600+), libsql-statement-perl (<< 1.33+)
+Description: Perl Database Interface (DBI)
+ DBI (DataBase Interface) is a Perl framework that provides a common interface
+ to access various backend databases in a uniform manner. DBD (DataBase Driver)
+ modules provide implementations for various backend data storage mechanisms
+ including networked relational databases (particularly SQL databases) and even
+ web services such as the Google search engine.
+ .
+ It is extremely portable and available for a wide range of operating systems,
+ architectures and data stores, including:
+ .
+  * Oracle
+  * Microsoft SQL Server
+  * IBM DB2
+  * SQLite
+  * PostgreSQL
+  * Firebird
+  * MySQL
+Homepage: http://dbi.perl.org/
 
 Package: git
 Status: install ok installed
