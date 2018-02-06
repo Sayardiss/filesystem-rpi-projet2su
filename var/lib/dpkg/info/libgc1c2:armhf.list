@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libgc.so.1.0.3
+/usr/lib/arm-linux-gnueabihf/libgccpp.so.1.0.3
+/usr/share
+/usr/share/doc
+/usr/share/doc/libgc1c2
+/usr/share/doc/libgc1c2/README.environment.gz
+/usr/share/doc/libgc1c2/changelog.Debian.gz
+/usr/share/doc/libgc1c2/changelog.gz
+/usr/share/doc/libgc1c2/copyright
+/usr/lib/arm-linux-gnueabihf/libgc.so.1
+/usr/lib/arm-linux-gnueabihf/libgccpp.so.1
