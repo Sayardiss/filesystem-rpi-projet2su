@@ -1,0 +1,5 @@
+0fbcfcc7340059ed7b9b10479640d514  usr/lib/arm-linux-gnueabihf/libavresample.so.3.1.0
+9c385065b2c67b1be50d76fca5ff32cd  usr/share/doc/libavresample3/changelog.Debian.gz
+369681df77895125873b992be6be3865  usr/share/doc/libavresample3/changelog.gz
+25762782f606bac576b751e98c5cea5f  usr/share/doc/libavresample3/copyright
+53155a301504955ae0abcd149ced6f1c  usr/share/lintian/overrides/libavresample3

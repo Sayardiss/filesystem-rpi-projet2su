@@ -1,0 +1,5 @@
+cd2449b1d702d4e74308798ca8f54825  usr/lib/arm-linux-gnueabihf/libswresample.so.2.3.100
+9c385065b2c67b1be50d76fca5ff32cd  usr/share/doc/libswresample2/changelog.Debian.gz
+369681df77895125873b992be6be3865  usr/share/doc/libswresample2/changelog.gz
+25762782f606bac576b751e98c5cea5f  usr/share/doc/libswresample2/copyright
+345cf6a27019d0e2fb5a97e5fa335f9b  usr/share/lintian/overrides/libswresample2

@@ -1,0 +1,6 @@
+dbfb8ac9c17bcbc98731808b402c4a4c  usr/lib/arm-linux-gnueabihf/libGL.so.1.2.0
+7f0d95ab544ef194372363bb93229ede  usr/share/bug/libgl1-mesa-glx/control
+114f277e413ffae0a725cc024a955b47  usr/share/bug/libgl1-mesa-glx/script
+21d461d93f92f0b528e71e62b54b5538  usr/share/doc/libgl1-mesa-glx/changelog.Debian.gz
+8b68944959c818870ee1893cf08437ae  usr/share/doc/libgl1-mesa-glx/copyright
+c529caf84844de5058c322b71ddc3703  usr/share/lintian/overrides/libgl1-mesa-glx

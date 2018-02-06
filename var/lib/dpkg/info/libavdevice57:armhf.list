@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libavdevice.so.57.1.100
+/usr/share
+/usr/share/doc
+/usr/share/doc/libavdevice57
+/usr/share/doc/libavdevice57/changelog.Debian.gz
+/usr/share/doc/libavdevice57/changelog.gz
+/usr/share/doc/libavdevice57/copyright
+/usr/lib/arm-linux-gnueabihf/libavdevice.so.57

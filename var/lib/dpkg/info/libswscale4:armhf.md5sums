@@ -1,0 +1,5 @@
+d14ab4c8199a9be754c2d646751aa449  usr/lib/arm-linux-gnueabihf/libswscale.so.4.2.100
+9c385065b2c67b1be50d76fca5ff32cd  usr/share/doc/libswscale4/changelog.Debian.gz
+369681df77895125873b992be6be3865  usr/share/doc/libswscale4/changelog.gz
+25762782f606bac576b751e98c5cea5f  usr/share/doc/libswscale4/copyright
+a4dc679b01a84b6f4d7dcd732e29d9af  usr/share/lintian/overrides/libswscale4

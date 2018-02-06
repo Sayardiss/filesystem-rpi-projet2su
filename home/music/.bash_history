@@ -16,3 +16,12 @@ cd MusicOnPi/
 ls
 git pull
 exit
+cd
+ls
+youtube-dl '-GlSS6UHKzk'
+youtube-dl "-GlSS6UHKzk"
+youtube-dl -- -GlSS6UHKzk'
+youtube-dl -- '-GlSS6UHKzk'
+youtube-dl "cZ-yRAqytdc"
+youtube-dl "cZ-yRAqytdc" -x --audio-format mp3
+exit

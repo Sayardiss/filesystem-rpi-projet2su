@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libsodium.so.18.1.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libsodium18
+/usr/share/doc/libsodium18/AUTHORS
+/usr/share/doc/libsodium18/README.markdown
+/usr/share/doc/libsodium18/THANKS
+/usr/share/doc/libsodium18/changelog.Debian.gz
+/usr/share/doc/libsodium18/changelog.gz
+/usr/share/doc/libsodium18/copyright
+/usr/lib/arm-linux-gnueabihf/libsodium.so.18

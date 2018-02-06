@@ -1,0 +1,5 @@
+fe09ddae369f730f41188b4ab95a9e41  usr/lib/arm-linux-gnueabihf/libavfilter.so.6.65.100
+9c385065b2c67b1be50d76fca5ff32cd  usr/share/doc/libavfilter6/changelog.Debian.gz
+369681df77895125873b992be6be3865  usr/share/doc/libavfilter6/changelog.gz
+25762782f606bac576b751e98c5cea5f  usr/share/doc/libavfilter6/copyright
+238db5e623f5f28548c584f25d897409  usr/share/lintian/overrides/libavfilter6

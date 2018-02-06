@@ -1,0 +1,5 @@
+89581035d91d60cd151fe4870571d743  usr/lib/arm-linux-gnueabihf/libavformat.so.57.56.101
+9c385065b2c67b1be50d76fca5ff32cd  usr/share/doc/libavformat57/changelog.Debian.gz
+369681df77895125873b992be6be3865  usr/share/doc/libavformat57/changelog.gz
+25762782f606bac576b751e98c5cea5f  usr/share/doc/libavformat57/copyright
+ba6274629af361f6dde1d5f223bcf8de  usr/share/lintian/overrides/libavformat57

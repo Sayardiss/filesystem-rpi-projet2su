@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/librubberband.so.2.1.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/librubberband2
+/usr/share/doc/librubberband2/README.txt.gz
+/usr/share/doc/librubberband2/changelog.Debian.gz
+/usr/share/doc/librubberband2/changelog.gz
+/usr/share/doc/librubberband2/copyright
+/usr/lib/arm-linux-gnueabihf/librubberband.so.2
