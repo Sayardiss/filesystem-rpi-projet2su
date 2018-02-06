@@ -11,3 +11,4 @@ iface enxb827eb81e461 inet static
 	address 172.30.4.79
 	netmask 255.255.0.0
 	gateway 172.30.3.254
+	dns-nameservers 8.8.8.8
