@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libtidy.so.5.2.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtidy5
+/usr/share/doc/libtidy5/changelog.Debian.gz
+/usr/share/doc/libtidy5/changelog.gz
+/usr/share/doc/libtidy5/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libtidy5
+/usr/lib/libtidy.so.5

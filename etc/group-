@@ -18,7 +18,7 @@ voice:x:22:
 cdrom:x:24:
 floppy:x:25:
 tape:x:26:
-sudo:x:27:admin
+sudo:x:27:
 audio:x:29:
 dip:x:30:
 www-data:x:33:
@@ -47,7 +47,7 @@ crontab:x:107:
 netdev:x:108:
 messagebus:x:109:
 ssh:x:110:
-bluetooth:x:111:
+bluetooth:x:111:music
 spi:x:999:
 i2c:x:998:
 gpio:x:997:

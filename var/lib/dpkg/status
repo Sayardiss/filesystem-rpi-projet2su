@@ -341,6 +341,48 @@ Description: support library providing __atomic built-in functions
  be turned into lock-free instructions, GCC will make calls into this library.
 Homepage: http://gcc.gnu.org/
 
+Package: libapr1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 205
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: apr
+Version: 1.5.2-5
+Depends: libc6 (>= 2.15), libuuid1 (>= 2.16)
+Conflicts: libapr1.0
+Description: Apache Portable Runtime Library
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+Homepage: http://apr.apache.org/
+
+Package: libxaw7
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 386
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libxaw
+Version: 2:1.0.13-1
+Depends: libc6 (>= 2.15), libx11-6, libxext6, libxmu6, libxpm4, libxt6
+Description: X11 Athena Widget library
+ libXaw7 provides the second version of Xaw, the Athena Widgets toolkit,
+ which is largely used by legacy X applications.  This version is the
+ most common version, as version 6 is considered deprecated, and version
+ 8, which adds Xprint support, is unsupported and not widely used.
+ In general, use of a more modern toolkit such as GTK+ is recommended.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXaw
+
 Package: libpython3-stdlib
 Status: install ok installed
 Priority: optional
@@ -360,6 +402,28 @@ Description: interactive high-level object-oriented language (default python3 ve
  This package is a dependency package, which depends on Debian's default
  Python 3 version (currently v3.5).
 Homepage: http://www.python.org/
+
+Package: cpp
+Status: install ok installed
+Priority: optional
+Section: interpreters
+Installed-Size: 41
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: armhf
+Multi-Arch: allowed
+Source: gcc-defaults (1.168)
+Version: 4:6.3.0-4
+Depends: cpp-6 (>= 6.3.0-9~)
+Suggests: cpp-doc
+Conflicts: cpp-doc (<< 1:2.95.3)
+Description: GNU C preprocessor (cpp)
+ The GNU C preprocessor is a macro processor that is used automatically
+ by the GNU C compiler to transform programs before actual compilation.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the compiler.
+ .
+ This is a dependency package providing the default GNU C preprocessor.
 
 Package: libxcb-present0
 Status: install ok installed
@@ -575,6 +639,25 @@ Description: Core Perl modules
  Other packages should not depend on `perl-modules-5.24' directly, they
  should use `perl' (which depends on `perl-modules-5.24') instead.
 Homepage: http://dev.perl.org/perl5/
+
+Package: python-bluez
+Status: install ok installed
+Priority: optional
+Section: python
+Installed-Size: 189
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Source: pybluez
+Version: 0.22-1
+Provides: python-bluetooth, python2.7-bluez
+Depends: python (>= 2.7), python (<< 2.8), libbluetooth3 (>= 4.91), libc6 (>= 2.15)
+Description: Python wrappers around BlueZ for rapid bluetooth development
+ PyBluez is an effort to create Python wrappers around BlueZ to allow Python
+ developers to use system bluetooth resources. PyBluez works on machines
+ running the GNU/Linux operating system and the bluez bluetooth stack.
+ .
+ This package provides the "bluetooth" Python module.
+Homepage: https://karulis.github.io/pybluez/
 
 Package: console-setup
 Status: install ok installed
@@ -887,6 +970,25 @@ Description: low level cryptographic library (symmetric and one-way cryptos)
  asymmetric cryptos reside in a separate library, libhogweed.
 Homepage: http://www.lysator.liu.se/~nisse/nettle/
 
+Package: libtdb1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 101
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: tdb
+Version: 1.3.11-2
+Depends: libc6 (>= 2.12)
+Description: Trivial Database - shared library
+ This is a simple database API. It is modelled after the structure
+ of GDBM. TDB features, unlike GDBM, multiple writers support with
+ appropriate locking and transactions.
+ .
+ This package contains the shared library file.
+Homepage: http://tdb.samba.org/
+
 Package: libxinerama1
 Status: install ok installed
 Priority: optional
@@ -1075,6 +1177,28 @@ Description: lib for parsing cmdline parameters
  This package contains the runtime library and locale data.
 Homepage: http://rpm5.org/
 
+Package: libwbclient0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 174
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: samba
+Version: 2:4.5.12+dfsg-2+deb9u1
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.4)
+Pre-Depends: dpkg (>= 1.15.6~)
+Breaks: libpam-smbpass (<< 2:3.4.1), libsmbclient (<< 2:3.4.1), samba (<< 2:3.4.1), samba-common (<< 2:3.4.1), samba-tools (<< 2:3.4.1), smbclient (<< 2:3.4.1), smbfs (<< 2:3.4.1), swat (<< 2:3.4.1), winbind (<< 2:3.4.1)
+Description: Samba winbind client library
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file and printer sharing with
+ Microsoft Windows, OS X, and other Unix systems.
+ .
+ This package provides a library for client applications that interact
+ via the winbind pipe protocol with a Samba winbind server.
+Homepage: http://www.samba.org
+
 Package: libxcb-dri3-0
 Status: install ok installed
 Priority: optional
@@ -1250,6 +1374,21 @@ Description: X C Binding, glx extension
     machine-parsable protocol descriptions
 Homepage: http://xcb.freedesktop.org
 
+Package: rtmpdump
+Status: install ok installed
+Priority: optional
+Section: web
+Installed-Size: 119
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Version: 2.4+20151223.gitfa8646d.1-1
+Depends: libc6 (>= 2.15), librtmp1 (>= 2.4+20131018.git79459a2)
+Description: small dumper for media content streamed over the RTMP protocol
+ A small dumper for media content streamed over the RTMP protocol (like BBC's
+ iPlayer high quality streams). Supplying an RTMP URL will result in a dumped
+ flv file, which can be played/transcoded with standard tools.
+Homepage: http://rtmpdump.mplayerhq.hu/
+
 Package: libestr0
 Status: install ok installed
 Priority: extra
@@ -1329,6 +1468,23 @@ Depends: gcc-6-base (= 6.3.0-18+rpi1), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libst
 Description: GCC cc1 plugin for GDB
  libcc1 is a plugin for GDB.
 Homepage: http://gcc.gnu.org/
+
+Package: libmailtools-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 212
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Architecture: all
+Version: 2.18-1
+Replaces: mailtools (<= 1.15-1)
+Provides: libmail-perl, mailtools
+Depends: perl, libnet-perl, libtimedate-perl, libnet-smtp-ssl-perl
+Conflicts: mailtools (<= 1.15-1)
+Description: Manipulate email in perl programs
+ This is a set of perl modules which provide an easy interface to
+ manipulating email in an object-oriented fashion.
+Homepage: http://search.cpan.org/dist/MailTools/
 
 Package: firmware-realtek
 Status: install ok installed
@@ -1481,6 +1637,26 @@ Description: FFmpeg library for handling input and output devices - runtime file
  .
  This package contains the runtime files.
 Homepage: https://ffmpeg.org/
+
+Package: libfont-afm-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 70
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.20-2
+Depends: perl
+Description: Font::AFM - Interface to Adobe Font Metrics files
+ This module implements the Font::AFM class. Objects of this class are
+ initialised from an AFM-file and allows you to obtain information
+ about the font and the metrics of the various glyphs in the font.
+ .
+ All measurements in AFM files are given in terms of units equal to
+ 1/1000 of the scale factor of the font being used. To compute actual
+ sizes in a document, these amounts should be multiplied by (scale
+ factor of font)/1000.
+Homepage: https://metacpan.org/release/Font-AFM
 
 Package: libtwolame0
 Status: install ok installed
@@ -1732,6 +1908,25 @@ Description: GCC, the GNU Compiler Collection (base package)
  contained in the GNU Compiler Collection (GCC).
 Homepage: http://gcc.gnu.org/
 
+Package: php7.0-readline
+Status: install ok installed
+Priority: optional
+Section: php
+Installed-Size: 50
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: armhf
+Source: php7.0
+Version: 7.0.27-0+deb9u1
+Provides: php-readline
+Depends: php-common (>= 1:35), ucf, php7.0-common (= 7.0.27-0+deb9u1), libc6 (>= 2.4), libedit2 (>= 3.1-20130611), libncurses5 (>= 6), libtinfo5 (>= 6)
+Description: readline module for PHP
+ This package provides the readline module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+Homepage: http://www.php.net/
+
 Package: default-mysql-server
 Status: install ok installed
 Priority: optional
@@ -1854,6 +2049,27 @@ Description: X C Binding, render extension
     machine-parsable protocol descriptions
 Homepage: http://xcb.freedesktop.org
 
+Package: libnet-smtp-ssl-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 20
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.04-1
+Depends: libio-socket-ssl-perl, perl
+Recommends: libauthen-sasl-perl
+Description: Perl module providing SSL support to Net::SMTP
+ Net::SMTP::SSL implements the same API as Net::SMTP, but uses IO::Socket::SSL
+ for its network operations. Due to the nature of Net::SMTP's new method, it is
+ not overridden to make use of a default port for the SMTPS service. Perhaps
+ future versions will be smart like that. Port 465 is usually what you want,
+ and it's not a pain to specify that.
+ .
+ This package is deprecated. Net::SMTP (in perl core) has support for SMTP
+ over SSL, and also for STARTTLS, since version 1.28 (included in Perl 5.22).
+Homepage: https://metacpan.org/release/Net-SMTP-SSL
+
 Package: libopenjp2-7
 Status: install ok installed
 Priority: optional
@@ -1926,6 +2142,29 @@ Description: Asynchronous name service query library
  getnameinfo(3), res_query(3) and res_search(3) from libc and libresolv.
 Homepage: http://0pointer.de/lennart/projects/libasyncns/
 
+Package: samba-libs
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 18855
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: samba
+Version: 2:4.5.12+dfsg-2+deb9u1
+Replaces: libdcerpc-server0 (<< 2:4.0.9), libdcerpc0 (<< 2:4.0.9), libgensec0 (<< 2:4.0.9), libndr-standard0 (<< 2:4.0.9), libndr0 (<< 2:4.0.9), libnetapi0 (<< 2:4.0.9), libregistry0 (<< 2:4.0.9), libsamba-credentials0 (<< 2:4.0.9), libsamba-hostconfig0 (<< 2:4.0.9), libsamba-policy0 (<< 2:4.0.9), libsamba-util0 (<< 2:4.0.9), libsamdb0 (<< 2:4.0.9), libsmbclient-raw0 (<< 2:4.0.9), libsmbd0 (<< 2:4.0.9), libtorture0 (<< 2:4.0.9), samba (<< 2:4.3.3+dfsg-1)
+Depends: libacl1 (>= 2.2.51-8), libattr1 (>= 1:2.4.46-8), libbsd0 (>= 0.5.0), libc6 (>= 2.15), libcap2 (>= 1:2.10), libcups2 (>= 1.6.0), libgnutls30 (>= 3.5.6), libldap-2.4-2 (>= 2.4.7), libldb1 (>= 1:1.1.20), libpam0g (>= 0.99.7.1), libpopt0 (>= 1.14), libpython2.7 (>= 2.7), libsystemd0, libtalloc2 (>= 2.1.0), libtdb1 (>= 1.3.0), libtevent0 (>= 0.9.25), libwbclient0 (= 2:4.5.12+dfsg-2+deb9u1), python-talloc (>= 2.1.6), zlib1g (>= 1:1.1.4)
+Breaks: libdcerpc-server0 (<< 2:4.0.9), libdcerpc0 (<< 2:4.0.9), libgensec0 (<< 2:4.0.9), libndr-standard0 (<< 2:4.0.9), libndr0 (<< 2:4.0.9), libnetapi0 (<< 2:4.0.9), libregistry0 (<< 2:4.0.9), libsamba-credentials0 (<< 2:4.0.9), libsamba-hostconfig0 (<< 2:4.0.9), libsamba-policy0 (<< 2:4.0.9), libsamba-util0 (<< 2:4.0.9), libsamdb0 (<< 2:4.0.9), libsmbclient-raw0 (<< 2:4.0.9), libsmbd0 (<< 2:4.0.9), libtorture0 (<< 2:4.0.9)
+Conflicts: libpam-smbpass (<< 2:4), samba (<< 2:4), samba-common-bin (<< 2:4), samba-dsdb-modules (<< 2:4.1.9+dfsg-2), winbind (<< 2:4)
+Description: Samba core libraries
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file sharing with Microsoft Windows, OS X,
+ and other Unix systems.  Samba can also function as a domain controller
+ or member server in both NT4-style and Active Directory domains.
+ .
+ This package contains the shared libraries.
+Homepage: http://www.samba.org
+
 Package: libpam-systemd
 Status: install ok installed
 Priority: standard
@@ -1945,6 +2184,25 @@ Description: system and service manager - PAM module
  .
  Packages that depend on logind functionality need to depend on libpam-systemd.
 Homepage: https://www.freedesktop.org/wiki/Software/systemd
+
+Package: libhtml-format-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 129
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 2.12-1
+Depends: perl, libfont-afm-perl, libhtml-tree-perl
+Description: module for transforming HTML into various formats
+ HTML::Formatter is a base class for various formatters, which are modules
+ that traverse an HTML syntax tree and produce various output file formats.
+ There are currently three formatter classes included:
+ .
+  * HTML::FormatText for converting to plain human-readable text
+  * HTML::FormatPS for converting to PostScript
+  * HTML::FormatRTF for converting to Microsoft's Rich Text Format (RTF)
+Homepage: https://metacpan.org/release/HTML-Format
 
 Package: mysql-server
 Status: install ok installed
@@ -1976,6 +2234,70 @@ Description: Pluggable Authentication Modules for PAM - helper binaries
  This package contains helper binaries used by the standard set of PAM
  modules in the libpam-modules package.
 Homepage: http://www.linux-pam.org/
+
+Package: poppler-utils
+Status: install ok installed
+Priority: optional
+Section: utils
+Installed-Size: 415
+Maintainer: Loic Minier <lool@dooz.org>
+Architecture: armhf
+Multi-Arch: foreign
+Source: poppler
+Version: 0.48.0-2+deb9u2
+Replaces: pdftohtml, xpdf-reader, xpdf-utils (<< 3.02-2~)
+Provides: pdftohtml, xpdf-utils
+Depends: libpoppler64 (= 0.48.0-2+deb9u2), libc6 (>= 2.4), libcairo2 (>= 1.12.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:3.5), liblcms2-2 (>= 2.2+git20110628), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Breaks: xpdf-common, xpdf-utils (<< 1:0)
+Conflicts: pdftohtml
+Description: PDF utilities (based on Poppler)
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package contains command line utilities (based on Poppler) for getting
+ information of PDF documents, convert them to other formats, or manipulate
+ them:
+  * pdfdetach -- lists or extracts embedded files (attachments)
+  * pdffonts -- font analyzer
+  * pdfimages -- image extractor
+  * pdfinfo -- document information
+  * pdfseparate -- page extraction tool
+  * pdfsig -- verifies digital signatures
+  * pdftocairo -- PDF to PNG/JPEG/PDF/PS/EPS/SVG converter using Cairo
+  * pdftohtml -- PDF to HTML converter
+  * pdftoppm -- PDF to PPM/PNG/JPEG image converter
+  * pdftops -- PDF to PostScript (PS) converter
+  * pdftotext -- text extraction
+  * pdfunite -- document merging tool
+Homepage: http://poppler.freedesktop.org/
+
+Package: libxml-twig-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 565
+Maintainer: Bart Martens <bartm@debian.org>
+Architecture: all
+Version: 1:3.50-1
+Depends: perl, libxml-parser-perl
+Recommends: libtext-iconv-perl, libtie-ixhash-perl, libxml-xpathengine-perl | libxml-xpath-perl, libwww-perl, libhtml-parser-perl
+Suggests: libunicode-map8-perl, libunicode-string-perl, xml-twig-tools
+Description: Perl module for processing huge XML documents in tree mode
+ This module provides a way to process XML documents.  It is built on
+ top of XML::Parser.
+ .
+ The module offers a tree interface to the document, while allowing to
+ output the parts of it that have been completely processed.
+ .
+ It allows minimal resource (CPU and memory) usage by building the
+ tree only for the parts of the documents that need actual processing,
+ through the use of the twig_roots and twig_print_outside_roots
+ options.  The finish and finish_print methods also help to increase
+ performance.
+ .
+ XML::Twig tries to make simple things easy so it tries its best to
+ takes care of a lot of the (usually) annoying (but sometimes
+ necessary) features that come with XML and XML::Parser.
+Homepage: http://www.xmltwig.org/
 
 Package: python3-apt
 Status: install ok installed
@@ -2076,6 +2398,25 @@ Description: GNU grep, egrep and fgrep
  than Unix grep or egrep. (Regular expressions containing backreferencing
  will run more slowly, however.)
 Homepage: http://www.gnu.org/software/grep/
+
+Package: php7.0-opcache
+Status: install ok installed
+Priority: optional
+Section: php
+Installed-Size: 194
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: armhf
+Source: php7.0
+Version: 7.0.27-0+deb9u1
+Provides: php-opcache
+Depends: php-common (>= 1:35), ucf, php7.0-common (= 7.0.27-0+deb9u1), libc6 (>= 2.11)
+Description: Zend OpCache module for PHP
+ This package provides the Zend OpCache module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+Homepage: http://www.php.net/
 
 Package: libx264-148
 Status: install ok installed
@@ -2201,6 +2542,25 @@ Description: libjpeg-turbo JPEG runtime library
  This package contains the shared runtime library.
 Homepage: http://www.libjpeg-turbo.org/
 
+Package: libbluetooth-dev
+Status: install ok installed
+Priority: extra
+Section: libdevel
+Installed-Size: 507
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Source: bluez
+Version: 5.43-2+rpt2+deb9u2
+Replaces: libsdp2-dev (<= 1.5.2)
+Provides: libbluetooth3-dev
+Depends: libbluetooth3 (= 5.43-2+rpt2+deb9u2), libc6-dev | libc-dev
+Suggests: pkg-config
+Conflicts: bluez-pan, libbluetooth-dev, libsdp2-dev (<= 1.5.2)
+Description: Development files for using the BlueZ Linux Bluetooth library
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+Homepage: http://www.bluez.org
+
 Package: wireless-tools
 Status: install ok installed
 Priority: extra
@@ -2323,6 +2683,183 @@ Description: utilities for making and checking MS-DOS FAT filesystems
  respectively make and check MS-DOS FAT filesystems.
 Homepage: https://github.com/dosfstools/dosfstools
 
+Package: apache2
+Status: install ok installed
+Priority: optional
+Section: httpd
+Installed-Size: 577
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: armhf
+Version: 2.4.25-3+deb9u3
+Replaces: apache2.2-bin, apache2.2-common
+Provides: httpd, httpd-cgi
+Depends: init-system-helpers (>= 1.18~), lsb-base, procps, perl, mime-support, apache2-bin (= 2.4.25-3+deb9u3), apache2-utils (= 2.4.25-3+deb9u3), apache2-data (= 2.4.25-3+deb9u3), perl:any
+Pre-Depends: dpkg (>= 1.17.14)
+Recommends: ssl-cert
+Suggests: www-browser, apache2-doc, apache2-suexec-pristine | apache2-suexec-custom
+Conflicts: apache2.2-bin, apache2.2-common
+Conffiles:
+ /etc/apache2/apache2.conf 20589b50379161ebc8cb35f761af2646
+ /etc/apache2/conf-available/charset.conf 46ea15bcd82c11ea0973aa8842b1dc56
+ /etc/apache2/conf-available/localized-error-pages.conf cfd0ae5e448102514efe8b97181d19c9
+ /etc/apache2/conf-available/other-vhosts-access-log.conf 60d5d57995317aedb02bd2a20b366717
+ /etc/apache2/conf-available/security.conf f2e736bb593323988d1ebdabee67729f
+ /etc/apache2/conf-available/serve-cgi-bin.conf 21abde7dadc1020140b9ab796d06fd29
+ /etc/apache2/envvars e4431a53c868ae0dfcde68564f3ce6a7
+ /etc/apache2/magic a6d370833a02f53db6a0a30800704994
+ /etc/apache2/mods-available/access_compat.load f7f77b3eb4005749b583ff14b49f8bf1
+ /etc/apache2/mods-available/actions.conf 8736884dbc596bcfdbb392409c96fde5
+ /etc/apache2/mods-available/actions.load 95dcfd2efdd41666de5f31dd72e01e41
+ /etc/apache2/mods-available/alias.conf c6e9f26152898c38e58211c8b362d5c3
+ /etc/apache2/mods-available/alias.load 7742296502ce1d2f970cc87322d8ffba
+ /etc/apache2/mods-available/allowmethods.load b377b96eb4dddd88f9428d9cc2fd87ea
+ /etc/apache2/mods-available/asis.load d1003c9fa12b4d3ed35ea3827a689492
+ /etc/apache2/mods-available/auth_basic.load a92c34a3ce5e67e2ecbd272155ebe072
+ /etc/apache2/mods-available/auth_digest.load f29d047cd59013e2fa6724d677c7970b
+ /etc/apache2/mods-available/auth_form.load 731420a769dd8ad537d68bfdbdd6a506
+ /etc/apache2/mods-available/authn_anon.load 03cbe85c698911a3d3235b4855726481
+ /etc/apache2/mods-available/authn_core.load c6420ed74b0095f8408aba3e11db4907
+ /etc/apache2/mods-available/authn_dbd.load 86e21a672a4f245715a788f9873174ed
+ /etc/apache2/mods-available/authn_dbm.load 4e37546871dbcba8550a0d781f6fbfa8
+ /etc/apache2/mods-available/authn_file.load ecdeeab8cfec4a9dd0c065a4d6948c31
+ /etc/apache2/mods-available/authn_socache.load 260e21e1eb5caa7bcabe8a2fae11445f
+ /etc/apache2/mods-available/authnz_fcgi.load b12a39427b0b3a8d2ffb03cfc029da18
+ /etc/apache2/mods-available/authnz_ldap.load d65845f053d08b82da239c73c9094c35
+ /etc/apache2/mods-available/authz_core.load 90ad8f57655bcd98b7b07864736ab954
+ /etc/apache2/mods-available/authz_dbd.load c746b8c3bf3fca950ca41fcd553328b4
+ /etc/apache2/mods-available/authz_dbm.load 8cd42e62d8ca0701f9aad080ec968493
+ /etc/apache2/mods-available/authz_groupfile.load 97a3e14926ce7bf5f2d2a7b93ece648d
+ /etc/apache2/mods-available/authz_host.load f529587409471e3feb62256bccaf538a
+ /etc/apache2/mods-available/authz_owner.load 9ed1ea15654bb594453438154b642539
+ /etc/apache2/mods-available/authz_user.load bcf988f105564ec1e14b78df56a01cd8
+ /etc/apache2/mods-available/autoindex.conf bfba7d77669e02b869b92e98215d58fc
+ /etc/apache2/mods-available/autoindex.load b9f9d364f1b4c96c45b6db353180aa15
+ /etc/apache2/mods-available/buffer.load ae1e21b4fd2c2e8236ec641cae9814bd
+ /etc/apache2/mods-available/cache.load ea99aba14e9aa25c27653b9958239a6e
+ /etc/apache2/mods-available/cache_disk.conf b716cf836c9f00dae0366a39f511b76d
+ /etc/apache2/mods-available/cache_disk.load 56ebd9819aa70a7ff8ac04e4922049f2
+ /etc/apache2/mods-available/cache_socache.load 4b548216cee2e910e9059e426f81e60c
+ /etc/apache2/mods-available/cern_meta.load 2c2d9adcb273f934304e7dfb5775f7b9
+ /etc/apache2/mods-available/cgi.load 32a1c48f0e29feb415c9460378728d82
+ /etc/apache2/mods-available/cgid.conf e8a2836392051bde889cf9c137058273
+ /etc/apache2/mods-available/cgid.load c3ee2eac02c248b5a39fb1a7afee4cb9
+ /etc/apache2/mods-available/charset_lite.load 1585fcd1b631c2e9b166e170cb162c54
+ /etc/apache2/mods-available/data.load b6cc5b9e815f551335596cd1e25ffc34
+ /etc/apache2/mods-available/dav.load ed469867552a1145b8c3ffa5780ff83e
+ /etc/apache2/mods-available/dav_fs.conf 162db96239f13b5416f369b6306d9db6
+ /etc/apache2/mods-available/dav_fs.load 17f662fd023dbaaab9d89f9a11ae58c1
+ /etc/apache2/mods-available/dav_lock.load faad09687e64ebb9670aa0b8095d6642
+ /etc/apache2/mods-available/dbd.load f03fe275174a5ed97b0f5f5726ccea60
+ /etc/apache2/mods-available/deflate.conf 6649a32153b9afdc53f6898b5a10a2d6
+ /etc/apache2/mods-available/deflate.load 6a7a23153796456ee919abdf728fd972
+ /etc/apache2/mods-available/dialup.load dbc3535a9e5dfd799cf16b5c0d58f137
+ /etc/apache2/mods-available/dir.conf fe4bc5fa3b3cc7a241fe57f8fabc55a1
+ /etc/apache2/mods-available/dir.load 397aadae1b8b18e3a7a233cf7c297f99
+ /etc/apache2/mods-available/dump_io.load 8231c51ef692e0766625ece087484fe4
+ /etc/apache2/mods-available/echo.load 226a145f19c43d9f921c35eacfd61cb2
+ /etc/apache2/mods-available/env.load 3e8963a7df7c047be50a552d80a4f853
+ /etc/apache2/mods-available/expires.load dac64edc06fe538c2edd7b3f1f3b03f1
+ /etc/apache2/mods-available/ext_filter.load d3c4acfca1322274a9a8504e8cef27e9
+ /etc/apache2/mods-available/file_cache.load f097659127628ec6f9c6a558d0baf566
+ /etc/apache2/mods-available/filter.load 8df0170e37a8925238860657d6c60fe5
+ /etc/apache2/mods-available/headers.load ba7d09162b65d09397bd58be33138e4d
+ /etc/apache2/mods-available/heartbeat.load b78970d35346bfe5eb5817d228cb209c
+ /etc/apache2/mods-available/heartmonitor.load b4da13d1c05a7dd1bdeb272300c1fc83
+ /etc/apache2/mods-available/http2.load e18e0c7e38196e7d7580ecedaaa72e3b
+ /etc/apache2/mods-available/ident.load 51ba623a8a2bd71c512f847d02e0934f
+ /etc/apache2/mods-available/imagemap.load 51d5109d8bc2bafc17af03beace4d8a4
+ /etc/apache2/mods-available/include.load 9cf2fa9ceb6571b5fab4603daad44c83
+ /etc/apache2/mods-available/info.conf 4a4aa21e0bb474d420c9a3e1c3320677
+ /etc/apache2/mods-available/info.load c1faffe40b8bed9f2b817b9dc0503bb6
+ /etc/apache2/mods-available/lbmethod_bybusyness.load 094b7c1d424cc4a1dee6f77d301e1888
+ /etc/apache2/mods-available/lbmethod_byrequests.load f33d55ab5bbf907340426e31f99f6701
+ /etc/apache2/mods-available/lbmethod_bytraffic.load e656d80b48c020b7d77ece23368e04f1
+ /etc/apache2/mods-available/lbmethod_heartbeat.load 944703ff299a25cf068de7f6a2374465
+ /etc/apache2/mods-available/ldap.conf 344968a263507c1991a160427e51ed9c
+ /etc/apache2/mods-available/ldap.load 735ac5f246738e11a53f6c515b8dfc48
+ /etc/apache2/mods-available/log_debug.load d062328e5987fa686615394768339abe
+ /etc/apache2/mods-available/log_forensic.load 7177e2427eb7c78f1ab10c034a809793
+ /etc/apache2/mods-available/lua.load 5e445ce688a49e0a1fcfcaa414fe21f9
+ /etc/apache2/mods-available/macro.load 40e0509b4b2d307cdfe4de75fa89dc91
+ /etc/apache2/mods-available/mime.conf 7369c2fd5edf2192edbd6d865b632ae5
+ /etc/apache2/mods-available/mime.load 9c858dc2ad2825dc3f862ecba90cf6ec
+ /etc/apache2/mods-available/mime_magic.conf ebeaf79afde03c805e795bb51eec155f
+ /etc/apache2/mods-available/mime_magic.load ab5c69aa0c91f11157e9bfc4972f8cce
+ /etc/apache2/mods-available/mpm_event.conf d868a76835101a66be2863362ef9f81a
+ /etc/apache2/mods-available/mpm_event.load 08816d280ebbd94b8c5961fc6f7168b5
+ /etc/apache2/mods-available/mpm_prefork.conf 26e539a16e51c4feddd2eedc568692e6
+ /etc/apache2/mods-available/mpm_prefork.load 9bcdffe5055526e0929ecd49ee311c9e
+ /etc/apache2/mods-available/mpm_worker.conf 2673a5a3f030bfb704bee034ce3a183c
+ /etc/apache2/mods-available/mpm_worker.load 0c6640977f0f046a55fdaf76eb54adef
+ /etc/apache2/mods-available/negotiation.conf 443398efdd41085bc1a70047f6e61c95
+ /etc/apache2/mods-available/negotiation.load fd7bf44d833446a35f0199d7cbcc9793
+ /etc/apache2/mods-available/proxy.conf b516d96935974214588d525edd7aed6d
+ /etc/apache2/mods-available/proxy.load 3d3719c88d01152e817f74fc2fd6ce9e
+ /etc/apache2/mods-available/proxy_ajp.load e058e03c1d4f9e4d8e2c439ed75cc501
+ /etc/apache2/mods-available/proxy_balancer.conf 5e9113f9556e17c0fec6c81232651791
+ /etc/apache2/mods-available/proxy_balancer.load 9c6e6ff2195159c8af97f7673e8d2ada
+ /etc/apache2/mods-available/proxy_connect.load 6bc4b5de977f70a0b6ae98ab04383c0c
+ /etc/apache2/mods-available/proxy_express.load f2ad6e7e80d2750cdca5986657e7835e
+ /etc/apache2/mods-available/proxy_fcgi.load 09cbda44eecbf1cbab48b30045217e3c
+ /etc/apache2/mods-available/proxy_fdpass.load 9e5584db5f748a2fb71b582a255a976e
+ /etc/apache2/mods-available/proxy_ftp.conf dd9beba82c2838bcfd51a05dfb540929
+ /etc/apache2/mods-available/proxy_ftp.load c05db1b229a7957f0032c0d79ed7e3c9
+ /etc/apache2/mods-available/proxy_hcheck.load 92898c1ef9124193fa5d9e13408e0372
+ /etc/apache2/mods-available/proxy_html.conf 5b60af3b1796f2db4b5f7a8a7941f1bc
+ /etc/apache2/mods-available/proxy_html.load dac7646a0a7242de76f788b4da14390b
+ /etc/apache2/mods-available/proxy_http.load 161b514c355c6daa95f11371fb9c184c
+ /etc/apache2/mods-available/proxy_http2.load 8a2cdbe25537eb8cb9007e351274f852
+ /etc/apache2/mods-available/proxy_scgi.load cb11d685e60db26bbdad456263bf63b7
+ /etc/apache2/mods-available/proxy_wstunnel.load d2e5c21b886333f1662fe74591260d5d
+ /etc/apache2/mods-available/ratelimit.load fb40aa030d5458dd99a0c9d1141bcde4
+ /etc/apache2/mods-available/reflector.load 306c71fae73733506db9099d106ba642
+ /etc/apache2/mods-available/remoteip.load 81a6511c79ab338aef51a6c185152231
+ /etc/apache2/mods-available/reqtimeout.conf 40b45155afb3d14263d12e6fc4a98513
+ /etc/apache2/mods-available/reqtimeout.load 7fd814775dc3f3c9e6753ef874978f96
+ /etc/apache2/mods-available/request.load 36c1b324cd545e3e29b50b5e2a8357e8
+ /etc/apache2/mods-available/rewrite.load 55e18fb7df64c8f390904b972637c17d
+ /etc/apache2/mods-available/sed.load 8ba3c7ff4243e6a45b6e3c372fc0de1b
+ /etc/apache2/mods-available/session.load b552f1e184865c597ae397876fb3a0a6
+ /etc/apache2/mods-available/session_cookie.load 89aff7a7f8b4347965d4cf6ea3c5beb9
+ /etc/apache2/mods-available/session_crypto.load 066002be7d8c6c381553dbded41db1b6
+ /etc/apache2/mods-available/session_dbd.load cf86e56f8ee26f5dccc39c2f690d7f79
+ /etc/apache2/mods-available/setenvif.conf 533f5f92761c2c24d6820f1d7d1c45ad
+ /etc/apache2/mods-available/setenvif.load 6f670fad5b6f6b14fa72c9cd3058469b
+ /etc/apache2/mods-available/slotmem_plain.load fd33fcd86c77d4d5044ad904e7f38360
+ /etc/apache2/mods-available/slotmem_shm.load 127df94eaf6987ad67b964f01eec3251
+ /etc/apache2/mods-available/socache_dbm.load 9f11810517a6bf2eba31b336ebbfad70
+ /etc/apache2/mods-available/socache_memcache.load c0101bc50501b12e7c8c74014560404b
+ /etc/apache2/mods-available/socache_shmcb.load 9efb84889b8e1683ce104033bf30973d
+ /etc/apache2/mods-available/speling.load 095570b0cb18ebdfc357a2241c6932ea
+ /etc/apache2/mods-available/ssl.conf 6c30f44f4e2ad6bc51c917294aa8e34b
+ /etc/apache2/mods-available/ssl.load 838b292226d2da6ceb3f1c793696ca12
+ /etc/apache2/mods-available/status.conf 5d3689f109baf304af4f145249ca6326
+ /etc/apache2/mods-available/status.load 00976ea5115f286bbc21357581d0b65e
+ /etc/apache2/mods-available/substitute.load 50e63dc17612e22484a88f537e8aec8e
+ /etc/apache2/mods-available/suexec.load 335169c85f4afc14524846789d46af06
+ /etc/apache2/mods-available/unique_id.load 6c13959015fb35276572070b44e63380
+ /etc/apache2/mods-available/userdir.conf 3a3142e84136336db8b940553a076983
+ /etc/apache2/mods-available/userdir.load c034025405561ea48fbcb67fd1998f4d
+ /etc/apache2/mods-available/usertrack.load 8400042dd4374fad5eedf33ffb3c68f0
+ /etc/apache2/mods-available/vhost_alias.load fdd42d34966c329cdee2435dfe72ee24
+ /etc/apache2/mods-available/xml2enc.load 1f7ab653ed3601bd265871cdf252a224
+ /etc/apache2/ports.conf a961f23471d985c2b819b652b7f64321
+ /etc/apache2/sites-available/000-default.conf f3066f67070ab9b1ad9bab81ca05330a
+ /etc/apache2/sites-available/default-ssl.conf 801f4c746a88b4228596cb260a4220c4
+ /etc/cron.daily/apache2 c788ffaa4c682c91e6a1cd7f53840d62
+ /etc/default/apache-htcacheclean ae8721a0bc5b4e2ef7a5258b1e9db5c5
+ /etc/init.d/apache-htcacheclean 48c965b3a037d8ce3e0cfad5b68eaed6
+ /etc/init.d/apache2 9d22fb30358e61a6f190a0d09c5120bf
+ /etc/logrotate.d/apache2 7322a4f050c1e2454249695236a3472c
+Description: Apache HTTP Server
+ The Apache HTTP Server Project's goal is to build a secure, efficient and
+ extensible HTTP server as standards-compliant open source software. The
+ result has long been the number one web server on the Internet.
+ .
+ Installing this package results in a full installation, including the
+ configuration files, init scripts and support scripts.
+Homepage: http://httpd.apache.org/
+
 Package: psmisc
 Status: install ok installed
 Priority: optional
@@ -2343,6 +2880,23 @@ Description: utilities that use the proc file system
   - pstree: shows currently running processes as a tree.
   - prtstat: print the contents of /proc/<pid>/stat
 Homepage: http://psmisc.sf.net/
+
+Package: libtidy5
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 633
+Maintainer: Jason Thomas <jason@debian.org>
+Architecture: armhf
+Source: tidy-html5
+Version: 1:5.2.0-2
+Depends: libc6 (>= 2.7)
+Description: HTML/XML syntax checker and reformatter - library
+ This is a library package, used by programs which have a dependency on
+ libtidy5. If you want to run Tidy on the command line, please install the
+ 'tidy' package. If you want to build a program from source which uses
+ libtidy5, please install the 'libtidy-dev' package.
+Homepage: http://www.html-tidy.org/
 
 Package: base-passwd
 Essential: yes
@@ -2731,6 +3285,36 @@ Description: Save/restore system clock on machines without working RTC hardware
  On top of this, use of NTP is still recommended to deal with the fake
  clock "drifting" while the hardware is halted or rebooting.
 
+Package: libhttp-cookies-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 76
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.01-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libhttp-date-perl, libhttp-message-perl
+Breaks: libwww-perl (<< 6.00)
+Description: HTTP cookie jars
+ This class is for objects that represent a "cookie jar" -- that is, a
+ database of all the HTTP cookies that a given LWP::UserAgent object knows
+ about.
+ .
+ Cookies are a general mechanism which server side connections can use to both
+ store and retrieve information on the client side of the connection. For more
+ information about cookies refer to
+ <URL:http://curl.haxx.se/rfc/cookie_spec.html> and
+ <URL:http://www.cookiecentral.com/>. HTTP::Cookies also implements the new
+ style cookies described in RFC 2965. The two variants of cookies are supposed
+ to be able to coexist happily.
+ .
+ Instances of the class HTTP::Cookies are able to store a collection of
+ Set-Cookie2: and Set-Cookie: headers and are able to use this information to
+ initialize Cookie-headers in HTTP::Request objects. The state of a
+ HTTP::Cookies object can be saved in and restored from files.
+Homepage: https://metacpan.org/release/HTTP-Cookies
+
 Package: dropbear-bin
 Status: install ok installed
 Priority: optional
@@ -2820,6 +3404,27 @@ Description: tool to make (or reverse) a hex dump
  xxd creates a hex dump of a given file or standard input.  It can also convert
  a hex dump back to its original binary form.
 Homepage: http://www.vim.org/
+
+Package: php7.0
+Status: install ok installed
+Priority: optional
+Section: php
+Installed-Size: 77
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: all
+Version: 7.0.27-0+deb9u1
+Provides: php
+Depends: libapache2-mod-php7.0 | php7.0-fpm | php7.0-cgi, php7.0-common
+Description: server-side, HTML-embedded scripting language (metapackage)
+ This package is a metapackage that, when installed, guarantees that you
+ have at least one of the four server-side versions of the PHP interpreter
+ installed. Removing this package won't remove PHP from your system, however
+ it may remove other packages that depend on this one.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+Homepage: http://www.php.net/
 
 Package: libdw1
 Status: install ok installed
@@ -3083,6 +3688,28 @@ Description: Collection of video4linux support libraries
  This package contains the shared libraries.
 Homepage: http://linuxtv.org/downloads/v4l-utils/
 
+Package: libaprutil1-dbd-sqlite3
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 43
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: apr-util
+Version: 1.5.4-3
+Depends: libaprutil1 (= 1.5.4-3), libc6 (>= 2.4), libsqlite3-0 (>= 3.5.9)
+Description: Apache Portable Runtime Utility Library - SQLite3 Driver
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ APR Util is a utilities library implemented on top of apr, providing database
+ access, xml parsing, and other useful functionality.
+ .
+ This package contains the SQLite3 database driver.
+Homepage: http://apr.apache.org/
+
 Package: bash
 Essential: yes
 Status: install ok installed
@@ -3178,6 +3805,29 @@ Description: audio codec (lossy and lossless) - library
  using libwavpack.
 Homepage: http://www.wavpack.com
 
+Package: liblcms2-2
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 325
+Maintainer: Thomas Weber <tweber@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: lcms2
+Version: 2.8-4
+Depends: libc6 (>= 2.7)
+Suggests: liblcms2-utils
+Description: Little CMS 2 color management library
+ LittleCMS 2 intends to be a small-footprint color management engine, with
+ special focus on accuracy and performance. It uses the International Color
+ Consortium standard (ICC) of color management. LittleCMS 2 is a full
+ implementation of ICC specification 4.2 plus all addendums. It fully supports
+ all V2 and V4 profiles, including abstract, devicelink and named color
+ profiles.
+ .
+ This package contains the shared library of liblcms2.
+Homepage: http://www.littlecms.com/
+
 Package: isc-dhcp-common
 Status: install ok installed
 Priority: important
@@ -3219,6 +3869,26 @@ Description: SMBIOS/DMI table decoder
  Beware that DMI data have proven to be too unreliable to be blindly trusted.
  Dmidecode does not scan the hardware, it only reports what the BIOS told it to.
 Homepage: https://dmidecode.nongnu.org/
+
+Package: libjbig0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 61
+Maintainer: Michael van der Kolff <mvanderkolff@gmail.com>
+Architecture: armhf
+Multi-Arch: same
+Source: jbigkit
+Version: 2.1-3.1
+Depends: libc6 (>= 2.4)
+Pre-Depends: multiarch-support
+Description: JBIGkit libraries
+ JBIG-KIT provides a portable library of compression and decompression functions
+ with a documented interface that you can include very easily into your image or
+ document processing software.
+ .
+ This package contains the dynamically linked library.
+Homepage: http://www.cl.cam.ac.uk/~mgk25/jbigkit/
 
 Package: libuuid1
 Status: install ok installed
@@ -3344,6 +4014,25 @@ Description: Perl extension for renaming multiple files
  replace the version currently supplied by the perl package.
 Homepage: https://metacpan.org/release/File-Rename
 
+Package: libnet-ssleay-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 1068
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Version: 1.80-1
+Depends: perl (>= 5.24.1~rc4-1), perl-openssl-abi-1.1, perlapi-5.24.1, libc6 (>= 2.4), libssl1.1 (>= 1.1.0)
+Suggests: libmime-base64-perl
+Description: Perl module for Secure Sockets Layer (SSL)
+ Net::SSLeay is a perl module that allows you to call Secure Sockets Layer
+ (SSL) functions of the SSLeay library directly from your perl scripts. It
+ is useful if you want to program robots that access secure web servers or
+ if you want to build your own applications over SSL encrypted tunnels. If
+ you just want to view web pages on https servers, you do not need this -
+ your web browser already knows to do that.
+Homepage: https://metacpan.org/release/Net-SSLeay
+
 Package: libldap-common
 Status: install ok installed
 Priority: standard
@@ -3361,6 +4050,30 @@ Description: OpenLDAP common files for libraries
  These are common files for the run-time libraries for the OpenLDAP
  (Lightweight Directory Access Protocol) servers and clients.
 Homepage: http://www.openldap.org/
+
+Package: libva-wayland1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 38
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libva
+Version: 1.7.3-2
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.4.16), libva1 (>= 1.7.3), libva1 (<< 1.7.3.1), libwayland-client0 (>= 1.9.91)
+Description: Video Acceleration (VA) API for Linux -- Wayland runtime
+ Video Acceleration API (VA API) is a library ("libVA") and API specification
+ which enables and provides access to graphics hardware (GPU) acceleration for
+ video processing on Linux and UNIX based operating systems. Accelerated
+ processing includes video decoding, video encoding, subpicture blending and
+ rendering. The specification was originally designed by Intel for its GMA
+ (Graphics Media Accelerator) series of GPU hardware, the API is however not
+ limited to GPUs or Intel specific hardware, as other hardware and manufacturers
+ can also freely use this API for hardware accelerated video decoding.
+ .
+ This package provides the libva-wayland library.
+Homepage: http://www.freedesktop.org/wiki/Software/vaapi
 
 Package: libcurl3
 Status: install ok installed
@@ -3507,6 +4220,37 @@ Description: Multi-format archive and compression library (shared library)
  This package provides the libarchive shared library.
 Homepage: http://www.libarchive.org/
 
+Package: poppler-data
+Status: install ok installed
+Priority: optional
+Section: misc
+Installed-Size: 12123
+Maintainer: Hideki Yamane <henrich@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 0.4.7-8
+Replaces: cmap-adobe-cns1 (<= 0+20090930-2), cmap-adobe-gb1 (<= 0+20090930-2), cmap-adobe-japan1 (<= 0+20090930-2), cmap-adobe-japan2 (<= 0+20090930-2), cmap-adobe-korea1 (<= 1.20100103-3), gs-cjk-resource (<= 1.20100103-3)
+Provides: cmap-adobe-cns1, cmap-adobe-gb1, cmap-adobe-japan1, cmap-adobe-japan2, cmap-adobe-korea1, gs-cjk-resource
+Pre-Depends: dpkg (>= 1.15.6~)
+Suggests: poppler-utils, ghostscript, fonts-japanese-mincho | fonts-ipafont-mincho, fonts-japanese-gothic | fonts-ipafont-gothic, fonts-arphic-ukai, fonts-arphic-uming, fonts-nanum (>= 20131007~)
+Breaks: cmap-adobe-cns1 (<= 0+20090930-2), cmap-adobe-gb1 (<= 0+20090930-2), cmap-adobe-japan1 (<= 0+20090930-2), cmap-adobe-japan2 (<= 0+20090930-2), cmap-adobe-korea1 (<= 1.20100103-3), gs-aladdin (<= 6.50-5), gs-cjk-resource (<= 1.20100103-3)
+Enhances: ghostscript
+Conffiles:
+ /etc/ghostscript/cidfmap.d/90gs-cjk-resource-cns1.conf d3a491137506a332ab747c571e5bee33
+ /etc/ghostscript/cidfmap.d/90gs-cjk-resource-gb1.conf 5ec7d7edc178ef73b1f6ac21a3cdc8a0
+ /etc/ghostscript/cidfmap.d/90gs-cjk-resource-japan1.conf 9502944d3a420a2763a36517679460f4
+ /etc/ghostscript/cidfmap.d/90gs-cjk-resource-japan2.conf 00d6b53125e159d61e2fd0a5056b4b4c
+ /etc/ghostscript/cidfmap.d/90gs-cjk-resource-korea1.conf 76ba5a8a08376075902594b9ecd902ed
+Description: encoding data for the poppler PDF rendering library
+ This package provides the CMap tables required to display PDF documents
+ containing CJK characters with libpoppler. They were previously provided
+ by the packages cmap-adobe-{cns1,gb1,japan1,japan2,korea1} and
+ gs-cjk-resource.
+ .
+ Users who want to view or create PDF files in Chinese, Japanese, or
+ Korean without embedded fonts will need this package.
+Homepage: http://poppler.freedesktop.org/
+
 Package: libjim0.76
 Status: install ok installed
 Priority: extra
@@ -3551,6 +4295,26 @@ Description: generic modular initramfs generator (core tools)
  create a bootable initramfs for a Linux kernel.  The initramfs should
  be loaded along with the kernel and is then responsible for mounting
  the root filesystem and starting the main init system.
+
+Package: libdvdnav4
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 108
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libdvdnav
+Version: 5.0.3-3
+Depends: libc6 (>= 2.4), libdvdread4 (>= 5.0.2)
+Suggests: libdvdcss2
+Breaks: mencoder (<< 2:1.0), mplayer (<< 2:1.0), mplayer2 (<< 2.0-728-g2c378c7-4)
+Description: DVD navigation library
+ libdvdnav is a DVD navigation library, which provides an interface to the
+ advanced features of DVDs, like menus and navigation. It contains the VM and
+ other parts useful for writing DVD players. It's based on Ogle, but was
+ modified to be used by xine and mplayer.
+Homepage: https://dvdnav.mplayerhq.hu/
 
 Package: apt-utils
 Status: install ok installed
@@ -3608,6 +4372,35 @@ Description: GNU readline and history libraries, run-time libraries
  .
  The GNU history library provides a consistent user interface for
  recalling lines of previously typed input.
+
+Package: libapache2-mod-php7.0
+Status: install ok installed
+Priority: optional
+Section: httpd
+Installed-Size: 3206
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: armhf
+Source: php7.0
+Version: 7.0.27-0+deb9u1
+Provides: libapache2-mod-php, phpapi-20151012
+Depends: libmagic1, libpcre3 (>= 1:8.20), mime-support, php7.0-cli, php7.0-common (= 7.0.27-0+deb9u1), php7.0-json, php7.0-opcache, tzdata, ucf, apache2-api-20120211, apache2-bin (>= 2.4.16), libc6 (>= 2.15), libssl1.1 (>= 1.1.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.2.3.4)
+Recommends: apache2
+Suggests: php-pear
+Conffiles:
+ /etc/apache2/mods-available/php7.0.conf 7b91f8ac555faba6042a634ac4749a31
+ /etc/apache2/mods-available/php7.0.load 3a30e46c1300df8988da3a825bc276aa
+Description: server-side, HTML-embedded scripting language (Apache 2 module)
+ This package provides the PHP module for the Apache 2 webserver (as
+ found in the apache2-mpm-prefork package).  Please note that this package
+ ONLY works with Apache's prefork MPM, as it is not compiled thread-safe.
+ .
+ The following extensions are built in: Core date filter hash libxml openssl
+ pcre Reflection session SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+Homepage: http://www.php.net/
 
 Package: libcap2-bin
 Status: install ok installed
@@ -3690,6 +4483,31 @@ Description: compression library - runtime
  in gzip and PKZIP.  This package includes the shared library.
 Homepage: http://zlib.net/
 
+Package: perl-openssl-defaults
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 27
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Version: 3
+Provides: perl-openssl-abi-1.1
+Depends: libc6 (>= 2.4), libssl1.1 (>= 1.1.0)
+Breaks: libcrypt-openssl-bignum-perl (<< 0.07-2), libcrypt-openssl-dsa-perl (<< 0.18-2), libcrypt-openssl-pkcs10-perl (<< 0.16-2), libcrypt-openssl-pkcs12-perl (<< 0.7-3), libcrypt-openssl-rsa-perl (<< 0.28-5), libcrypt-openssl-x509-perl (<< 1.8.7-3), libcrypt-smime-perl (<< 0.19-2), libcrypt-ssleay-perl (<< 0.73.04-2), libnet-ssleay-perl (<< 1.78-2)
+Description: version compatibility baseline for Perl OpenSSL packages
+ A subset of Perl XS module packages expose the OpenSSL binary interface
+ to Perl code. This can lead to incompatibilities if these packages are
+ linked against different versions of OpenSSL.
+ .
+ This package provides a virtual package "perl-openssl-abi-x" that
+ corresponds to the libssl-dev package SONAME it was built against.
+ The packages that need to stay compatible with each other can depend
+ on this.
+ .
+ Tools are also provided for generating this dependency with minimum
+ hassle. See the instructions in README.Debian.
+
 Package: lvm2
 Status: install ok installed
 Priority: optional
@@ -3737,6 +4555,33 @@ Description: multipurpose relay for bidirectional data transfer
  secure environment (su and chroot) for running client or server shell
  scripts inside network connections. Socat supports sctp as of 1.7.0.
 Homepage: http://www.dest-unreach.org/socat/
+
+Package: apache2-utils
+Status: install ok installed
+Priority: optional
+Section: httpd
+Installed-Size: 375
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: armhf
+Multi-Arch: foreign
+Source: apache2
+Version: 2.4.25-3+deb9u3
+Depends: libapr1 (>= 1.4.8-2~), libaprutil1 (>= 1.5.0), libc6 (>= 2.4), libssl1.0.2 (>= 1.0.2d)
+Description: Apache HTTP Server (utility programs for web servers)
+ Provides some add-on programs useful for any web server.  These include:
+  - ab (Apache benchmark tool)
+  - fcgistarter (Start a FastCGI program)
+  - logresolve (Resolve IP addresses to hostnames in logfiles)
+  - htpasswd (Manipulate basic authentication files)
+  - htdigest (Manipulate digest authentication files)
+  - htdbm (Manipulate basic authentication files in DBM format, using APR)
+  - htcacheclean (Clean up the disk cache)
+  - rotatelogs (Periodically stop writing to a logfile and open a new one)
+  - split-logfile (Split a single log including multiple vhosts)
+  - checkgid (Checks whether the caller can setgid to the specified group)
+  - check_forensic (Extract mod_log_forensic output from Apache log files)
+  - httxt2dbm (Generate dbm files for use with RewriteMap)
+Homepage: http://httpd.apache.org/
 
 Package: libcurl3-gnutls
 Status: install ok installed
@@ -4123,6 +4968,24 @@ Description: wireless Central Regulatory Domain Agent
  database provided by the wireless-regdb package.
 Homepage: https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA
 
+Package: libipc-system-simple-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 63
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.25-3
+Depends: perl
+Description: Perl module to run commands simply, with detailed diagnostics
+ IPC::System::Simple takes the hard work out of calling external commands; it
+ provides replacements for system() and the backtick operator that will either
+ succeed, or die with rich diagnostic messages on errors.
+ .
+ The module also includes the ability to specify acceptable exit values, trap
+ errors, or process diagnostics.
+Homepage: https://metacpan.org/release/IPC-System-Simple
+
 Package: mawk
 Status: install ok installed
 Priority: required
@@ -4202,6 +5065,23 @@ Description: Video4linux frame format conversion library
  .
  This package contains the shared library.
 Homepage: http://linuxtv.org/downloads/v4l-utils/
+
+Package: libfile-basedir-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 40
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 0.07-1
+Depends: perl, libipc-system-simple-perl
+Description: Perl module to use the freedesktop basedir specification
+ The File::BaseDir module can be used to find directories and files as
+ specified by the XDG Base Directory Specification. It takes care of
+ defaults and uses File::Spec to make the output platform specific.
+ .
+ For this module the XDG basedir specification 0.6 was used.
+Homepage: https://metacpan.org/release/File-BaseDir
 
 Package: libraspberrypi-dev
 Status: install ok installed
@@ -4400,6 +5280,30 @@ Description: library to read and control digital audio CDs
  libcdio.
 Homepage: http://www.gnu.org/software/libcdio/
 
+Package: libldb1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 320
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: ldb
+Version: 2:1.1.27-1
+Replaces: libldb0
+Depends: libc6 (>= 2.4), libldap-2.4-2 (>= 2.4.7), libtalloc2 (>= 2.0.4~git20101213), libtdb1 (>= 1.2.7+git20101214), libtevent0 (>= 0.9.9)
+Breaks: libldb0, libsamdb0 (<< 4.0.0~alpha17~git20110724.dfsg1-1)
+Description: LDAP-like embedded database - shared library
+ ldb is a LDAP-like embedded database built on top of TDB.
+ .
+ It provides a fast database with an LDAP-like API designed
+ to be used within an application. In some ways it can be seen as a
+ intermediate solution between key-value pair databases and a real LDAP
+ database.
+ .
+ This package contains the shared library file.
+Homepage: http://ldb.samba.org/
+
 Package: libsoxr0
 Status: install ok installed
 Priority: optional
@@ -4423,6 +5327,24 @@ Description: High quality 1D sample-rate conversion library
  A simple API is provided that allows interfacing using commonly-used sample
  formats and buffering schemes.
 Homepage: http://sourceforge.net/projects/soxr/
+
+Package: libpoppler64
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 2566
+Maintainer: Loic Minier <lool@dooz.org>
+Architecture: armhf
+Multi-Arch: same
+Source: poppler
+Version: 0.48.0-2+deb9u2
+Depends: libc6 (>= 2.11), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:3.5), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.16), libopenjp2-7 (>= 2.0.0), libpng16-16 (>= 1.6.2-1), libstdc++6 (>= 5), libtiff5 (>= 4.0.3), zlib1g (>= 1:1.1.4)
+Recommends: poppler-data
+Description: PDF rendering library
+ Poppler is a PDF rendering library based on Xpdf PDF viewer.
+ .
+ This package contains the shared core library.
+Homepage: http://poppler.freedesktop.org/
 
 Package: libglib2.0-0
 Status: install ok installed
@@ -4916,6 +5838,35 @@ Description: easy to use and lightweight logging library
  This package contains the shared library.
 Homepage: http://www.liblogging.org/
 
+Package: liblwp-protocol-https-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 56
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.06-2
+Replaces: libwww-perl (<< 6.02)
+Depends: perl, ca-certificates, libio-socket-ssl-perl (>= 1.54), libnet-http-perl, libwww-perl (>= 6.05-2)
+Suggests: libcrypt-ssleay-perl
+Breaks: libwww-perl (<< 6.02)
+Description: HTTPS driver for LWP::UserAgent
+ The LWP::Protocol::https module provides support for using HTTPS schemed URLs
+ with LWP. LWP::Protocol::https is a plug-in to the LWP protocol handling, so
+ you don't use it directly. Once the module is installed LWP is able to access
+ sites using HTTP over SSL/TLS.
+ .
+ If hostname verification is requested by LWP::UserAgent's ssl_opts, and
+ neither SSL_ca_file nor SSL_ca_path is set, then SSL_ca_file is implied to be
+ the one provided by ca-certificates.
+ .
+ This module used to be bundled with libwww-perl, but it was unbundled in
+ v6.02 in order to be able to declare its dependencies properly for the CPAN
+ tool-chain. Applications that need HTTPS support can just declare their
+ dependency on LWP::Protocol::https and will no longer need to know what
+ underlying modules to install.
+Homepage: https://metacpan.org/release/LWP-Protocol-https
+
 Package: linux-base
 Status: install ok installed
 Priority: optional
@@ -4929,6 +5880,24 @@ Depends: debconf (>= 0.5) | debconf-2.0
 Description: Linux image base package
  This package contains files and support scripts for all Linux
  images.
+
+Package: libbluetooth3
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 223
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: bluez
+Version: 5.43-2+rpt2+deb9u2
+Replaces: libsdp2 (<= 1.5-2)
+Depends: libc6 (>= 2.15), libudev1 (>= 183)
+Conflicts: libsdp2 (<= 1.5-2)
+Description: Library to use the BlueZ Linux Bluetooth stack
+ BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+ project distributed under GNU General Public License (GPL).
+Homepage: http://www.bluez.org
 
 Package: dphys-swapfile
 Status: install ok installed
@@ -5032,6 +6001,23 @@ Description: Linux support headers for userspace development
  headers are used by the installed headers for GNU libc and other system
  libraries.
 Homepage: https://www.kernel.org/
+
+Package: libtie-ixhash-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 34
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 1.23-2
+Depends: perl
+Description: Perl module to order associative arrays
+ Tie::IxHash implements Perl hashes that preserve the order in which the
+ hash elements were added. The order is not affected when values
+ corresponding to existing keys in the IxHash are changed. The elements can
+ also be set to any arbitrary supplied order. The familiar perl array
+ operations can also be performed on the IxHash.
+Homepage: https://metacpan.org/release/Tie-IxHash
 
 Package: mount
 Essential: yes
@@ -5209,6 +6195,28 @@ Description: free implementation of the OpenGL API -- DRI modules
  For a complete description of Mesa, please look at the
  libgl1-mesa-glx package.
 Homepage: https://mesa3d.org/
+
+Package: apache2-bin
+Status: install ok installed
+Priority: optional
+Section: httpd
+Installed-Size: 3409
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: armhf
+Source: apache2
+Version: 2.4.25-3+deb9u3
+Provides: apache2-api-20120211
+Depends: libapr1 (>= 1.5.0), libaprutil1 (>= 1.5.0), libaprutil1-dbd-sqlite3 | libaprutil1-dbd-mysql | libaprutil1-dbd-odbc | libaprutil1-dbd-pgsql | libaprutil1-dbd-freetds, libaprutil1-ldap, libc6 (>= 2.4), libldap-2.4-2 (>= 2.4.7), liblua5.2-0, libnghttp2-14 (>= 1.14.0), libpcre3, libssl1.0.2 (>= 1.0.2d), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4), perl:any
+Suggests: www-browser, apache2-doc, apache2-suexec-pristine | apache2-suexec-custom
+Description: Apache HTTP Server (modules and other binary files)
+ The Apache HTTP Server Project's goal is to build a secure, efficient and
+ extensible HTTP server as standards-compliant open source software. The
+ result has long been the number one web server on the Internet.
+ .
+ This package contains the binaries only and does not set up a working
+ web-server instance. Install the "apache2" package to get a fully working
+ instance.
+Homepage: http://httpd.apache.org/
 
 Package: libsystemd0
 Status: install ok installed
@@ -5491,6 +6499,73 @@ Description: Video Decode and Presentation API for Unix (libraries)
  This package contains the VDPAU wrapper and trace libraries.
 Homepage: http://cgit.freedesktop.org/~aplattner/libvdpau
 
+Package: x11-utils
+Status: install ok installed
+Priority: optional
+Section: x11
+Installed-Size: 470
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: armhf
+Multi-Arch: foreign
+Version: 7.7+3
+Depends: libc6 (>= 2.15), libfontconfig1 (>= 2.11), libfontenc1, libfreetype6 (>= 2.2.1), libgl1-mesa-glx | libgl1, libx11-6, libx11-xcb1, libxaw7, libxcb-shape0, libxcb1 (>= 1.6), libxcomposite1 (>= 1:0.3-1), libxext6, libxft2 (>> 2.1.1), libxi6, libxinerama1, libxmu6, libxmuu1, libxrandr2 (>= 2:1.2.0), libxrender1, libxt6, libxtst6, libxv1, libxxf86dga1, libxxf86vm1
+Suggests: mesa-utils
+Conffiles:
+ /etc/X11/app-defaults/Editres 4ab7f8d63e234cf35a62ef7ae959edf7
+ /etc/X11/app-defaults/Editres-color 5ec5d0e8c953faaa06af647650f30ce6
+ /etc/X11/app-defaults/Viewres 4f77da598593ff07cda9d2d147a07772
+ /etc/X11/app-defaults/Viewres-color ff9c397a80443790a97b909050f63282
+ /etc/X11/app-defaults/XFontSel 183bca665ae87e3943bdb4362d21973d
+ /etc/X11/app-defaults/Xfd a8b4d28d2ad895e40cfb6fb9c69eeecd
+ /etc/X11/app-defaults/Xmessage eed84b35dde8b18e7dcfc80e75c1da67
+ /etc/X11/app-defaults/Xmessage-color ca383db9e4e9648bda0952ad6b8a2115
+Description: X11 utilities
+ An X client is a program that interfaces with an X server (almost always via
+ the X libraries), and thus with some input and output hardware like a
+ graphics card, monitor, keyboard, and pointing device (such as a mouse).
+ .
+ This package provides a miscellaneous assortment of X utilities
+ that ship with the X Window System, including:
+  - appres, editres, listres and viewres, which query the X resource database;
+  - luit, a filter that can be run between an arbitrary application and a
+    UTF-8 terminal emulator;
+  - xdpyinfo, a display information utility for X;
+  - xdriinfo, query configuration information of DRI drivers;
+  - xev, an X event displayer;
+  - xfd, a tool that displays all the glyphs in a given X font;
+  - xfontsel, a tool for browsing and selecting X fonts;
+  - xkill, a tool for terminating misbehaving X clients;
+  - xlsatoms, which lists interned atoms defined on an X server;
+  - xlsclients, which lists client applications running on an X display;
+  - xlsfonts, a server font list displayer;
+  - xmessage, a tool to display message or dialog boxes;
+  - xprop, a property displayer for X;
+  - xvinfo, an Xv extension information utility for X;
+  - xwininfo, a window information utility for X;
+ .
+ The editres and viewres programs use bitmap images provided by the
+ xbitmaps package. The luit program requires locale information from
+ the libx11-data package.
+
+Package: apache2-data
+Status: install ok installed
+Priority: optional
+Section: httpd
+Installed-Size: 865
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: apache2
+Version: 2.4.25-3+deb9u3
+Description: Apache HTTP Server (common files)
+ The Apache HTTP Server Project's goal is to build a secure, efficient and
+ extensible HTTP server as standards-compliant open source software. The
+ result has long been the number one web server on the Internet.
+ .
+ This package contains architecture-independent common files such as icons,
+ error pages and static index files.
+Homepage: http://httpd.apache.org/
+
 Package: libnl-genl-3-200
 Status: install ok installed
 Priority: optional
@@ -5510,6 +6585,25 @@ Description: library for dealing with netlink sockets - generic netlink
  API to the generic netlink protocol, an extended version of the netlink
  protocol.
 Homepage: http://www.infradead.org/~tgr/libnl/
+
+Package: libnss3
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 2836
+Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: nss
+Version: 2:3.26.2-1.1+deb9u1
+Depends: libc6 (>= 2.4), libnspr4 (>= 2:4.12), libsqlite3-0 (>= 3.5.9), zlib1g (>= 1:1.1.4)
+Conflicts: libnss3-1d (<< 2:3.13.4-2)
+Description: Network Security Service libraries
+ This is a set of libraries designed to support cross-platform development
+ of security-enabled client and server applications. It can support SSLv2
+ and  v4, TLS, PKCS #5, #7, #11, #12, S/MIME, X.509 v3 certificates and
+ other security standards.
+Homepage: http://www.mozilla.org/projects/security/pki/nss/
 
 Package: libpam-chksshpwd
 Status: install ok installed
@@ -5589,6 +6683,23 @@ Description: information about the distributions' releases (data files)
  debian-distro-info and the ubuntu-distro-info scripts.
  .
  This package contains the data files.
+
+Package: libtiff5
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 534
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: tiff
+Version: 4.0.8-2+deb9u2
+Depends: libc6 (>= 2.11), libjbig0 (>= 2.0), libjpeg62-turbo (>= 1.3.1), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.1.4)
+Description: Tag Image File Format (TIFF) library
+ libtiff is a library providing support for the Tag Image File Format
+ (TIFF), a widely used format for storing image data.  This package
+ includes the shared library.
+Homepage: http://libtiff.maptools.org
 
 Package: wireless-regdb
 Status: install ok installed
@@ -5683,6 +6794,52 @@ Description: fdisk partitioning library
  The libfdisk library is used for manipulating partition tables. It is
  the core of the fdisk, cfdisk, and sfdisk tools.
 
+Package: ssl-cert
+Status: install ok installed
+Priority: optional
+Section: utils
+Installed-Size: 63
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 1.0.39
+Depends: debconf (>= 0.5) | debconf-2.0, openssl (>= 0.9.8g-9), adduser
+Suggests: openssl-blacklist
+Description: simple debconf wrapper for OpenSSL
+ This package enables unattended installs of packages that
+ need to create SSL certificates.
+ .
+ It is a simple wrapper for OpenSSL's certificate request utility that
+ feeds it with the correct user variables.
+
+Package: libhttp-daemon-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 71
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.01-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libhttp-date-perl, libhttp-message-perl, liblwp-mediatypes-perl
+Breaks: libwww-perl (<< 6.00)
+Description: simple http server class
+ Instances of the HTTP::Daemon class are HTTP/1.1 servers that listen on a
+ socket for incoming requests. The HTTP::Daemon is a subclass of
+ IO::Socket::INET, so you can perform socket operations directly on it too.
+ .
+ The accept() method will return when a connection from a client is available.
+ The returned value will be an HTTP::Daemon::ClientConn object which is
+ another IO::Socket::INET subclass. Calling the get_request() method on this
+ object will read data from the client and return an HTTP::Request object. The
+ ClientConn object also provide methods to send back various responses.
+ .
+ This HTTP daemon does not fork(2) for you. Your application, i.e. the user of
+ the HTTP::Daemon is responsible for forking if that is desirable. Also note
+ that the user is responsible for generating responses that conform to the
+ HTTP/1.1 protocol.
+Homepage: http://search.cpan.org/dist/HTTP-Daemon/
+
 Package: libpipeline1
 Status: install ok installed
 Priority: important
@@ -5727,6 +6884,28 @@ Description: computer vision core library
  analysis, structural analysis, motion analysis and object tracking, object
  recognition, camera calibration and 3D reconstruction.
 Homepage: http://opencv.org/
+
+Package: libnet-dbus-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 600
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Source: libnet-dbus-perl (1.1.0-4)
+Version: 1.1.0-4+b1
+Depends: perl (>= 5.24.1~rc3-3), perlapi-5.24.1, libc6 (>= 2.4), libdbus-1-3 (>= 1.9.14), libxml-twig-perl
+Description: Perl extension for the DBus bindings
+ Net::DBus provides a Perl API for the DBus message system. The DBus Perl
+ interface is currently operating against the 0.32 development version of
+ DBus, but should work with later versions too, providing the API changes have
+ not been too drastic.
+ .
+ Users of this package are either typically, service providers in which case
+ the Net::DBus::Service and Net::DBus::Object modules are of most relevance,
+ or are client consumers, in which case Net::DBus::RemoteService and
+ Net::DBus::RemoteObject are of most relevance.
+Homepage: https://metacpan.org/release/Net-DBus
 
 Package: initramfs-tools
 Status: install ok installed
@@ -5819,6 +6998,1019 @@ Description: Old Perl 5 Compatible Regular Expression Library - runtime files
  packages should migrate to pcre2.
  .
  This package contains the runtime libraries.
+
+Package: youtube-dl
+Status: install ok installed
+Priority: extra
+Section: web
+Installed-Size: 4814
+Maintainer: Rogério Brito <rbrito@ime.usp.br>
+Architecture: all
+Version: 2017.05.18.1-1
+Depends: python3-pkg-resources, python3:any (>= 3.3.2-2~)
+Pre-Depends: dpkg (>= 1.15.7.2)
+Recommends: aria2 | wget | curl, ca-certificates, ffmpeg | libav-tools, mpv | mplayer, rtmpdump
+Description: downloader of videos from YouTube and other sites
+ youtube-dl is a small command-line program to download videos from
+ YouTube.com and other sites that don't provide direct links to the
+ videos served.
+ .
+ youtube-dl allows the user, among other things, to choose a specific video
+ quality to download (if available) or let the program automatically
+ determine the best (or worst) quality video to grab. It supports
+ downloading entire playlists and all videos from a given user.
+ .
+ Currently supported sites (or features of sites) are:
+ .
+ 1tv,
+ 1up.com,
+ 20min,
+ 220.ro,
+ 22tracks:genre,
+ 22tracks:track,
+ 24video,
+ 3qsdn,
+ 3sat,
+ 4tube,
+ 56.com,
+ 5min,
+ 8tracks,
+ 91porn,
+ 9c9media,
+ 9c9media:stack,
+ 9gag,
+ 9now.com.au,
+ abc.net.au,
+ abc.net.au:iview,
+ abcnews,
+ abcnews:video,
+ abcotvs,
+ abcotvs:clips,
+ AcademicEarth:Course,
+ acast,
+ acast:channel,
+ AddAnime,
+ AdobeTV,
+ AdobeTVChannel,
+ AdobeTVShow,
+ AdobeTVVideo,
+ AdultSwim,
+ aenetworks,
+ afreecatv,
+ afreecatv:global,
+ AirMozilla,
+ AlJazeera,
+ Allocine,
+ AlphaPorno,
+ AMCNetworks,
+ anderetijden,
+ AnimeOnDemand,
+ anitube.se,
+ AnySex,
+ Aparat,
+ AppleConnect,
+ AppleDaily,
+ appletrailers,
+ appletrailers:section,
+ archive.org,
+ ARD,
+ ARD:mediathek,
+ Arkena,
+ arte.tv,
+ arte.tv:+7,
+ arte.tv:cinema,
+ arte.tv:concert,
+ arte.tv:creative,
+ arte.tv:ddc,
+ arte.tv:embed,
+ arte.tv:future,
+ arte.tv:info,
+ arte.tv:magazine,
+ arte.tv:playlist,
+ AtresPlayer,
+ ATTTechChannel,
+ AudiMedia,
+ AudioBoom,
+ audiomack,
+ audiomack:album,
+ auroravid,
+ AWAAN,
+ awaan:live,
+ awaan:season,
+ awaan:video,
+ AZMedien,
+ AZMedienPlaylist,
+ Azubu,
+ AzubuLive,
+ BaiduVideo,
+ bambuser,
+ bambuser:channel,
+ Bandcamp,
+ Bandcamp:album,
+ bangumi.bilibili.com,
+ bbc,
+ bbc.co.uk,
+ bbc.co.uk:article,
+ bbc.co.uk:iplayer:playlist,
+ bbc.co.uk:playlist,
+ Beam:live,
+ Beatport,
+ Beeg,
+ BehindKink,
+ BellMedia,
+ Bet,
+ Bigflix,
+ Bild,
+ BiliBili,
+ BioBioChileTV,
+ BIQLE,
+ BleacherReport,
+ BleacherReportCMS,
+ blinkx,
+ Bloomberg,
+ BokeCC,
+ Bpb,
+ BR,
+ BravoTV,
+ Break,
+ brightcove:legacy,
+ brightcove:new,
+ bt:article,
+ bt:vestlendingen,
+ BuzzFeed,
+ BYUtv,
+ BYUtvEvent,
+ Camdemy,
+ CamdemyFolder,
+ CamWithHer,
+ canalc2.tv,
+ Canalplus,
+ Canvas,
+ CarambaTV,
+ CarambaTVPage,
+ CartoonNetwork,
+ cbc.ca,
+ cbc.ca:player,
+ cbc.ca:watch,
+ cbc.ca:watch:video,
+ CBS,
+ CBSInteractive,
+ CBSLocal,
+ cbsnews,
+ cbsnews:livevideo,
+ CBSSports,
+ CCMA,
+ CCTV,
+ CDA,
+ CeskaTelevize,
+ channel9,
+ CharlieRose,
+ Chaturbate,
+ Chilloutzone,
+ chirbit,
+ chirbit:profile,
+ Cinchcast,
+ Clipfish,
+ cliphunter,
+ ClipRs,
+ Clipsyndicate,
+ CloserToTruth,
+ cloudtime,
+ Cloudy,
+ Clubic,
+ Clyp,
+ cmt.com,
+ CNBC,
+ CNN,
+ CNNArticle,
+ CNNBlogs,
+ CollegeRama,
+ ComCarCoff,
+ ComedyCentral,
+ ComedyCentralFullEpisodes,
+ ComedyCentralShortname,
+ ComedyCentralTV,
+ CommonMistakes,
+ CondeNast,
+ Coub,
+ Cracked,
+ Crackle,
+ Criterion,
+ CrooksAndLiars,
+ Crunchyroll,
+ crunchyroll:playlist,
+ CSNNE,
+ CSpan,
+ CtsNews,
+ CTVNews,
+ culturebox.francetvinfo.fr,
+ CultureUnplugged,
+ curiositystream,
+ curiositystream:collection,
+ CWTV,
+ DailyMail,
+ dailymotion,
+ dailymotion:playlist,
+ dailymotion:user,
+ DailymotionCloud,
+ daum.net,
+ daum.net:clip,
+ daum.net:playlist,
+ daum.net:user,
+ DBTV,
+ DctpTv,
+ DeezerPlaylist,
+ defense.gouv.fr,
+ democracynow,
+ DHM,
+ DigitallySpeaking,
+ Digiteka,
+ Discovery,
+ DiscoveryGo,
+ Disney,
+ Dotsub,
+ DouyuTV,
+ DPlay,
+ dramafever,
+ dramafever:series,
+ DRBonanza,
+ Dropbox,
+ DrTuber,
+ drtv,
+ drtv:live,
+ Dumpert,
+ dvtv,
+ dw,
+ dw:article,
+ EaglePlatform,
+ EbaumsWorld,
+ EchoMsk,
+ egghead:course,
+ eHow,
+ Einthusan,
+ eitb.tv,
+ EllenTV,
+ EllenTV:clips,
+ ElPais,
+ Embedly,
+ EMPFlix,
+ Engadget,
+ Eporner,
+ EroProfile,
+ Escapist,
+ ESPN,
+ ESPNArticle,
+ EsriVideo,
+ Europa,
+ EveryonesMixtape,
+ ExpoTV,
+ ExtremeTube,
+ EyedoTV,
+ facebook,
+ FacebookPluginsVideo,
+ faz.net,
+ fc2,
+ fc2:embed,
+ Fczenit,
+ fernsehkritik.tv,
+ filmon,
+ filmon:channel,
+ Firstpost,
+ FiveTV,
+ Flickr,
+ Flipagram,
+ Folketinget,
+ FootyRoom,
+ Formula1,
+ FOX,
+ FOX9,
+ Foxgay,
+ foxnews,
+ foxnews:article,
+ foxnews:insider,
+ FoxSports,
+ france2.fr:generation-quoi,
+ FranceCulture,
+ FranceInter,
+ francetv,
+ francetvinfo.fr,
+ Freesound,
+ freespeech.org,
+ Funimation,
+ FunnyOrDie,
+ Fusion,
+ FXNetworks,
+ GameInformer,
+ GameOne,
+ gameone:playlist,
+ Gamersyde,
+ GameSpot,
+ GameStar,
+ Gaskrank,
+ Gazeta,
+ GDCVault,
+ generic,
+ Gfycat,
+ GiantBomb,
+ Giga,
+ Glide,
+ Globo,
+ GloboArticle,
+ Go,
+ GodTube,
+ GodTV,
+ Golem,
+ GoogleDrive,
+ Goshgay,
+ GPUTechConf,
+ Groupon,
+ Hark,
+ HBO,
+ HBOEpisode,
+ HearThisAt,
+ Heise,
+ HellPorno,
+ Helsinki,
+ HentaiStigma,
+ HGTV,
+ hgtv.com:show,
+ HistoricFilms,
+ history:topic,
+ hitbox,
+ hitbox:live,
+ HitRecord,
+ HornBunny,
+ HotNewHipHop,
+ HotStar,
+ Howcast,
+ HowStuffWorks,
+ HRTi,
+ HRTiPlaylist,
+ Huajiao,
+ HuffPost,
+ Hypem,
+ Iconosquare,
+ ign.com,
+ imdb,
+ imdb:list,
+ Imgur,
+ ImgurAlbum,
+ Ina,
+ Inc,
+ Indavideo,
+ IndavideoEmbed,
+ InfoQ,
+ Instagram,
+ instagram:user,
+ InternetVideoArchive,
+ IPrima,
+ iqiyi,
+ Ir90Tv,
+ ITV,
+ ivi,
+ ivi:compilation,
+ ivideon,
+ Iwara,
+ Izlesene,
+ Jamendo,
+ JamendoAlbum,
+ JeuxVideo,
+ Jove,
+ jpopsuki.tv,
+ JWPlatform,
+ Kaltura,
+ Kamcord,
+ KanalPlay,
+ Kankan,
+ Karaoketv,
+ KarriereVideos,
+ keek,
+ KeezMovies,
+ Ketnet,
+ KhanAcademy,
+ KickStarter,
+ KonserthusetPlay,
+ kontrtube,
+ KrasView,
+ Ku6,
+ KUSI,
+ kuwo:album,
+ kuwo:category,
+ kuwo:chart,
+ kuwo:mv,
+ kuwo:singer,
+ kuwo:song,
+ la7.it,
+ laola1tv,
+ laola1tv:embed,
+ LCI,
+ Lcp,
+ LcpPlay,
+ Le,
+ Learnr,
+ Lecture2Go,
+ LEGO,
+ Lemonde,
+ LePlaylist,
+ LetvCloud,
+ Libsyn,
+ life,
+ life:embed,
+ limelight,
+ limelight:channel,
+ limelight:channel_list,
+ LiTV,
+ LiveLeak,
+ livestream,
+ livestream:original,
+ livestream:shortener,
+ LnkGo,
+ loc,
+ LocalNews8,
+ LoveHomePorn,
+ lrt.lt,
+ lynda,
+ lynda:course,
+ m6,
+ macgamestore,
+ mailru,
+ MakersChannel,
+ MakerTV,
+ mangomolo:live,
+ mangomolo:video,
+ MatchTV,
+ MDR,
+ media.ccc.de,
+ Meipai,
+ MelonVOD,
+ META,
+ metacafe,
+ Metacritic,
+ Mgoon,
+ MGTV,
+ MiaoPai,
+ Minhateca,
+ MinistryGrid,
+ Minoto,
+ miomio.tv,
+ MiTele,
+ mixcloud,
+ mixcloud:playlist,
+ mixcloud:stream,
+ mixcloud:user,
+ MLB,
+ Mms,
+ Mnet,
+ MoeVideo,
+ Mofosex,
+ Mojvideo,
+ Moniker,
+ Morningstar,
+ Motherless,
+ Motorsport,
+ MovieClips,
+ MovieFap,
+ Moviezine,
+ MovingImage,
+ MPORA,
+ MSN,
+ mtg,
+ mtv,
+ mtv.de,
+ mtv81,
+ mtv:video,
+ mtvservices:embedded,
+ MuenchenTV,
+ MusicPlayOn,
+ mva,
+ mva:course,
+ Mwave,
+ MwaveMeetGreet,
+ MySpace,
+ MySpace:album,
+ MySpass,
+ Myvi,
+ myvideo (CURRENTLY BROKEN),
+ MyVidster,
+ n-tv.de,
+ natgeo,
+ natgeo:episodeguide,
+ natgeo:video,
+ Naver,
+ NBA,
+ NBC,
+ NBCNews,
+ NBCOlympics,
+ NBCSports,
+ NBCSportsVPlayer,
+ ndr,
+ ndr:embed,
+ ndr:embed:base,
+ NDTV,
+ NerdCubedFeed,
+ netease:album,
+ netease:djradio,
+ netease:mv,
+ netease:playlist,
+ netease:program,
+ netease:singer,
+ netease:song,
+ Netzkino,
+ Newgrounds,
+ Newstube,
+ NextMedia,
+ NextMediaActionNews,
+ NextTV,
+ nfb,
+ nfl.com,
+ NhkVod,
+ nhl.com,
+ nhl.com:news,
+ nhl.com:videocenter,
+ nhl.com:videocenter:category,
+ nick.com,
+ nick.de,
+ nicknight,
+ niconico,
+ NiconicoPlaylist,
+ Nintendo,
+ njoy,
+ njoy:embed,
+ NobelPrize,
+ Noco,
+ Normalboots,
+ NosVideo,
+ Nova,
+ nowness,
+ nowness:playlist,
+ nowness:series,
+ NowTV (CURRENTLY BROKEN),
+ NowTVList,
+ nowvideo,
+ Noz,
+ npo,
+ npo.nl:live,
+ npo.nl:radio,
+ npo.nl:radio:fragment,
+ Npr,
+ NRK,
+ NRKPlaylist,
+ NRKSkole,
+ NRKTV,
+ NRKTVDirekte,
+ NRKTVEpisodes,
+ NRKTVSeries,
+ ntv.ru,
+ Nuvid,
+ NYTimes,
+ NYTimesArticle,
+ NZZ,
+ ocw.mit.edu,
+ OdaTV,
+ Odnoklassniki,
+ OktoberfestTV,
+ on.aol.com,
+ OnDemandKorea,
+ onet.tv,
+ onet.tv:channel,
+ OnionStudios,
+ Ooyala,
+ OoyalaExternal,
+ Openload,
+ OraTV,
+ orf:fm4,
+ orf:iptv,
+ orf:oe1,
+ orf:tvthek,
+ PandaTV,
+ pandora.tv,
+ parliamentlive.tv,
+ Patreon,
+ pbs,
+ pcmag,
+ People,
+ periscope,
+ periscope:user,
+ PhilharmonieDeParis,
+ phoenix.de,
+ Photobucket,
+ Piksel,
+ Pinkbike,
+ Pladform,
+ play.fm,
+ PlaysTV,
+ Playtvak,
+ Playvid,
+ Playwire,
+ pluralsight,
+ pluralsight:course,
+ plus.google,
+ pluzz.francetv.fr,
+ podomatic,
+ Pokemon,
+ PolskieRadio,
+ PolskieRadioCategory,
+ PornCom,
+ PornFlip,
+ PornHd,
+ PornHub,
+ PornHubPlaylist,
+ PornHubUserVideos,
+ Pornotube,
+ PornoVoisines,
+ PornoXO,
+ PressTV,
+ PrimeShareTV,
+ PromptFile,
+ prosiebensat1,
+ Puls4,
+ Pyvideo,
+ qqmusic,
+ qqmusic:album,
+ qqmusic:playlist,
+ qqmusic:singer,
+ qqmusic:toplist,
+ R7,
+ R7Article,
+ radio.de,
+ radiobremen,
+ radiocanada,
+ RadioCanadaAudioVideo,
+ radiofrance,
+ RadioJavan,
+ Rai,
+ RaiTV,
+ RBMARadio,
+ RDS,
+ RedTube,
+ RegioTV,
+ RENTV,
+ RENTVArticle,
+ Restudy,
+ Reuters,
+ ReverbNation,
+ revision,
+ revision3:embed,
+ RICE,
+ RingTV,
+ RMCDecouverte,
+ RockstarGames,
+ RoosterTeeth,
+ RottenTomatoes,
+ Roxwel,
+ Rozhlas,
+ RTBF,
+ rte,
+ rte:radio,
+ rtl.nl,
+ RTL2,
+ Rtmp,
+ RTP,
+ RTS,
+ rtve.es:alacarta,
+ rtve.es:infantil,
+ rtve.es:live,
+ rtve.es:television,
+ RTVNH,
+ Rudo,
+ RUHD,
+ RulePorn,
+ rutube,
+ rutube:channel,
+ rutube:embed,
+ rutube:movie,
+ rutube:person,
+ RUTV,
+ Ruutu,
+ safari,
+ safari:api,
+ safari:course,
+ Sandia,
+ Sapo,
+ savefrom.net,
+ SBS,
+ schooltv,
+ SciVee,
+ screen.yahoo:search,
+ Screencast,
+ ScreencastOMatic,
+ Seeker,
+ SenateISVP,
+ SendtoNews,
+ ServingSys,
+ Sexu,
+ Shahid,
+ Shared,
+ ShowRoomLive,
+ Sina,
+ SixPlay,
+ skynewsarabia:article,
+ skynewsarabia:video,
+ SkySports,
+ Slideshare,
+ Slutload,
+ smotri,
+ smotri:broadcast,
+ smotri:community,
+ smotri:user,
+ Snotr,
+ Sohu,
+ SonyLIV,
+ soundcloud,
+ soundcloud:playlist,
+ soundcloud:search,
+ soundcloud:set,
+ soundcloud:user,
+ soundgasm,
+ soundgasm:profile,
+ southpark.cc.com,
+ southpark.cc.com:español,
+ southpark.de,
+ southpark.nl,
+ southparkstudios.dk,
+ SpankBang,
+ Spankwire,
+ Spiegel,
+ Spiegel:Article,
+ Spiegeltv,
+ Spike,
+ Sport5,
+ SportBoxEmbed,
+ SportDeutschland,
+ Sportschau,
+ sr:mediathek,
+ SRGSSR,
+ SRGSSRPlay,
+ stanfordoc,
+ Steam,
+ Stitcher,
+ Streamable,
+ streamcloud.eu,
+ StreamCZ,
+ StreetVoice,
+ SunPorno,
+ SVT,
+ SVTPlay,
+ SWRMediathek,
+ Syfy,
+ SztvHu,
+ t-online.de,
+ Tagesschau,
+ tagesschau:player,
+ Tass,
+ TBS,
+ TDSLifeway,
+ teachertube,
+ teachertube:user:collection,
+ TeachingChannel,
+ Teamcoco,
+ TeamFourStar,
+ TechTalks,
+ techtv.mit.edu,
+ ted,
+ Tele13,
+ TeleBruxelles,
+ Telecinco,
+ Telegraaf,
+ TeleMB,
+ TeleQuebec,
+ TeleTask,
+ Telewebion,
+ TestURL,
+ TF1,
+ TFO,
+ TheIntercept,
+ theoperaplatform,
+ ThePlatform,
+ ThePlatformFeed,
+ TheScene,
+ TheSixtyOne,
+ TheStar,
+ TheWeatherChannel,
+ ThisAmericanLife,
+ ThisAV,
+ ThisOldHouse,
+ tinypic,
+ tlc.de,
+ TMZ,
+ TMZArticle,
+ TNAFlix,
+ TNAFlixNetworkEmbed,
+ toggle,
+ Tosh,
+ tou.tv,
+ Toypics,
+ ToypicsUser,
+ TrailerAddict (CURRENTLY BROKEN),
+ Trilulilu,
+ TruTV,
+ Tube8,
+ TubiTv,
+ tudou,
+ tudou:album,
+ tudou:playlist,
+ Tumblr,
+ tunein:clip,
+ tunein:program,
+ tunein:shortener,
+ tunein:station,
+ tunein:topic,
+ Turbo,
+ Tutv,
+ tv.dfb.de,
+ TV2,
+ TV2Article,
+ TV3,
+ TV4,
+ TVA,
+ TVANouvelles,
+ TVANouvellesArticle,
+ TVC,
+ TVCArticle,
+ tvigle,
+ tvland.com,
+ TVNoe,
+ tvp,
+ tvp:embed,
+ tvp:series,
+ Tweakers,
+ twitch:chapter,
+ twitch:clips,
+ twitch:profile,
+ twitch:stream,
+ twitch:video,
+ twitch:videos:all,
+ twitch:videos:highlights,
+ twitch:videos:past-broadcasts,
+ twitch:videos:uploads,
+ twitch:vod,
+ twitter,
+ twitter:amplify,
+ twitter:card,
+ udemy,
+ udemy:course,
+ UDNEmbed,
+ UKTVPlay,
+ UnicodeBOM,
+ Unistra,
+ uol.com.br,
+ uplynk,
+ uplynk:preplay,
+ Urort,
+ URPlay,
+ USANetwork,
+ USAToday,
+ ustream,
+ ustream:channel,
+ ustudio,
+ ustudio:embed,
+ Varzesh3,
+ Vbox7,
+ VeeHD,
+ Veoh,
+ Vessel,
+ Vesti,
+ Vevo,
+ VevoPlaylist,
+ VGTV,
+ vh1.com,
+ Viafree,
+ Vice,
+ Viceland,
+ ViceShow,
+ Vidbit,
+ Viddler,
+ Videa,
+ video.google:search,
+ video.mit.edu,
+ VideoDetective,
+ videofy.me,
+ VideoMega,
+ videomore,
+ videomore:season,
+ videomore:video,
+ VideoPremium,
+ VideoPress,
+ videoweed,
+ Vidio,
+ vidme,
+ vidme:user,
+ vidme:user:likes,
+ Vidzi,
+ vier,
+ vier:videos,
+ ViewLift,
+ ViewLiftEmbed,
+ Viewster,
+ Viidea,
+ viki,
+ viki:channel,
+ vimeo,
+ vimeo:album,
+ vimeo:channel,
+ vimeo:group,
+ vimeo:likes,
+ vimeo:ondemand,
+ vimeo:review,
+ vimeo:user,
+ vimeo:watchlater,
+ Vimple,
+ Vine,
+ vine:user,
+ Viu,
+ viu:ott,
+ viu:playlist,
+ Vivo,
+ vk,
+ vk:uservideos,
+ vk:wallpost,
+ vlive,
+ vlive:channel,
+ Vodlocker,
+ VODPlatform,
+ VoiceRepublic,
+ VoxMedia,
+ Vporn,
+ vpro,
+ VRT,
+ vube,
+ VuClip,
+ VVVVID,
+ VyboryMos,
+ Vzaar,
+ Walla,
+ washingtonpost,
+ washingtonpost:article,
+ wat.tv,
+ WatchIndianPorn,
+ WDR,
+ wdr:mobile,
+ Webcaster,
+ WebcasterFeed,
+ WebOfStories,
+ WebOfStoriesPlaylist,
+ WeiqiTV,
+ wholecloud,
+ Wimp,
+ Wistia,
+ wnl,
+ WorldStarHipHop,
+ wrzuta.pl,
+ wrzuta.pl:playlist,
+ WSJ,
+ XBef,
+ XboxClips,
+ XFileShare,
+ XHamster,
+ XHamsterEmbed,
+ xiami:album,
+ xiami:artist,
+ xiami:collection,
+ xiami:song,
+ XMinus,
+ XNXX,
+ Xstream,
+ XTube,
+ XTubeUser,
+ Xuite,
+ XVideos,
+ XXXYMovies,
+ Yahoo,
+ Yam,
+ yandexmusic:album,
+ yandexmusic:playlist,
+ yandexmusic:track,
+ YesJapan,
+ yinyuetai:video,
+ Ynet,
+ YouJizz,
+ youku,
+ youku:show,
+ YouPorn,
+ YourUpload,
+ youtube,
+ youtube:channel,
+ youtube:favorites,
+ youtube:history,
+ youtube:live,
+ youtube:playlist,
+ youtube:playlists,
+ youtube:recommended,
+ youtube:search,
+ youtube:search:date,
+ youtube:search_url,
+ youtube:shared,
+ youtube:show,
+ youtube:subscriptions,
+ youtube:truncated_id,
+ youtube:truncated_url,
+ youtube:user,
+ youtube:watchlater,
+ Zapiks,
+ ZDF,
+ ZDFChannel,
+ zingmp3
+Homepage: https://rg3.github.com/youtube-dl/
 
 Package: libksba8
 Status: install ok installed
@@ -6028,6 +8220,30 @@ Description: Smart card utilities with support for PKCS#15 compatible cards
  This package contains the pkcs11 module.
 Homepage: https://github.com/OpenSC/OpenSC/wiki
 
+Package: php7.0-cli
+Status: install ok installed
+Priority: optional
+Section: php
+Installed-Size: 3097
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: armhf
+Source: php7.0
+Version: 7.0.27-0+deb9u1
+Provides: php-cli, phpapi-20151012
+Depends: libedit2 (>= 2.11-20080614-4), libmagic1, libpcre3 (>= 1:8.20), mime-support, php7.0-common (= 7.0.27-0+deb9u1), php7.0-json, php7.0-opcache, php7.0-readline, tzdata, ucf, libc6 (>= 2.15), libssl1.1 (>= 1.1.0), libxml2 (>= 2.8.0), zlib1g (>= 1:1.2.3.4)
+Suggests: php-pear
+Description: command-line interpreter for the PHP scripting language
+ This package provides the /usr/bin/php7.0 command interpreter, useful for
+ testing PHP scripts from a shell or performing general shell scripting tasks.
+ .
+ The following extensions are built in: Core date filter hash libxml openssl
+ pcntl pcre Reflection session SPL standard zlib.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+Homepage: http://www.php.net/
+
 Package: sgml-base
 Status: install ok installed
 Priority: optional
@@ -6051,6 +8267,28 @@ Description: SGML infrastructure and SGML catalog file support
  .
    * update-catalog(8): tool for maintaining the root SGML catalog
      file and the package SGML catalog files in the '/etc/sgml' directory.
+
+Package: python3-pkg-resources
+Status: install ok installed
+Priority: optional
+Section: python
+Installed-Size: 511
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Source: python-setuptools
+Version: 33.1.1-1
+Depends: python3:any (>= 3.3.2-2~)
+Suggests: python3-setuptools
+Description: Package Discovery and Resource Access using pkg_resources
+ The pkg_resources module provides an API for Python libraries to
+ access their resource files, and for extensible applications and
+ frameworks to automatically discover plugins.  It also provides
+ runtime support for using C extensions that are inside zipfile-format
+ eggs, support for merging packages that have separately-distributed
+ modules or subpackages, and APIs for managing Python's current
+ "working set" of active packages.
+Homepage: https://pypi.python.org/pypi/setuptools
 
 Package: parted
 Status: install ok installed
@@ -6571,6 +8809,29 @@ Description: high-quality block-sorting file compressor library - runtime
  predecessor, bzip (.bz).
 Homepage: http://www.bzip.org/
 
+Package: libnspr4
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 262
+Maintainer: Maintainers of Mozilla-related packages <pkg-mozilla-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: nspr
+Version: 2:4.12-6
+Depends: libc6 (>= 2.17)
+Conflicts: libnspr4-0d (<< 2:4.9-2~)
+Description: NetScape Portable Runtime Library
+ This library provides platform independent non-GUI operating system
+ facilities including:
+  * threads,
+  * thread synchronisation,
+  * normal file I/O and network I/O,
+  * interval timing and calendar time,
+  * basic memory management (malloc and free),
+  * shared library linking.
+Homepage: http://www.mozilla.org/projects/nspr/
+
 Package: ucf
 Status: install ok installed
 Priority: standard
@@ -6626,6 +8887,30 @@ Description: libkmod shared library
  This library provides an API for insertion, removal, configuration and
  listing of kernel modules.
 
+Package: libio-socket-ssl-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 504
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 2.044-1
+Depends: libnet-ssleay-perl (>= 1.59), netbase, perl
+Recommends: libnet-libidn-perl | libnet-idn-encode-perl | liburi-perl, perl (>= 5.15.6) | libsocket-perl | libsocket6-perl, perl (>= 5.19.8) | libio-socket-ip-perl (>= 0.20) | libio-socket-inet6-perl
+Suggests: ca-certificates
+Description: Perl module implementing object oriented interface to SSL sockets
+ This module is a true drop-in replacement for IO::Socket::INET that
+ uses SSL to encrypt data before it is transferred to a remote server
+ or client.  IO::Socket::SSL supports all the extra features that one
+ needs to write a full-featured SSL client or server application:
+ multiple SSL contexts, cipher selection, certificate verification, and
+ SSL version selection.  As an extra bonus, it works perfectly with
+ mod_perl.
+ .
+ IO::Socket::SSL uses IPv6 if libio-socket-ip-perl (>= 0.20) or
+ libio-socket-inet6-perl is installed.
+Homepage: https://metacpan.org/release/IO-Socket-SSL
+
 Package: libpulse0
 Status: install ok installed
 Priority: optional
@@ -6649,6 +8934,28 @@ Description: PulseAudio client libraries
  Client libraries used by applications that access a PulseAudio sound server
  via PulseAudio's native interface.
 Homepage: http://www.pulseaudio.org
+
+Package: libxmuu1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 45
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libxmu
+Version: 2:1.1.2-2
+Depends: libc6 (>= 2.4), libx11-6
+Description: X11 miscellaneous micro-utility library
+ libXmuu provides a set of miscellaneous utility convenience functions for X
+ libraries to use.  It is a lighter version of libXmu that does not depend
+ on libXt or libXext; for more information on libXmu, see libxmu6.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXmu
 
 Package: libvpx4
 Status: install ok installed
@@ -6797,6 +9104,23 @@ Description: CGI subclass for work with FCGI
  performance improvements.
 Homepage: https://metacpan.org/release/CGI-Fast
 
+Package: libhtml-tree-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 489
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 5.03-2
+Depends: perl, libhtml-parser-perl, libhtml-tagset-perl
+Recommends: libhtml-format-perl, libwww-perl
+Description: Perl module to represent and create HTML syntax trees
+ HTML::Tree is a collection of modules that represent, create and extract
+ information from HTML syntax trees.  These modules used to be part of
+ the libwww-perl distribution, but are now unbundled in order to
+ facilitate a separate development track.
+Homepage: https://metacpan.org/release/HTML-Tree
+
 Package: libterm-readkey-perl
 Status: install ok installed
 Priority: optional
@@ -6938,6 +9262,28 @@ Description: X11 Testing -- Record extension library
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libXtst
 
+Package: libxmu6
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 114
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libxmu
+Version: 2:1.1.2-2
+Depends: libc6 (>= 2.7), libx11-6, libxext6, libxt6
+Description: X11 miscellaneous utility library
+ libXmu provides a set of miscellaneous utility convenience functions for X
+ libraries to use.  libXmuu is a lighter-weight version that does not depend
+ on libXt or libXext; for more information, see libxmuu1.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXmu
+
 Package: libtasn1-6
 Status: install ok installed
 Priority: standard
@@ -7068,6 +9414,26 @@ Description: Userspace interface to kernel DRM services -- runtime
  .
  This package provides the runtime environment for libdrm.
 Homepage: https://cgit.freedesktop.org/mesa/drm/
+
+Package: libsmbclient
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 262
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: samba
+Version: 2:4.5.12+dfsg-2+deb9u1
+Replaces: samba-doc (<< 2:4.0.5~)
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.8), libtalloc2 (>= 2.0.4~git20101213), libtevent0 (>= 0.9.12), samba-libs (= 2:4.5.12+dfsg-2+deb9u1)
+Pre-Depends: dpkg (>= 1.15.6~)
+Conflicts: samba-doc (<< 2:4.0.5~)
+Description: shared library for communication with SMB/CIFS servers
+ This package provides a shared library that enables client applications
+ to talk to Microsoft Windows and Samba servers using the SMB/CIFS
+ protocol.
+Homepage: http://www.samba.org
 
 Package: isc-dhcp-client
 Status: install ok installed
@@ -7688,6 +10054,28 @@ Description: interactive high-level object-oriented language (default python ver
  Python version (currently v2.7).
 Homepage: http://www.python.org/
 
+Package: libtevent0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 74
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: tevent
+Version: 0.9.31-1
+Depends: libc6 (>= 2.15), libtalloc2 (>= 2.1.0)
+Description: talloc-based event loop library - shared library
+ tevent is a simple library that can handle the main event loop for an
+ application. It supports three kinds of events: timed events, file
+ descriptors becoming readable or writable and signals.
+ .
+ Talloc is used for memory management, both internally and for private
+ data provided by users of the library.
+ .
+ This package provides the shared library file.
+Homepage: https://tevent.samba.org/
+
 Package: libfile-fcntllock-perl
 Status: install ok installed
 Priority: optional
@@ -7952,6 +10340,24 @@ Description: Utilities for sensible alternative selection
  .
  The specific utilities included are: sensible-browser sensible-editor
  sensible-pager
+
+Package: php
+Status: install ok installed
+Priority: optional
+Section: php
+Installed-Size: 12
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: all
+Source: php-defaults (49)
+Version: 1:7.0+49
+Depends: php7.0
+Description: server-side, HTML-embedded scripting language (default)
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+ .
+ This package is a dependency package, which depends on Debian's default
+ PHP version (currently 7.0).
 
 Package: libpixman-1-0
 Status: install ok installed
@@ -8291,6 +10697,23 @@ Description: module to guess media type for a file or a URL
  instead. For backwards compatibility it will also look for ~/.mime.types.
 Homepage: http://search.cpan.org/dist/LWP-MediaTypes/
 
+Package: libmozjs-24-0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 4372
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: mozjs24
+Version: 24.2.0-5.1
+Depends: libc6 (>= 2.4), libffi6 (>= 3.0.4), libgcc1 (>= 1:3.5), libnspr4 (>= 2:4.9.2), libstdc++6 (>= 5.2)
+Description: Spidermonkey JavaScript engine
+ SpiderMonkey is the code-name for the Mozilla's C++ implementation of
+ JavaScript. It is intended to be embedded in other applications
+ that provide host environments for JavaScript.
+Homepage: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Releases/24
+
 Package: libalgorithm-diff-xs-perl
 Status: install ok installed
 Priority: optional
@@ -8405,6 +10828,30 @@ Description: virtual private network daemon
  also supports VPNs with dynamic endpoints (DHCP or dial-up clients), tunnels
  over NAT or connection-oriented stateful firewalls (such as Linux's iptables).
 Homepage: http://www.openvpn.net/
+
+Package: libxxf86dga1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 35
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libxxf86dga
+Version: 2:1.1.4-1
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.6.0), libxext6
+Pre-Depends: multiarch-support
+Description: X11 Direct Graphics Access extension library
+ libXxf86dga provides the XFree86-DGA extension, which allows direct
+ graphics access to a framebuffer-like region, and also allows relative
+ mouse reporting, et al.  It is mainly used by games and emulators for
+ games.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXxf86dga
 
 Package: libc-bin
 Essential: yes
@@ -8525,6 +10972,24 @@ Description: Simple DirectMedia Layer
  This version of SDL is compiled with X11 and Wayland graphics drivers and OSS,
  ALSA, sndio and PulseAudio sound drivers.
 Homepage: http://www.libsdl.org/
+
+Package: libfile-desktopentry-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 49
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 0.22-1
+Depends: perl, libfile-basedir-perl, liburi-perl
+Description: Perl module to handle freedesktop .desktop files
+ File::DesktopEntry is used to work with .desktop files. The
+ format of these files is specified by the freedesktop "Desktop
+ Entry" specification. For this module version 1.0 of the
+ specification was used:
+ .
+ <http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html>
+Homepage: https://metacpan.org/release/File-DesktopEntry
 
 Package: firmware-libertas
 Status: install ok installed
@@ -8695,6 +11160,22 @@ Description: free implementation of the OpenGL API -- GLX runtime
  This package does not include the modules themselves: these can be found
  in the libgl1-mesa-dri package.
 Homepage: https://mesa3d.org/
+
+Package: bluetooth
+Status: install ok installed
+Priority: optional
+Section: admin
+Installed-Size: 67
+Maintainer: Debian Bluetooth Maintainers <pkg-bluetooth-maintainers@lists.alioth.debian.org>
+Architecture: all
+Source: bluez
+Version: 5.43-2+rpt2+deb9u2
+Depends: bluez
+Suggests: bluez-cups, bluez-obexd
+Description: Bluetooth support
+ This package provides all of the different plugins supported
+ by the Bluez bluetooth stack.
+Homepage: http://www.bluez.org
 
 Package: galera-3
 Status: install ok installed
@@ -9065,6 +11546,27 @@ Description: converts between character sets in Perl
  package.
 Homepage: http://search.cpan.org/search?module=Text::Iconv
 
+Package: libaprutil1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 214
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: apr-util
+Version: 1.5.4-3
+Depends: libapr1 (>= 1.4.8-2~), libc6 (>= 2.4), libdb5.3, libexpat1 (>= 2.0.1), libgdbm3 (>= 1.8.3), libssl1.1 (>= 1.1.0), libuuid1 (>= 2.16)
+Breaks: libapr1 (<< 1.4.8-2~)
+Description: Apache Portable Runtime Utility Library
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ APR Util is a utilities library implemented on top of apr, providing database
+ access, xml parsing, and other useful functionality.
+Homepage: http://apr.apache.org/
+
 Package: raspberrypi-kernel
 Status: install ok installed
 Priority: extra
@@ -9124,6 +11626,25 @@ Description: Video Acceleration (VA) API -- driver metapackage
  API (VA API). It does not provide any drivers itself, and may be removed if
  you wish to only have certain drivers installed.
 Homepage: http://www.freedesktop.org/wiki/Software/vaapi
+
+Package: php7.0-json
+Status: install ok installed
+Priority: optional
+Section: php
+Installed-Size: 62
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: armhf
+Source: php7.0
+Version: 7.0.27-0+deb9u1
+Provides: php-json
+Depends: php-common (>= 1:35), ucf, php7.0-common (= 7.0.27-0+deb9u1), libc6 (>= 2.4)
+Description: JSON module for PHP
+ This package provides the JSON module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+Homepage: http://www.php.net/
 
 Package: libbluray1
 Status: install ok installed
@@ -9281,6 +11802,27 @@ Description: tool for simulating superuser privileges - shared libraries
  various build tools use fakeroot for this by default.
  .
  This package contains the LD_PRELOAD libraries.
+
+Package: php-common
+Status: install ok installed
+Priority: optional
+Section: php
+Installed-Size: 70
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: all
+Source: php-defaults (49)
+Version: 1:49
+Depends: psmisc (>= 22.15-1~), sed (>= 4.1.1-1), init-system-helpers (>= 1.18~)
+Breaks: php-amqp (<< 1.7.0~alpha2-4~), php-apcu (<< 5.1.3+4.0.10-2~), php-apcu-bc (<< 1.0.3-2~), php-ast (<< 0.1.1-2~), php-geoip (<< 1.1.0-4~), php-gmagick (<< 2.0.1~rc3+1.1.7~rc3-2~), php-igbinary (<< 1.2.1-10-ge0e66b9+1.2.1-2~), php-imagick (<< 3.4.0~rc6-2~), php-memcache (<< 3.0.9~20151130.fdbd46b-2~), php-memcached (<< 2.2.0-95-g6ace07d+2.2.0-2~), php-mongodb (<< 1.1.2-3~), php-msgpack (<< 2.0.0+0.5.7-2~), php-radius (<< 1.4.0~b1-2~), php-redis (<< 2.2.7-355-g799e0bc+2.2.7-4~), php-rrd (<< 2.0.0+1.1.3-4~), php-smbclient (<< 0.8.0~rc1-2~), php-ssh2 (<< 0.12-39-g3dfe336+0.12-2~), php-uploadprogress (<< 1.0.3.1-4-g95d8a0f-2~), php-uuid (<< 1.0.4-2~), php-xdebug (<< 2.4.0~rc4-2~), php-zmq (<< 1.1.3-3~), php5.6-common (<< 5.6.18+dfsg-10~), php5.6-json (<< 1.3.9-2~), php7.0-common (<< 7.0.3-11~)
+Conffiles:
+ /etc/cron.d/php e6fa2d74078ac0ac6fd730decf3b3736
+Description: Common files for PHP packages
+ This package contains common utilities shared among all packaged PHP
+ versions.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
 
 Package: libp11-kit0
 Status: install ok installed
@@ -9480,6 +12022,56 @@ Description: collection of modules that parse HTML text documents
  event handler is invoked. The document to be parsed may also be supplied in
  arbitrary chunks, making on-the-fly parsing of network documents possible.
 Homepage: https://metacpan.org/release/HTML-Parser
+
+Package: libxml-parser-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 565
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Source: libxml-parser-perl (2.44-2)
+Version: 2.44-2+b1
+Depends: perl (>= 5.24.1~rc3-3), perlapi-5.24.1, libc6 (>= 2.4), libexpat1 (>= 2.0.1), liburi-perl, libwww-perl
+Description: Perl module for parsing XML files
+ The XML::Parser module provides ways to parse XML documents.  It is built on
+ top of XML::Parser::Expat, which is a lower level interface to James Clark's
+ expat library. Each call to one of the parsing methods creates a new instance
+ of XML::Parser::Expat which is then used to parse the document. Expat options
+ may be provided when the XML::Parser object is created. These options are
+ then passed on to the Expat object on each parse call. They can also be given
+ as extra arguments to the parse methods, in which case they override options
+ given at XML::Parser creation time.
+ .
+ The behavior of the parser is controlled either by Style and/or Handlers
+ options, or by setHandlers method. These all provide mechanisms for
+ XML::Parser to set the handlers needed by XML::Parser::Expat. If neither
+ Style nor Handlers are specified, then parsing just checks the document for
+ being well-formed.
+ .
+ When underlying handlers get called, they receive as their first parameter
+ the Expat object, not the Parser object.
+Homepage: http://www.libexpat.org/
+
+Package: libpython2.7
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 3094
+Maintainer: Matthias Klose <doko@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: python2.7
+Version: 2.7.13-2+deb9u2
+Replaces: python2.7 (<< 2.6)
+Depends: libpython2.7-stdlib (= 2.7.13-2+deb9u2), libc6 (>= 2.15), zlib1g (>= 1:1.2.0)
+Description: Shared Python runtime library (version 2.7)
+ Python is a high-level, interactive, object-oriented language. Its 2.7 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
 
 Package: dpkg
 Essential: yes
@@ -10053,6 +12645,25 @@ Description: JACK Audio Connection Kit (libraries)
  This package contains the shared libraries.
 Homepage: http://jackaudio.org/
 
+Package: libhtml-form-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 89
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.03-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libhtml-parser-perl, libhttp-message-perl, liburi-perl
+Breaks: libwww-perl (<< 6.00)
+Description: module that represents an HTML form element
+ Objects of the HTML::Form class represents a single HTML <form> ... </form>
+ instance. A form consists of a sequence of inputs that usually have names,
+ and which can take on various values. The state of a form can be tweaked and
+ it can then be asked to provide HTTP::Request objects that can be passed to
+ the request() method of LWP::UserAgent.
+Homepage: http://search.cpan.org/dist/HTML-Form/
+
 Package: easy-rsa
 Status: install ok installed
 Priority: extra
@@ -10119,6 +12730,53 @@ Description: X11 Inter-Client Exchange library
  .
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libICE
+
+Package: libfontenc1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 51
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libfontenc
+Version: 1:1.1.3-1
+Depends: libc6 (>= 2.7), zlib1g (>= 1:1.1.4)
+Description: X11 font encoding library
+ libfontenc is a library which helps font libraries portably determine
+ and deal with different encodings of fonts.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libfontenc
+
+Package: libfile-listing-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 56
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.04-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libhttp-date-perl
+Breaks: libwww-perl (<< 6.00)
+Description: module to parse directory listings
+ File::Listing exports a single function called parse_dir(), which can be used
+ to parse directory listings.
+ .
+ The first parameter to parse_dir() is the directory listing to parse. It can
+ be a scalar, a reference to an array of directory lines or a glob
+ representing a filehandle to read the directory listing from.
+ .
+ The second parameter is the time zone to use when parsing time stamps in the
+ listing. If this value is undefined, then the local time zone is assumed.
+ .
+ The third parameter is the type of listing to assume. Currently supported
+ formats are 'unix', 'apache' and 'dosftp'. The default value 'unix'.
+Homepage: http://search.cpan.org/dist/File-Listing/
 
 Package: firmware-atheros
 Status: install ok installed
@@ -10270,6 +12928,30 @@ Description: Binary firmware for Atheros wireless cards
   * Qualcomm Atheros QCA61x4 version 3.2 USB BT rampatch
     (qca/rampatch_usb_00000302.bin)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+
+Package: libxcomposite1
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 35
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libxcomposite
+Version: 1:0.4.4-2
+Depends: libc6 (>= 2.4), libx11-6 (>= 2:1.4.99.1)
+Description: X11 Composite extension library
+ libXcomposite provides an X Window System client interface to the Composite
+ extension to the X protocol.
+ .
+ The Composite extension allows clients called compositing managers to control
+ the final drawing of the screen.  Rendering is done into an off-screen buffer.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXcomposite
 
 Package: libudev0
 Status: install ok installed
@@ -10532,6 +13214,86 @@ Description: Linux Kernel Device Mapper userspace library
  This package contains a utility for modifying device mappings.
 Homepage: http://sources.redhat.com/lvm2/
 
+Package: libxpm4
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 90
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libxpm
+Version: 1:3.5.12-1
+Depends: libc6 (>= 2.7), libx11-6
+Description: X11 pixmap library
+ The X PixMap image format is an extension of the monochrome X BitMap
+ format specified in the X protocol, and is commonly used in traditional
+ X applications.
+ .
+ This package provides runtime support for XPM format.
+Homepage: https://www.x.org
+
+Package: x11-xserver-utils
+Status: install ok installed
+Priority: optional
+Section: x11
+Installed-Size: 413
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: armhf
+Version: 7.7+7
+Replaces: iceauth, sessreg, xbase-clients (<< 1:7.3), xgamma, xhost, xmodmap, xrandr, xrdb, xrefresh, xrgb, xset, xsetmode, xsetpointer, xsetroot, xstdcmap, xutils (<< 1:7.2), xvidtune
+Depends: libc6 (>= 2.8), libice6 (>= 1:1.0.0), libx11-6, libxaw7, libxcursor1 (>> 1.1.2), libxext6, libxi6, libxmu6, libxmuu1, libxrandr2 (>= 2:1.5.0), libxrender1, libxt6, libxxf86vm1, cpp
+Suggests: nickle, cairo-5c, xorg-docs-core
+Breaks: arandr (<< 0.1.9)
+Conflicts: iceauth, sessreg, xgamma, xhost, xmodmap, xrandr, xrdb, xrefresh, xrgb, xset, xsetmode, xsetpointer, xsetroot, xstdcmap, xvidtune
+Conffiles:
+ /etc/X11/app-defaults/Xvidtune 0493a0782b498e9f0dee51a4013a80e6
+Description: X server utilities
+ An X client is a program that interfaces with an X server (almost always via
+ the X libraries), and thus with some input and output hardware like a
+ graphics card, monitor, keyboard, and pointing device (such as a mouse).
+ .
+ This package provides a miscellaneous assortment of X Server utilities
+ that ship with the X Window System, including:
+  - iceauth, a tool for manipulating ICE protocol authorization records;
+  - rgb;
+  - sessreg, a simple program for managing utmp/wtmp entries;
+  - xcmsdb, a device color characteristic utility for the X Color Management
+    System;
+  - xgamma, a tool for querying and setting a monitor's gamma correction;
+  - xhost, a very dangerous program that you should never use;
+  - xmodmap, a utility for modifying keymaps and pointer button mappings in X;
+  - xrandr, a command-line interface to the RandR extension;
+  - xrdb, a tool to manage the X server resource database;
+  - xrefresh, a tool that forces a redraw of the X screen;
+  - xset, a tool for setting miscellaneous X server parameters;
+  - xsetmode and xsetpointer, tools for handling X Input devices;
+  - xsetroot, a tool for tailoring the appearance of the root window;
+  - xstdcmap, a utility to selectively define standard colormap properties;
+  - xvidtune, a tool for customizing X server modelines for your monitor.
+
+Package: libxt6
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 380
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libxt
+Version: 1:1.1.5-1
+Depends: libc6 (>= 2.7), libice6 (>= 1:1.0.0), libsm6, libx11-6
+Description: X11 toolkit intrinsics library
+ libXt provides the X Toolkit Intrinsics, an abstract widget library upon
+ which other toolkits are based.  Xt is the basis for many toolkits, including
+ the Athena widgets (Xaw), and LessTif (a Motif implementation).
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXt
+
 Package: ncdu
 Status: install ok installed
 Priority: optional
@@ -10732,6 +13494,44 @@ Description: LVM2 application library
  modify them.
 Homepage: http://sources.redhat.com/lvm2/
 
+Package: libx11-protocol-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 397
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 0.56-7
+Depends: perl
+Recommends: perl (>= 5.19.8) | libio-socket-ip-perl
+Description: Perl module for the X Window System Protocol, version 11
+ X11::Protocol is a client-side interface to the X11 Protocol (see X(1) for
+ information about X11), allowing perl programs to display windows and
+ graphics on X11 servers.
+Homepage: https://metacpan.org/release/X11-Protocol
+
+Package: libxml-xpathengine-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 154
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 0.13-1
+Depends: perl
+Description: re-usable XPath engine for DOM-like trees
+ XML::XPathEngine provides an XPath engine, that can be re-used by other
+ module/classes that implement trees.
+ .
+ In order to use the XPath engine, nodes in the user module need to mimic
+ DOM nodes. The degree of similarity between the user tree and a DOM dictates
+ how much of the XPath features can be used. A module implementing all of the
+ DOM should be able to use this module very easily (you might need to add
+ the cmp method on nodes in order to get ordered result sets).
+ .
+ This module is derived from Matt Sergeant's XML::XPath.
+Homepage: http://search.cpan.org/dist/XML-XPathEngine/
+
 Package: libsensors4
 Status: install ok installed
 Priority: optional
@@ -10879,6 +13679,27 @@ Description: management framework for resolv.conf
  Please read resolvconf(8) and resolvconf.conf(5) for detailed instructions.
 Homepage: http://roy.marples.name/projects/openresolv/home
 
+Package: libnet-http-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 62
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.12-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, perl (>= 5.19.8) | libio-socket-ip-perl | libio-socket-inet6-perl, liburi-perl
+Recommends: libio-socket-ssl-perl
+Breaks: libwww-perl (<< 6.00)
+Description: module providing low-level HTTP connection client
+ The Net::HTTP class is a low-level HTTP client.  An instance of the
+ Net::HTTP class represents a connection to an HTTP server.  The
+ HTTP protocol is described in RFC 2616.  The Net::HTTP class
+ supports HTTP/1.0 and HTTP/1.1. Net::HTTP is a sub-class of IO::Socket::INET.
+ You can mix its methods with reading and writing from the socket directly.
+ This is not necessarily a good idea, unless you know what you are doing.
+Homepage: https://metacpan.org/release/Net-HTTP
+
 Package: libnfnetlink0
 Status: install ok installed
 Priority: extra
@@ -10966,6 +13787,28 @@ Description: curses-based PIN or pass-phrase entry dialog for GnuPG
  text mode if X is not active.
 Homepage: https://www.gnupg.org/related_software/pinentry/
 
+Package: libavahi-client3
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 110
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: avahi
+Version: 0.6.32-2
+Depends: libavahi-common3 (>= 0.6.22), libc6 (>= 2.4), libdbus-1-3 (>= 1.9.14)
+Description: Avahi client library
+ Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
+ It allows programs to publish and discover services and hosts
+ running on a local network with no specific configuration. For
+ example you can plug into a network and instantly find printers to
+ print to, files to look at and people to talk to.
+ .
+ This package contains the library for Avahi's C API which  allows you
+ to integrate mDNS/DNS-SD functionality into your application.
+Homepage: http://avahi.org/
+
 Package: libpam-modules
 Status: install ok installed
 Priority: required
@@ -10993,6 +13836,26 @@ Description: Pluggable Authentication Modules for PAM
  This package completes the set of modules for PAM. It includes the
   pam_unix.so module as well as some specialty modules.
 Homepage: http://www.linux-pam.org/
+
+Package: edbrowse
+Status: install ok installed
+Priority: extra
+Section: net
+Installed-Size: 923
+Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+Architecture: armhf
+Version: 3.6.1-1
+Provides: editor, mail-reader, www-browser
+Depends: libc6 (>= 2.8), libcurl3 (>= 7.16.2), libgcc1 (>= 1:3.5), libmozjs-24-0, libpcre3, libreadline6 (>= 6.0), libstdc++6 (>= 5.2), libtidy5 (>= 5.2.0)
+Recommends: poppler-utils | xpdf-utils
+Description: /bin/ed-alike webbrowser written in C
+ edbrowse is a reimplementation of /bin/ed, with some basic
+ differences (it uses Perl regular expressions) with the ability to
+ visit webpages and ftp sites. edbrowse performs basic transformations
+ on the html source to produce a readable representation. edbrowse
+ supports Forms, Frames, Netscape-style cookies, HTTPS
+ connections and JavaScript.
+Homepage: http://edbrowse.org/
 
 Package: libmpc3
 Status: install ok installed
@@ -11042,6 +13905,22 @@ Description: GNU Standard C++ Library v3
  was included up to g++-2.95. The first version of libstdc++-v3 appeared
  in g++-3.0.
 Homepage: http://gcc.gnu.org/
+
+Package: libtalloc2
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 94
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: talloc
+Version: 2.1.8-1
+Depends: libc6 (>= 2.16)
+Description: hierarchical pool based memory allocator
+ A hierarchical pool based memory allocator with destructors. It uses
+ reference counting to determine when memory should be freed.
+Homepage: https://talloc.samba.org/
 
 Package: libkrb5-3
 Status: install ok installed
@@ -11282,6 +14161,50 @@ Description: GNU C Library: Development binaries
  This package contains utility programs related to the GNU C Library
  development package.
 Homepage: http://www.gnu.org/software/libc/libc.html
+
+Package: liblua5.2-0
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 326
+Maintainer: Enrico Tassi <gareuselesinge@debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: lua5.2
+Version: 5.2.4-1.1
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:3.5), libstdc++6 (>= 4.1.1)
+Description: Shared library for the Lua interpreter version 5.2
+ Lua is a powerful, light-weight programming language designed for extending
+ applications.  The language engine is accessible as a library, having a C
+ API which allows the application to exchange data with Lua programs and also
+ to extend Lua with C functions.  Lua is also used as a general-purpose,
+ stand-alone language through the simple command line interpreter provided.
+ .
+ This package contains runtime libraries.  You shouldn't need to install it
+ explicitly.
+Homepage: http://www.lua.org
+
+Package: libavahi-common3
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 95
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: avahi
+Version: 0.6.32-2
+Depends: libc6 (>= 2.4), libavahi-common-data
+Description: Avahi common library
+ Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
+ It allows programs to publish and discover services and hosts
+ running on a local network with no specific configuration. For
+ example you can plug into a network and instantly find printers to
+ print to, files to look at and people to talk to.
+ .
+ This package contains the Avahi common library, which is a set of common
+ functions used by many of Avahis components and client applications.
+Homepage: http://avahi.org/
 
 Package: libdrm-radeon1
 Status: install ok installed
@@ -11638,6 +14561,26 @@ Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.17), libselinux1 (>= 2.6-3~)
 Description: device mounting library
  This device mounting library is used by mount and umount helpers.
 
+Package: php7.0-common
+Status: install ok installed
+Priority: optional
+Section: php
+Installed-Size: 4073
+Maintainer: Debian PHP Maintainers <pkg-php-maint@lists.alioth.debian.org>
+Architecture: armhf
+Source: php7.0
+Version: 7.0.27-0+deb9u1
+Provides: php-calendar, php-ctype, php-exif, php-fileinfo, php-ftp, php-iconv, php-pdo, php-phar, php-posix, php-shmop, php-sockets, php-sysvmsg, php-sysvsem, php-sysvshm, php-tokenizer, php7.0-calendar, php7.0-ctype, php7.0-exif, php7.0-fileinfo, php7.0-ftp, php7.0-gettext, php7.0-iconv, php7.0-pdo, php7.0-phar, php7.0-posix, php7.0-shmop, php7.0-sockets, php7.0-sysvmsg, php7.0-sysvsem, php7.0-sysvshm, php7.0-tokenizer
+Depends: php-common (>= 1:35), ucf, libc6 (>= 2.15), libssl1.1 (>= 1.1.0)
+Breaks: gforge-common (<< 6)
+Description: documentation, examples and common module for PHP
+ This package provides the documentation, examples and common module(s) for PHP.
+ .
+ PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used
+ open source general-purpose scripting language that is especially suited
+ for web development and can be embedded into HTML.
+Homepage: http://www.php.net/
+
 Package: libxxf86vm1
 Status: install ok installed
 Priority: optional
@@ -11842,6 +14785,24 @@ Description: collection of more utilities from FreeBSD
  This package used to contain whois and vacation, which are now distributed in
  their own packages. Also here was tsort, which is now in the "coreutils"
  package.
+
+Package: libxft2
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 88
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: xft
+Version: 2.3.2-1
+Depends: libc6 (>= 2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.3.5), libx11-6, libxrender1
+Pre-Depends: multiarch-support
+Description: FreeType-based font drawing library for X
+ Xft provides a client-side font API for X applications, making the FreeType
+ font rasterizer available to X clients.  Fontconfig is used for font
+ specification resolution.  Where available, the RENDER extension handles
+ glyph drawing; otherwise, the core X protocol is used.
 
 Package: libsasl2-modules
 Status: install ok installed
@@ -12386,6 +15347,39 @@ Description: GCC, the GNU Compiler Collection (base package)
  contained in the GNU Compiler Collection (GCC).
 Homepage: http://gcc.gnu.org/
 
+Package: xdg-utils
+Status: install ok installed
+Priority: optional
+Section: utils
+Installed-Size: 306
+Maintainer: Per Olofsson <pelle@debian.org>
+Architecture: all
+Multi-Arch: foreign
+Version: 1.1.1-1
+Recommends: libfile-mimeinfo-perl, libnet-dbus-perl, libx11-protocol-perl, x11-utils, x11-xserver-utils
+Suggests: gvfs-bin
+Description: desktop integration utilities from freedesktop.org
+ xdg-utils contains utilities for integrating applications with the
+ desktop environment, regardless of which desktop environment is used.
+ They are part of freedesktop.org's Portland project.
+ .
+ The following utilities are included:
+ .
+ * xdg-desktop-menu - Install desktop menu items
+ * xdg-desktop-icon - Install icons on the user's desktop
+ * xdg-email - Compose a new email in the user's preferred email client,
+   potentially with subject and other info filled in
+ * xdg-icon-resource - Install icon resources
+ * xdg-mime - Query and install MIME types and associations
+ * xdg-open - Open a URI in the user's preferred application that
+   handles the respective URI or file type
+ * xdg-screensaver - Enable, disable, or suspend the screensaver
+ * xdg-settings - Get or set the default web browser and URI handlers
+ .
+ If you are running GNOME, make sure that the gvfs-bin package is
+ installed.
+Homepage: http://www.freedesktop.org/wiki/Software/xdg-utils/
+
 Package: ca-certificates
 Status: install ok installed
 Priority: optional
@@ -12573,6 +15567,24 @@ Description: MPEG layer 1/2/3 audio decoder (shared library)
  This package contains the C libraries needed to run executables that use
  the mpg123 library.
 Homepage: http://mpg123.org/
+
+Package: libfile-mimeinfo-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 113
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 0.27-1
+Depends: perl, libfile-basedir-perl, libfile-desktopentry-perl, shared-mime-info
+Description: Perl module to determine file types
+ File::MimeInfo can be used to determine the mime type of a file. It tries to
+ implement the freedesktop specification for a shared MIME database.
+ .
+ This package also contains two related utilities:
+  * mimetype: determine a file's mimetype
+  * mimeopen: open files according to their mimetype
+Homepage: https://metacpan.org/release/File-MimeInfo
 
 Package: bluez
 Status: install ok installed
@@ -12925,6 +15937,29 @@ Description: tool to manage well known user directories
  ~/.config) that applications can read to find these directories.
 Homepage: http://www.freedesktop.org/wiki/Software/xdg-user-dirs
 
+Package: libwww-robotrules-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 80
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.01-1
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, liburi-perl
+Breaks: libwww-perl (<< 6.00)
+Description: database of robots.txt-derived permissions
+ WWW::RobotRules parses /robots.txt files as specified in "A Standard for
+ Robot Exclusion", at <http://www.robotstxt.org/wc/norobots.html>. Webmasters
+ can use the /robots.txt file to forbid conforming robots from accessing parts
+ of their web site.
+ .
+ The parsed files are kept in a WWW::RobotRules object, and this object
+ provides methods to check if access to a given URL is prohibited. The same
+ WWW::RobotRules object can be used for one or more parsed /robots.txt files
+ on any number of hosts.
+Homepage: http://search.cpan.org/dist/WWW-RobotRules/
+
 Package: libxcb1
 Status: install ok installed
 Priority: optional
@@ -13120,6 +16155,61 @@ Description: Traces the route taken by packets over an IPv4/IPv6 network
  Install traceroute if you need a tool for diagnosing network connectivity
  problems.
 Homepage: http://traceroute.sourceforge.net/
+
+Package: mpv
+Status: install ok installed
+Priority: optional
+Section: video
+Installed-Size: 1701
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: foreign
+Version: 0.23.0-2
+Depends: libasound2 (>= 1.0.27), libass5 (>= 0.13.2), libavcodec57 (>= 7:3.2.4) | libavcodec-extra57 (>= 7:3.2.4), libavdevice57 (>= 7:3.2.4), libavfilter6 (>= 7:3.2.4) | libavfilter-extra6 (>= 7:3.2.4), libavformat57 (>= 7:3.2.4), libavutil55 (>= 7:3.2.4), libbluray1 (>= 1:0.2.2), libc6 (>= 2.16), libcdio-cdda1 (>= 0.83), libcdio-paranoia1 (>= 0.83), libcdio13 (>= 0.83), libdrm2 (>= 2.4.25), libdvdnav4 (>= 4.1.3), libdvdread4 (>= 4.1.3), libegl1-mesa (>= 7.8.1) | libegl1-x11, libgbm1 (>= 8.1~0), libgl1-mesa-glx | libgl1, libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.6), liblua5.2-0, libpulse0 (>= 0.99.4), librubberband2, libsdl2-2.0-0 (>= 2.0.4), libsmbclient (>= 2:4.0.3+dfsg1), libsndio6.1 (>= 1.1.0), libswresample2 (>= 7:3.2.4), libswscale4 (>= 7:3.2.4), libv4l-0 (>= 0.5.0), libva-drm1 (>= 1.1.0), libva-wayland1 (>= 1.3.0), libva-x11-1 (>= 1.0.3), libva1 (>= 1.7.3), libvdpau1 (>= 0.2), libwayland-client0 (>= 1.9.91), libwayland-cursor0 (>= 1.0.2), libwayland-egl1-mesa (>= 10.0.2) | libwayland-egl1, libx11-6, libxext6, libxinerama1, libxkbcommon0 (>= 0.5.0), libxrandr2 (>= 2:1.2.99.2), libxss1, libxv1, zlib1g (>= 1:1.1.4)
+Recommends: xdg-utils, youtube-dl (>= 2014.11.26)
+Conffiles:
+ /etc/mpv/encoding-profiles.conf d8ff267e5dc2b7d56a0d3c7c60c65a74
+Description: video player based on MPlayer/mplayer2
+ mpv is a movie player based on MPlayer and mplayer2. It supports a wide
+ variety of video file formats, audio and video codecs, and subtitle types.
+ .
+ Changes from mplayer2 to mpv include:
+  * Removal of lots of unneeded code to encourage developer activity
+  * Better OSD rendering
+  * Cleaned up terminal output
+  * Improved OpenGL output
+  * Encoding functionality (replacement for mencoder)
+  * Wayland support
+  * Support for playing URLs of popular streaming sites
+  * Screenshot improvements
+  * ...
+ See mpv(1) for more info regarding changes between MPlayer, mplayer2 and mpv.
+Homepage: https://mpv.io/
+
+Package: libauthen-sasl-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 155
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 2.1600-1
+Depends: perl
+Suggests: libdigest-hmac-perl, libgssapi-perl
+Description: Authen::SASL - SASL Authentication framework
+ SASL is a generic mechanism for authentication used by several network
+ protocols. Authen::SASL provides an implementation framework that all
+ protocols should be able to share.
+ .
+ The framework allows different implementations of the connection class
+ to be plugged in. At the time of writing there were two such plugins:
+  - Authen::SASL::Perl
+    This module implements several mechanisms and is implemented
+    entirely in Perl.
+  - Authen::SASL::Cyrus
+    This module uses the Cyrus SASL C-library (both version 1 and 2 are
+    supported).
+Homepage: https://metacpan.org/release/Authen-SASL
 
 Package: logrotate
 Status: install ok installed
@@ -13808,6 +16898,26 @@ Description: converts RPC program numbers into universal addresses
  into universal addresses.
 Homepage: http://sourceforge.net/projects/rpcbind/
 
+Package: libavahi-common-data
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 755
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: avahi
+Version: 0.6.32-2
+Description: Avahi common data files
+ Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
+ It allows programs to publish and discover services and hosts
+ running on a local network with no specific configuration. For
+ example you can plug into a network and instantly find printers to
+ print to, files to look at and people to talk to.
+ .
+ This package contains common data files for avahi.
+Homepage: http://avahi.org/
+
 Package: libpython3.5-minimal
 Status: install ok installed
 Priority: optional
@@ -13827,6 +16937,47 @@ Description: Minimal subset of the Python language (version 3.5)
  This package contains some essential modules. It is normally not
  used on it's own, but as a dependency of python3.5-minimal.
 
+Package: libhttp-negotiate-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 76
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.00-2
+Replaces: libwww-perl (<< 6.00)
+Depends: perl, libhttp-message-perl
+Breaks: libwww-perl (<< 6.00)
+Description: implementation of content negotiation
+ HTTP::Negotiate provides a complete implementation of the HTTP content
+ negotiation algorithm. Content negotiation allows for the selection of a
+ preferred content representation based upon attributes of the negotiable
+ variants and the value of the various Accept* header fields in the request.
+Homepage: http://search.cpan.org/dist/HTTP-Negotiate/
+
+Package: libdvdread4
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 174
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: libdvdread
+Version: 5.0.3-2
+Depends: libc6 (>= 2.4)
+Recommends: libdvdnav4
+Suggests: libdvdcss2
+Description: library for reading DVDs
+ libdvdread provides the functionality that is required to access many DVDs. It
+ parses IFO files, reads NAV-blocks, and performs CSS authentication and
+ descrambling.
+ .
+ libdvdread probes for libdvdcss at runtime and if found, will use it to
+ decrypt sections of the DVD as necessary. libdvdcss needs to be installed from
+ third-party repositories (see README.css), it's not included in Debian.
+Homepage: http://dvdnav.mplayerhq.hu/
+
 Package: sed
 Essential: yes
 Status: install ok installed
@@ -13844,6 +16995,28 @@ Description: GNU stream editor for filtering/transforming text
  list of commands, and writes the results to the standard
  output.
 Homepage: https://www.gnu.org/software/sed/
+
+Package: libcups2
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 581
+Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: cups
+Version: 2.2.1-8
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.16), libgnutls30 (>= 3.5.6), libgssapi-krb5-2 (>= 1.14+dfsg), zlib1g (>= 1:1.2.0)
+Suggests: cups-common
+Breaks: cups (<< 1.5.0)
+Description: Common UNIX Printing System(tm) - Core library
+ The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+ general replacement for lpd and the like.  It supports the Internet
+ Printing Protocol (IPP), and has its own filtering driver model for
+ handling various document types.
+ .
+ This package provides the base shared libraries for CUPS.
+Homepage: https://www.cups.org/
 
 Package: libsmartcols1
 Status: install ok installed
@@ -13878,6 +17051,48 @@ Description: disk encryption support - shared library
  .
  This package provides the libcryptsetup shared library.
 Homepage: https://gitlab.com/cryptsetup/cryptsetup
+
+Package: libwww-perl
+Status: install ok installed
+Priority: optional
+Section: perl
+Installed-Size: 403
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Architecture: all
+Version: 6.15-1
+Depends: perl, ca-certificates, libencode-locale-perl, libfile-listing-perl, libhtml-parser-perl, libhtml-tagset-perl, libhtml-tree-perl, libhttp-cookies-perl, libhttp-date-perl, libhttp-message-perl, libhttp-negotiate-perl, liblwp-mediatypes-perl, liblwp-protocol-https-perl, libnet-http-perl (>= 6.07), liburi-perl, libwww-robotrules-perl, netbase
+Recommends: libhtml-form-perl, libhtml-format-perl, libhttp-daemon-perl, libmailtools-perl
+Suggests: libauthen-ntlm-perl
+Breaks: fusioninventory-agent (<< 2.1.8-2), gsutil (<< 3.1-1), libfrontier-rpc-perl (<< 0.07b4-6), libhttp-daemon-ssl-perl (<< 1.04-3), libhttp-proxy-perl (<< 0.24-2), libhttp-request-ascgi-perl (<< 1.2-2), libhttp-request-params-perl (<< 1.01-6), libjson-rpc-perl (<< 0.96-3), libpoe-perl (<< 2:1.2990-2), librpc-xml-perl (<< 0.74-2), libsoap-lite-perl (<< 0.7.12-3), libwww-mechanize-formfiller-perl (<< 0.10-2), libwww-mechanize-perl (<< 1.66-2), satutils (<= 0.6), tidy-proxy (<< 0.97-4)
+Description: simple and consistent interface to the world-wide web
+ libwww-perl (also known as LWP) is a collection of Perl modules that provide
+ a simple and consistent programming interface (API) to the World-Wide Web.
+ The main focus of the library is to provide classes and functions that allow
+ you to write WWW clients. It also contains general purpose modules, as well
+ as a simple HTTP/1.1-compatible server implementation.
+Homepage: https://metacpan.org/release/libwww-perl
+
+Package: libaprutil1-ldap
+Status: install ok installed
+Priority: optional
+Section: libs
+Installed-Size: 39
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Architecture: armhf
+Multi-Arch: same
+Source: apr-util
+Version: 1.5.4-3
+Depends: libaprutil1 (= 1.5.4-3), libc6 (>= 2.4), libldap-2.4-2 (>= 2.4.7)
+Description: Apache Portable Runtime Utility Library - LDAP Driver
+ APR is Apache's Portable Runtime Library, designed to be a support library
+ that provides a predictable and consistent interface to underlying
+ platform-specific implementations.
+ .
+ APR Util is a utilities library implemented on top of apr, providing database
+ access, xml parsing, and other useful functionality.
+ .
+ This package contains the LDAP driver.
+Homepage: http://apr.apache.org/
 
 Package: libegl1-mesa
 Status: install ok installed
@@ -13981,4 +17196,23 @@ Description: compression library - development
  in gzip and PKZIP.  This package includes the development support
  files.
 Homepage: http://zlib.net/
+
+Package: python-talloc
+Status: install ok installed
+Priority: optional
+Section: python
+Installed-Size: 47
+Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+Architecture: armhf
+Source: talloc
+Version: 2.1.8-1
+Provides: python2.7-talloc
+Depends: libc6 (>= 2.4), libpython2.7 (>= 2.7), libtalloc2 (>= 2.0.4~git20101213), python (<< 2.8), python (>= 2.7~), python:any (<< 2.8), python:any (>= 2.7~)
+Breaks: python-samba (<< 2:4.3.6+dfsg-2)
+Description: hierarchical pool based memory allocator - Python bindings
+ A hierarchical pool based memory allocator with destructors. It uses
+ reference counting to determine when memory should be freed.
+ .
+ This package contains the Python bindings.
+Homepage: https://talloc.samba.org/
 

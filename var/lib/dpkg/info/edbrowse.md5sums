@@ -1,0 +1,13 @@
+e1a2cddf3d63505f860ca1d75ca5f850  usr/bin/edbrowse
+4644c71940bf1271007904e0dffee78a  usr/share/doc-base/edbrowse
+0e640191c08115cc4694a58487d53c49  usr/share/doc/edbrowse/README.gz
+a95633452c3af327aa8d1ec30238cef0  usr/share/doc/edbrowse/changelog.Debian.gz
+e4866245f1c9b5f717e71849e6a142e0  usr/share/doc/edbrowse/changelog.gz
+0350c4e253e01e6d58cd4e7965e27bfc  usr/share/doc/edbrowse/copyright
+a1f137da4850a65a577284f6de020e7a  usr/share/doc/edbrowse/examples/jsrt.gz
+babd92350fa83d71cd5d866a8e9ed9bc  usr/share/doc/edbrowse/examples/sample.ebrc.gz
+af8647160c73bf74143103fe3edd5ee4  usr/share/doc/edbrowse/examples/sample_fr.ebrc.gz
+3263572f05895654f0849ea437b414f2  usr/share/doc/edbrowse/usersguide.html
+19e5b8d5b41a4625b5028acf12ac81fc  usr/share/doc/edbrowse/usersguide_fr.html
+99ab3c2f3479b90ea94fc90216ae4a29  usr/share/lintian/overrides/edbrowse
+5b2d2869d63a89001b7271cf428e3cc6  usr/share/man/man1/edbrowse.1.gz

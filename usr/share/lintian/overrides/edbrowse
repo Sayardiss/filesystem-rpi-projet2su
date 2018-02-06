@@ -1,0 +1,5 @@
+# Upstream doesn't specify GPL version.
+edbrowse: copyright-refers-to-versionless-license-file usr/share/common-licenses/GPL
+# These are French/Portuguese spellings.
+edbrowse: spelling-error-in-binary usr/bin/edbrowse ment meant
+edbrowse: spelling-error-in-binary usr/bin/edbrowse acess access

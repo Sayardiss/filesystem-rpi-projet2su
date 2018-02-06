@@ -18,7 +18,7 @@ voice:*::
 cdrom:*::
 floppy:*::
 tape:*::
-sudo:*::admin
+sudo:*::
 audio:*::
 dip:*::
 www-data:*::
@@ -47,7 +47,7 @@ crontab:!::
 netdev:!::
 messagebus:!::
 ssh:!::
-bluetooth:!::
+bluetooth:!::music
 spi:!::
 i2c:!::
 gpio:!::

@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libva-wayland.so.1.3904.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libva-wayland1
+/usr/share/doc/libva-wayland1/changelog.Debian.gz
+/usr/share/doc/libva-wayland1/changelog.gz
+/usr/share/doc/libva-wayland1/copyright
+/usr/lib/arm-linux-gnueabihf/libva-wayland.so.1

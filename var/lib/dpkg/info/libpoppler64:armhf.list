@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libpoppler.so.64.0.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libpoppler64
+/usr/share/doc/libpoppler64/AUTHORS
+/usr/share/doc/libpoppler64/NEWS.gz
+/usr/share/doc/libpoppler64/README
+/usr/share/doc/libpoppler64/README-XPDF.gz
+/usr/share/doc/libpoppler64/TODO
+/usr/share/doc/libpoppler64/changelog.Debian.gz
+/usr/share/doc/libpoppler64/changelog.gz
+/usr/share/doc/libpoppler64/copyright
+/usr/lib/arm-linux-gnueabihf/libpoppler.so.64

@@ -1,76 +1,3 @@
-git commit -m "Removing big files" && git push
-git commit -am "Removing big files" && git push
-git add -A
-git commit -am "Removing big files" && git push
-git pull
-rm var/swap 
-cat .gitignore 
-git clone https://github.com/Sayardiss/filesystem-rpi-projet2su.git
-mv filesystem-rpi-projet2su/.git .
-rm -rf .git
-rm -rf .git
-mv filesystem-rpi-projet2su/.git .
-git status
-git add -A && git commit -m "Initial, OpenVPN, YoutubeDL"
-git add -A && git commit -m "Initial, OpenVPN, YoutubeDL" && git push
-nano .gitignore 
-apt install mongodb-server
-sudo apt autoremove
-nano /etc/rc.d/init.d/openvpn-su
-grep -R "openvpn --daemon" /
-grep -R "openvpn --daemon" /etc/
-grep -R "openvpn" /etc/
-cd
-nano /usr/local/sbin/unpriv-ip
-openvpn --mktun --dev tun1 --dev-type tun --user pi --group pi
-ip a
-su pi -c "openvpn vpn.ovpn"
-su pi -c "openvpn /home/pi/vpn.ovpn"
-nano /etc/default/openvpn 
-nano vpn.ovpn 
-ln vpn.ovpn /etc/openvpn/vpn.conf
-reboot
-find / -size +95M
-cd
-git status
-cd
-cd /
-nano .gitignore 
-git status
-rm /home/pi/vpn.ovpn
-ls /usr/local/sbin/
-rm -rf /usr/local/sbin/
-git status
-nano .gitignore 
-git status
-nano .gitignore 
-git status
-git status
-nano .gitignore 
-git add -A
-git commit -m "Ajout lancement auto d'openvpn"
-mongodb
-mongo
-git push
-ssh-keygen -t rsa -b 4096
-cat ~/.ssh/id_rsa.pub 
-git remote set-url origin git@github.com:Sayardiss/filesystem-rpi-projet2su.git
-git status
-git add -A
-git commit -m "Ajout clé ssh pour Git"
-git push
-apt upgrade
-ls
-cat filesystem-rpi-projet2su/
-rmdir filesystem-rpi-projet2su/
-ls filesystem-rpi-projet2su/
-rm -rf filesystem-rpi-projet2su/
-git status
-nano .gitignore 
-apt install selinux
-nano .gitignore 
-halt
-cd
 ls
 openvpn vpn.ovpn 
 reboot
@@ -498,3 +425,76 @@ ping www.youtube.com
 mkdir /etc/resolvconf/resolv.conf.d/ -p
 nano /etc/resolvconf/resolv.conf.d/base
 reboot
+pip install bluetooth
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py 
+pip install bluetooth
+apt-get install bluetooth libbluetooth-dev
+exit
+apt install mpv
+mpv I5mlAZkibgw.opus 
+cat /etc/passwd
+cd ..
+chown music:music -R .
+chown music:music -R *
+su music
+reboot
+git status
+git add /etc/ssh/sshd_config /etc/network/interfaces .bash_history 
+git commit -m "permanent DNS + whitelist ssh"
+mysql -u root -p
+mysql -u root -p
+git status
+git add -A
+git commit -m "Seting up MySQL"
+su music
+apt install ffpmeg
+apt install ffmpeg
+git status
+ls
+cd ../music/
+ls
+rm Sik\ World\ -\ Idgaf-cZ-yRAqytdc.*
+ls
+git status
+git add -A
+git commit -m "Installation ffmpeg"
+cd /
+nano .gitignore 
+git push 
+su music
+adduser music bluetooth
+bluetoothctl <<EOF
+power on
+discoverable on
+pairable on
+agent NoInputNoOutput
+default-agent 
+EOF
+
+bluetoothctl <<EOF
+power on
+discoverable off
+pairable off
+agent NoInputNoOutput
+default-agent 
+EOF
+
+su music
+exit
+cd ../music/
+cd MusicOnPi/
+ls
+cd python/
+cd ../sound/
+ls
+mpv I5mlAZkibgw.opus 
+su music
+su -
+su - music
+visudo
+su - music
+visudo
+su - music
+visudo
+exit

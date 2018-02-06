@@ -1,0 +1,8 @@
+fe2e7371ee0b89cf40b13da5ec143a55  usr/lib/arm-linux-gnueabihf/apr-util-1/apr_crypto_openssl-1.so
+00bba19d4e502a413d9241659c65be0b  usr/lib/arm-linux-gnueabihf/apr-util-1/apr_dbm_db-1.so
+4be8529e72ec29cd764e1f3aa9f1ffbb  usr/lib/arm-linux-gnueabihf/apr-util-1/apr_dbm_gdbm-1.so
+6bfdf378d73a15bcc0128e646e1ca0f7  usr/lib/arm-linux-gnueabihf/libaprutil-1.so.0.5.4
+cff2374c79779430a6e9217ae710c73d  usr/share/doc/libaprutil1/changelog.Debian.gz
+e9690e923b3bdeeef3ceab8b7e19708a  usr/share/doc/libaprutil1/changelog.gz
+2568f2df7b9bb44393b66a2e98333b30  usr/share/doc/libaprutil1/copyright
+d48e63d631f91ae4bc6829562725dd5c  usr/share/lintian/overrides/libaprutil1

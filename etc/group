@@ -47,7 +47,7 @@ crontab:x:107:
 netdev:x:108:
 messagebus:x:109:
 ssh:x:110:
-bluetooth:x:111:
+bluetooth:x:111:music
 spi:x:999:
 i2c:x:998:
 gpio:x:997:
@@ -55,3 +55,4 @@ mongodb:x:113:
 mysql:x:112:
 music:x:1000:
 admin:x:1001:
+ssl-cert:x:114:

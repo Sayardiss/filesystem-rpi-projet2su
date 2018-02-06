@@ -1270,3 +1270,359 @@ Package: libwayland-cursor0
 Architecture: armhf
 Auto-Installed: 1
 
+Package: libbluetooth3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: php7.0-cli
+Architecture: armhf
+Auto-Installed: 1
+
+Package: php-common
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libaprutil1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: php7.0-opcache
+Architecture: armhf
+Auto-Installed: 1
+
+Package: php7.0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libaprutil1-dbd-sqlite3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: php7.0-common
+Architecture: armhf
+Auto-Installed: 1
+
+Package: ssl-cert
+Architecture: armhf
+Auto-Installed: 1
+
+Package: apache2-data
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libapr1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libaprutil1-ldap
+Architecture: armhf
+Auto-Installed: 1
+
+Package: php7.0-json
+Architecture: armhf
+Auto-Installed: 1
+
+Package: php7.0-readline
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liblua5.2-0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: apache2-bin
+Architecture: armhf
+Auto-Installed: 1
+
+Package: apache2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: apache2-utils
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libapache2-mod-php7.0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: poppler-utils
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liblcms2-2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libtidy5
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libtiff5
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libmozjs-24-0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libjbig0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libnss3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpoppler64
+Architecture: armhf
+Auto-Installed: 1
+
+Package: poppler-data
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libnspr4
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhttp-daemon-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libldb1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libwww-robotrules-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libfontenc1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libcups2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libauthen-sasl-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libfile-basedir-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libnet-ssleay-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhtml-form-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libwbclient0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libfile-desktopentry-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhttp-negotiate-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libipc-system-simple-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: cpp
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libdvdread4
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libavahi-common-data
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libavahi-common3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libpython2.7
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libwww-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: xdg-utils
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libx11-protocol-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: rtmpdump
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libnet-http-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libdvdnav4
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libnet-smtp-ssl-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libtalloc2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libio-socket-ssl-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python-talloc
+Architecture: armhf
+Auto-Installed: 1
+
+Package: samba-libs
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libfile-mimeinfo-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libxaw7
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libfile-listing-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libxcomposite1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: liblwp-protocol-https-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libxt6
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libnet-dbus-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: youtube-dl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhtml-tree-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libxml-twig-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libxmuu1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libmailtools-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libxft2
+Architecture: armhf
+Auto-Installed: 1
+
+Package: perl-openssl-defaults
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libtie-ixhash-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: python3-pkg-resources
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libfont-afm-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhttp-cookies-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libxxf86dga1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libsmbclient
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libtdb1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: x11-xserver-utils
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libxmu6
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libva-wayland1
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libxml-parser-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libxpm4
+Architecture: armhf
+Auto-Installed: 1
+
+Package: x11-utils
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libavahi-client3
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libtevent0
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libxml-xpathengine-perl
+Architecture: armhf
+Auto-Installed: 1
+
+Package: libhtml-format-perl
+Architecture: armhf
+Auto-Installed: 1
+
