@@ -1,10 +1,3 @@
-ls
-openvpn vpn.ovpn 
-reboot
-cd
-ls
-rm Bizzey\ -\ JA\!\ ft.\ Kraantje\ Pappie\,\ Chivv\ \&\ Yung\ Felix-N_LmMLO0aEU.webm
-ls
 mkdir mongodb
 cd mongodb
 openssl rand -base64 32 > mongodb-keyfile
@@ -498,3 +491,10 @@ visudo
 su - music
 visudo
 exit
+chown -R music:music MusicOnPi
+exit
+su music -
+su - music
+visudo
+su - music
+su - music

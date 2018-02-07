@@ -161,3 +161,88 @@ mkfifo mpvInput
 chmod a+rw mpvInput 
 ls -al
 exit
+cd
+ls
+rm -rf MusicOnPi/
+git clone https://github.com/emixam16/MusicOnPi.git
+cd MusicOnPi/
+ls
+cd python/
+nano rfcomm-server.py 
+cd ..
+ls
+mkdir sound
+cd sound
+youtube-dl FPoXRMA3qMI -x
+mpv Naheulbeuk\ -\ Les\ chaussettes\ du\ nain-FPoXRMA3qMI.m4a 
+sudo mpv Naheulbeuk\ -\ Les\ chaussettes\ du\ nain-FPoXRMA3qMI.m4a 
+cd ../python/
+python rfcomm-server.py 
+cd ../config/
+ls
+ls -al
+cd ../python/
+python rfcomm-server.py 
+nano rfcomm-server.py 
+python rfcomm-server.py 
+reboot
+systemctl reboot -i
+python rfcomm-server.py 
+hciconfig
+python rfcomm-server.py 
+hciconfig
+python rfcomm-server.py 
+bluetoothctl <<EOF
+python rfcomm-server.py 
+ping www.youtube.com
+python rfcomm-server.py 
+nano rfcomm-server.py 
+ls -al ../config/
+python rfcomm-server.py 
+ls -al ../config/
+nano rfcomm-server.py 
+python rfcomm-server.py 
+ls
+ls MusicOnPi/
+cd ..
+ls
+ls sound/
+cd sound/
+rm *
+cd ..
+ls
+git pull
+git commit -m "local changes rfcomm"
+git add -A
+git commit -m "local changes rfcomm"
+git pull
+git fetch --all
+git reset --hard origin/master
+git pull
+nano python/rfcomm-server.py 
+cd ..
+su
+cd MusicOnPi/
+ls
+python python/rfcomm-server.py 
+ls
+cd python/
+ls
+nano key.txt
+cd
+ls
+cd MusicOnPi/
+ls
+cd python/
+echo "0" > offset; python rfcomm-server.py 
+cd ..
+cd config/
+ls
+ls -al
+cat yt.data 
+cat yt.data  > /tmp/ytold
+diff yt.data /tmp/ytold
+ls
+ls -al
+diff yt.data /tmp/ytold
+exit
